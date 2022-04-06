@@ -1,31 +1,36 @@
 ---
 lab:
-    title: 'Explorar o Azure Active Directory'
-    module: 'Módulo 2 Lição 1: Descrever as funcionalidades das soluções de Gerenciamento de Identidades e Acessos da Microsoft: Explorar os serviços e tipos de identidade do Azure AD'
+  title: Explore o Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893752"
 ---
+# <a name="lab-explore-azure-active-directory"></a>Laboratório: Explore o Azure Active Directory
 
-# Laboratório: Explorar o Azure Active Directory
-
-## Cenário do laboratório
+## <a name="lab-scenario"></a>Cenário do laboratório
 
 Neste laboratório, você acessará o Azure Active Directory.  Além disso, você vai criar um usuário e configurar parâmetros diferentes, como a adição de licenças.  
 
 
 
-**Tempo estimado**: 10-15 minutos
+**Tempo estimado**: 10 a 15 minutos
 
-#### Tarefa 1:  Como assinante do Microsoft 365, você já está usando o Azure AD.  Nesta tarefa, você mostrará o acesso ao Azure AD usando o portal de administração do Microsoft 365 e o Portal do Azure.
+#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Tarefa 1:  Como assinante do Microsoft 365, você já está usando o Azure AD.  Nesta tarefa, você mostrará o acesso ao Azure AD usando o portal de administração do Microsoft 365 e o Portal do Azure.
 
 1. Abra o Microsoft Edge.
 
 2. Na barra de endereços, insira **admin.microsoft.com** para acessar o Centro de administração do Microsoft 365.
 
 3. Entre com suas credenciais de administrador. 
-    1. Na janela de logon insira **admin@WWLxZZZZZZ.onmicrosoft.com** (onde ZZZZZZ é seu ID de locatário exclusivo fornecido pelo seu provedor de hospedagem do laboratório) e clique em **Avançar**.
-    1. Digite a senha do administrador, que deve ser fornecida pelo seu provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se a opção para permanecer conectado for exibida, clique em **Sim**.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
+    1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
-4. No painel de navegação esquerdo do Centro de administração do Microsoft 365, selecione **Mostrar tudo**.
+4. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
 5. Em Centros de administração, selecione **Azure Active Directory** (talvez seja necessário rolar a tela).  Uma nova página do navegador abre a página Meu painel do Centro de administração do Azure Active Directory. Na janela principal do painel, você verá diversos blocos, incluindo o de identidade da organização (Contoso, o locatário e a edição do Azure AD), um bloco para usuários e grupos, entre outros.
 
@@ -40,11 +45,11 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 10. Mantenha esta página do navegador aberta para a próxima tarefa.
 
 
-#### Tarefa 2:  Nesta tarefa, você aprenderá a criar um novo usuário no Azure Active Directory e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
+#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Tarefa 2:  Nesta tarefa, você aprenderá a criar um novo usuário no Azure Active Directory e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
 
-1. Acesse a guia Contoso – Microsoft Azure que está aberta no seu navegador. Se você tiver fechado a guia anteriormente, abra uma página do navegador e, na barra de endereços, digite portal.azure.com e selecione Azure Active Directory.  Você deve estar conectado como administrador no Portal do Azure. Se não estiver, entre novamente.
+1. Vá para a guia Contoso – Microsoft Azure aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory.  Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
 
-2. No painel de navegação à esquerda, selecione **Usuários**.  Veja que seu locatário já está configurado com usuários.
+2. No painel de navegação esquerdo, selecione **Usuários**.  Observe que seu locatário já está configurado com usuários.
 
 3. Na parte superior da página, selecione **+ Novo usuário**.
 
@@ -62,7 +67,7 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 
 6. Preencha os campos de **Senha** da seguinte forma:
 
-    1. Clique em **Permita-me criar a senha**.
+    1. Selecione **Deixe-me criar a senha**.
 
     1. Senha inicial: **Naja8996**. Quando Sara entrar pela primeira vez, ela receberá uma solicitação para alterar a senha.
 
@@ -74,7 +79,7 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 
     3. Ao lado de funções, selecione **Usuário**. A lista de funções do Directory é exibida.  Role a tela para baixo para ver as diversas funções internas, mas não altere a função do usuário.  Feche essa janela clicando no **X** do canto superior direito da página.
 
-8. Ajuste as **Configurações**
+8. Definir **Configurações**
 
     1. Bloquear entrada:  **Não** (manter a configuração padrão).
 
@@ -86,9 +91,9 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 
 11. Na lista de usuários, selecione o usuário que você acabou de criar, **Sara Perez**.  A página do perfil é aberta.
 
-12. O painel de navegação à esquerda mostra as várias opções que podem ser configuradas para o usuário.  Selecione **Grupos**.  Aqui você pode ver mais informações sobre o grupo.  Verifique se o grupo Operações está listado (pode levar alguns minutos até que a atribuição de grupo seja exibida).  Observação:  você também verá o grupo Contoso, embora só tenhamos atribuído um grupo ao criar o usuário.  Isso é resultado de uma política pré-configurada no locatário, que atribui automaticamente os novos usuários ao grupo Contoso.
+12. O painel de navegação à esquerda mostra as várias opções que podem ser configuradas para o usuário.  Selecione **Grupos**.  Aqui você pode ver mais informações sobre o grupo.  Verifique se o grupo Operações está listado (pode levar alguns minutos até que a atribuição de grupo seja exibida).  Observação: você também verá o grupo Contoso, embora só tenhamos atribuído um grupo ao criar o usuário.  Isso é resultado de uma política pré-configurada no locatário, que atribui automaticamente os novos usuários ao grupo Contoso.
 
-13. No painel de navegação à esquerda selecione **Licenças**.  Veja que não há nenhuma atribuição de licença para esse usuário.  
+13. No painel de navegação esquerdo, selecione **Licenças**.  Veja que não há nenhuma atribuição de licença para esse usuário.  
 
 14. Para adicionar uma licença, clique em **+ Atribuições** na parte superior da janela principal.
 
@@ -102,21 +107,21 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 
 19. Você criou e configurou um usuário no Azure Active Directory com sucesso.
 
-20.	Saia de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
+20. Saia de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
 
-#### Tarefa 3:  Nesta tarefa, você vai se conectar como Sara Perez pela primeira vez.
+#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Tarefa 3:  Nesta tarefa, você vai se conectar como Sara Perez pela primeira vez.
 
 1. Abra o Microsoft Edge.
 
 2. Na barra de endereços, insira **login.microsoft.com**.
 
-3. Faça logon como **sara@WWLxZZZZZ.onmicrosoft.com**, (onde ZZZZZZ é seu ID de locatário exclusivo fornecido pelo seu provedor de hospedagem do laboratório).
+3. Entre como **sara@WWLxZZZZZ.onmicrosoft.com** , (em que zzzzzz é a sua ID de locatário exclusiva fornecida pelo seu provedor de hospedagem de laboratório).
 
 4. Insira sua senha temporária **Naja8996**.
 
 5. Agora você vai receber a notificação para atualizar sua senha. No campo Senha atual, digite **Naja8996**.
 
-6. No campo Nova senha, insira **SC900-Lab**.  No campo Confirme sua senha, digite SC900-Lab e clique em entrar. Observação: a prática recomendada é usar uma senha mais segura. Essa senha foi escolhida por conveniência e apenas para os fins deste laboratório.
+6. No campo Nova senha, insira **SC900-Lab**.  No campo Confirme sua senha, digite SC900-Lab e clique em entrar.  Observação: a prática recomendada é usar uma senha mais segura. Essa senha foi escolhida por conveniência e apenas para os fins deste laboratório.
 
 7. Agora você deve estar conectado ao Microsoft 365.
 
@@ -124,7 +129,7 @@ Neste laboratório, você acessará o Azure Active Directory.  Além disso, voc�
 
 
 
-#### Revisão
+#### <a name="review"></a>Revisão
 Neste laboratório, você começou sua exploração inicial do Azure AD. Como os assinantes do Microsoft 365 estão usando o Azure AD automaticamente, você descobriu que pode acessar os recursos e serviços do Azure AD pelo Portal de administração do Microsoft 365 ou pelo Portal do Azure.  Seja qual for sua abordagem preferida, você chegará ao mesmo lugar.  Você também passou pelo processo de criação de um novo usuário, além das diferentes configurações que podem ser definidas, incluindo grupos aos quais o usuário pode ser atribuído, a disponibilidade de funções e a atribuição de licenças de usuário.
 
 

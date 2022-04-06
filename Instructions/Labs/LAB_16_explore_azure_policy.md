@@ -1,37 +1,41 @@
 ---
 lab:
-    title: 'Explorar o Azure Policy'
-    module: 'Módulo 4 Lição 5: Descrever as funcionalidades das soluções de conformidade da Microsoft: Descrever o Azure Policy'
+  title: Explorar o Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893733"
 ---
+# <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
+
+## <a name="lab-scenario"></a>Cenário do laboratório
+O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, vamos começar explorando a página de aterrissagem do Azure Policy. Após essa introdução à página do Azure Policy, vamos criar uma política e verificar o impacto dessa política.
 
 
-# Laboratório: Explorar o Azure Policy
+**Tempo estimado**: 20 a 25 minutos
 
-## Visão geral do laboratório
-O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos do Azure, comparando as propriedades desses recursos às regras de negócios. Neste laboratório, vamos começar explorando a página de aterrissagem do Azure Policy. Após essa introdução à página do Azure Policy, vamos criar uma política e verificar o impacto dessa política.
-
-
-**Tempo estimado**: 20-25 minutos
-
-#### Tarefa 1: Explorar brevemente a página do Azure Policy.
+#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tarefa 1: Explorar brevemente a página do Azure Policy.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
-    1. Na janela de acesso, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (sendo ZZZZZZ o único ID de locatário fornecido pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
     
-    1. Insira sua senha de administrador fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Ao receber um aviso do Microsoft Edge para permanecer conectado, selecione **Sim**.
+    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
+    1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. Agora estamos no Portal do Azure.  Na caixa de pesquisa, na barra azul, na parte superior da página, ao lado de onde está escrito Microsoft Azure, insira **política** e selecione **Política** nos resultados da pesquisa. A página inicial Política será aberta, gerando a exibição do painel.  O escopo das informações que estamos verificando se aplica ao Azure Pass usado por você como parte deste laboratório.   Observe as informações disponíveis no painel.
 
-1. Existe um item, denominado ASC Default (ASC refere-se ao Azure Security Center que agora é denominado Microsoft Defender for Cloud), cujo escopo é Azure Pass – Sponsorship.   Selecione **Padrão ASC**.
+1. Há um item chamado ASC Default (ASC refere-se ao Central de Segurança do Azure que agora é chamado de Microsoft Defender para Nuvem) cujo escopo é Azure Pass – Sponsorship.   Selecione **Padrão ASC**.
 
-1. No topo da página, em Essentials, encontramos o nome, a descrição e outras informações essenciais.  Leia a descrição (posicione o cursor do mouse sobre a descrição). OBSERVAÇÃO: O campo de descrição faz referência ao Azure Security Center, que foi renomeado para Microsoft Defender for Cloud.
+1. No topo da página, em Essentials, encontramos o nome, a descrição e outras informações essenciais.  Leia a descrição (posicione o cursor do mouse sobre a descrição). OBSERVAÇÃO: o campo de descrição faz Central de Segurança do Azure que foi renomeado para Microsoft Defender para Nuvem.
 
 1. Observe que as informações apresentadas no painel são atualizadas de acordo com o item selecionado, a definição da iniciativa Padrão ASC.  Lembre-se de que a definição da inciativa é uma coleta de definições de políticas ajustada para obter um objetivo singular abrangente. As informações podem ser exibidas por grupo, políticas, recursos não compatíveis ou eventos.
 
-1. Saia da página ASC e volte para a página inicial da política selecionando **X** no canto superior direito da janela.
+1. Saia da página ASC e retorne à página inicial da política selecionando **X** no canto superior direito da janela.
 
 1. Do lado esquerdo do painel de navegação, selecione **Introdução**.  Aqui encontramos diferentes opções, incluindo a opção para procurar políticas internas e atribuir políticas em escala. É possível criar definições de política personalizadas para o seu ambiente, atribuições de política recomendadas e muito mais.
 
@@ -49,7 +53,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Mantenha essa guia (Política – Microsoft Azure) aberta no navegador para a próxima tarefa.
 
-#### Tarefa 2:  Nesta tarefa, vamos criar uma atribuição de política básica para exigir uma marca em grupos de recursos.
+#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tarefa 2:  Nesta tarefa, vamos criar uma atribuição de política básica para exigir uma marca em grupos de recursos.
 
 1. Abra a guia do navegador Política – Microsoft Azure.
 
@@ -75,7 +79,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Agora estamos na página inicial de serviços do Azure.  Deixe essa página aberta; vamos precisar para a próxima tarefa.
 
-#### Tarefa 3:  Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, criando um grupo de recursos no Azure sem marca. Depois, vamos atualizar o grupo de recursos para incluir uma marca.  Observação: Pode levar até 30 minutos para que a política criada na tarefa anterior entre em vigor, mas geralmente é mais rápido.
+#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tarefa 3:  Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, criando um grupo de recursos no Azure sem marca. Depois, vamos atualizar o grupo de recursos para incluir uma marca.  Observação: Pode levar até 30 minutos para que a política criada na tarefa anterior entre em vigor, mas geralmente é mais rápido.
 
 1. Abra a guia do navegador Página Inicial – Microsoft Azure.
 
@@ -99,7 +103,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Na janela Criar um grupo de recursos, selecione **<Anterior**.
 
-1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Revisar+ Criar**.
+1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Examinar + Criar >** .
 
 1. Verifique a marca e selecione **Criar**.
 
@@ -113,6 +117,6 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
     1. Vai aparecer uma solicitação para confirmar se você deseja excluir a atribuição.  Selecione Sim.
 
 
-#### Revisão
+#### <a name="review"></a>Revisão
 
 Neste laboratório, exploramos a página de aterrissagem da política do Azure. Após essa introdução à página da política do Azure, acompanhamos o processo de criação de uma política e verificamos o impacto dessa política.

@@ -1,25 +1,30 @@
 ---
 lab:
-    title: 'Explorar o Portal de Confiança do Serviço'
-    module: 'Módulo 4 Lição 1: Descrever as funcionalidades das soluções de conformidade da Microsoft: Descrever os recursos de gerenciamento de conformidade na Microsoft'
+  title: Explore o Portal de Confiança do Serviço
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 11c5c8116200c89ae00e9df34f3c7a0d0da1cd54
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893727"
 ---
+# <a name="lab-explore-the-service-trust-portal"></a>Laboratório: Explore o Portal de Confiança do Serviço
 
-# Laboratório: Explorar o Portal de Confiança do Serviço
-
-## Visão geral do laboratório
+## <a name="lab-scenario"></a>Cenário do laboratório
 
 Neste laboratório, vamos explorar os recursos e conteúdos disponíveis no Portal de Confiança do Serviço. Também vamos visitar a Central de Confiabilidade e navegar pelos seis princípios chave de privacidade.
 
-**Tempo estimado**: 10-15 minutos
+**Tempo estimado**: 10 a 15 minutos
 
 
-#### Tarefa 1: Nesta tarefa, vamos explorar o portal de Confiança do Serviço e os diferentes tipos de conteúdo disponíveis. Vamos aprender como acessar relatórios e como salvar relatórios na sua biblioteca. 
+#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Tarefa 1: Nesta tarefa, vamos explorar o portal de Confiança do Serviço e os diferentes tipos de conteúdo disponíveis. Vamos aprender como acessar relatórios e como salvar relatórios na sua biblioteca. 
 
 1. Abra o Microsoft Edge.
 
-1. Na barra de endereços, insira **https://aka.ms/STP**.  Vai ser aberta a página de aterrissagem do Portal de Confiança do Serviço. O Portal de Confiança do Serviço contém detalhes sobre a implementação de controles e processos da Microsoft que protegem nossos serviços na nuvem e os dados do cliente encontrados neles. 
+1. Na barra de endereços, insira **https://aka.ms/STP** .  Vai ser aberta a página de aterrissagem do Portal de Confiança do Serviço. O Portal de Confiança do Serviço contém detalhes sobre a implementação de controles e processos da Microsoft que protegem nossos serviços na nuvem e os dados do cliente encontrados neles. 
 
-1. Para acessar alguns dos recursos no Portal de Confiança do Serviço, é preciso fazer logon como usuário autenticado, com sua conta da Microsoft de serviços na nuvem, e revisar e aceitar o Acordo de Confidencialidade da Microsoft para Materiais de Conformidade. No canto superior direito da página de aterrissagem do Portal de Confiança do Serviço, encontramos a opção Entrar. **Entre** usando suas credenciais de administrador e, se solicitado, selecione **Aceito** para aceitar o Acordo de Confidencialidade da Microsoft para Materiais de Conformidade.
+1. Para acessar alguns dos recursos no Portal de Confiança do Serviço, é preciso fazer logon como usuário autenticado, com sua conta da Microsoft de serviços na nuvem, e revisar e aceitar o Acordo de Confidencialidade da Microsoft para Materiais de Conformidade. No canto superior direito da página de aterrissagem do Portal de Confiança do Serviço, você verá a opção Entrar.  **Entre** usando suas credenciais de administrador e, se solicitado, selecione **Concordar** para aceitar o Contrato de Confidencialidade da Microsoft para Materiais de Conformidade.
 
 1. Role a página e observe os links para Relatórios de auditoria, Documentos e Recursos, entre outros.  Selecione **Exibir todos os Relatórios de Auditoria**.
 
@@ -37,11 +42,11 @@ Neste laboratório, vamos explorar os recursos e conteúdos disponíveis no Port
 
 1. No topo da página Portal de Confiança do Serviço, selecione **Documentos confiáveis** e observe as opções. Explorar as informações disponíveis para cada um dos links em Documentos Confiáveis. Ao selecionar Relatórios de Auditoria, retornamos à mesma localização explorada na tarefa anterior.  Explorar as informações disponíveis para cada um dos links.
 
-1. Na parte superior da página, selecione **Setores e Regiões**.  Escolha **Solução Regionais**. Observe as diferentes Regiões listadas.  Selecione **Reino Unido**.  
+1. Na parte superior da página, selecione **Setores e Regiões**.  Escolha **Soluções Regionais**. Observe as diferentes Regiões listadas.  Selecione **Reino Unido**.  
 
 1. É possível selecionar a partir de diferentes categorias.  Incluindo Relatório de Avaliação de GRC, Guias de Conformidade, entre outras.  Assim como na tarefa anterior, é possível filtrar a lista de documentos exibidos e selecionar documentos para baixar ou salvar na biblioteca.
 
-#### Tarefa 2: Nesta tarefa, vamos visitar a Central de Confiabilidade e navegar pelos seis princípios chave de privacidade da Microsoft.
+#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Tarefa 2: Nesta tarefa, vamos visitar a Central de Confiabilidade e navegar pelos seis princípios chave de privacidade da Microsoft.
 
 1. No topo da página Portal de Confiança do Serviço, selecione **Central de Confiabilidade** e depois **Página Inicial**. Uma nova guia será aberta no navegador, levando à Central de Confiabilidade, onde encontramos mais informações sobre segurança, conformidade e privacidade no Microsoft Cloud.
 
@@ -55,6 +60,6 @@ Neste laboratório, vamos explorar os recursos e conteúdos disponíveis no Port
 
 1. Feche as janelas do navegador para sair do Portal de Confiança do Serviço e da Central de Confiabilidade.
 
-#### Revisão
+#### <a name="review"></a>Revisão
 
 Neste laboratório, exploramos algumas das opções disponíveis no Portal de Confiança do Serviço, como acessar relatórios e como usar a Minha Biblioteca para salvar documentos para análises futuras.  Além disso, visitamos a Central de Confiabilidade para acessar e verificar os Princípios de privacidade da Microsoft.

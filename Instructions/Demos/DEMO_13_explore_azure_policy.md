@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Azure Policy'
-    module: 'Módulo 4 – Lição 5: Descrever as funcionalidades das soluções de conformidade da Microsoft: Descrever o Azure Policy'
+  title: Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893764"
 ---
+# <a name="demo-azure-policy"></a>Demonstração: Azure Policy
 
-
-# Demonstração: Azure Policy
-
-### Cenário da demonstração
+### <a name="demo-scenario"></a>Cenário da demonstração
 Nesta demonstração, você verá o processo de configuração de uma política do Azure e o impacto dela.
 
-#### Parte 1 da demonstração: Criar uma política para exigir uma marcação em um grupo de recursos (mostra as etapas para criar uma política de um modelo)
+#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demonstração – Parte 1: Criar uma política para exigir uma marcação em um grupo de recursos (mostra as etapas para criar uma política de um modelo)
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.  Você já deve estar conectado, caso contrário, entre com suas credenciais de administrador.
 
@@ -18,7 +22,7 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 1. Agora você está na visão geral da página Política. Observe as informações disponíveis no painel.
 
-1. No painel de navegação esquerdo, em Criação, selecione **Atribuições**.  Você notará que já existe uma atribuição de política. Selecione **ASC Padrão**.  Reveja o campo de descrição. OBSERVAÇÃO: O campo de descrição faz referência ao Azure Security Center, que foi renomeado para Microsoft Defender for Cloud.  Retorne à página Atribuições de política selecionando o **X** no canto superior direito da página.
+1. Do lado esquerdo do painel de navegação, em Criação, selecione **Atribuições**.  Você notará que já existe uma atribuição de política. Selecione **ASC Padrão**.  Analise o campo de descrição. OBSERVAÇÃO: o campo de descrição faz Central de Segurança do Azure que foi renomeado para Microsoft Defender para Nuvem.  Retorne à página Atribuições de política selecionando o **X** no canto superior direito da página.
 
 1. Na parte superior da página, selecione **Atribuir política**.
 
@@ -32,17 +36,17 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 1. No campo Nome da marcação, insira **Ambiente** (os grupos de recursos exigirão uma Marcação de ambiente) e selecione **Avançar**.  
 
-1. Na guia Correção, leia a descrição, mas não altere as configurações. Selecione **Próximo**
+1. Na guia Correção, leia a descrição, mas não altere as configurações. Selecione **Avançar**
 
-1. Na mensagem de não conformidade, insira **Uma marcação de ambiente é necessária** e selecione **Avançar**. Observação: essa mensagem aparecerá como o motivo da não conformidade para grupos de recursos que foram criados antes da atribuição da política e não têm uma Marcação de ambiente.  Para grupos de recursos criados depois que a política foi criada, a criação do grupo de recursos será negada se não houver nenhuma marcação de ambiente.
+1. Na mensagem de não conformidade, insira **É necessária uma marca de ambiente** e depois selecione **Avançar**. Observação: essa mensagem aparece por conta da não conformidade dos grupos de recursos criados antes da atribuição da política, já que eles não têm uma marca de Ambiente.  Grupos de recursos criados depois da criação da política terão sua criação negada caso não tenham uma marca de ambiente.
 
-1. Revise a atribuição de política e selecione Criar.  Se você não vir a política imediatamente, selecione **Atualizar**. Observação: Pode levar até 30 minutos para a política entrar em vigor.
+1. Verifique a atribuição da política e selecione Criar.  Se você não encontrar a política de imediato, selecione **Atualizar**. Observação: Pode levar até 30 minutos para a política entrar em vigor.
 
 1. Saia da página Atribuições de política selecionando o **X** no canto superior direito da tela.
 
 1. Agora estamos na página inicial de serviços do Azure.  Deixe essa página aberta; vamos precisar para a próxima tarefa.
 
-#### Parte 2 da demonstração:  Mostrar o impacto da política criando um grupo de recursos sem uma marcação e, a seguir, corrigir a política para ter uma marcação.
+#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Demonstração — Parte 2:  Mostrar o impacto da política criando um grupo de recursos sem uma marcação e, a seguir, corrigir a política para ter uma marcação.
 
 1. Na parte superior da página, em Serviços do Azure, selecione **Grupos de recursos**. Se você não vir a opção listada, insira Grupos de recursos na barra de pesquisa e o selecione de lá.
 
@@ -64,12 +68,12 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 1. Na janela Criar um grupo de recursos, selecione **<Anterior**.
 
-1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Revisar+ Criar**.
+1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Examinar + Criar >** .
 
 1. Verifique a marca e selecione **Criar**.
 
 1. O grupo de recursos aparecerá listado.  Como a marca foi gerada no grupo de recursos, a condição incluída como parte da política do Azure foi atendida.  O grupo de recursos é compatível com a política.
 
-#### Revisão
+#### <a name="review"></a>Revisão
 
 Nesta demonstração, você mostrou o processo de configuração de uma política do Azure e o impacto dela.

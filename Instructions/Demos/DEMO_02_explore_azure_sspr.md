@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Redefinição de senha self-service do Azure Active Directory'
-    module: 'Módulo 2 – Lição 2: Descrever os recursos das soluções de Gerenciamento de Identidades e Acesso da Microsoft: Descrever os diferentes métodos de autenticação do Azure AD'
+  title: Redefinição de senha de autoatendimento do Azure Active Directory
+  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
+ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893784"
 ---
+# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demonstração: Redefinição de senha self-service (SSPR) do Azure Active Directory
 
-# Demonstração: Redefinição de senha self-service (SSPR) do Azure Active Directory
-
-### Cenário da demonstração
+### <a name="demo-scenario"></a>Cenário da demonstração
 
 Nesta demonstração, você verá as várias configurações associadas à habilitação da redefinição de senha self-service.
 
@@ -17,7 +22,7 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 1. A guia de propriedades é realçada.  Na janela Propriedades, observe que o SSPR pode ser habilitado para Nenhum, Selecionar ou Todos.
     1. Coloque o cursor sobre o ícone de informações próximo a “Redefinição de senha self-service habilitada” e destaque que você pode escolher “Selecionado” para restringir a redefinição de senha a um grupo limitado de usuários, em vez de selecionar Nenhum ou Todos.
     1. Coloque o cursor sobre o ícone de informações próximo a “selecionar grupo” e destaque que é aqui que você identifica o grupo de usuários que têm permissão para redefinir as próprias senhas.   Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você simplesmente adicione usuários ao grupo SSPR.
-    1. Observe a caixa de informações em azul-claro e a destaque aos alunos. Essas configurações se aplicam apenas aos usuários finais em sua organização. Os administradores estão sempre habilitados para redefinição de senha self-service e devem usar dois métodos de autenticação para redefinir a senha.
+    1. Observe a caixa de informações em azul-claro e a destaque aos alunos. Essas configurações se aplicam apenas aos usuários finais em sua organização. Os administradores estão sempre habilitados para a redefinição de senha por autoatendimento e devem usar dois métodos de autenticação para redefinir a própria senha.
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione Métodos de autenticação.
     1. Coloque o cursor sobre o ícone de informações ao lado de “Número de métodos necessários para redefinir”.  Destaque o fato de que isso define o número de métodos alternativos de identificação que um usuário nesse diretório deve ter para redefinir a senha.   Não altere a configuração.
@@ -35,7 +40,7 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 
 1. Deixe esta página do navegador aberta para a próxima demonstração.
 
-#### Revisão
+#### <a name="review"></a>Revisão
 
 Nesta demonstração, você mostrou as configurações associadas à redefinição de senha self-service. 
 
