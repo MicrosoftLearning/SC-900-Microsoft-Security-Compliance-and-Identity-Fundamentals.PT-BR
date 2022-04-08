@@ -2,12 +2,12 @@
 lab:
   title: 'Explore a governança de identidade no Azure AD com o Privileged Identity Management. '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893749"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489230"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratório: Explore a governança de identidade no Azure AD com o Privileged Identity Management.
 
@@ -50,9 +50,9 @@ Neste laboratório, você vai explorar algumas das funcionalidades básicas do P
 
 2. No painel de navegação esquerdo, selecione **Governança de Identidade**.
 
-3. Na janela principal, certifique-se de que **Primeiros passos** esteja sublinhado e digite **Gerenciar atribuições de funções**, na parte central direita da tela.  Ou então, no painel de navegação esquerdo, em Privileged Identity Management, selecione **funções do Azure AD**.
+3. No painel de navegação esquerdo, em Privileged Identity Management, selecione **funções do Azure AD**.
 
-4. Agora você está na janela de início rápido do Privileged Identity Management.  Selecione **Gerenciar Acesso**.
+4. Agora você está na janela de início rápido do Privileged Identity Management.  Selecione **Gerenciar**.
 
 5. Agora você está na página Funções da Contoso.  Na barra de pesquisa, na parte superior da página, digite **usuário**.  Nos resultados de pesquisa, selecione **Administrador de Usuário**.
 
@@ -85,7 +85,7 @@ Neste laboratório, você vai explorar algumas das funcionalidades básicas do P
 19. Saia selecionando o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tarefa 3: Tarefa 3:  Nesta tarefa, você, como Diego Siciliani, entrará no Portal do Azure para acessar o recurso Privileged Identity Management do Azure Active Directory para ativar sua atribuição como Administrador de usuário.  Depois de ativado, você fará algumas alterações na configuração de um usuário existente. Observação: Para esta tarefa, você precisará acessar um dispositivo móvel ao qual tenha acesso imediato e possa receber mensagens de texto.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tarefa 3: Nesta tarefa, você, como Diego Siciliani, entrará no Portal do Azure para acessar o recurso Privileged Identity Management do Azure Active Directory para ativar sua atribuição como Administrador de usuário.  Depois de ativado, você fará algumas alterações na configuração de um usuário existente. Observação: Para esta tarefa, você precisará acessar um dispositivo móvel ao qual tenha acesso imediato e possa receber mensagens de texto.
 
 1. Abra o Microsoft Edge.  Na barra de endereço do navegador, digite **portal.azure.com**
 
