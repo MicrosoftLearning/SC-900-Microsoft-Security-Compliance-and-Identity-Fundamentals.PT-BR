@@ -1,13 +1,13 @@
 ---
 Demo:
   title: O Portal do Microsoft 365 Defender
-  module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
-ms.openlocfilehash: 48d70c8773c76e590a6e18ae6173f7240dca2b79
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893769"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614357"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demonstração: O Portal do Microsoft 365 Defender
 

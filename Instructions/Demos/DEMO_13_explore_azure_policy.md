@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893764"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614177"
 ---
 # <a name="demo-azure-policy"></a>Demonstração: Azure Policy
 

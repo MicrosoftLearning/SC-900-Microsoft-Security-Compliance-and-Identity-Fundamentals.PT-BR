@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Explorar o Centro de Conformidade e o Gerenciador de Conformidade do Microsoft 365
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
-ms.openlocfilehash: 1a1b11d8ff967f2c18af43eb77e1d74add032556
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
+ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893766"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614201"
 ---
 # <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demonstração: Explorar o Centro de Conformidade e o Gerenciador de Conformidade do Microsoft 365
 

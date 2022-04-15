@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar o fluxo de trabalho da Descoberta Eletrônica Principal
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253902"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614369"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>Laboratório: Explorar o fluxo de trabalho da Descoberta Eletrônica Principal
 
@@ -22,7 +22,7 @@ Neste laboratório, vamos acompanhar as etapas necessárias para configurar a De
  Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (onde ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
     
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.

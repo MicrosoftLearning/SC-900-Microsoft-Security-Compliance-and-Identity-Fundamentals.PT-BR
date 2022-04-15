@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar o Centro de Conformidade e o Gerenciador de Conformidade do Microsoft 365
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
-ms.openlocfilehash: 0d3a68b8f67bf6b00dcda10d301ece99dfc0b686
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
+ms.openlocfilehash: 4b9e03c6c7826eab3b1de1ddeaa1c9d65dfbdffd
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893730"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614213"
 ---
 # <a name="lab-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Laboratório: Explorar o Centro de Conformidade e o Gerenciador de Conformidade do Microsoft 365
 

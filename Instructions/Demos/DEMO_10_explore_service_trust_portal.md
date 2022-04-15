@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Portal de Confiança do Serviço
-  module: 'Module 1 Lesson 2: Describe Microsoft security and compliance principles: Explore the Service Trust Portal'
-ms.openlocfilehash: 2b8f3d9100a31e1a1412b8749c2673b60cb65e21
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
+ms.openlocfilehash: 587f823b993a7ac3046af9494b90883f22a01c8a
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893767"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614393"
 ---
 # <a name="demo-service-trust-portal"></a>Demonstração: Portal de Confiança do Serviço
 

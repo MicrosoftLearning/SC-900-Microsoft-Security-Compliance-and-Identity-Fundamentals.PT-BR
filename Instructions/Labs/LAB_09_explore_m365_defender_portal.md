@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar o portal do Microsoft 365 Defender
-  module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
-ms.openlocfilehash: f123071ebcb702532c3c7c8eb76c72d6c4d41047
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893744"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614405"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratório: Explorar o portal do Microsoft 365 Defender
 
