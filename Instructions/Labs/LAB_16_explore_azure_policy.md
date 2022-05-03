@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar o Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893733"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614417"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
 
@@ -33,7 +33,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. No topo da página, em Essentials, encontramos o nome, a descrição e outras informações essenciais.  Leia a descrição (posicione o cursor do mouse sobre a descrição). OBSERVAÇÃO: o campo de descrição faz Central de Segurança do Azure que foi renomeado para Microsoft Defender para Nuvem.
 
-1. Observe que as informações apresentadas no painel são atualizadas de acordo com o item selecionado, a definição da iniciativa Padrão ASC.  Lembre-se de que a definição da inciativa é uma coleta de definições de políticas ajustada para obter um objetivo singular abrangente. As informações podem ser exibidas por grupo, políticas, recursos não compatíveis ou eventos.
+1. Observe que as informações apresentadas no painel são atualizadas de acordo com o item selecionado, o Padrão ASC. Esse padrão de ASC é a definição de iniciativa do Azure Security Benchmark.  Lembre-se de que a definição da inciativa é uma coleta de definições de políticas ajustada para obter um objetivo singular abrangente. As informações podem ser exibidas por grupo, políticas, recursos não compatíveis ou eventos.
 
 1. Saia da página ASC e retorne à página inicial da política selecionando **X** no canto superior direito da janela.
 
@@ -69,7 +69,9 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Observe o nome de atribuição padrão.  Mantenha o nome como está e selecione **Avançar** na parte inferior da página.
 
-1. No campo Nome da marca, insira **Ambiente** e depois selecione **Avançar**.  
+1. No campo Nome da marca, insira **Ambiente** e depois selecione **Avançar**. 
+
+1. Deixe as configurações de correção padrão como estão e selecione **Avançar**. 
 
 1. Na mensagem de não conformidade, insira **É necessária uma marca de ambiente** e depois selecione **Avançar**. Observação: essa mensagem aparece por conta da não conformidade dos grupos de recursos criados antes da atribuição da política, já que eles não têm uma marca de Ambiente.  Grupos de recursos criados depois da criação da política terão sua criação negada caso não tenham uma marca de ambiente.
 
@@ -97,11 +99,13 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Vai aparecer validação aprovada (o nome e o valor da marca não são campos exigidos no assistente), então selecione **Criar**.
 
-1. Uma mensagem de falha será exibida no topo da tela, dizendo “Falha ao criar o grupo de recursos. Exibir detalhes de erro”.  Selecione **Exibir detalhes de erro**. A condição que integra a política do Azure não foi atendida, então a criação do grupo de recursos foi bloqueada por não conformidade. Observação: Caso você não veja uma mensagem de falha e o grupo de recursos seja criado, é porque a política ainda não entrou em vigor.  Vá para a página Política para a política criada na tarefa anterior. Quando a política entrar em vigor, o recurso vai aparecer como não compatível.  A página de detalhes inclui a mensagem de não conformidade.
+1. Uma mensagem de falha será exibida no topo da tela, dizendo “Falha ao criar o grupo de recursos. Exibir detalhes de erro”.  Selecione **Exibir detalhes de erro**. A condição que integra a política do Azure não foi atendida, então a criação do grupo de recursos foi bloqueada por não conformidade. 
+
+    Observação: Caso você não veja uma mensagem de falha e o grupo de recursos seja criado, é porque a política ainda não entrou em vigor.  Vá para a página Política para a política criada na tarefa anterior. Quando a política entrar em vigor, o recurso vai aparecer como não compatível.  A página de detalhes inclui a mensagem de não conformidade. Caso você receba o erro, as etapas a seguir demonstram como corrigir a implantação.
 
 1. O resumo do erro mostra o tipo de erro, “O recurso ‘SC900-Labs’ não foi permitido pela política.  Feche essa janela selecionando o **X** no canto superior esquerdo da tela.
 
-1. Na janela Criar um grupo de recursos, selecione **<Anterior**.
+1. Na janela Criar um grupo de recursos, selecione **Anterior**.
 
 1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Examinar + Criar >** .
 

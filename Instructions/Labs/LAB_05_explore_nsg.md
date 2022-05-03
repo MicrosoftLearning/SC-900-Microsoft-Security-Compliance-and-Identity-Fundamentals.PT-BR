@@ -2,12 +2,12 @@
 lab:
   title: Explore os Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019266"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605419"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratório: Explorar os Grupos de Segurança de Rede (NSGs) do Azure.
 
@@ -21,25 +21,26 @@ Neste laboratório, vamos explorar a função dos grupos de segurança de rede n
 1.  Abra o Microsoft Edge.  Na barra de endereços, insira **portal.azure.com**.
 
 1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (onde ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
 
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 1. No canto superior esquerdo da tela, perto de Microsoft Azure, selecione o ícone para mostrar o menu (as três linhas horizontais, também conhecidas como ícone de hambúrguer). Depois, selecione **Todos os Serviços**.  
 1. Na janela principal, em Em destaque, selecione Máquinas Virtuais.  Se você não encontrar Máquinas Virtuais na lista, insira o termo na barra de pesquisa e selecione a partir dos resultados exibidos.
-1. No topo da página à esquerda, selecione **+Criar** e depois **+Máquina virtual**.
+1. Na parte superior esquerda da página, selecione **+Criar** e clique em **Máquina Virtual do Azure**.
 1. Na guia Básico, preencha as informações a seguir (para o que não estiver na lista, mantenha a configuração padrão):
     1. Assinatura: confirme se a configuração padrão é Azure Pass – Sponsorship.
 
     1. Grupo de recursos: selecione **Criar** e, no campo Nome, insira **LabsSC900-RG** e selecione **OK**.
     1. Nome da máquina virtual:  insira **SC900-WinVM**.
-    1. Imagem: no menu suspenso, selecione **Windows 10 Pro, Versão 20H2 – Gen 1**.
-    1. Tamanho: selecione **exibir todos os tamanhos** no menu suspenso, escolha **B2s** e **Selecionar** na parte inferior da página.
-    1. Nome de usuário:  Insira um nome de usuário de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
-    1. Senha:  Insira uma senha de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
-    1. Portas de entrada públicas: selecione **Nenhuma**.
-    1. Licenciamento: selecione **Confirmo que tenho uma licença do Windows 10 qualificada com direitos de hospedagem multilocatário**, para que apareça uma marca de seleção na caixa.
-    1. Selecione **Avançar: Discos**. 
+    1. Região: se o campo de região não estiver pré-preenchido, selecione a região mais próxima de sua localização.
+    3. Imagem: no menu suspenso, selecione **Windows 10 Pro, Versão 20H2 – Gen 1**.
+    4. Tamanho: selecione **exibir todos os tamanhos** no menu suspenso, escolha **B2s** e **Selecionar** na parte inferior da página.
+    5. Nome de usuário:  Insira um nome de usuário de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
+    6. Senha:  Insira uma senha de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
+    7. Portas de entrada públicas: selecione **Nenhuma**.
+    8. Licenciamento: selecione **Confirmo que tenho uma licença do Windows 10 qualificada com direitos de hospedagem multilocatário**, para que apareça uma marca de seleção na caixa.
+    9. Selecione **Avançar: Discos**. 
 1. Agora estamos na guia Discos para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Rede >** .
 1. Agora estamos na guia Rede para configurar a VM.  Preencha as informações a seguir (para o que não estiver na lista, mantenha a configuração padrão):
     1. Grupo de segurança de rede NIC: selecione **Nenhum**.  Observação: o motivo pelo qual você seleciona Nenhum nesta etapa é porque queremos percorrer com você as etapas de configuração de um NSG do zero, que são abordadas nas tarefas posteriores.

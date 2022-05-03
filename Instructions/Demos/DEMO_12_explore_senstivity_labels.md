@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Rótulos de confidencialidade no Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893765"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614225"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demonstração: Rótulos de confidencialidade no Microsoft 365
 
@@ -32,7 +32,7 @@ Nesta demonstração, você mostrará os recursos dos rótulos de confidencialid
 
 1. Do lado esquerdo do painel de navegação, em soluções, selecione **Proteção de informações**.
 
-1. A caixa de informações amarela indica que a Sua organização não habilitou o processamento de conteúdo em arquivos online do Office com rótulos de confidencialidade criptografados e que se encontram armazenados no OneDrive e no SharePoint.  Selecione Habilitar agora.  Depois de habilitar, pode ter um atraso para a configuração ser propagada no sistema.
+1. A caixa de informações amarela indica que a sua organização não habilitou o processamento de conteúdo em arquivos online do Office com rótulos de confidencialidade criptografados e que se encontram armazenados no OneDrive e no SharePoint.  Selecione Habilitar agora.  Depois de habilitar, pode ter um atraso para a configuração ser propagada no sistema.
 
 1. Verifique se a guia **Rótulos** no topo da página está selecionada (sublinhada).
 

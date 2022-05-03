@@ -2,150 +2,119 @@
 lab:
   title: Explorar o Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: c5a7ba866c82f15a4f78099326fd93a734caead8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893747"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614333"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratório: Explorar o Microsoft Sentinel 
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
-Neste laboratório, vamos passar pelo processo de criação de uma instância do Microsoft Sentinel.  Também vamos configurar as permissões para garantir o acesso aos recursos que serão implantados para dar suporte ao Microsoft Sentinel.  Depois dessa configuração básica, veremos as etapas necessárias para conectar o Microsoft Sentinel às suas fontes de dados e usar funções analíticas integradas para receber notificações sobre suspeitas. Por último, vamos explorar os recursos de automação.  
+Neste laboratório, vamos passar pelo processo de criação de uma instância do Microsoft Sentinel.  Também vamos configurar as permissões para garantir o acesso aos recursos que serão implantados para dar suporte ao Microsoft Sentinel.  Depois que essa configuração básica estiver concluída, você seguirá as etapas para conectar o Microsoft Sentinel às suas fontes de dados, configurar uma pasta de trabalho e fazer uma breve explicação de alguns dos principais recursos disponíveis no Microsoft Sentinel.  
 
-  
+**Tempo estimado**: 45 a 60 minutos
 
-**Tempo estimado**: 30 a 45 minutos
+#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>Tarefa 1:  Criar uma instância do Microsoft Sentinel
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>Tarefa 1:  Criar uma instância do Microsoft Sentinel.
+1. Abra a guia do navegador, **Página Inicial – Microsoft Azure**.  Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e entre novamente.
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
+1. Na caixa de pesquisa, na barra azul no topo da página, perto de onde está escrito Microsoft Azure, digite **Microsoft Sentinel** e selecione **Microsoft Sentinel** nos resultados da pesquisa.
 
-2. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
-    
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+1. Na página do Microsoft Sentinel, selecione **Criar Microsoft Sentinel**.
 
-3. No canto superior esquerdo da tela, perto de Microsoft Azure, selecione o ícone para mostrar o menu (as três linhas horizontais, também conhecidas como ícone de hambúrguer). Depois, selecione **Todos os Serviços**.  
+1. Na página Adicionar o Microsoft Sentinel a um workspace, selecione **Criar um workspace**.
 
-4. Na caixa para filtrar serviços, insira **Microsoft Sentinel** e selecione **Microsoft Sentinel** na lista.
-
-5. Na página do Microsoft Sentinel, selecione **Criar Microsoft Sentinel**.
-
-6. Na página Adicionar o Microsoft Sentinel a um workspace, selecione **Criar um workspace**.
-
-7. Na guia Básico da página Criar espaço de trabalho do Log Analytics, insira:
+1. Na guia Básico da página Criar espaço de trabalho do Log Analytics, insira:
     1. Assinatura:  **Azure Pass – Sponsorship**
-   
-    1. Grupo de recursos: selecione **Criar Novo**, insira o nome **SC900-ResourceGroup** e selecione **OK**.
+    1. Grupo de recursos: selecione **Criar novo**, insira o nome **SC900-Sentinel-RG** e clique em **OK**.
     1. Nome: **SC900-LogAnalytics-workspace**.
-    1. Região: **Leste dos EUA** (manter padrão)
-    1. Selecione **Avançar: Tipo de preço >**
+    1. Região: **Leste dos EUA** (uma região padrão diferente pode ser selecionada com base em sua localização)
+    1. Selecione **Avançar: Marcas >**
 
-8. Para o Tipo de Preço, deixe as configurações padrão: **Pago conforme o uso (por GB 2018)** . Depois, selecione **Avançar: Marcas >** .
+1. Pode deixar Marcas em branco. Depois, selecione **Revisar + Criar**.
 
-9. Pode deixar Marcas em branco. Depois, selecione **Revisar + Criar**.
+1. Verifique as informações inseridas e selecione **Criar**.
 
-10. Verifique as informações inseridas e selecione **Criar**.
+1. Pode levar um ou dois minutos até que o novo workspace seja listado; caso ele ainda não seja exibido, selecione **Atualizar** e depois **Adicionar**.
 
-11. Se você não encontrar o espaço de trabalho na lista, selecione **Atualizar** e selecione **Adicionar**.
+1. Uma vez que o espaço de trabalho estiver adicionado, a página Microsoft Sentinel | Notícias e Guias será exibida.  Veja as três etapas listadas na página de Introdução.
 
-12. Uma vez que o espaço de trabalho estiver adicionado, a página Microsoft Sentinel | Notícias e Guias será exibida.  Veja as três etapas listadas na página de Introdução.
+1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
-13. Deixe essa página aberta; vamos usá-la na próxima tarefa.
+#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Tarefa 2:  Com a instância do Microsoft Sentinel criada, é prudente verificar se você tem o acesso necessário aos recursos implantados para dar suporte ao Microsoft Sentinel.  
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel--in-this-task-you-will-go-to-the-access-control-iam-page-for-the-resource-group-that-you-created-with-the-instance-of-microsoft-sentinel-view-the-available-roles-and-assign-yourself-mod-administrator-the-required-role-assigning-the-role-at-the-resource-group-level-will-ensure-the-role-will-apply-to-all-the-resources-that-are-deployed-to-support-microsoft-sentinel"></a>Tarefa 2:  Com a instância do Microsoft Sentinel criada, é prudente verificar se você tem o acesso necessário aos recursos implantados para dar suporte ao Microsoft Sentinel.  Nesta tarefa, vamos abrir a página de controle de acesso (IAM) do grupo de recursos criado com a instância do Microsoft Sentinel, visualizar as funções disponíveis e atribuir a você a função necessária (administrador MOD). Atribuir a função a nível do grupo de recursos vai garantir que ela seja aplicada a todos os recursos implantados para comportar o Microsoft Sentinel.
+1. Na caixa de pesquisa, na barra azul no topo da página, perto de onde está escrito Microsoft Azure, digite **grupos de recursos** e selecione **Grupos de recursos** nos resultados da pesquisa. Atribuir a função a nível do grupo de recursos vai garantir que ela seja aplicada a todos os recursos implantados para comportar o Microsoft Sentinel.
 
-1. No canto superior esquerdo da página Microsoft Sentinel, em cima de Microsoft Sentinel, selecione **Todos os Serviços**.
+1. Na página de Grupos de recursos, selecione o grupo de recursos que você criou com o Microsoft Sentinel, **SC900-Sentinel-RG**. 
 
-2. Na caixa para filtrar serviços, insira grupos de recursos e selecione **Grupos de recursos** na lista gerada.
+1. Na página do SC900-Sentinel-RG, selecione **Controle de acesso (IAM)** no painel de navegação à esquerda.
 
-3. Na página Grupos de recursos, selecione o grupo de recursos que você criou com o Microsoft Sentinel, **SC900-ResourceGroup**.
+1. Na página Controle de acesso, selecione **Exibir meu acesso**.  Como Administrador MOD, a função atual é Administrador de serviços.  Isso concederá as permissões necessárias, mas é importante entender as funções específicas do Sentinel disponíveis.  Feche a janela de atribuições do Administrador MOD selecionando o **X** no canto superior direito da tela.
 
-4. Na página SC900-ResourceGroup, selecione **Controle de acesso (IAM)** , à esquerda no painel de navegação.
+    1. Na página Controle de acesso, selecione **+Adicionar** e depois **Adicionar atribuição de função**.
 
-5. Na página Controle de acesso, selecione **Exibir meu acesso**.  Observe que a função atual é Administrador de segurança.  Feche a janela de atribuições do Administrador MOD selecionando o **X** no canto superior direito da tela.
+    1. A janela Adicionar atribuição de função vai ser aberta.  Na caixa de pesquisa, digite **Microsoft Sentinel** para visualizar as 4 funções associadas ao Microsoft Sentinel. 
+    1. Em qualquer uma das funções listadas, selecione a **Exibir** para ver os detalhes dessa função.  Como prática recomendada, você deve atribuir o privilégio mínimo exigido para a função.  
 
-6. Na página Controle de acesso, selecione **+Adicionar** e depois **Adicionar atribuição de função**.
+    1. Clique no **X** no canto superior direito da janela para fechá-la.
 
-7. A janela Adicionar atribuição de função vai ser aberta.  Selecione a seta para baixo no campo Selecionar função para exibir as funções disponíveis.  Para este laboratório, selecione **Proprietário**.  OBSERVAÇÃO:  Como prática recomendada, você deve atribuir o privilégio mínimo exigido para a função.  Verifique as permissões no Microsoft Sentinel para referência:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+1. Na página de controle de acesso, clique no **X** no canto superior direito da janela para fechá-la.
 
-8. Na lista de usuários exibida, selecione **Administrador MOD**.
+#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Tarefa 3:  Nesta tarefa, vamos acompanhar o processo de conexão do Microsoft Sentinel à sua fonte de dados para começar a coletar dados.
 
-9. Escolha **Salvar** na parte inferior da página.
+1. Na caixa de pesquisa, na barra azul no topo da página, perto de onde está escrito Microsoft Azure, digite **Microsoft Sentinel** e selecione **Microsoft Sentinel** nos resultados da pesquisa.
 
-10. Na página de Controle de acesso, selecione **Exibir meu acesso** para confirmar que a função foi adicionada. Em seguida, feche a janela selecionando o **X** no canto superior direito.
+1. Na página Microsoft Sentinel, selecione o espaço de trabalho criado com a instância do Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
-11. Volte à página Todos os serviços selecionando **Todos os Serviços** no canto superior esquerdo da página, em cima de Grupos de recursos.
+1. A primeira etapa com o Microsoft Sentinel é conseguir coletar dados. À esquerda no painel de navegação, em configuração, selecione **Conectores de dados**.
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data-note-it-can-take-a-bit-time-to-show-the-connected-status-of-a-connector-30-minutes-depending-on-the-tenant"></a>Tarefa 3:  Nesta tarefa, vamos acompanhar o processo de conexão do Microsoft Sentinel à sua fonte de dados para começar a coletar dados. Observação: pode levar algum tempo para o conector ter o status alterado para conectado (~30 minutos dependendo do locatário).
+1. Na página Conectores de dados, role para baixo na janela principal para exibir a extensa lista de conectores disponíveis. Na caixa de pesquisa da página de conectores de dados, insira **Office 365** e selecione **Office 365**.
 
-1. Na caixa Filtrar serviços da página Todos os serviços, insira **Microsoft Sentinel** e selecione **Microsoft Sentinel** na lista de resultados. 
+1. A janela do conector do Office 365 é aberta.  Clique em **Abrir página do conector**.
 
-2. Na página Microsoft Sentinel, selecione o espaço de trabalho criado com a instância do Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+1. Na página do conector do Office 365, leia a Descrição no lado esquerdo da janela.
 
-3. A primeira etapa com o Microsoft Sentinel é conseguir coletar dados. À esquerda no painel de navegação, em configuração, selecione **Conectores de dados**.
+1. A guia de instruções na janela principal fornece os requisitos para o Microsoft Sentinel se integrar ao Office 365, todos eles devem mostrar uma marca de seleção verde.   Em configuração, selecione **Exchange** e **SharePoint** e escolha Aplicar Alterações.  Quase imediatamente você verá o status conectado no lado esquerdo da janela.
 
-4. Na página Conectores de dados, role para baixo na janela principal para exibir a extensa lista de conectores disponíveis. Na caixa Pesquisar da página dos conectores de dados, insira **Azure** e selecione **Azure Active Directory** na lista de resultados.
+1. Clique no **X** no canto superior direito da janela para fechá-la e retornar à página de conectores de dados.
 
-5. A janela do conector do Azure Active Directory será aberta.  Clique em **Abrir página do conector**.
+1. A parte superior da página de conectores de dados deve exibir 1 conectado, para refletir que agora você está conectado ao Office 365. Se você não vir essa conexão, selecione **Atualizar**. Pode levar alguns minutos para que a página seja atualizada.
 
-6. Na página Conector do Azure Active Directory, verifique a descrição e observe o conteúdo relacionado, incluindo pastas de trabalho, consultas e modelos de regras analíticas.  
+1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
-7. A guia de instruções, na janela principal, apresenta os pré-requisitos para integrar o Microsoft Sentinel ao Azure Active Directory.   Em configuração, selecione **Logs de entrada** e depois Aplicar Mudanças (é possível escolher múltiplos conectores).
+#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Tarefa 4:  Nesta tarefa, você percorrerá o processo de configuração de uma pasta de trabalho do Office 365 para visualizar e monitorar seus dados.
 
-8. Na guia Próximas etapas, observe a lista de pastas de trabalho recomendadas.   Nas pastas de trabalho recomendadas, selecione **Logs de entrada do Azure** (é possível escolher pastas de trabalho adicionais).
+1. À esquerda no painel de navegação, selecione **Pastas de trabalho**.
 
-9. Na página de pastas de trabalho e com a guia de modelos selecionada (sublinhada), selecione **Logs de entrada do Azure**. 
+1. Na caixa de pesquisa, insira e selecione **Office 365**.
 
-10. Na janela Logs de entrada do Azure aberta, verifique a descrição e selecione **Exibir modelo**.  Saia do modelo selecionando o **X** no canto superior direito da tela.  Selecione **Salvar** na parte inferior da página e depois **OK** para salvar a pasta de trabalho na localização padrão.
+1. Na janela que é aberta no lado direito da tela, leia a descrição e selecione **Salvar**, na parte inferior da tela, e clique em **OK** para salvar a pasta de trabalho no local padrão.  Agora selecione **Exibir pasta de trabalho salva**.
 
-11. No canto superior esquerdo da página Pastas de trabalho, acima de onde está escrito Pastas de trabalho, clique em **Microsoft Sentinel**. Você vai voltar à página Conectores de Dados do Microsoft Sentinel.
+1. A página de Pastas de Trabalho do Office 365 é aberta.  Selecione a seta suspensa ao lado de **Operações: remover definição** e clique em **Todos**.  Agora, selecione a seta suspensa ao lado de **Usuários: consulta pendente** e clique em **Todos**.  Selecione o **ícone salvar (disco)** . Clique no **X** no canto superior direito da janela para fechá-la. Pode levar alguns minutos para que os dados comecem a aparecer na pasta de trabalho, então você voltará às pastas de trabalho mais tarde.
 
-12. O topo da página Conectores de dados deve exibir 1 conexão, indicando que agora você se conectou ao Azure Active Directory.
+1. No canto superior esquerdo da página Pastas de trabalho, acima de onde está escrito Pastas de trabalho, clique em **Microsoft Sentinel**. Isso direcionará você de volta à página Visão geral.
 
-13. À esquerda no painel de navegação, selecione **Pastas de trabalho**.
+#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>Tarefa 5:  Nesta tarefa, você percorrerá algumas das opções disponíveis no Sentinel.
 
-14. Na página Pastas de trabalho, selecione a guia **Minhas pastas de trabalho**, que fica acima da caixa de pesquisa.  A pasta de trabalho que você acaba de salvar está listada e disponível para exibir e monitorar seus dados.
+1. No painel de navegação esquerdo, selecione **Buscar**.  Na guia **Consultas** selecionada (sublinhada), clique em qualquer consulta na lista.  Depois que uma consulta for selecionada, observe as informações fornecidas sobre ela, incluindo seu código, a opção de execução e exibir os resultados.  Não selecione nada.
 
-15. Deixe essa página aberta; vamos usá-la na próxima tarefa.
+1. No painel de navegação esquerdo, selecione **MITRE ATT&CK**.  O MITRE ATT&CK é uma base de dados de conhecimento publicamente acessível de táticas e técnicas que são comumente usadas por invasores. Com o Microsoft Sentinel você pode visualizar as detecções já ativas em seu workspace e aquelas disponíveis para você configurar, para entender a cobertura de segurança da sua organização, com base nas táticas e técnicas do framework MITRE ATT&CK®.  Selecione qualquer célula da matriz e anote as informações disponíveis no lado direito da tela.  
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-using-a-built-in-analytics-rule-template-to-create-a-rule-to-get-notified-when-something-suspicious-occurs"></a>Tarefa 4:  Nesta tarefa, vamos acompanhar o uso de um modelo interno de regra de análise para criar uma regra de notificação sobre atividades suspeitas.
+1. À esquerda no painel de navegação, selecione **Comunidade**. Os analistas de segurança da Microsoft criam e adicionam constantemente novas pastas de trabalho, guias estratégicos, consultas de busca e muito mais, publicando-os na comunidade para uso em seu ambiente. Você pode baixar o conteúdo de exemplo no repositório do GitHub privado da comunidade para criar pastas de trabalho personalizadas, consultas de busca, notebooks e guias estratégicos para o Microsoft Sentinel.  Selecione **Integrar conteúdo da comunidade**.  Uma nova guia para o repositório GitHub, em que você pode baixar conteúdo para habilitar seus cenários, é aberta.  Retorne à guia do Azure no navegador.
 
-1. À esquerda no painel de navegação, selecione **Análise**.
+1. À esquerda no painel de navegação, selecione **Análise**.  Selecione o primeiro item da lista **Detecção avançada de ataque de várias etapas**.  Leia as informações detalhadas.  O Microsoft Sentinel usa o Fusion, um mecanismo de correlação baseado em algoritmos de aprendizado de máquina escaláveis, para detectar automaticamente ataques de vários estágios (também conhecidos como ameaças persistentes avançadas) identificando combinações de comportamentos anômalos e atividades suspeitas que são observadas em vários estágios da cadeia de eliminação. Com base nessas descobertas, o Microsoft Sentinel gera incidentes que, de outra forma, seriam difíceis de detectar.
 
-2. A página Análise mostra regras ativas (a Detecção avançada de ataques multiestágio está habilitada por padrão) e permite acessar os modelos de Regras.  Selecione a guia **Modelos de regras**.  Observe a lista de modelos disponíveis e as diferentes formas de filtrar essa lista.  Com os alertas internos de análise no workspace do Microsoft Sentinel, você será notificado quando algo suspeito ocorrer.
+1. À esquerda no painel de navegação, selecione **Automação**.  Aqui você pode criar regras de automação simples, integrá-las a manuais existentes ou criar novos manuais.  Selecione **+ Criar** e clique em **Regra de Automação**.  Observe a janela que é aberta no lado direito da tela e as opções de criação de condições e ações são disponibilizadas.  Selecione **Cancelar** na parte inferior da tela.
 
-3. Na barra de pesquisa, insira **Portal do Azure**.  Selecione **Falha de logon no Portal do Azure**.  
+1. À esquerda no painel de navegação, selecione **Pastas de trabalho**. Na página Pastas de trabalho, selecione a guia **Minhas pastas de trabalho**, que fica acima da caixa de pesquisa.  A pasta de trabalho que você salvou anteriormente estará listada e disponível para você visualizar e monitorar seus dados.  Selecione **Office 365** na janela que é aberta no lado direito da tela e clique em **Exibir pasta de trabalho salva**.  Observe as visualizações relacionadas às cargas de trabalho de Office 365.  
 
-4. Na janela que abrir, leia a descrição e as informações associadas ao modelo.  Selecione **Criar regra** na parte inferior da página.
+1. Clique no **X** no canto superior direito da janela para fechá-la.
 
-5. No Assistente de regra de análise, revise as informações e selecione **Avançar: Definir lógica de regra >** .
+1. No canto superior esquerdo da janela, logo abaixo da barra azul, selecione **Página Inicial** para retornar à home page do portal do Azure.
 
-6. A página Definir lógica de regra é onde você define a lógica da nova regra de análise. O modelo já apresenta algumas lógicas e configurações predefinidas.  Role a página para verificar as configurações disponíveis.  Mantenha as configurações padrão. Selecione **Avançar: Configurações de incidente (versão prévia)>** .
-
-7. Com as Configurações de incidentes, é possível agrupar os alertas do Microsoft Sentinel em um único Incidente a ser analisado. Você pode definir se os alertas disparados por essa regra de análise devem gerar incidentes.  Mantenha o padrão e selecione **Avançar: Resposta automatizada >** .
-
-8. Na guia Resposta automatizada, observe que é possível adicionar um guia estratégico para automatizar a resposta.  Do mesmo modo, também é possível criar uma regra de automatização de incidente.  Selecione **+ Adicionar** novo em Automação de incidentes.  Uma janela vai ser aberta para criar a nova regra de automação.  Toda regra de automação criada nesta página é disparada pela regra de análise que você está criando. Observe que é possível adicionar condições e definir ações para a regra.   Selecione **Cancelar** para sair dessa janela.
-
-9. Selecione **Avançar: Revisão>** para revisar todos os detalhes relacionados à regra com base no modelo escolhido. Aqui, é possível escolher se você quer criar a regra, selecionando **Criar**, ou sair sem criar a regra, selecionando **X** no canto superior direito da página.
-
-10. Deixe essa página aberta; vamos usá-la na próxima tarefa.
-
-#### <a name="task-5--in-the-previous-task-you-created-an-analytics-rule-to-be-alerted-of-suspicious-activities--embedded-in-that-wizard-is-the-option-to-automate-the-response-to-an-incident-based-on-the-specific-rule--but-you-can-also-create-automation-rules-by-going-directly-to-the-automation-configuration-option"></a>Tarefa 5:  Na tarefa anterior, nós criamos uma regra de análise para sermos alertados de atividades suspeitas.  O assistente também permite automatizar a resposta a um incidente com base nessa regra específica.  Você também pode criar regras de automação diretamente na opção de configuração de automação.
-
-1. À esquerda no painel de navegação, selecione **Automação**.  
-
-2. Selecione **+ Criar**. No menu suspenso, observe que é possível adicionar tanto um novo guia estratégico quanto uma nova regra.  Selecione **Adicionar nova regra**.  
-
-3. Uma janela vai ser aberta para criar a nova regra de automação.  Observe que é possível adicionar condições e definir ações para a regra.  A única diferença é que a primeira condição é associar as regras de análise a que você quer aplicar essa regra de automação.  Ela aparecia acinzentada na tarefa anterior porque a automação estava sendo configurada para a regra específica.  Selecione **Cancelar** para sair da janela Criar nova regra de automação.
-
-4. Deixe essa página aberta; vamos usá-la na próxima tarefa.
-
-
-#### <a name="task-6--delete-microsoft-sentinel-resource-group--microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-features-of-capabilities-of-microsoft-sentinel"></a>Tarefa 6:  Excluir grupo de recursos do Microsoft Sentinel.  O Microsoft Sentinel é cobrado de acordo com o volume da ingestão de dados para análise. Embora a quantidade de dados ingeridos durante este laboratório seja mínima, recomendamos que o grupo de recursos do Microsoft Sentinel seja excluído quando você terminar de explorar suas funcionalidades.
+#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Tarefa 6: O Microsoft Sentinel é cobrado de acordo com o volume da ingestão de dados para análise. Embora a quantidade de dados ingeridos durante este laboratório seja mínima, recomendamos que o grupo de recursos do Microsoft Sentinel seja excluído quando você terminar de explorar suas funcionalidades.
 
 1. No canto superior esquerdo da página Microsoft Sentinel, em cima de Microsoft Sentinel, selecione **Todos os Serviços**.
 
@@ -157,7 +126,6 @@ Neste laboratório, vamos passar pelo processo de criação de uma instância do
 
 5. Após verificar que o grupo de recursos foi excluído, feche a página do navegador. 
 
-
 #### <a name="review"></a>Revisão
 
-Neste laboratório, acompanhamos o processo de criação de uma instância do Microsoft Sentinel.  Além disso, também configuramos as permissões para garantir o acesso aos recursos associados a essa instância do Microsoft Sentinel.  Por meio da nova instância do Microsoft Sentinel, pudemos acompanhar as etapas de conexão do Microsoft Sentinel às fontes de dados, usar regras de análise internas para notificar suspeitas e explorar a capacidade de automação. Você concluiu o laboratório excluindo o grupo de recursos associado à instância do Microsoft Sentinel que criou.
+Nesta demonstração, você percorreu as etapas para conectar o Microsoft Sentinel a fontes de dados, configurou uma pasta de trabalho e percorreu várias opções disponíveis no Microsoft Sentinel.
