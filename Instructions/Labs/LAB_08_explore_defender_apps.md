@@ -2,23 +2,26 @@
 lab:
   title: 'Explorar aplicativos do Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893746"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557563"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratório: Explorar aplicativos do Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
-Neste laboratório, vamos explorar as funcionalidades do Microsoft Defender for Cloud Apps.  Vamos acompanhar as informações que se encontram no painel do Cloud Discovery e as funcionalidades disponíveis para investigar as conclusões e controlar o impacto à sua organização por meio de políticas.  Observação:  A organização deve ter uma licença para usar o Microsoft Defender for Cloud Apps, já que este é um serviço por assinatura com base no usuário. 
+
+Neste laboratório, vamos explorar as funcionalidades do Microsoft Defender for Cloud Apps.  Vamos acompanhar as informações que se encontram no painel do Cloud Discovery e as funcionalidades disponíveis para investigar as conclusões e controlar o impacto à sua organização por meio de políticas.  Observação:  A organização deve ter uma licença para usar o Microsoft Defender for Cloud Apps, já que este é um serviço por assinatura com base no usuário.
 
 **Tempo estimado**: 15 a 20 minutos
 
-#### <a name="task-1-explore-cloud-discovery"></a>Tarefa 1: Explorar o Cloud Discovery.
+### <a name="task-1"></a>Tarefa 1:
 
-1.  Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
+Explorar o Cloud Discovery.
+
+1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
@@ -50,7 +53,9 @@ Neste laboratório, vamos explorar as funcionalidades do Microsoft Defender for 
 
 1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Tarefa 2: Explorar formas de investigar as atividades registradas.
+### <a name="task-2"></a>Tarefa 2:
+
+Explorar formas de investigar as atividades registradas.
 
 1. Do lado esquerdo do painel de navegação, em Investigar, selecione **Log de Atividades**.  Aqui é possível visualizar todas as atividades dos aplicativos conectados.   Como o conector do Office 365 já foi conectado, você deve encontrar alguns dados. Depois de conectar o Cloud App Security a um aplicativo usando o Conector de aplicativos, o Cloud App Security examinará todas as atividades que ocorreram – o período de tempo de verificação retroativo é diferente de acordo com o aplicativo – e, em seguida, ele será constantemente atualizado com novas atividades.  
 
@@ -66,14 +71,16 @@ Neste laboratório, vamos explorar as funcionalidades do Microsoft Defender for 
 
 1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
+### <a name="task-3"></a>Tarefa 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Tarefa 3: Nesta tarefa, vamos explorar as páginas de políticas e alertas no Microsoft Defender for Cloud Apps.
+Nesta tarefa, vamos explorar as páginas de políticas e alertas no Microsoft Defender for Cloud Apps.
 
-1. No painel de navegação esquerdo, selecione a tecla de seta para baixo ao lado de onde diz **Controlar** e selecione **Políticas**.  As políticas listadas fornecem informações sobre o número de alertas gerados pela política, gravidade etc. Selecionar qualquer item, por exemplo, **Entrada suspeita**, fornece a opção de editar a política. Selecione **Cancelar** na parte inferior da página. 
+1. No painel de navegação esquerdo, selecione a tecla de seta para baixo ao lado de onde diz **Controlar** e selecione **Políticas**.  As políticas listadas fornecem informações sobre o número de alertas gerados pela política, gravidade etc. Selecionar qualquer item, por exemplo, **Entrada suspeita**, fornece a opção de editar a política. Selecione **Cancelar** na parte inferior da página.
 
 1. À esquerda no painel de navegação, selecione **Alertas**.  Se tiver alertas listados, selecione um item da lista. Examine as informações apresentadas.  Da parte superior esquerda da janela, selecione **Fechar alerta** para exibir as opções de fechamento.  
 
 1. Feche a janela do navegador.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
+
 Neste laboratório, você explorou as funcionalidades do Microsoft Defender for Cloud Apps.  Acompanhamos as informações que se encontram no painel do Cloud Discovery e as funcionalidades disponíveis para investigar as conclusões e controlar o impacto à sua organização por meio de políticas.

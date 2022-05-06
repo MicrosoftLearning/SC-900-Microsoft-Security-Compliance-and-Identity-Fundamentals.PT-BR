@@ -2,28 +2,30 @@
 lab:
   title: Explorar o Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614417"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557513"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
-O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, vamos começar explorando a página de aterrissagem do Azure Policy. Após essa introdução à página do Azure Policy, vamos criar uma política e verificar o impacto dessa política.
 
+O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, vamos começar explorando a página de aterrissagem do Azure Policy. Após essa introdução à página do Azure Policy, vamos criar uma política e verificar o impacto dessa política.
 
 **Tempo estimado**: 20 a 25 minutos
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tarefa 1: Explorar brevemente a página do Azure Policy.
+### <a name="task-1"></a>Tarefa 1:
+
+Explorar brevemente a página do Azure Policy.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
-    
+
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
@@ -53,7 +55,9 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Mantenha essa guia (Política – Microsoft Azure) aberta no navegador para a próxima tarefa.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tarefa 2:  Nesta tarefa, vamos criar uma atribuição de política básica para exigir uma marca em grupos de recursos.
+### <a name="task-2"></a>Tarefa 2:
+
+Nesta tarefa, vamos criar uma atribuição de política básica para exigir uma marca em grupos de recursos.
 
 1. Abra a guia do navegador Política – Microsoft Azure.
 
@@ -69,9 +73,9 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Observe o nome de atribuição padrão.  Mantenha o nome como está e selecione **Avançar** na parte inferior da página.
 
-1. No campo Nome da marca, insira **Ambiente** e depois selecione **Avançar**. 
+1. No campo Nome da marca, insira **Ambiente** e depois selecione **Avançar**.
 
-1. Deixe as configurações de correção padrão como estão e selecione **Avançar**. 
+1. Deixe as configurações de correção padrão como estão e selecione **Avançar**.
 
 1. Na mensagem de não conformidade, insira **É necessária uma marca de ambiente** e depois selecione **Avançar**. Observação: essa mensagem aparece por conta da não conformidade dos grupos de recursos criados antes da atribuição da política, já que eles não têm uma marca de Ambiente.  Grupos de recursos criados depois da criação da política terão sua criação negada caso não tenham uma marca de ambiente.
 
@@ -81,7 +85,9 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Agora estamos na página inicial de serviços do Azure.  Deixe essa página aberta; vamos precisar para a próxima tarefa.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tarefa 3:  Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, criando um grupo de recursos no Azure sem marca. Depois, vamos atualizar o grupo de recursos para incluir uma marca.  Observação: Pode levar até 30 minutos para que a política criada na tarefa anterior entre em vigor, mas geralmente é mais rápido.
+### <a name="task-3"></a>Tarefa 3
+
+Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, criando um grupo de recursos no Azure sem marca. Depois, vamos atualizar o grupo de recursos para incluir uma marca.  Observação: Pode levar até 30 minutos para que a política criada na tarefa anterior entre em vigor, mas geralmente é mais rápido.
 
 1. Abra a guia do navegador Página Inicial – Microsoft Azure.
 
@@ -99,7 +105,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Vai aparecer validação aprovada (o nome e o valor da marca não são campos exigidos no assistente), então selecione **Criar**.
 
-1. Uma mensagem de falha será exibida no topo da tela, dizendo “Falha ao criar o grupo de recursos. Exibir detalhes de erro”.  Selecione **Exibir detalhes de erro**. A condição que integra a política do Azure não foi atendida, então a criação do grupo de recursos foi bloqueada por não conformidade. 
+1. Uma mensagem de falha será exibida no topo da tela, dizendo “Falha ao criar o grupo de recursos. Exibir detalhes de erro”.  Selecione **Exibir detalhes de erro**. A condição que integra a política do Azure não foi atendida, então a criação do grupo de recursos foi bloqueada por não conformidade.
 
     Observação: Caso você não veja uma mensagem de falha e o grupo de recursos seja criado, é porque a política ainda não entrou em vigor.  Vá para a página Política para a política criada na tarefa anterior. Quando a política entrar em vigor, o recurso vai aparecer como não compatível.  A página de detalhes inclui a mensagem de não conformidade. Caso você receba o erro, as etapas a seguir demonstram como corrigir a implantação.
 
@@ -115,12 +121,11 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 1. Antes de sair, remova a política do Azure.
     1. No canto superior esquerdo da página, selecione Página Inicial para voltar à página inicial do Azure.
-    
+
     1. Abaixo de Serviços do Azure, selecione Política do Azure.
     1. No meio da página, encontramos uma lista das atribuições de políticas/iniciativas do Azure.  Selecione as reticências para a atribuição de política Exigir uma marca no grupo de recursos. Depois, selecione Excluir atribuição.
     1. Vai aparecer uma solicitação para confirmar se você deseja excluir a atribuição.  Selecione Sim.
 
-
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
 
 Neste laboratório, exploramos a página de aterrissagem da política do Azure. Após essa introdução à página da política do Azure, acompanhamos o processo de criação de uma política e verificamos o impacto dessa política.

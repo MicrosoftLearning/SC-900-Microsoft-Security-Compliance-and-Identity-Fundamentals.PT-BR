@@ -2,28 +2,30 @@
 lab:
   title: Explorar o portal do Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614405"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557141"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratório: Explorar o portal do Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
-Neste laboratório, vamos explorar o portal do Microsoft 365 Defender através do conteúdo exibido na página de aterrissagem. Também vamos explorar as opções do painel de navegação, que fornece um acesso rápido à funcionalidade que integra a solução Extended Detection and Response [Detecção e Resposta Estendidas] (XDR) da Microsoft: O Microsoft Defender para Pontos de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, vamos explorar como o Microsoft Secure Score pode ajudar a melhorar a postura de segurança de uma organização.
 
+Neste laboratório, vamos explorar o portal do Microsoft 365 Defender através do conteúdo exibido na página de aterrissagem. Também vamos explorar as opções do painel de navegação, que fornece um acesso rápido à funcionalidade que integra a solução Extended Detection and Response [Detecção e Resposta Estendidas] (XDR) da Microsoft: O Microsoft Defender para Pontos de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, vamos explorar como o Microsoft Secure Score pode ajudar a melhorar a postura de segurança de uma organização.
 
 **Tempo estimado**: 10 a 15 minutos
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Tarefa 1:  Explorar a página de aterrissagem do Microsoft 365 Defender.
+### <a name="task-1"></a>Tarefa 1:
+
+Explorar a página de aterrissagem do Microsoft 365 Defender.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
-   
+
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
 
@@ -43,7 +45,9 @@ Neste laboratório, vamos explorar o portal do Microsoft 365 Defender através d
 
 1. Ao selecionar o título de um cartão, encontramos informações adicionais sobre esse tópico. Vamos explorar isso na próxima tarefa.  Mantenha a janela do navegador aberta.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Tarefa 2: Nesta tarefa, vamos explorar como o Microsoft Secure Score pode ajudar a melhorar a postura de segurança de uma organização.
+### <a name="task-2"></a>Tarefa 2:
+
+Nesta tarefa, vamos explorar como o Microsoft Secure Score pode ajudar a melhorar a postura de segurança de uma organização.
 
 1. Na Página inicial do portal do Microsoft 365 Defender, selecione **Microsoft Secure Score** a partir do título do cartão (o texto vai ficar azul).  Também é possível selecionar **Classificação de segurança** do lado esquerdo do painel de navegação.
 
@@ -63,5 +67,6 @@ Neste laboratório, vamos explorar o portal do Microsoft 365 Defender através d
 
 1. Feche a página do navegador.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
+
 Neste laboratório, exploramos o portal do Microsoft 365 Defender através do conteúdo exibido na página de aterrissagem. Vimos as opções do painel de navegação, que oferece um acesso rápido à funcionalidade que integra a solução Extended Detection and Response (XDR) da Microsoft, do Microsoft Defender para Pontos de Extremidade e do Microsoft Defender para Office 365 (email e colaboração).  Por fim, exploramos como o Microsoft Secure Score pode ajudar a melhorar a postura de segurança de uma organização.

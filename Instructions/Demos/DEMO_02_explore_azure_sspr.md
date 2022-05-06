@@ -2,16 +2,16 @@
 Demo:
   title: Redefinição de senha de autoatendimento do Azure Active Directory
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893784"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557213"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demonstração: Redefinição de senha self-service (SSPR) do Azure Active Directory
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
 
 Nesta demonstração, você verá as várias configurações associadas à habilitação da redefinição de senha self-service.
 
@@ -40,7 +40,6 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 
 1. Deixe esta página do navegador aberta para a próxima demonstração.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
 
-Nesta demonstração, você mostrou as configurações associadas à redefinição de senha self-service. 
-
+Nesta demonstração, você mostrou as configurações associadas à redefinição de senha self-service.

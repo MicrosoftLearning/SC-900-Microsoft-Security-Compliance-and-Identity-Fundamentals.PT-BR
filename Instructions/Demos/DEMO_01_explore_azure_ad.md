@@ -2,16 +2,16 @@
 Demo:
   title: Configurações de usuário do Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893735"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557176"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>Demonstração: Configurações de usuário do Azure Active Directory
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
 
 Nesta demonstração, você acessará o Azure Active Directory e passará pelas várias configurações de um usuário existente.
 
