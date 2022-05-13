@@ -2,19 +2,22 @@
 Demo:
   title: O Portal do Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614357"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557301"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demonstração: O Portal do Microsoft 365 Defender
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
+
 Nesta demonstração, você mostrará o portal do Microsoft 365 Defender, passando pelo conteúdo exibido na página de aterrissagem. Você também passará pelas opções no painel de navegação que fornece acesso rápido à funcionalidade que faz parte da solução de XDR (Detecção e Resposta Estendida) da Microsoft: O Microsoft Defender para Pontos de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você também mostrará como o Microsoft Secure Score pode ajudar uma organização a melhorar a postura de segurança.
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Demonstração – Parte 1:  Explorar a página de aterrissagem do Microsoft 365 Defender.
+### <a name="demo-part-1"></a>Demonstração parte 1
+
+Explorar a página de aterrissagem do Microsoft 365 Defender.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.  Você já deve estar conectado como administrador.  Se não estiver, entre com suas credenciais de administrador.
 
@@ -36,7 +39,9 @@ Nesta demonstração, você mostrará o portal do Microsoft 365 Defender, passan
 
 1. Ao selecionar o título de um cartão, encontramos informações adicionais sobre esse tópico. Vamos explorar isso na próxima tarefa.  Mantenha a janela do navegador aberta.
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Demonstração — Parte 2: Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pode ajudar uma organização a melhorar a postura de segurança.
+### <a name="demo-part-2"></a>Demonstração parte 2
+
+Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pode ajudar uma organização a melhorar a postura de segurança.
 
 1. Na Página inicial do portal do Microsoft 365 Defender, selecione **Microsoft Secure Score** a partir do título do cartão (o texto vai ficar azul).  Também é possível selecionar **Classificação de segurança** do lado esquerdo do painel de navegação.
 
@@ -56,6 +61,6 @@ Nesta demonstração, você mostrará o portal do Microsoft 365 Defender, passan
 
 1. Feche a página do navegador.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
 
 Nesta demonstração, você explorou o portal do Microsoft 365 Defender passando pelo conteúdo exibido na página de aterrissagem, explorou as opções no painel de navegação que fornece acesso rápido à funcionalidade que faz parte da solução de XDR (Detecção e Resposta Estendida) da Microsoft, ao Microsoft Defender para Ponto de Extremidade e ao Microsoft Defender para Office 365 (email e colaboração).  Por fim, você mostrou como o Microsoft Secure Score pode ajudar uma organização a melhorar a postura de segurança.

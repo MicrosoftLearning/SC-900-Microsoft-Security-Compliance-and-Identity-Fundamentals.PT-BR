@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893770"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557165"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demonstração: Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
+
 Nesta demonstração, você mostrará os recursos do Microsoft Defender for Cloud Apps.  Você apresentará ao aluno as informações disponíveis no painel do Cloud Discovery, além dos recursos disponíveis para investigar as descobertas e controlar o impacto na sua organização por meio de políticas.  Observação:  A organização deve ter uma licença para usar o Microsoft Defender for Cloud Apps, já que este é um serviço por assinatura com base no usuário.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Demonstração – Parte 1: Explorar o Cloud Discovery.
+### <a name="demo-part-1-explore-cloud-discovery"></a>Demonstração – Parte 1: Explorar o Cloud Discovery
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.  Você já deve estar conectado como administrador.  Se não estiver, entre com suas credenciais de administrador.
 
@@ -54,7 +55,9 @@ Nesta demonstração, você mostrará os recursos do Microsoft Defender for Clou
 
 1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Demonstração — Parte 2: Explorar formas de investigar as atividades registradas.
+### <a name="demo-part-2"></a>Demonstração parte 2
+
+Explorar formas de investigar as atividades registradas.
 
 1. No painel de navegação esquerdo, em **Investigar**, selecione **Log de atividades**.  Aqui você obtém visibilidade de todas as atividades de seus aplicativos conectados.   Como o conector do Office 365 já foi conectado, você deve encontrar alguns dados. Depois de conectar o Cloud App Security a um aplicativo usando o Conector de aplicativos, o Cloud App Security examinará todas as atividades que ocorreram – o período de tempo de verificação retroativo é diferente de acordo com o aplicativo – e, em seguida, ele será constantemente atualizado com novas atividades.  
 
@@ -66,8 +69,9 @@ Nesta demonstração, você mostrará os recursos do Microsoft Defender for Clou
 
 1. Deixe essa página aberta; vamos usá-la na próxima tarefa.
 
+### <a name="demo-part-3"></a>Demonstração parte 3
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Demonstração — Parte 3: Nesta tarefa, vamos explorar as páginas de políticas e alertas no Microsoft Defender for Cloud Apps.
+Nesta tarefa, você vai explorar as páginas de políticas e alertas no Microsoft Defender for Cloud Apps
 
 1. Do lado esquerdo do painel de navegação, abaixo de Controle, selecione **Políticas**.  As políticas listadas fornecem informações sobre o número de alertas gerados pela política, gravidade etc. Selecione qualquer item de linha para ver informações mais detalhadas sobre a política. Selecione um item da lista, i.e., **Entrada suspeita**.  
 
@@ -75,5 +79,6 @@ Nesta demonstração, você mostrará os recursos do Microsoft Defender for Clou
 
 1. Feche a janela do navegador.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
+
 Nesta demonstração, você mostrou os recursos do Microsoft Defender for Cloud Apps.  Você mostrou as informações disponíveis no painel do Cloud Discovery, além dos recursos disponíveis para investigar as descobertas e controlar o impacto na sua organização por meio de políticas.

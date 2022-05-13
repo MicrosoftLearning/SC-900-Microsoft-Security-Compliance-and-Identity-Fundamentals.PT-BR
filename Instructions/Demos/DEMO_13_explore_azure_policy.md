@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614177"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557129"
 ---
 # <a name="demo-azure-policy"></a>Demonstração: Azure Policy
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
+
 Nesta demonstração, você verá o processo de configuração de uma política do Azure e o impacto dela.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demonstração – Parte 1: Criar uma política para exigir uma marcação em um grupo de recursos (mostra as etapas para criar uma política de um modelo)
+### <a name="demo-part-1"></a>Demonstração parte 1
+
+Criar uma política para exigir uma marcação em um grupo de recursos (mostra as etapas para criar uma política de um modelo)
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.  Você já deve estar conectado, caso contrário, entre com suas credenciais de administrador.
 
@@ -46,7 +49,9 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 1. Agora estamos na página inicial de serviços do Azure.  Deixe essa página aberta; vamos precisar para a próxima tarefa.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Demonstração — Parte 2:  Mostrar o impacto da política criando um grupo de recursos sem uma marcação e, a seguir, corrigir a política para ter uma marcação.
+### <a name="demo-part-2"></a>Demonstração parte 2
+
+Mostrar o impacto da política criando um grupo de recursos sem uma marcação e, a seguir, corrigir a política para ter uma marcação.
 
 1. Na parte superior da página, em Serviços do Azure, selecione **Grupos de recursos**. Se você não vir a opção listada, insira Grupos de recursos na barra de pesquisa e o selecione de lá.
 
@@ -74,6 +79,6 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 1. O grupo de recursos aparecerá listado.  Como a marca foi gerada no grupo de recursos, a condição incluída como parte da política do Azure foi atendida.  O grupo de recursos é compatível com a política.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
 
 Nesta demonstração, você mostrou o processo de configuração de uma política do Azure e o impacto dela.

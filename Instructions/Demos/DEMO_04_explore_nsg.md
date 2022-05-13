@@ -2,20 +2,21 @@
 Demo:
   title: Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019278"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557524"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demonstração: Grupos de Segurança de Rede (NSGs) do Azure
 
-### <a name="demo-scenario"></a>Cenário da demonstração
+## <a name="demo-scenario"></a>Cenário da demonstração
+
 Nesta demonstração, você mostrará a funcionalidade de um NSG (grupo de segurança de rede) no Azure.  Você fará isso criando primeiro uma VM (máquina virtual) sem nenhum NSG, como parte da configuração pré-demonstração. Você também criará um NSG sem nenhuma interface ou sub-rede associada.  Como parte da demonstração, você mostrará as regras padrão de entrada e saída do NSG. Em seguida, você passará pelo processo de atribuição da interface da VM ao NSG.  Após a configuração, vamos testar a conexão à VM usando as regras padrão de NSG e também as regras criadas por você.
   
+### <a name="pre-demo-setup-part-1"></a>Configuração pré-demonstração, parte 1
 
-#### <a name="pre-demo-setup-part-1"></a>Configuração pré-demonstração, parte 1
  Instrutores, é recomendado que vocês façam isso **ANTES** da aula, uma vez que pode levar vários minutos para criar uma VM. Nesta configuração, você criará uma máquina virtual do Windows 10.
 
 1. Abra a guia **Página Inicial – Microsoft Azure** no seu navegador.  Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e entre novamente.
@@ -34,7 +35,7 @@ Nesta demonstração, você mostrará a funcionalidade de um NSG (grupo de segur
     1. **Tamanho**: selecione **exibir todos os tamanhos** no menu suspenso, escolha **B2s** e **Selecionar** na parte inferior da página.
     1. **Nome de usuário**:  Insira um nome de usuário de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
     1. **Senha**:  Insira uma senha de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
-    1. **Portas de entrada públicas**: você pode deixar a configuração padrão (não importa o que você selecionar aqui, pois as configurações de rede substituirão o que você fizer aqui).
+    1. **Portas de entrada públicas**: você pode deixar a configuração padrão (não importa o que você selecionar aqui, pois as configurações de rede substituirão o que for selecionado).
     1. **Licenciamento**: selecione **Confirmo que tenho uma licença do Windows 10 qualificada com direitos de hospedagem multilocatário**, para que apareça uma marca de seleção na caixa.
     1. Selecione **Avançar: Discos**.
 
@@ -62,7 +63,8 @@ Nesta demonstração, você mostrará a funcionalidade de um NSG (grupo de segur
 
 1. Você está de volta à página SC900-WinVM no portal do Azure.  Deixe esta guia do navegador aberta para a próxima tarefa.
 
-#### <a name="pre-demo-setup-part-2"></a>Configuração pré-demonstração, parte 2
+### <a name="pre-demo-setup-part-2"></a>Configuração pré-demonstração, parte 2
+
 Crie um grupo de segurança de rede, mas NÃO atribua a interface de rede da VM a esse NSG.  
 
 1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
@@ -80,8 +82,9 @@ Crie um grupo de segurança de rede, mas NÃO atribua a interface de rede da VM 
 
 1. Assim que a implantação for concluída, selecione **Ir para o recurso** e verifique se tudo está correto.  Deve haver 3 regras de entrada padrão, 3 regras de saída padrão, nenhuma sub-rede e nenhuma interface associada ao NSG.  Retorne para a **Página Inicial** do portal do Azure.  
 
-#### <a name="demo"></a>Demonstração
-Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o passo a passo para um NSG existente (aquele que você criou na configuração acima) que ainda não foi atribuído a uma interface de VM. Em seguida, você mostrará o processo de associação de uma interface ao NSG e o processo de criação de regras de entrada e saída.
+### <a name="demo"></a>Demonstração
+
+Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o passo a passo para um NSG existente (aquele que você criou na configuração acima) que ainda não foi atribuído a uma interface de VM. Em seguida, você mostrará o processo de associação de uma interface ao NSG e o processo de criação das regras de entrada e saída.
 
 1. Abra a guia do navegador, **Página Inicial – Microsoft Azure**.  Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e entre novamente.
 
@@ -143,13 +146,14 @@ Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o 
 
 1. Agora teste a regra de saída do NSG.
     1. Abra o navegador Edge na VM.
-    1. Digite **https://www.bing.com** . A página não deve ser exibida. Observação: se você conseguir se conectar à internet mesmo verificando que todos os parâmetros da regra de saída foram configurados corretamente, é porque demora alguns minutos até a regra produzir efeito. Aguarde alguns minutos e tente novamente.
+    1. Insira **www.bing.com**. A página não deve ser exibida. Observação: se você conseguir se conectar à internet mesmo verificando que todos os parâmetros da regra de saída foram configurados corretamente, é porque demora alguns minutos até a regra produzir efeito. Aguarde alguns minutos e tente novamente.
 
 1. Feche a conexão da área de trabalho remota selecionando o **X** na parte superior central da página, onde o endereço IP é exibido. Uma janela pop-up vai indicar que sua sessão remota será desconectada. Selecione **OK**.
 
 1. Retorne à página inicial do portal do Azure selecionando **Microsoft Azure** na barra azul na parte superior da página.
 
-#### <a name="tear-down"></a>Desativar
+### <a name="tear-down"></a>Desativar
+
 **IMPORTANTE**: Nesta tarefa, vamos excluir o grupo de recursos e todos os recursos que ele contém.   Isso é importante para evitar preços adicionais.
 
 1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
