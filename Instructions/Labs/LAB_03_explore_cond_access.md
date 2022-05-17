@@ -2,21 +2,24 @@
 lab:
   title: Explorar o gerenciamento de acesso no Azure AD com acesso condicional
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489253"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557272"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratório: Explore o gerenciamento de acesso no Azure AD com Condicional
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
+
 Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva de um administrador e de um usuário.  Como administrador, você criará uma política que exigirá que um usuário passe por autenticação de vários fatores ao acessar um aplicativo de gerenciamento do Microsoft Azure baseado em nuvem.  Da perspectiva do usuário, você verá o impacto da política de acesso condicional, incluindo o processo de registro para o MFA.
 
 **Tempo estimado**: 10 a 15 minutos
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tarefa 1: Nesta tarefa você, como administrador, irá redefinir a senha do usuário Debra Berger.  Esta etapa é necessária para que você possa inicialmente fazer logon como usuário nas tarefas seguintes.
+### <a name="task-1"></a>Tarefa 1:
+
+Nesta tarefa você, como administrador, irá redefinir a senha do usuário Debra Berger.  Esta etapa é necessária para que você possa inicialmente fazer logon como usuário nas tarefas seguintes.
 
 1. Abra o Microsoft Edge.  Na barra de endereços, insira **portal.azure.com**.
 
@@ -41,8 +44,9 @@ Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva
 
 10. Mantenha essa janela aberta.
 
+### <a name="task-2"></a>Tarefa 2:
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>Tarefa 2:  Nesta tarefa, você percorrerá o processo de criação de uma política de acesso condicional no Azure AD.
+Nesta tarefa, você percorrerá o processo de criação de uma política de acesso condicional no Azure AD.
 
 1. Abra a guia do navegador, denominada Contoso - Microsoft Azure.   Se você fechou anteriormente a guia do navegador, abra o Microsoft Edge e, na barra de endereços, digite portal.azure.com, entre com suas credenciais de administrador e escolha Azure Active Directory.  
 
@@ -60,7 +64,7 @@ Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva
 
 8. Escolha a opção **Selecionar usuários e grupos** e **Usuários e grupos**.  A janela para Selecionar usuários e grupos é aberta.  
 
-9. Na barra de Pesquisa, digite **Debra**.  Escolha **Debra Berger** abaixo da barra de pesquisa e pressione o botão **Selecionar** na parte inferior da página.  Observe que uma prática comum é atribuir a política a usuários em um grupo.  Para fins de conveniência com este laboratório, atribuiremos a política a um usuário específico. 
+9. Na barra de Pesquisa, digite **Debra**.  Escolha **Debra Berger** abaixo da barra de pesquisa e pressione o botão **Selecionar** na parte inferior da página.  Observe que uma prática comum é atribuir a política a usuários em um grupo.  Para fins de conveniência com este laboratório, atribuiremos a política a um usuário específico.
 
 10. Em aplicativos ou ações na Nuvem, escolha **Nenhum aplicativo em nuvem ou ações selecionadas**.
 
@@ -80,9 +84,11 @@ Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva
 
 18. Saia do Azure e feche as janelas do navegador.
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>Tarefa 3: Nesta tarefa você verá o impacto da política de acesso condicional, na perspectiva do usuário, Debra Berger. Você começará entrando primeiro em um aplicativo que não está incluído na política de acesso condicional.  Em seguida, você repetirá o processo para um aplicativo incluído na política de acesso condicional.  Lembre-se de que a política exige que o usuário passe pelo MFA ao acessar um aplicativo de gerenciamento do Microsoft Azure.  Para usar o MFA, o usuário deve primeiro registrar o método de autenticação que será usado para o MFA, por exemplo, um código enviado para um dispositivo móvel ou um aplicativo autenticador.
+### <a name="task-3"></a>Tarefa 3
 
-1. Abra o Microsoft Edge.  Na barra de endereços do navegador, digite **https://login.microsoftonline.com/** .
+Nesta tarefa você verá o impacto da política de acesso condicional, na perspectiva do usuário, Debra Berger. Você começará entrando primeiro em um aplicativo que não está incluído na política de acesso condicional.  Em seguida, você repetirá o processo para um aplicativo incluído na política de acesso condicional.  Lembre-se de que a política exige que o usuário passe pelo MFA ao acessar um aplicativo de gerenciamento do Microsoft Azure.  Para usar o MFA, o usuário deve primeiro registrar o método de autenticação que será usado para o MFA, por exemplo, um código enviado para um dispositivo móvel ou um aplicativo autenticador.
+
+1. Abra o Microsoft Edge.  Na barra de endereços do navegador, **insira login.microsoftonline.com/** .
 
 1. Faça login como Debra Burger,
     1. Na janela Entrar, insira **DebraB@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
@@ -92,7 +98,7 @@ Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva
 
 1. Você deve estar conectado à sua conta do Microsoft 365.  O MFA não era necessário para este aplicativo, pois não faz parte da política.
 
-1. Agora você tentará entrar em um aplicativo que atenda aos critérios para o MFA.  Abra o Microsoft Edge e, na barra de endereços, digite https://portal.azure.com.
+1. Agora você tentará entrar em um aplicativo que atenda aos critérios para o MFA.  Abra o Microsoft Edge e na barra de endereço, digite **portal.azure.com**.
 
 1. Você verá uma janela indicando Mais informações necessárias.  Selecione **Avançar**.  Isso iniciará o processo de registro do MFA, pois esta é a primeira vez que você está acessando o aplicativo em nuvem que foi identificado na política de acesso condicional.  Este processo de registro é necessário apenas uma vez.   Uma alternativa para o usuário passar pelo processo de registro é fazer com que o administrador configure o método de autenticação a ser usado.
 
@@ -110,5 +116,6 @@ Neste laboratório, você explorará o acesso condicional do MFA, da perspectiva
 
 1. Saia escolhendo o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando Sair. Em seguida, feche todas as janelas do navegador.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
+
 Neste laboratório, você passou pelo processo de configuração de uma política de acesso condicional que exige que os usuários passem por MFA ao acessar o aplicativo de nuvem Microsoft Azure Management.  Então, como usuário, você passou pelo processo de registro para o MFA e viu o impacto da política de acesso condicional que exigia que você usasse o MFA ao acessar o portal do Azure.

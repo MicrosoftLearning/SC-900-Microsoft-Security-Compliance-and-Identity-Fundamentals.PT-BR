@@ -2,12 +2,12 @@
 lab:
   title: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489266"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557465"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
 
@@ -17,8 +17,9 @@ Neste laboratório, você, como administrador, percorrerá o processo de ativaç
 
 **Tempo estimado**: 15 a 20 minutos
 
+### <a name="task-1"></a>Tarefa 1:
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>Tarefa 1:  Nesta tarefa, você, como administrador, adicionará um usuário existente, Adele Vance, ao grupo de usuários de segurança do SSPR.  Além disso, você também precisará redefinir a senha do usuário para poder fazer logon pela primeira vez, como usuário, e registrar-se no SSPR.
+Nesta tarefa, você, como administrador, adicionará um usuário existente, Adele Vance, ao grupo de usuários de segurança do SSPR.  Além disso, você também precisará redefinir a senha do usuário para poder fazer logon pela primeira vez, como usuário, e registrar-se no SSPR.
 
 1. Abra o Microsoft Edge.
 
@@ -59,35 +60,38 @@ Neste laboratório, você, como administrador, percorrerá o processo de ativaç
 
 18. Mantenha a janela Visão geral do Contoso aberta, pois você irá usá-la na tarefa seguinte.
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>Tarefa 2: Nesta tarefa, você, como administrador, aprenderá como configurar a redefinição de senha para usuários, incluindo a configuração dos tipos de métodos de autenticação que devem ser usados.
+### <a name="task-2"></a>Tarefa 2:
+
+Nesta tarefa, você, como administrador, aprenderá como configurar a redefinição de senha para usuários, incluindo a configuração dos tipos de métodos de autenticação que devem ser usados
 
 1. Vá para a guia Contoso – Microsoft Azure aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory.  Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
 
-2. No painel de navegação esquerdo, selecione **Redefinição de senha**.  
+1. No painel de navegação esquerdo, selecione **Redefinição de senha**.  
 
-3. As propriedades para reconfiguração de senha de autoatendimento são exibidas.  Verifique se a opção **Reconfiguração de autoatendimento** está **selecionada** para o grupo que está listado, o **SSPRSecurityGroupUsers**.  Coloque o cursor sobre o ícone de informações próximo a "selecionar grupo" e observe o que ele diz, "Define o grupo de usuários que têm permissão para redefinir suas próprias senhas." Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você simplesmente adicione usuários ao grupo SSPR.  Por último, observe a caixa de informações azul, "Estas configurações se aplicam apenas a usuários finais em sua organização. Os administradores estão sempre habilitados para redefinir a senha de autoatendimento e são obrigados a usar dois métodos de autenticação para redefinir a senha."
+1. As propriedades para reconfiguração de senha de autoatendimento são exibidas.  Verifique se a opção **Reconfiguração de autoatendimento** está **selecionada** para o grupo que está listado, o **SSPRSecurityGroupUsers**.  Coloque o cursor sobre o ícone de informações próximo a "selecionar grupo" e observe o que ele diz, "Define o grupo de usuários que têm permissão para redefinir suas próprias senhas." Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você simplesmente adicione usuários ao grupo SSPR.  Por último, observe a caixa de informações azul, "Estas configurações se aplicam apenas a usuários finais em sua organização. Os administradores estão sempre habilitados para redefinir a senha de autoatendimento e são obrigados a usar dois métodos de autenticação para redefinir a senha."
 
-5. No painel de navegação esquerdo de Redefinição de senha, selecione **Métodos de Autenticação**.
+1. No painel de navegação esquerdo de Redefinição de senha, selecione **Métodos de Autenticação**.
 
-6. Em Número de métodos necessários para a redefinição, selecione **1**. Observe a caixa de informações na tela.
+1. Em Número de métodos necessários para a redefinição, selecione **1**. Observe a caixa de informações na tela.
 
-7. Observe os diferentes métodos disponíveis para os usuários.  **Email** e **Telefone celular (apenas SMS)** já devem estar marcados; se não estiverem, selecione-os.
+1. Observe os diferentes métodos disponíveis para os usuários.  **Email** e **Telefone celular (apenas SMS)** já devem estar marcados; se não estiverem, selecione-os.
 
-8. No painel de navegação esquerdo de Redefinição de senha, selecione **Registro**.  
+1. No painel de navegação esquerdo de Redefinição de senha, selecione **Registro**.  
 
-9. Confirme se a configuração de Exigir que os usuários se registrem ao fazer logon está definida como **Sim**.  Mantenha o Número de dias antes que os usuários precisem reconfirmar suas informações de autenticação definido para 180.   Observe a caixa de informações na página.
+1. Confirme se a configuração de Exigir que os usuários se registrem ao fazer logon está definida como **Sim**.  Mantenha o Número de dias antes que os usuários precisem reconfirmar suas informações de autenticação definido para 180.   Observe a caixa de informações na página.
 
-10. No painel de navegação esquerdo de Redefinição de senha, selecione **Notificações**.  
+1. No painel de navegação esquerdo de Redefinição de senha, selecione **Notificações**.  
 
-11. Confirme se a configuração Notificar usuários sobre redefinições de senha está definida como **Sim**.  Mantenha a configuração de Notificar todos os administradores quando outros administradores redefinirem suas senhas definida como Não.
+1. Confirme se a configuração Notificar usuários sobre redefinições de senha está definida como **Sim**.  Mantenha a configuração de Notificar todos os administradores quando outros administradores redefinirem suas senhas definida como Não.
 
-12. Observe como o painel de navegação de redefinição de senha também inclui opções para exibir logs de auditoria e Uso e insights.
+1. Observe como o painel de navegação de redefinição de senha também inclui opções para exibir logs de auditoria e Uso e insights.
 
-13. **Saia** de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
+1. **Saia** de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
 
+### <a name="task-3"></a>Tarefa 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>Tarefa 3:  Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de registro para redefinição de senha de autoatendimento.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto ou uma conta de email pessoal que você possa acessar.
- 
+Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de registro para redefinição de senha de autoatendimento.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto ou uma conta de email pessoal que você possa acessar
+
 1. Abra o Microsoft Edge.
 
 2. Na barra de endereço, digite **login.microsoftonline.com**.
@@ -107,23 +111,25 @@ Neste laboratório, você, como administrador, percorrerá o processo de ativaç
 
 8. Agora você pode concluir sua assinatura.  Você deve estar na página de aterrissagem do portal do Azure.  Se o tempo de logon expirar, basta inserir novamente a senha, SC900-Lab.
 
-9. Saia do portal do Azure e feche a janela do navegador. 
+9. Saia do portal do Azure e feche a janela do navegador.
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>Tarefa 4 (Opcional): Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de redefinição de senha.
+### <a name="task-4-optional"></a>Tarefa 4 (opcional)
+
+Nesta tarefa, você, usando o usuário Alice Pena, passará pelo processo de redefinição de senha
 
 1. Abra o Microsoft Edge.
 
-2. Na barra de endereço, digite login.microsoftonline.com.
+2. Na barra de endereço, digite **login.microsoftonline.com**.
 
 3. Faça logon como Adele Vance, digitando seu email **AdeleV@WWLxZZZZ.onmicrosoft.com** (ZZZZZZ é a sua ID de titular exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione o botão **Avançar**. Você pode, em vez disso, ver a janela Escolher uma conta aberta; em caso afirmativo, selecione a conta de Adele Vance.
 
-4. Na janela Digitar senha, selecione **Esqueci minha senha**. 
+4. Na janela Digitar senha, selecione **Esqueci minha senha**.
 
 5. A janela para Voltar para a sua conta se abre.   Verifique se o email para Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, é mostrado na caixa email ou nome de usuário.  Se não, digite-o.  
 
 6. Na caixa vazia, digite os caracteres exibidos na imagem ou as palavras do áudio. Depois de digitá-los, selecione **Avançar**.
 
-7. A tela mostra Voltar para sua conta e mostra etapa de Verificação 1 > escolha uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para meu celular**.  Você deve digitar o número do seu celular.  Depois de digitá-lo, selecione o botão de **Texto**.  Se, durante o registro, você selecionou email, a janela Voltar para sua conta indicará que Você receberá um email com um código de verificação em seu email alternativo.  Selecione **Email**. 
+7. A tela mostra Voltar para sua conta e mostra etapa de Verificação 1 > escolha uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para meu celular**.  Você deve digitar o número do seu celular.  Depois de digitá-lo, selecione o botão de **Texto**.  Se, durante o registro, você selecionou email, a janela Voltar para sua conta indicará que Você receberá um email com um código de verificação em seu email alternativo.  Selecione **Email**.
 
 8. Insira o código de verificação e clique em **Avançar**.
 
@@ -137,11 +143,13 @@ Neste laboratório, você, como administrador, percorrerá o processo de ativaç
 
 13. Saia selecionando o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>Tarefa 5 (opcional):  Nesta tarefa, você, como administrador, verá resumidamente os registros de auditoria e os dados de Uso e Insights associados à redefinição de senha.
+### <a name="task-5-optional"></a>Tarefa 5 (opcional)
+
+Nesta tarefa, você, como administrador, verá resumidamente os registros de auditoria e os dados de Uso e Insights associados à redefinição de senha
 
 1. Abra o Microsoft Edge.
 
-2. Na barra de endereço, digite **portal.azure.com** 
+2. Na barra de endereço, digite **portal.azure.com**
 
 3. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
@@ -164,6 +172,6 @@ Neste laboratório, você, como administrador, percorrerá o processo de ativaç
 
 11. Feche as guias do navegador abertas.
 
+### <a name="review"></a>Revisão
 
-#### <a name="review"></a>Revisão
 Neste laboratório, você, como administrador, percorreu o processo de ativação da redefinição de senha de autoatendimento. Com o SSPR ativado, você assume a função de usuário e passa pelo processo de registro do SSPR e também pela redefinição de sua senha.  Por fim, você, como administrador, aprendeu onde acessar os registros de auditoria, dados de uso e insights para o SSPR.
