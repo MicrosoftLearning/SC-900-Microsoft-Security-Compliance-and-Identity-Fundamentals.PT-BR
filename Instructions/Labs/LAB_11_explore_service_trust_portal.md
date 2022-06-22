@@ -2,18 +2,18 @@
 lab:
   title: Explore o Portal de Confiança do Serviço
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557201"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381223"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratório: Explore o Portal de Confiança do Serviço
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
-Neste laboratório, vamos explorar os recursos e conteúdos disponíveis no Portal de Confiança do Serviço. Também vamos visitar a Central de Confiabilidade e navegar pelos seis princípios chave de privacidade.
+Neste laboratório, vamos explorar os recursos e conteúdos disponíveis no Portal de Confiança do Serviço. Você também visitará a Central de Confiabilidade para exibir informações sobre privacidade na Microsoft.
 
 **Tempo estimado**: 10 a 15 minutos
 
@@ -49,20 +49,14 @@ Nesta tarefa, vamos explorar o portal de Confiança do Serviço e os diferentes 
 
 ### <a name="task-2"></a>Tarefa 2:
 
-Nesta tarefa, vamos visitar a Central de Confiabilidade e navegar pelos seis princípios chave de privacidade da Microsoft.
+Nesta tarefa, você visitará a Central de Confiabilidade e navegará até informações que descrevem a privacidade na Microsoft.
 
-1. No topo da página Portal de Confiança do Serviço, selecione **Central de Confiabilidade** e depois **Página Inicial**. Uma nova guia será aberta no navegador, levando à Central de Confiabilidade, onde encontramos mais informações sobre segurança, conformidade e privacidade no Microsoft Cloud.
+1. No topo da página Portal de Confiança do Serviço, selecione **Central de Confiabilidade** e depois **Página Inicial**. Uma nova guia será aberta no navegador, levando à Central de Confiabilidade, onde encontramos mais informações sobre privacidade e muitos outros tópicos.  
 
-1. No topo da página, selecione **Privacidade** e depois **Recursos**.
-
-1. Selecione **Recursos de privacidade adicionais**.
-
-1. Selecione **Privacidade na Microsoft**.
-
-1. Verifique os seis princípios chave de privacidade.
+1. Você verá informações sobre nosso compromisso (da Microsoft) com você.  Lá, selecione **Saiba mais sobre a Privacidade da Microsoft**.  Role a página e explore os diferentes links para saber mais sobre privacidade na Microsoft.
 
 1. Feche as janelas do navegador para sair do Portal de Confiança do Serviço e da Central de Confiabilidade.
 
 ### <a name="review"></a>Revisão
 
-Neste laboratório, exploramos algumas das opções disponíveis no Portal de Confiança do Serviço, como acessar relatórios e como usar a Minha Biblioteca para salvar documentos para análises futuras.  Além disso, visitamos a Central de Confiabilidade para acessar e verificar os Princípios de privacidade da Microsoft.
+Neste laboratório, exploramos algumas das opções disponíveis no Portal de Confiança do Serviço, como acessar relatórios e como usar a Minha Biblioteca para salvar documentos para análises futuras.  Além disso, você visitou a Central de Confiabilidade para acessar e examinar informações sobre privacidade na Microsoft.
