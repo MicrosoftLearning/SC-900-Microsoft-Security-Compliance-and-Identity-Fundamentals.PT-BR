@@ -2,12 +2,12 @@
 lab:
   title: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557465"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542646"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
 
@@ -97,7 +97,7 @@ Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de regist
 2. Na barra de endereço, digite **login.microsoftonline.com**.
 
 3. Faça logon como Adele Vance,
-    1. Na janela Entrar, insira **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
     1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
     1. Se você receber um aviso para permanecer conectado, selecione **Sim**
 
