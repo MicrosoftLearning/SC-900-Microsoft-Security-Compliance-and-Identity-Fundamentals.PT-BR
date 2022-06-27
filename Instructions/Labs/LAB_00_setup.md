@@ -1,27 +1,28 @@
 ---
 lab:
   title: Instalação
-ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: ccbb76933233296b92dabd0e03fc63a0b51bf139
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489242"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458307"
 ---
 # <a name="lab-setup"></a>Laboratório: Instalação
 
-### <a name="lab-scenario"></a>Cenário do laboratório
+## <a name="lab-scenario"></a>Cenário do laboratório
 
-Neste laboratório, você vai resgatar seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Isso contribui para uma experiência contínua ao alternar entre o Microsoft 365 e o Azure. Como parte da configuração, você também ativará o recurso de log de auditoria no seu locatário do Microsoft 365, já que isso pode levar um tempo para entrar em vigor. O Microsoft 365 usa logs de auditoria para insights de usuário e atividades identificadas nas políticas e nos insights analíticos.
+Esse laboratório de configuração é composto por duas tarefas separadas.  A primeira delas é aplicável e recomendada somente se o ambiente de laboratório inclui o uso de um Azure Pass. O foco da segunda tarefa é habilitar o Log de Auditoria da Microsoft e se aplica e é recomendada independentemente de seu ambiente usa ou não um Azure Pass.
 
 **Tempo estimado**: 5-10 minutos
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
-Nesta tarefa de configuração, você vai resgatar seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Isso contribui para uma experiência mais contínua ao alternar entre o Microsoft 365 e o Azure.
+### <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
+
+Essa tarefa se aplica e é recomendada somente se o ambiente de laboratório que você está usando inclui um Azure Pass. Nesta tarefa, você vai resgatar seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Isso contribui para uma experiência mais contínua ao alternar entre o Microsoft 365 e o Azure.
 
 1. Caso você esteja com alguma janela do navegador aberta, é recomendável fechá-la.
 
-1. Clique com o botão direito no ícone do Microsoft Edge e selecione **Nova janela InPrivate** para abrir uma nova sessão InPrivate no navegador. Outro 
+1. Clique com o botão direito no ícone do Microsoft Edge e selecione **Nova janela InPrivate** para abrir uma nova sessão InPrivate no navegador.
 
 1. Na barra de endereços, insira **www.microsoftazurepass.com**.  
 
@@ -38,7 +39,8 @@ Nesta tarefa de configuração, você vai resgatar seu Azure Pass usando as mesm
 
 1. Deixe a guia do navegador com a página inicial do Portal do Azure aberta, você voltará para ela na próxima demonstração.
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Configuração Parte 2 – Habilitar o log de auditoria do Microsoft 365
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Configuração Parte 2 – Habilitar o log de auditoria do Microsoft 365
+
 Nesta tarefa de configuração, você ativará o recurso de log de auditoria no Microsoft 365.  Embora a documentação indique que o log de auditoria é ativado por padrão, a maioria dos locatários de laboratório não tem este recurso habilitado e pode levar horas para que esta alteração entre em vigor.  Ativar este recurso é benéfico porque o Microsoft 365 usa logs de auditoria para insights de usuário e atividades identificadas nas políticas e nos insights analíticos.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
@@ -60,6 +62,6 @@ Nesta tarefa de configuração, você ativará o recurso de log de auditoria no 
 
 1. Volte à página inicial do centro de conformidade do Microsoft 365 selecionando **Página Inicial** à esquerda no painel de navegação.
 
-#### <a name="review"></a>Revisão
+### <a name="review"></a>Revisão
 
 Nesta configuração, você resgatou seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Você também ativou o recurso de log de auditoria no Microsoft 365.

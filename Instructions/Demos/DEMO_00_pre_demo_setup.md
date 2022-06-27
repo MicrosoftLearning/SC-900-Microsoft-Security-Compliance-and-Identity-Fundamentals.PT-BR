@@ -1,18 +1,19 @@
 ---
 Pre-Demo Setup:
   title: Configuração de demonstração
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557249"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458319"
 ---
-# <a name="pre-demo-setup"></a>Configuração antes da demonstração
+## <a name="pre-demo-setup"></a>Configuração antes da demonstração
+A configuração é composta por duas tarefas separadas.  A primeira delas é aplicável e recomendada somente se o ambiente de laboratório inclui o uso de um Azure Pass. O foco da segunda tarefa é habilitar o Log de Auditoria da Microsoft e se aplica e é recomendada independentemente de seu ambiente usa ou não um Azure Pass.
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
+### <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
 
-Nesta tarefa de configuração, você vai resgatar seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Isso contribui para uma experiência mais contínua ao alternar entre o Microsoft 365 e o Azure.
+Essa tarefa se aplica e é recomendada somente se o ambiente de demonstração que você está usando inclui um Azure Pass. Nesta tarefa, você vai resgatar seu Azure Pass usando as mesmas credenciais que seu locatário do Microsoft 365.  Isso contribui para uma experiência mais contínua ao alternar entre o Microsoft 365 e o Azure.
 
 1. Caso você esteja com alguma janela do navegador aberta, é recomendável fechá-la.
 

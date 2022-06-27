@@ -2,12 +2,12 @@
 lab:
   title: Explorar o gerenciamento de acesso no Azure AD com acesso condicional
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557272"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542598"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratório: Explore o gerenciamento de acesso no Azure AD com Condicional
 
@@ -28,7 +28,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha do usuário Debra
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
-3. Selecione **Azure Active Directory**.  
+3. No canto superior esquerdo da tela, ao lado de onde diz Microsoft Azure, selecione o ícone de menu Mostrar portal (as três linhas horizontais também conhecidas como ícone de hambúrguer) e, no painel de navegação esquerdo, em Favoritos, selecione Azure Active Directory. Se ele não estiver listado em favoritos, na caixa de pesquisa, insira Azure Active Directory e, na lista de resultados, selecione **Azure Active Directory**.
 
 4. No painel de navegação esquerdo selecione **Usuários**.
 
