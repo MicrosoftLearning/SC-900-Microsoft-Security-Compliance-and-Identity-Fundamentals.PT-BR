@@ -2,12 +2,12 @@
 lab:
   title: Explore os Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557501"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650084"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratório: Explore os Grupos de Segurança de Rede (NSGs) do Azure
 
@@ -151,9 +151,9 @@ As regras de saída padrão de NSG permitem o tráfego de saída na internet, en
 1. Feche a conexão da área de trabalho remota selecionando o **X** na parte superior central da página, onde o endereço IP é exibido.  Uma janela pop-up vai indicar que sua sessão remota será desconectada. Selecione **OK**.
 1. Nesta tarefa, você configurou uma rega de saída com sucesso no NSG para bloquear o tráfego de internet de saída.
 
-### <a name="task-5"></a>Tarefa 5
+### <a name="tear-down"></a>Desativar
 
-**IMPORTANTE**: Nesta tarefa, vamos excluir o grupo de recursos e todos os recursos que ele contém.   Isso é importante para evitar preços adicionais.
+As VMs são um recurso cobrado e, embora o custo da execução delas nesta demonstração seja minúsculo, é recomendável excluir o grupo de recursos que contém a VM e os recursos associados ao concluir o curso.
 
 1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
 
@@ -163,6 +163,7 @@ As regras de saída padrão de NSG permitem o tráfego de saída na internet, en
 1. No centro superior da página LabsSC900, selecione **Excluir grupo de recursos**.
 1. Na nova janela aberta, insira o nome do grupo de recursos, **LabsSC900**, para confirmar a exclusão do grupo de recursos e de todos os seus recursos. Depois, selecione **Excluir** na parte inferior da página.
 1. Pode levar alguns minutos para que todos os recursos e o grupo de recursos sejam excluídos.
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

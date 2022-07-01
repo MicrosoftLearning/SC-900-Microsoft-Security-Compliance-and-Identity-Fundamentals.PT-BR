@@ -2,12 +2,12 @@
 lab:
   title: Explorar rótulos de confidencialidade no Microsoft Purview
   module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 65cf71c24e66e5c94fb27a1479693338a3cd7091
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557585"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741838"
 ---
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratório: Explorar rótulos de confidencialidade no Microsoft Purview
 
@@ -88,7 +88,7 @@ Nesta tarefa, vamos acompanhar o processo de aplicação de rótulos da perspect
 
 1. Selecione **+ Novo documento em branco** e insira algum texto na página.  Na barra azul no topo da página, selecione a seta para baixo, perto de DocumentoXX - Salvo, e insira **Rótulo-teste** na caixa do Nome do Arquivo.
 
-1. Na barra do menu superior, selecione **Confidencialidade**. Se você não vir essa opção imediatamente, atualize a página. No menu suspenso, selecione **Confidencial - Finanças**.
+1. Na barra do menu superior, selecione **Confidencialidade**. Se você não vir essa opção imediatamente, atualize a página. No menu suspenso, selecione **Confidencial - Finanças**.  OBSERVAÇÃO:  A opção Confidencialidade pode levar até 15 minutos para aparecer.
 
 1. Na barra de menu superior, selecione **Exibição** e depois **Modo de Exibição de Leitura**.
 
@@ -112,7 +112,7 @@ Além da marcação de conteúdo, a configuração de proteção de rótulos foi
 
 1. Usando o navegador da Web na VM do laboratório, faça logon na conta de email para a qual você enviou o documento.  Lembre-se de que o email pode ter sido direcionado à pasta de lixo eletrônico.  Quando tentar abrir o arquivo do word em anexo, encontramos uma notificação de que não temos permissão para abrir o arquivo.
 
-1. Feche as guias do navegador abertas.
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

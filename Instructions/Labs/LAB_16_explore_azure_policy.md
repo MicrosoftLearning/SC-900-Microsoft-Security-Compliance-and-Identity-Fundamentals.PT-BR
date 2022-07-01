@@ -2,12 +2,12 @@
 lab:
   title: Explorar o Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542586"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741910"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
 
@@ -125,6 +125,8 @@ Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, c
     1. Abaixo de Serviços do Azure, selecione Política do Azure.
     1. No meio da página, encontramos uma lista das atribuições de políticas/iniciativas do Azure.  Selecione as reticências para a atribuição de política Exigir uma marca no grupo de recursos. Depois, selecione Excluir atribuição.
     1. Vai aparecer uma solicitação para confirmar se você deseja excluir a atribuição.  Selecione Sim.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

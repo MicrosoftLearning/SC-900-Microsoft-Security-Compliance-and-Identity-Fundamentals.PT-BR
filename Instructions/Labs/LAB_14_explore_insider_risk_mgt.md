@@ -2,12 +2,12 @@
 lab:
   title: Explorar o gerenciamento de riscos internos no Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741874"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratório: Explorar o gerenciamento de riscos internos no Microsoft Purview
 
@@ -115,6 +115,8 @@ Nesta tarefa, vamos acompanhar a criação de uma política.
 1. Estamos de volta à guia Políticas da página Gerenciamento de risco interno.  A política que acabamos de criar aparecerá listada.  
 
 1. Na política recém-criada, o campo “Usuários no escopo” representa os usuários a que são atribuídas pontuações de risco pela política.  A atribuição de pontuações de risco aos usuários ocorre quando a política é disparada, por isso o valor está indicando 0.  Um administrador pode configurar que a política comece a atribuir pontuações de risco a usuários específicos, com base na atividade detectada pelas políticas selecionadas, E que ignora o requisito de que um evento disparador deve ser detectado primeiro.  Para fazer isso, selecione o círculo vazio próximo ao nome da política para selecionar a política. Depois, selecione **Começar atividade de pontuação para os usuários**, que aparece acima da tabela da política.  Preencha todos os campos e depois selecione **Começar a atividade de pontuação**.  Pode levar 24 horas para os usuários aparecerem na guia ‘Usuários’. Após esse período, é possível selecionar os usuários a partir dessa guia para verificar as atividades detectadas.  Selecione **Fechar** na parte inferior da janela.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

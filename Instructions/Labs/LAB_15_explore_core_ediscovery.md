@@ -2,12 +2,12 @@
 lab:
   title: Explorar o fluxo de trabalho da Descoberta Eletrônica (Standard)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542622"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649964"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratório: Explorar o fluxo de trabalho da Descoberta Eletrônica (Standard)
 
@@ -126,6 +126,8 @@ Com uma retenção estabelecida, vamos criar uma consulta de pesquisa.  Quando a
     1. No segundo campo, selecione a localização desejada para armazenar o arquivo exportado. Depois, selecione **Iniciar**.  Quando o processo de download for concluído, selecione **Fechar** e fecha essa guia do navegador.
     1. Estamos de volta à janela “Retenção Teste - Pesquisa de Vendas_Export”.  Selecione **Fechar**.
     1. Verifique a localização do download para conferir se ele foi concluído com sucesso.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

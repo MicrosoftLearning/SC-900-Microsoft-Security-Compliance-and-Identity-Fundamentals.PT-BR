@@ -2,12 +2,12 @@
 Demo:
   title: Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557524"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741850"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demonstração: Grupos de Segurança de Rede (NSGs) do Azure
 
@@ -152,9 +152,9 @@ Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o 
 
 1. Retorne à página inicial do portal do Azure selecionando **Microsoft Azure** na barra azul na parte superior da página.
 
-### <a name="tear-down"></a>Desativar
+### <a name="post-course-delivery-tear-down"></a>Desinstalação após a entrega do curso
 
-**IMPORTANTE**: Nesta tarefa, vamos excluir o grupo de recursos e todos os recursos que ele contém.   Isso é importante para evitar preços adicionais.
+As VMs são um recurso cobrado e, embora o custo da execução delas nesta demonstração seja minúsculo, é recomendável excluir o grupo de recursos que contém a VM e os recursos associados ao concluir o curso.
 
 1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
 
