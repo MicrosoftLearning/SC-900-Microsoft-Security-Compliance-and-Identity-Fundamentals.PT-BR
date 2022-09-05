@@ -2,18 +2,18 @@
 lab:
   title: Explore os Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
+ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650084"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "147695288"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratório: Explore os Grupos de Segurança de Rede (NSGs) do Azure
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
-Neste laboratório, vamos explorar a função dos grupos de segurança de rede no Azure.  Para isso, vamos criar uma VM sem nenhum grupo de segurança de rede (NSG).  Assim, sem nenhum NSG para filtrar o tráfego, todas as portas da VM ficam expostas à internet pública.  Então, você vai ter a experiência de criar um NSG e atribuir a interface da VM a esse NSG.  Após a configuração, vamos testar a conexão à VM usando as regras padrão de NSG e também as regras criadas por você.
+Neste laboratório, vamos explorar a função dos grupos de segurança de rede no Azure.  Para isso, vamos criar uma VM sem nenhum NDG (grupo de segurança de rede). Então, você vai ter a experiência de criar um NSG e atribuir a interface da VM a esse NSG.  Depois de configurado, você observará as regras de entrada e saída padrão e criará novas regras.
   
 **Tempo estimado**: 15 a 20 minutos
 
@@ -37,37 +37,26 @@ Nesta tarefa, vamos criar uma máquina virtual Windows 10.
     1. Grupo de recursos: selecione **Criar** e, no campo Nome, insira **LabsSC900-RG** e selecione **OK**.
     1. Nome da máquina virtual:  insira **SC900-WinVM**.
     1. Região: se o campo de região não estiver pré-preenchido, selecione a região mais próxima de sua localização.
-    1. Imagem: no menu suspenso, selecione **Windows 10 Pro, Versão 20H2 – Gen 1**.
+    1. Imagem: no menu suspenso, selecione **Windows 10 Pro, Versão 21H2 – Gen 2**.
     1. Tamanho: selecione **exibir todos os tamanhos** no menu suspenso, escolha **B2s** e **Selecionar** na parte inferior da página.
     1. Nome de usuário:  Insira um nome de usuário de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
     1. Senha:  Insira uma senha de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
-    1. Portas de entrada públicas: selecione **Nenhuma**.
+    1. Portas de entrada públicas: deixe o padrão, **Permitir portas selecionadas**.
+    1. Selecione portas de entrada: deixe o padrão, **RDP 3389**.
     1. Licenciamento: selecione **Confirmo que tenho uma licença do Windows 10 qualificada com direitos de hospedagem multilocatário**, para que apareça uma marca de seleção na caixa.
     1. Selecione **Avançar: Discos**.
 1. Agora estamos na guia Discos para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Rede >** .
-1. Agora estamos na guia Rede para configurar a VM.  Preencha as informações a seguir (para o que não estiver na lista, mantenha a configuração padrão):
-    1. Grupo de segurança de rede NIC: selecione **Nenhum**.  Observação: o motivo pelo qual você seleciona Nenhum nesta etapa é porque queremos percorrer com você as etapas de configuração de um NSG do zero, que são abordadas nas tarefas posteriores.
-
-    1. Selecione **Avançar:  Gerenciamento >** .
-1. Agora estamos na guia Gerenciamento para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Avançado>** .
-1. Agora estamos na guia Avançado para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Marcas>** .
-1. Agora estamos na guia Marcas para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Examinar + Criar>** .
-1. Revise a configuração da VM.  Alguns pontos a observar: O endereço IP dessa VM é público e ela não tem um grupo de segurança de rede NIC.  Em termos de segurança, a VM está exposta.  Nós vamos abordar essa questão em uma próxima tarefa. Selecione Criar.  Pode levar alguns minutos até a implantação da VM ser concluída.
-1. Observe o nome do adaptador de rede, **sc900-winvmXXX** (o XXX é específico do adaptador de rede da VM).
+1. Agora estamos na guia Rede para configurar a VM.  Para o grupo de segurança de rede NIC, selecione **Nenhum**. Mantenha todas as outras configurações com seus valores padrão.  Observação: a finalidade de selecionar nenhum nesta etapa é percorrer as etapas de criação de um grupo de segurança de rede do zero, na tarefa subsequente.
+1. Na parte inferior da página, selecione **Avançar: Examinar + Criar>** . Depois que a validação for aprovada, selecione **criar**. Pode levar alguns minutos até a implantação da VM ser concluída.
 1. Após a conclusão da implantação da VM, selecione **Ir para o recurso**.
-1. Agora estamos na página SC900-WinVM.  Observe o endereço IP público.
+1. Agora estamos na página SC900-WinVM.
 1. No topo da página, selecione **Conectar** e depois **RDP** no menu suspenso.
-1. Verifique se o endereço IP está configurado como Endereço IP público, deixe o número da porta como padrão e selecione **Baixar arquivo DRP**.
-1. Abra o arquivo baixado e selecione **Conectar**.
-1. Suas credenciais serão solicitadas.  Insira o nome de usuário e a senha que você usou quando criou a VM.
-1. Vai aparecer uma janela para conectar a Área de Trabalho Remota dizendo “Não foi possível verificar a identidade do computador remoto.  Deseja conectar mesmo assim?”  Selecione **Sim**.
-1. Você acaba de se conectar à VM do Windows criada agora mesmo. Siga as solicitações para concluir a configuração do Windows. Embora você tenha se conectado à VM via RDP e uma Porta RDP comum, todas as portas dessa VM estão abertas e não tem nada filtrando o tráfego.
-1. Feche a conexão da área de trabalho remota selecionando o **X** na parte superior central da página, onde o endereço IP é exibido.  Uma janela pop-up vai indicar que sua sessão remota será desconectada. Selecione **OK**.
-1. Você está de volta à página SC900-WinVM no portal do Azure.  Deixe esta guia do navegador aberta para a próxima tarefa.
+1. Observe que o pré-requisito de porta não é atendido.  Para permitir atender ao pré-requisito, uma regra de segurança de rede de entrada com a porta de destino 3389, usada pelo RDP, deve ser configurada.  Você fará isso na próxima tarefa quando criar um grupo de segurança de rede.
+1. Deixe esta guia do navegador aberta.
 
 ### <a name="task-2"></a>Tarefa 2:
 
-Criar um grupo de segurança de rede e atribuir o adaptador de rede da VM a esse NSG.
+Crie um grupo de segurança de rede, atribua a interface de rede da VM a esse NSG e crie uma regra de entrada para o tráfego RDP.
 
 1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
 
@@ -79,42 +68,31 @@ Criar um grupo de segurança de rede e atribuir o adaptador de rede da VM a esse
 
     1. Grupo de recursos:  **LabsSC900**
     1. Nome:  **NSG-SC900**
-    1. Região:  mantenha o valor padrão **(EUA) Leste dos EUA**
+    1. Região:  mantenha o valor padrão.
     1. Selecione **Revisar + criar** e depois **Criar**.
 1. Após a conclusão da implantação, selecione **Ir para o recurso**.
-1. Observe as regras de entrada e saída no NSG.  Apesar de o NSG ter sido criado e existirem regras padrão para filtrar o tráfego, nenhuma interface foi associada ao NSG. A VM ainda está vulnerável, com todas as portas expostas à internet pública.
+1. Observe as regras de entrada e saída no NSG.  Embora o NSG tenha sido criado e haja regras padrão para filtrar o tráfego, nenhuma interface foi associada ao NSG.
 1. À esquerda no painel de navegação, na página NSG-SC900, em Configurações, selecione **Adaptadores de rede**.
 1. Selecione **+Associar**, acima da caixa de pesquisa.
-1. Na página para associar o adaptador de rede, selecione **sc900-winvmXXX** (o XXX é específico do adaptador de rede da VM).  Durante a associação do adaptador, você encontra uma caixa de notificação no canto superior direito da tela.
+1. No lado direito da página, está um campo para selecionar o adaptador de rede a ser associado ao NSG. Selecione a seta para baixo, escolha **sc900-winvmXXX** (o XXX será específico para a interface de rede da VM) e selecione **ok** na parte inferior da janela.
 1. Quando o adaptador tiver sido associado ao NSG, ele vai aparecer no topo da lista.
-1. Com a interface da VM associada ao grupo de segurança de rede e as regras padrão de NSG, qualquer tentativa de conexão à VM vai dar em falha.  
-1. No canto superior esquerdo da página, selecione **Todos os serviços**. Em Recursos, selecione **Máquinas Virtuais**.
-1. Na página Máquinas Virtuais, selecione **SC900-WinVM**.
-1. No topo da página **SC900-WinVM**, selecione **Conectar** e depois **RDP**.
-1. Verifique se o endereço IP está configurado como Endereço IP público, deixe o número da porta como padrão e selecione **Baixar arquivo DRP**.
-1. Abra o arquivo baixado e selecione **Conectar**.
-1. Depois de alguns segundos, vai aparecer uma mensagem de falha indicando que não foi possível se conectar à Área de Trabalho remota.  Selecione **OK**.
-
-### <a name="task-3"></a>Tarefa 3
-
-Nesta tarefa, você criará uma regra de NSG para permitir o tráfego de entrada utilizando RDP na porta 3389.  Depois, vamos testar essa regra tentando nos conectar à VM via RDP.
-
-1. Abra a guia SC900-WinVM – Microsoft Azure no seu navegador.
-
-1. Do lado esquerdo do painel de navegação, em Configurações, selecione **Rede**.
-1. Ao selecionar a guia Regras da porta de entrada, você encontra as regras de entrada padrão. Não é possível remover as regras padrão, mas você pode substituí-las criando regras com prioridades mais altas. Do lado direito da página, selecione **Adicionar regra da porta de entrada**:
-1. Na página Adicionar regra de segurança de entrada, especifique as seguintes configurações:
+1. No painel de navegação esquerdo, selecione **Regras de segurança de entrada**.
+1. As regras de entrada padrão negam todo o tráfego de entrada que não é de uma Vnet ou de um balanceador de carga do Azure, portanto, você precisa configurar uma regra para permitir o tráfego RDP de entrada (tráfego na porta 3389). Lembre-se de que não é possível remover as regras padrão, mas você pode substituí-las criando regras com prioridades mais altas.
+1. Na parte superior da página, selecione **Adicionar**:
+1. Na janela Adicionar regra de segurança de entrada, especifique as seguintes configurações:
     1. Fonte:  **Qualquer**
 
-    1. Intervalos de portas de origem: *
+    1. Intervalos de portas de origem: **\***
     1. Destino:  **Qualquer**
     1. Serviço:  **RDP**
     1. Ação:  **Permitir**
     1. Prioridade:  **300**; Observação: regras com números menores têm maior prioridade e são processadas primeiro.
     1. Nome:  **AllowRDP**
 1. Selecione **Adicionar**
-1. Quando a regra for provisionada, ela vai aparecer na lista de regras de entrada.
-1. Agora veja se você consegue se conectar à VM usando o RDP.  Selecione **Soluções**, à esquerda no painel de navegação.
+1. Depois que a regra for provisionada, ela aparecerá na lista de regras de entrada (talvez seja necessário atualizar a tela).
+1. Agora veja se você consegue se conectar à VM usando o RDP.  Selecione o campo de pesquisa na parte superior da página, ao lado de onde está o Microsoft Azure, para exibir os serviços recentes.  Selecione **Máquinas virtuais**.
+1. Selecione a VM, **SC900-WinVM**.
+1. No topo da página, selecione **Conectar** e depois **RDP** no menu suspenso.
 1. Verifique se o endereço IP está configurado como Endereço IP público, deixe o número da porta como padrão e selecione **Baixar arquivo DRP**.
 1. Abra o arquivo baixado e selecione **Conectar**.
 1. Suas credenciais serão solicitadas.  Insira o nome de usuário e a senha que você usou quando criou a VM.
@@ -122,7 +100,7 @@ Nesta tarefa, você criará uma regra de NSG para permitir o tráfego de entrada
 1. Agora você se conectou à VM. Nesse caso, foi possível se conectar à VM porque a regra de tráfego de entrada que você criou permite o tráfego de entrada para a VM via RDP.
 1. Deixe a VM aberta; vamos usá-la na próxima tarefa.
 
-### <a name="task-4"></a>Tarefa 4
+### <a name="task-3"></a>Tarefa 3
 
 As regras de saída padrão de NSG permitem o tráfego de saída na internet, então vamos verificar se você pode se conectar à internet.  Você vai ter a experiência de criar uma regra de saída personalizada para bloquear o tráfego de saída na internet e testar essa regra.
 
@@ -135,7 +113,7 @@ As regras de saída padrão de NSG permitem o tráfego de saída na internet, en
 1. Na página Adicionar regra de segurança de saída, especifique as seguintes configurações:
     1. Fonte:  **Qualquer**
 
-    1. Intervalos de portas de origem: *
+    1. Intervalos de portas de origem:  **\***
     1. Destino:  **Marca de serviço**
     1. Marca de serviço de destino:  **Internet**
     1. Serviço:  **Personalizado** (mantenha o padrão)
@@ -167,4 +145,4 @@ As VMs são um recurso cobrado e, embora o custo da execução delas nesta demon
 
 ### <a name="review"></a>Revisão
 
-Neste laboratório, tivemos a experiência de configurar a VM com e sem um grupo de segurança de rede (NSG) e observamos as regras de NSG padrão.  Além disso, também passamos pela criação de regras de NSG.
+Neste laboratório, você percorreu o processo de configuração de um NSG (grupo de segurança de rede), associando esse NSG à interface de rede de uma máquina virtual e adicionando novas regras ao NSG para permitir o tráfego RDP de entrada e bloquear o tráfego da Internet de saída.

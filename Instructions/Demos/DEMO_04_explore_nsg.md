@@ -2,12 +2,12 @@
 Demo:
   title: Grupos de Segurança de Rede (NSGs) do Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
+ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741850"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "147695300"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demonstração: Grupos de Segurança de Rede (NSGs) do Azure
 
@@ -31,37 +31,24 @@ Nesta demonstração, você mostrará a funcionalidade de um NSG (grupo de segur
     1. **Nome da máquina virtual**:  insira **SC900-WinVM**.
     1. **Região**:  mantenha o valor padrão.
     1. **Opções de disponibilidade**: selecione **Nenhuma redundância de infraestrutura necessária**.  OBSERVAÇÃO: é muito importante que as opções de disponibilidade sejam definidas como Nenhuma redundância de infraestrutura necessária, caso contrário, a demonstração não funcionará como planejado.  Ter uma opção de disponibilidade requer um NSG e estamos criando intencionalmente a VM sem um NSG.
-    1. **Imagem**: no menu suspenso, selecione **Windows 10 Pro, Versão 20H2 – Gen 1**.
+    1. **Imagem**: no menu suspenso, selecione **Windows 10 Pro, Versão 21H2 – Gen 2**.
     1. **Tamanho**: selecione **exibir todos os tamanhos** no menu suspenso, escolha **B2s** e **Selecionar** na parte inferior da página.
     1. **Nome de usuário**:  Insira um nome de usuário de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
     1. **Senha**:  Insira uma senha de sua escolha.  Tome nota do valor, pois você precisará dele para acessar a VM.
-    1. **Portas de entrada públicas**: você pode deixar a configuração padrão (não importa o que você selecionar aqui, pois as configurações de rede substituirão o que for selecionado).
+    1. **Portas de entrada públicas**: deixe o padrão, **Permitir portas selecionadas**.
+    1. **Selecionar portas de entrada**: deixe o padrão, **RDP 3389**
     1. **Licenciamento**: selecione **Confirmo que tenho uma licença do Windows 10 qualificada com direitos de hospedagem multilocatário**, para que apareça uma marca de seleção na caixa.
     1. Selecione **Avançar: Discos**.
 
 1. Agora estamos na guia Discos para configurar a VM.  Deixe todas as configurações como padrão e selecione **Avançar: Rede >** .
+1. Agora estamos na guia Rede para configurar a VM.  Para o grupo de segurança de rede NIC, selecione **Nenhum**. Mantenha todas as outras configurações com seus valores padrão.
+1. Na parte inferior da página, selecione **Avançar: Examinar + Criar>** . Depois que a validação for aprovada, selecione **criar**. Pode levar alguns minutos até a implantação da VM ser concluída.
+1. Após a conclusão da implantação da VM, selecione **Ir para o recurso**.
+1. Agora estamos na página SC900-WinVM.
+1. No topo da página, selecione **Conectar** e depois **RDP** no menu suspenso.
+1. Observe que o pré-requisito de porta não é atendido.  Para permitir atender ao pré-requisito, uma regra de segurança de rede de entrada com a porta de destino 3389, usada pelo RDP, deve ser configurada.  Você fará isso na próxima tarefa quando criar um grupo de segurança de rede.
+1. Deixe esta guia do navegador aberta.
 
-1. Agora estamos na guia Rede para configurar a VM.  Preencha as informações a seguir (para o que não estiver na lista, mantenha a configuração padrão):
-    1. Grupo de segurança de rede NIC: selecione **Nenhum**.  Observação: Ao selecionar Nenhum, você está garantindo que a NIC não tenha um NSG.  Em uma etapa seguinte da demonstração, você criará um NSG e atribuirá a NIC da VM ao NSG criado.
-    1. Como as outras configurações da VM serão mantidas como padrão, prossiga e selecione Avançar: **Revisar+ Criar>** .
-
-1. Revise a configuração da VM.  Alguns pontos a observar: O endereço IP dessa VM é público e ela não tem um grupo de segurança de rede NIC.  Em termos de segurança, a VM está exposta.  Nós vamos abordar essa questão em uma próxima tarefa. Selecione **Criar**.  Pode levar alguns minutos até a implantação da VM ser concluída.
-
-1. Observe o nome do adaptador de rede, **sc900-winvmXXX** (o XXX é específico do adaptador de rede da VM).
-
-1. Após a conclusão da implantação da VM, selecione **Ir para o recurso**.  Agora estamos na página SC900-WinVM.  Observe o endereço IP público.
-
-1. No painel de navegação esquerdo, selecione **Rede** e observe a interface de rede **sc900-winvmXXX** (o XXX será específico para a interface de rede da sua VM).  Não deve haver regras de entrada ou saída associadas à interface.  
-
-1. Na parte superior da página, selecione **Conectar**, pois é importante verificar se você já pode se conectar à VM.
-    1. Na parte superior da página, verifique se **RDP** está selecionado (sublinhado).
-    1. Verifique se o endereço IP está configurado como Endereço IP público, deixe o número da porta como padrão e selecione **Baixar arquivo DRP**.
-    1. **Abra** o arquivo baixado e na janela que for exibida, selecione **Conectar**.
-    1. Uma janela será aberta solicitando suas credenciais. Se a janela padrão solicitar um PIN, selecione **Mais opções** e selecione **Usar uma conta diferente**.   Suas credenciais serão solicitadas.  Insira o nome de usuário e a senha que você usou quando criou a VM.
-    1. Vai aparecer uma janela para conectar a Área de Trabalho Remota dizendo “Não foi possível verificar a identidade do computador remoto.  Deseja conectar mesmo assim?”  Selecione **Sim**.
-    1. Você acaba de se conectar à VM do Windows criada agora mesmo. Conclua a configuração do Windows. Embora você tenha se conectado à VM via RDP e uma Porta RDP comum, todas as portas dessa VM estão abertas e não tem nada filtrando o tráfego.  Feche a conexão da área de trabalho remota selecionando o **X** na parte superior central da página, onde o endereço IP é exibido.  Uma janela pop-up vai indicar que sua sessão remota será desconectada. Selecione **OK**.
-
-1. Você está de volta à página SC900-WinVM no portal do Azure.  Deixe esta guia do navegador aberta para a próxima tarefa.
 
 ### <a name="pre-demo-setup-part-2"></a>Configuração pré-demonstração, parte 2
 
@@ -77,7 +64,7 @@ Crie um grupo de segurança de rede, mas NÃO atribua a interface de rede da VM 
     1. Assinatura:  Azure Pass – Sponsorship
     1. Grupo de recursos:  **LabsSC900-RG**
     1. Nome:  **NSG-SC900**
-    1. Região:  mantenha o valor padrão **(EUA) Leste dos EUA**
+    1. Região:  mantenha o valor padrão
     1. Selecione **Revisar + criar** e depois **Criar**.
 
 1. Assim que a implantação for concluída, selecione **Ir para o recurso** e verifique se tudo está correto.  Deve haver 3 regras de entrada padrão, 3 regras de saída padrão, nenhuma sub-rede e nenhuma interface associada ao NSG.  Retorne para a **Página Inicial** do portal do Azure.  
@@ -102,14 +89,10 @@ Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o 
     1. Na barra de pesquisa, na parte superior da página, insira e selecione **Máquinas Virtuais**.
     1. Na página Máquinas Virtuais, selecione **SC900-WinVM**.
     1. Na parte superior da página da SC900-WinVM, selecione **Conectar** e selecione **RDP**.
-    1. Verifique se o endereço IP está configurado como Endereço IP público, deixe o número da porta como padrão e selecione **Baixar arquivo DRP**.
-    1. **Abra** o arquivo baixado e selecione **Conectar**.
-    1. Depois de alguns segundos, vai aparecer uma mensagem de falha indicando que não foi possível se conectar à Área de Trabalho remota. Selecione **OK**.
+    1. Observe que o pré-requisito de porta não é atendido.  Para permitir atender ao pré-requisito, uma regra de segurança de rede de entrada com a porta de destino 3389, usada pelo RDP, deve ser configurada.  
 
-1. Agora que você mostrou o impacto das regras de entrada padrão do NSG, você precisa criar uma nova regra para permitir o tráfego RDP de entrada.  Destaque que não é possível excluir as regras padrão existentes, que só é possível criar novas com prioridade mais alta.
-    1. Do lado esquerdo do painel de navegação, em Configurações, selecione **Rede**.  Você está na página de rede da VM e, embora possa criar uma regra de entrada e uma regra de saída a partir daqui, volte para a página de NSG, afinal a demonstração é sobre o NSG.  **Selecione NSG-SC900**. É o link no meio da janela.
-
-1. Agora você está na página da visão geral do NSG.  Observe as informações sobre o NSG. No painel de navegação esquerdo da página do NSG, em Configurações, selecione **Regras de segurança de entrada** e selecione **+ Adicionar** na parte superior da página. Na página Adicionar regra de segurança de entrada, fale sobre as várias configurações. É recomendável que você realmente crie a regra para permitir o tráfego RDP de entrada, com as seguintes configurações:
+1. Agora, crie uma regra para permitir o tráfego RDP de entrada.  Destaque que não é possível excluir as regras padrão existentes, que só é possível criar novas com prioridade mais alta. Do lado esquerdo do painel de navegação, em Configurações, selecione **Rede**.  Você está na página de rede da VM.
+1. Verifique se a guia **Regras de porta de entrada** está selecionada (sublinhada) e selecione **Adicionar regra de porta de entrada** para criar a regra e permitir o tráfego RDP de entrada, com as seguintes configurações:
     1. Fonte: **Qualquer**
     1. Intervalos de portas de origem: **\***
     1. Destino: **Qualquer**
@@ -120,7 +103,7 @@ Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o 
     1. Selecione **Adicionar**
     1. Quando a regra for provisionada, ela vai aparecer na lista de regras de entrada.
 
-1. Agora verifique as **Regras de segurança de saída**.  Selecione **+ Adicionar** na parte superior da página e fale sobre as várias configurações.  Recomendo criar a regra: As configurações abaixo criam uma regra para negar o tráfego de saída da Internet:
+1. Agora, selecione a guia **Regras de porta de saída** e examine as regras padrão.  Selecione **Adicionar regra de porta de saída** na parte superior da página e fale sobre as várias configurações.  Recomendo criar a regra: As configurações abaixo criam uma regra para negar o tráfego de saída da Internet:
     1. Fonte: **Qualquer**
     1. Intervalos de portas de origem: **\***
     1. Destino: **Marca de serviço**
@@ -134,7 +117,7 @@ Faça o passo a passo das configurações de um NSG.  Neste caso, você fará o 
     1. Selecione **Adicionar**
     1. Quando a regra for provisionada, ela vai aparecer na lista de regras de saída.
 
-1. Agora volte para sua VM e teste as regras.  Na parte superior da página, selecione **SC900-VM**, acima de onde está escrito Regras de segurança de saída.
+1. Agora volte para sua VM e teste as regras.  Na parte superior da página, escolha **SC900-VM**.
 
 1. Teste a regra de entrada verificando se você pode se conectar à VM usando RDP.
     1. Selecione **Soluções**, à esquerda no painel de navegação.
