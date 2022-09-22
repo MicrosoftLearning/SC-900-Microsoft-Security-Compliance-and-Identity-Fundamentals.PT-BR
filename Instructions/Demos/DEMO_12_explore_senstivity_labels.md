@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Rótulos de confidencialidade no Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 9dbcb385f5f4545942ecd38fe5fc0ad17e2934a3
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649952"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892419"
 ---
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Rótulos de confidencialidade no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 3: descrever a proteção de informações e o gerenciamento de ciclo de vida de dados no Microsoft Purview; Unidade 4: descrever rótulos de confidencialidade'
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demonstração: Rótulos de confidencialidade no Microsoft Purview
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever a proteção de informações e o gerenciamento do ciclo de vida de dados no Microsoft Purview
+- Unidade: descrever rótulos de confidencialidade
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 

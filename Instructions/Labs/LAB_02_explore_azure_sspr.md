@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542646"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892168"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever as funcionalidades de autenticação do Azure AD
+- Unidade: descrever a redefinição de senha self-service no Azure AD
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 

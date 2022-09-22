@@ -1,15 +1,22 @@
 ---
-Demo:
-  title: Portal de Confiança do Serviço
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381235"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892444"
 ---
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 1: descrever as funcionalidades do gerenciamento de conformidade na Microsoft; Unidade 2: explorar o Portal de Confiança do Serviço'
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>Demonstração: Portal de Confiança do Serviço
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft Módulo: descrever as funcionalidades de gerenciamento de conformidade na Microsoft Unidade: explorar o Portal de Confiança do Serviço
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 

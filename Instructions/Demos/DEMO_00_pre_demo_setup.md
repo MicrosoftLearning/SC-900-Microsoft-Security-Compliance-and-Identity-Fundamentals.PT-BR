@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: Configuração de demonstração
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458319"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892468"
 ---
+<a name="---"></a><!---
+---
+Configuração de pré-demonstração: Título: 'Instalação de demonstração'
+---
+--->
+
 ## <a name="pre-demo-setup"></a>Configuração antes da demonstração
-A configuração é composta por duas tarefas separadas.  A primeira delas é aplicável e recomendada somente se o ambiente de laboratório inclui o uso de um Azure Pass. O foco da segunda tarefa é habilitar o Log de Auditoria da Microsoft e se aplica e é recomendada independentemente de seu ambiente usa ou não um Azure Pass.
+
+A configuração é composta por duas tarefas separadas.  A primeira delas é aplicável e recomendada somente se o ambiente de demonstração inclui o uso de um Azure Pass. O foco da segunda tarefa é habilitar o Log de Auditoria da Microsoft e se aplica e é recomendada independentemente de seu ambiente usa ou não um Azure Pass.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
 

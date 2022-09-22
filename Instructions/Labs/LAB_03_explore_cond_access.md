@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o gerenciamento de acesso no Azure AD com acesso condicional
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542598"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892156"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Roteiro de aprendizagem: 'Descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra' Módulo: 'Descrever as funcionalidades de gerenciamento de acesso do Azure AD' Unidade: 'Descrever o acesso condicional no Azure AD'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratório: Explore o gerenciamento de acesso no Azure AD com Condicional
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever as funcionalidades de gerenciamento de acesso do Azure AD
+- Unidade: descrever o acesso condicional no Azure AD
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
