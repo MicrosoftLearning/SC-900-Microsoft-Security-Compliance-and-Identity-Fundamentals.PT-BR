@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557479"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892372"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explore o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 2: descrever as funcionalidades do gerenciamento de conformidade no Microsoft Purview; Unidade 2: descrever o portal de conformidade do Microsoft Purview'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Laboratório: Explorar o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever as funcionalidades de gerenciamento de conformidade no Microsoft Purview
+- Unidade: descrever o portal de conformidade do Microsoft Purview
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -69,7 +78,7 @@ Aprender sobre a postura de conformidade da sua organização através do Gerenc
 
 1. A partir da lista de modelos, selecione **ISO/IEC27001:2013**. Na parte superior direita da página, selecione **+ Criar avaliação**.  Observe que, do lado direita da tela, há apenas duas etapas para criar uma avaliação a partir do modelo.  Selecione Cancelar na parte inferior da página.
 
-1. Feche as guias do navegador abertas.
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

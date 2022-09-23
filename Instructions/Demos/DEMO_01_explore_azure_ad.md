@@ -1,23 +1,41 @@
 ---
-Demo:
-  title: Configurações de usuário do Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557176"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892180"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>Demonstração: Configurações de usuário do Azure Active Directory
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Explorar as Configurações do Usuário do Azure AD': 'Roteiro de aprendizagem: descrever as funcionalidades do Azure Active Directory (Azure AD), parte do Microsoft Entra; Módulo 1: descrever os serviços básicos e os tipos de identidade de Azure AD; Unidade 4: descrever os tipos de identidade Azure AD'
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>Demonstração: configurações de usuário do Azure AD
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever os serviços básicos e os tipos de identidade do Azure AD
+- Unidade: descrever os tipos de Identidade do Azure AD
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
-Nesta demonstração, você acessará o Azure Active Directory e passará pelas várias configurações de um usuário existente.
+Nesta demonstração, você acessará o Azure Active Directory e passará pelas várias configurações de um usuário existente.  Nota ao apresentador:  Esta demonstração acessa o Azure AD por meio do locatário do Microsoft 365. Uma opção alternativa que pode ser mostrada aos alunos é o acesso ao Azure AD por meio do portal do Azure. A intenção de percorrer o portal do Microsoft 365 é mostrar que o Microsoft 365 inclui o acesso ao Azure AD.
 
-1. Vá para a guia **Página Inicial – Microsoft Azure** aberta no seu navegador.  Se você fechou a guia anteriormente, abra o Microsoft Edge e, na barra de endereços, insira portal.azure.com e entre com as mesmas credenciais de administrador do seu locatário do Microsoft 365.
+1. Abra o Microsoft Edge.
 
-1. A página de aterrissagem do portal do Azure exibe os serviços do Azure. Selecione **Azure Active Directory**. Se não estiver imediatamente visível, na caixa de pesquisa ao lado de onde diz Microsoft Azure, insira Azure Active Directory.  Você também pode querer mostrar como acessar por meio do ícone Mostrar menu do portal (as três linhas horizontais também conhecidas como ícone de hambúrguer, na barra azul, na parte superior da página) à esquerda de onde está escrito Microsoft Azure.
+1. Na barra de endereços, insira **admin.microsoft.com** para acessar o Centro de administração do Microsoft 365.
+
+1. Entre com suas credenciais de administrador.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
+    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+
+1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
+
+1. Em Centros de administração, selecione **Azure Active Directory** (talvez seja necessário rolar a tela).  Uma nova página do navegador abre a página Meu painel do Centro de administração do Azure Active Directory. Na janela principal do painel, você verá diversos blocos, incluindo o de identidade da organização (Contoso, o locatário e a edição do Azure AD), um bloco para usuários e grupos, entre outros.
 
 1. No painel de navegação esquerdo, selecione **Usuários**. Observe que seu locatário já está configurado com usuários.
 

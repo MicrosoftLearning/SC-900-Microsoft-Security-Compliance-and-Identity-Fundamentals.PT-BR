@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557465"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892168"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever as funcionalidades de autenticação do Azure AD
+- Unidade: descrever a redefinição de senha self-service no Azure AD
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -97,7 +106,7 @@ Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de regist
 2. Na barra de endereço, digite **login.microsoftonline.com**.
 
 3. Faça logon como Adele Vance,
-    1. Na janela Entrar, insira **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
     1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
     1. Se você receber um aviso para permanecer conectado, selecione **Sim**
 

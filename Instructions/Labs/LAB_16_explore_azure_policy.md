@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557513"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892144"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar o Azure Policy' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 6: descrever as funcionalidades da governança de recursos no Azure; Unidade 2: descrever o Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever as funcionalidades de governança de recursos no Azure
+- Unidade: descrever o Azure Policy
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -21,7 +30,7 @@ O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade
 
 Explorar brevemente a página do Azure Policy.
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.
+1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
 
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
@@ -125,6 +134,8 @@ Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, c
     1. Abaixo de Serviços do Azure, selecione Política do Azure.
     1. No meio da página, encontramos uma lista das atribuições de políticas/iniciativas do Azure.  Selecione as reticências para a atribuição de política Exigir uma marca no grupo de recursos. Depois, selecione Excluir atribuição.
     1. Vai aparecer uma solicitação para confirmar se você deseja excluir a atribuição.  Selecione Sim.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

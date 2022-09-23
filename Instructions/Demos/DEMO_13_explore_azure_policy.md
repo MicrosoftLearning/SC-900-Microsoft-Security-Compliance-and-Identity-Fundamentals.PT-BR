@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557129"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892204"
 ---
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Azure Policy' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 6: descrever as funcionalidades da governança de recursos no Azure; Unidade 2: descrever o Azure Policy'
+---
+--->
+
 # <a name="demo-azure-policy"></a>Demonstração: Azure Policy
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever os recursos de governança de recursos no Azure
+- Unidade: descrever o Azure Policy
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
@@ -19,7 +28,7 @@ Nesta demonstração, você verá o processo de configuração de uma política 
 
 Criar uma política para exigir uma marcação em um grupo de recursos (mostra as etapas para criar uma política de um modelo)
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.microsoft.com**.  Você já deve estar conectado, caso contrário, entre com suas credenciais de administrador.
+1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.  Você já deve estar conectado, caso contrário, entre com suas credenciais de administrador.
 
 1. Na caixa de pesquisa, na barra azul, na parte superior da página, ao lado de onde está escrito Microsoft Azure, insira **política** e selecione **Política** nos resultados da pesquisa.
 

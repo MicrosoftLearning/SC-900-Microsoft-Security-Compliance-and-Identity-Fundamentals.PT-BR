@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Redefinição de senha de autoatendimento do Azure Active Directory
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557213"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892132"
 ---
-# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demonstração: Redefinição de senha self-service (SSPR) do Azure Active Directory
+<a name="---"></a><!---
+---
+Demonstração: Título: 'SSPR (redefinição de senha self-service) do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+---
+--->
+
+# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demonstração: SSPR (redefinição de senha self-service do Azure AD)
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever as funcionalidades de autenticação do Azure AD
+- Unidade: descrever a redefinição de senha self-service no Azure AD
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 

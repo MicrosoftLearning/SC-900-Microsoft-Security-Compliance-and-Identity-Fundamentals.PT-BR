@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o portal do Microsoft 365 Defender
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557141"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892672"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar o portal Microsoft 365 Defender' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 7: descrever o portal Microsoft 365 Defender'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratório: Explorar o portal do Microsoft 365 Defender
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades da solução de segurança da Microsoft
+- Módulo: descrever as funcionalidades de proteção contra ameaças do Microsoft 365
+- Unidade: descrever o portal do Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -65,7 +74,7 @@ Nesta tarefa, vamos explorar como o Microsoft Secure Score pode ajudar a melhora
 
 1. Na parte superior da página, selecione **Métricas e tendências**.  Observe as informações disponíveis.  No canto superior direito da página, selecione o **ícone de calendário**.  Você pode refinar a visualização, personalizando um intervalo de datas.  Ao selecionar o **ícone de filtro**, é possível filtrar por Identidade, Dispositivos e/ou aplicativos.  Feche a janela e selecione **Página Inicial** do lado esquerdo painel de navegação para voltar à página inicial do Microsoft 365 Defender.
 
-1. Feche a página do navegador.
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

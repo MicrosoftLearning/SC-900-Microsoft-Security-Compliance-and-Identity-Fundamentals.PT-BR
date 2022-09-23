@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557321"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892384"
 ---
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Microsoft Sentinel' Roteiro de aprendizagem/Módulo/Título: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 3: descrever as funcionalidades de segurança do Microsoft Sentinel; Unidade 3: descrever como o Microsoft Sentinel fornece gerenciamento integrado de ameaças'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Demonstração: Microsoft Sentinel
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades da solução de segurança da Microsoft
+- Módulo: descrever as funcionalidades de segurança do Microsoft Sentinel
+- Unidade: descrever como o Microsoft Sentinel fornece gerenciamento integrado de ameaças
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
@@ -121,9 +130,9 @@ Nesta parte da demonstração, você verá algumas das opções disponíveis no 
 
 1. No canto superior esquerdo da janela, logo abaixo da barra azul, selecione **Página Inicial** para retornar à home page do portal do Azure.
 
-### <a name="task-6"></a>Tarefa 6
+### <a name="post-course-delivery-tear-down"></a>Desinstalação após a entrega do curso
 
-Desinstalação após a entrega do curso. O Microsoft Sentinel é cobrado de acordo com o volume da ingestão de dados para análise. Embora a quantidade de dados ingerida como resultado desta demonstração seja mínima, é recomendável excluir o grupo de recursos do Microsoft Sentinel quando terminar de explorar os recursos do Microsoft Sentinel.
+O Microsoft Sentinel é cobrado de acordo com o volume da ingestão de dados para análise. Embora a quantidade de dados ingerida como resultado desta demonstração seja mínima, é recomendável excluir o grupo de recursos do Microsoft Sentinel ao concluir o curso.
 
 1. No canto superior esquerdo da página Microsoft Sentinel, em cima de Microsoft Sentinel, selecione **Todos os Serviços**.
 
@@ -131,7 +140,7 @@ Desinstalação após a entrega do curso. O Microsoft Sentinel é cobrado de aco
 
 3. Na página Grupos de recursos, selecione o grupo de recursos que você criou com o Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Na parte superior central da página, selecione **Excluir grupo de recursos**.  Verifique o aviso de segurança.  Insira o nome do grupo de recursos, **SC900-ResourceGroup**, e selecione **Excluir** na parte inferior da página.  Vai levar alguns minutos para excluir o grupo de recursos.
+4. Na parte superior central da página, selecione **Excluir grupo de recursos**.  Verifique o aviso de segurança.  Insira o nome do grupo de recursos, **SC900-ResourceGroup** e selecione **Excluir** na parte inferior da página.  Vai levar alguns minutos para excluir o grupo de recursos.
 
 5. Após verificar que o grupo de recursos foi excluído, feche a página do navegador.
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o gerenciamento de acesso no Azure AD com acesso condicional
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557272"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892156"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Roteiro de aprendizagem: 'Descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra' Módulo: 'Descrever as funcionalidades de gerenciamento de acesso do Azure AD' Unidade: 'Descrever o acesso condicional no Azure AD'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratório: Explore o gerenciamento de acesso no Azure AD com Condicional
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever as funcionalidades de gerenciamento de acesso do Azure AD
+- Unidade: descrever o acesso condicional no Azure AD
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -28,7 +37,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha do usuário Debra
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
-3. Selecione **Azure Active Directory**.  
+3. No canto superior esquerdo da tela, ao lado de onde diz Microsoft Azure, selecione o ícone de menu Mostrar portal (as três linhas horizontais também conhecidas como ícone de hambúrguer) e, no painel de navegação esquerdo, em Favoritos, selecione Azure Active Directory. Se ele não estiver listado em favoritos, na caixa de pesquisa, insira Azure Active Directory e, na lista de resultados, selecione **Azure Active Directory**.
 
 4. No painel de navegação esquerdo selecione **Usuários**.
 

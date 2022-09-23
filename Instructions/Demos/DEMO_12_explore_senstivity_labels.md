@@ -1,19 +1,28 @@
 ---
-Demo:
-  title: Rótulos de confidencialidade no Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557189"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892419"
 ---
+<a name="---"></a><!---
+---
+Demonstração: Título: 'Rótulos de confidencialidade no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 3: descrever a proteção de informações e o gerenciamento de ciclo de vida de dados no Microsoft Purview; Unidade 4: descrever rótulos de confidencialidade'
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demonstração: Rótulos de confidencialidade no Microsoft Purview
+
+Essa demonstração é mapeada para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever a proteção de informações e o gerenciamento do ciclo de vida de dados no Microsoft Purview
+- Unidade: descrever rótulos de confidencialidade
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
-Nesta demonstração, você mostrará os recursos dos rótulos de confidencialidade.  Vamos passar pelas configurações dos rótulos de confidencialidade que já foram criados e a respectiva política para a publicação do rótulo.   Depois, vamos ver como aplicar o rótulo e o impacto dele da perspectiva do usuário.
+Nesta demonstração, você mostrará os recursos dos rótulos de confidencialidade.  Vamos passar pelas configurações dos rótulos de confidencialidade que já foram criados e a respectiva política para a publicação do rótulo.   Depois, vamos ver como aplicar o rótulo e o impacto dele da perspectiva do usuário.  **OBSERVAÇÃO**: Na primeira vez que você usa o Word online com seu locatário do Microsoft 365, pode levar 15 minutos para que a opção Confidencialidade apareça na faixa de opções.  Os apresentadores devem executar a parte 2 da demonstração antes da aula a fim de garantir que haja tempo suficiente para que a opção apareça.
 
 ### <a name="demo-part-1"></a>Demonstração parte 1
 

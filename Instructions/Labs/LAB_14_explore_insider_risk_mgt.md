@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o gerenciamento de riscos internos no Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557537"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892696"
 ---
+<a name="---"></a><!--->
+---
+Laboratório: Título: 'Explorar o gerenciamento de risco interno no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 4: descrever as funcionalidades de risco interno no Microsoft Purview; Unidade 2: descrever o gerenciamento de risco interno'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratório: Explorar o gerenciamento de riscos internos no Microsoft Purview
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever as funcionalidades de risco interno no Microsoft Purview
+- Unidade: descrever o gerenciamento de risco interno
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -35,7 +44,7 @@ Nesta tarefa, você enquanto administrador global vau habilitar permissões para
 
 1. À esquerda no painel de navegação do portal de Conformidade do Microsoft Purview, selecione **Permissões**.
 
-1. Na página de permissões e funções, no portal de conformidade, selecione **Funções**.
+1. Na página de permissões e funções, em que se diz "Exibir e gerenciar funções usadas para executar tarefas específicas de solução no centro de conformidade.", selecione **Funções**.
 
 1. No campo de pesquisa, insira **Risco interno** e selecione o ícone de pesquisa (lupa).  Observe as várias funções que aparecem.  Cada uma delas tem diferentes níveis de acesso.  Selecione **Gerenciamento de risco interno**.
 
@@ -115,6 +124,8 @@ Nesta tarefa, vamos acompanhar a criação de uma política.
 1. Estamos de volta à guia Políticas da página Gerenciamento de risco interno.  A política que acabamos de criar aparecerá listada.  
 
 1. Na política recém-criada, o campo “Usuários no escopo” representa os usuários a que são atribuídas pontuações de risco pela política.  A atribuição de pontuações de risco aos usuários ocorre quando a política é disparada, por isso o valor está indicando 0.  Um administrador pode configurar que a política comece a atribuir pontuações de risco a usuários específicos, com base na atividade detectada pelas políticas selecionadas, E que ignora o requisito de que um evento disparador deve ser detectado primeiro.  Para fazer isso, selecione o círculo vazio próximo ao nome da política para selecionar a política. Depois, selecione **Começar atividade de pontuação para os usuários**, que aparece acima da tabela da política.  Preencha todos os campos e depois selecione **Começar a atividade de pontuação**.  Pode levar 24 horas para os usuários aparecerem na guia ‘Usuários’. Após esse período, é possível selecionar os usuários a partir dessa guia para verificar as atividades detectadas.  Selecione **Fechar** na parte inferior da janela.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explore o Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557285"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892240"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar o Roteiro/Módulo/Unidade do Azure Active Directory': 'Roteiro de aprendizagem: descrever as funcionalidades do Azure Active Directory (Azure AD), parte do Microsoft Entra; Módulo 1: descrever os serviços básicos e os tipos de identidade de Azure AD; Unidade 4: descrever os tipos de identidade Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-active-directory"></a>Laboratório: Explore o Azure Active Directory
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
+- Módulo: descrever os serviços básicos e os tipos de identidade do Azure AD
+- Unidade: descrever os tipos de Identidade do Azure AD
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 

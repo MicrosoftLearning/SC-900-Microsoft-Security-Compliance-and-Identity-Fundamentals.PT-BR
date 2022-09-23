@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar o Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557153"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892636"
 ---
+<a name="---"></a><!---
+---
+Laboratório: Título: 'Explorar o Microsoft Sentinel' Roteiro de aprendizagem/Módulo/Título: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 3: descrever as funcionalidades de segurança do Microsoft Sentinel; Unidade 3: descrever como o Microsoft Sentinel fornece gerenciamento integrado de ameaças'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratório: Explorar o Microsoft Sentinel
+
+Esse laboratório é mapeado para o seguinte conteúdo do Learn:
+
+- Roteiro de aprendizagem: descrever as funcionalidades da solução de segurança da Microsoft
+- Módulo: descrever as funcionalidades de segurança do Microsoft Sentinel
+- Unidade: descrever como o Microsoft Sentinel fornece gerenciamento integrado de ameaças
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
@@ -135,9 +144,9 @@ O Microsoft Sentinel é cobrado de acordo com o volume da ingestão de dados par
 
 3. Na página Grupos de recursos, selecione o grupo de recursos que você criou com o Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Na parte superior central da página, selecione **Excluir grupo de recursos**.  Verifique o aviso de segurança.  Insira o nome do grupo de recursos, **SC900-ResourceGroup**, e selecione **Excluir** na parte inferior da página.  Vai levar alguns minutos para excluir o grupo de recursos.
+4. Na parte superior central da página, selecione **Excluir grupo de recursos**.  Verifique o aviso de segurança.  Insira o nome do grupo de recursos, **SC900-ResourceGroup** e selecione **Excluir** na parte inferior da página.  Vai levar alguns minutos para excluir o grupo de recursos.
 
-5. Após verificar que o grupo de recursos foi excluído, feche a página do navegador.
+5. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 
