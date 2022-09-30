@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 4f9915c3de45245a26ddb2fc93a4c9a81b00faca
+ms.sourcegitcommit: cf0e185a6bd333ae09116c87c1d8445a8c02c5a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892444"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "147965799"
 ---
 <a name="---"></a><!---
 ---
@@ -16,7 +16,9 @@ Demonstração: Título: 'Portal de Confiança do Serviço' Roteiro de aprendiza
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
-Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft Módulo: descrever as funcionalidades de gerenciamento de conformidade na Microsoft Unidade: explorar o Portal de Confiança do Serviço
+- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
+- Módulo: descrever as funcionalidades de gerenciamento de conformidade no Microsoft Purview
+- Explore o Portal de Confiança do Serviço
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
@@ -32,36 +34,36 @@ Nesta parte, você apresentará ao aluno os diferentes tipos de conteúdo dispon
 
 1. Para acessar alguns dos recursos no Portal de Confiança do Serviço, é preciso fazer logon como usuário autenticado, com sua conta da Microsoft de serviços na nuvem, e revisar e aceitar o Acordo de Confidencialidade da Microsoft para Materiais de Conformidade. No canto superior direito da página de aterrissagem do Portal de Confiança do Serviço, você verá a opção Entrar.  **Entre** usando suas credenciais de administrador e, se solicitado, selecione **Concordar** para aceitar o Contrato de Confidencialidade da Microsoft para Materiais de Conformidade.
 
-1. Role a página e observe os links para Relatórios de auditoria, Documentos e Recursos, entre outros.  Selecione **Exibir todos os Relatórios de Auditoria**.
+1. Role para baixo na página e observe as diferentes categorias de informações disponíveis. Na categoria Certificações, Regulamentos e Padrões, selecione **ISO/IEC**.
 
-1. Role a página até a metade para encontrar Relatórios de Auditoria Novos e Arquivados.  É possível selecionar a partir de uma variedade de categorias, incluindo Guias de Conformidade, Certificados e Relatórios de Auditoria ENS, FAQ e white paper.
+1. Observe a descrição na parte superior da página e os documentos aplicáveis disponíveis.  Selecione as **reticências** no cabeçalho Mais Opções para o primeiro documento da lista.  Observe as diferentes opções.
 
-1. Selecione **Relatórios ISO**.  Se você não encontrar a opção Relatórios ISO de imediato, use a seta para a direita até encontrar a opção Relatórios ISO e selecione.
+1. Selecione as **reticências (...) e depois Salvar na Biblioteca**.  Uma janela será exibida, solicitando que você queira receber notificações. Selecione **Sim**.
 
-1. Vai ser exibida uma longa lista de relatórios ISO disponíveis. É possível filtrar com base em um intervalo de datas, bem como por Tipo de Documento, Serviço de Nuvem e Setores.  Neste caso, estamos procurando relatórios ISO disponíveis para o Azure DevOps.  Selecione Serviço de Nuvem e, a partir do menu suspenso, selecione Azure DevOps (ou VSTS).  O resultado serão dois documentos.
+1. Para verificar se o documento foi salvo, role até a parte superior da página e selecione **Minha Biblioteca**.  Para qualquer documento na página Minha Biblioteca, selecione as reticências para exibir as opções disponíveis.
 
-1. É possível baixar ou Salvar na Biblioteca todos os documentos de uma vez ou individualmente.  No caso, queremos salvar apenas o primeiro documento.  Selecione as **reticências (...)** e depois **Salvar na Biblioteca**.  Será solicitado que você assine o documento; selecione **Confirmar**.
+1. Na parte superior da página Minha Biblioteca, selecione **Portal de Confiança do Serviço** para retornar à home page do Portal de Confiança do Serviço.
 
-1. Pode ser que apareça uma janela pop-up com a opção de receber notificações por email quando os documentos salvos na biblioteca forem atualizados.  No caso, não é necessário receber nenhuma notificação de atualizações, então mantenha o padrão e selecione **Salvar**.  O documento ainda está salvo na biblioteca.
+1. Na home page do Portal de Confiança do Serviço, role para baixo até a categoria **Indústria e Recursos Regionais** .  Observe os blocos disponíveis.  Selecione **Serviços Financeiros**.  Role para baixo para ver todas as regiões e países disponíveis.  Selecione o bloco de qualquer país para exibir os documentos aplicáveis.
 
-1. Agora verifique se o documento está, de fato, na biblioteca. Role a página para voltar ao topo. No topo da navegação, selecione **Minha Biblioteca**.  Se não encontrar essa opção, selecione Mais e depois Minha Biblioteca.
+1. Para retornar a home page do Portal de Confiança do Serviço, selecione o link **Portal de Confiança do Serviço** na parte superior da página.
 
-1. No topo da página Portal de Confiança do Serviço, selecione **Documentos confiáveis** e observe as opções. Explorar as informações disponíveis para cada um dos links em Documentos Confiáveis. Ao clicar em Relatórios de auditoria, você será levado ao mesmo local que explorou nas etapas anteriores (um modo diferente de acessar o mesmo conteúdo).  
+1. Na home page do Portal de Confiança do Serviço, role para baixo até o **recurso da categoria Organização** . Selecione **Recursos para sua Organização**.  Observe que todos os documentos listados aqui são baseados na assinatura e nas permissões da sua organização.
 
-1. Na parte superior da página, selecione **Setores e Regiões**.  Escolha **Soluções Regionais**. Observe as diferentes Regiões listadas.  Selecione **Reino Unido**.  
-
-1. É possível selecionar a partir de diferentes categorias.  Incluindo Relatório de Avaliação de GRC, Guias de Conformidade, entre outras.  Assim como na tarefa anterior, é possível filtrar a lista de documentos exibidos e selecionar documentos para baixar ou salvar na biblioteca.
+1. Para retornar a home page do Portal de Confiança do Serviço, selecione o link **Portal de Confiança do Serviço** na parte superior da página.
 
 ### <a name="demo-part-2-optional"></a>Demonstração parte 2 (opcional)
 
 Nesta parte da demonstração, você mostrará a Central de Confiabilidade e navegará até informações que descrevem a privacidade na Microsoft.
 
-1. No topo da página Portal de Confiança do Serviço, selecione **Central de Confiabilidade** e depois **Página Inicial**. Uma nova guia será aberta no navegador, levando à Central de Confiabilidade, onde encontramos mais informações sobre privacidade e muitos outros tópicos.  
+1. Na home page do Portal de Confiança do Serviço, role para baixo até a categoria **Relatórios, Whitepapers e Artefatos** . Selecione **Privacidade e Proteção de Dados**.  
 
-1. Você verá informações sobre nosso compromisso (da Microsoft) com você.  Lá, selecione **Saiba mais sobre a Privacidade da Microsoft**.  Role a página e explore os diferentes links para saber mais sobre privacidade na Microsoft.
+1. Além de listar todos os documentos aplicáveis, há uma descrição da categoria seguida de um link para Saiba mais.  Selecione **Saiba mais**
 
-1. Feche as janelas do navegador para sair do Portal de Confiança do Serviço e da Central de Confiabilidade.
+1. Uma nova guia será aberta no navegador, levando à Central de Confiabilidade, onde encontramos mais informações sobre privacidade e muitos outros tópicos. Explore o conteúdo desta página e navegue por diferentes links.
+
+1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 
-Nesta demonstração, você abordou algumas das opções disponíveis no Portal de Confiança do Serviço, como acessar relatórios de auditoria dos Serviços de Nuvem da Microsoft e como usar a Minha Biblioteca para salvar documentos para análise futura.  Além disso, você visitou a Central de Confiabilidade para acessar e examinar informações sobre privacidade na Microsoft.
+Neste laboratório, exploramos algumas das opções disponíveis no Portal de Confiança do Serviço, como acessar relatórios e como usar a Minha Biblioteca para salvar documentos para análises futuras.  Além disso, você visitou a Central de Confiabilidade para acessar e examinar informações sobre privacidade na Microsoft.
