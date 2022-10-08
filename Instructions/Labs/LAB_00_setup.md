@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892228"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010596"
 ---
 <a name="---"></a><!---
 ---
@@ -19,6 +19,8 @@ Laboratório: Título: 'Configuração'
 Esse laboratório de configuração é composto por duas tarefas separadas.  A primeira delas é aplicável e recomendada somente se o ambiente de laboratório inclui o uso de um Azure Pass. O foco da segunda tarefa é habilitar o Log de Auditoria da Microsoft e se aplica e é recomendada independentemente de seu ambiente usa ou não um Azure Pass.
 
 **Tempo estimado**: 5-10 minutos
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Configuração Parte 1 – Resgatar Azure Pass
 
