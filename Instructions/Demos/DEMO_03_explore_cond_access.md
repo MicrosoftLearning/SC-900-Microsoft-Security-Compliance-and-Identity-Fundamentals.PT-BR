@@ -1,16 +1,17 @@
 ---
-ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
+ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892480"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "148022684"
 ---
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'Acesso condicional do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 3: descrever as funcionalidades de gerenciamento de acesso do Azure AD; Unidade 2: descrever o acesso condicional no Azure AD'
 ---
 --->
+
 
 # <a name="demo-azure-ad-conditional-access"></a>Demonstração: acesso condicional do Azure AD
 
