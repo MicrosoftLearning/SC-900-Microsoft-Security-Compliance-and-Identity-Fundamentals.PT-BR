@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892168"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118955"
 ---
 <a name="---"></a><!---
 ---
@@ -110,7 +110,7 @@ Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de regist
     1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
     1. Se você receber um aviso para permanecer conectado, selecione **Sim**
 
-4. Como este é seu primeiro logo como Adele Vance, você precisa redefinir sua senha.  Coloque sua senha antiga.  Para sua nova senha, digite **SC900-Lab**. Digite **SC-900-Lab** no campo de confirmação de senha.  Selecione **Entrar**.  Observação: estamos usando essa senha apenas para a conveniência do laboratório. Como prática recomendada, você deve digitar uma senha mais segura.
+4. Como este é seu primeiro logo como Adele Vance, você precisa redefinir sua senha.  Coloque sua senha antiga.  Para sua nova senha, digite **SC900-Lab**. Digite **SC900-Lab** no campo de confirmação de senha.  Selecione **Entrar**.  Observação: estamos usando essa senha apenas para a conveniência do laboratório. Como prática recomendada, você deve digitar uma senha mais segura.
 
 5. Um pop-up indicando que Mais informações são necessárias é exibido.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Observação:  Uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação ao adicionar um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
 
@@ -148,7 +148,7 @@ Nesta tarefa, você, usando o usuário Alice Pena, passará pelo processo de red
 
 11. Na caixa Escolher uma informação de conta, selecione **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , digite sua nova senha e selecione o botão **Entrar**.  Se você tiver que permanecer conectado, selecione **Não**.
 
-12. Agora você deve estar no portal do Azure.
+12. Agora você deve estar no portal do Office.
 
 13. Saia selecionando o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador
 
