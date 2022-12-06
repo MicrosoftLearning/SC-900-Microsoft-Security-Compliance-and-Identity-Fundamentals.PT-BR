@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
-ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148118955"
----
 <a name="---"></a><!---
 ---
 Laboratório: Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
