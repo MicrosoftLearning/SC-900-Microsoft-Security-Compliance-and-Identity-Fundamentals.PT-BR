@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: eeee584ece9bb3ec4edcba5fa2e76a13dd9459c4
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892600"
----
 <a name="---"></a><!---
 ---
 Laboratório: Título: 'Explorar o Microsoft Defender para Nuvem' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 2: descrever as funcionalidades do gerenciamento de segurança do Azure; Unidade 3: descrever o Microsoft Defender para Nuvem'
@@ -22,66 +14,55 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
-Neste laboratório, vamos explorar o Microsoft Defender para Nuvem e aprender como a Classificação de Segurança do Azure pode ser usada para melhorar a postura de segurança da sua organização.  OBSERVAÇÃO: Esse passo a passo de demonstração pressupõe que o apresentador tenha permissões no nível de administrador para a assinatura do Azure por meio de um passe do Azure.  Uma assinatura do Azure, como uma Assinatura do Cloudslice, gerenciada pelo Hoster do Laboratório Autorizado, limita o acesso e a funcionalidade. Devido a isso, algumas etapas abaixo podem não estar disponíveis ou não mostrar nenhuma informação.
+Neste laboratório, você vai explorar o Microsoft Defender para Nuvem.  OBSERVAÇÃO: a assinatura do Azure fornecida pelo ALH (Hoster do Laboratório Autorizado) limita o acesso e poderá enfrentar atrasos mais longos do que o normal.
 
 **Tempo estimado**: 30 minutos
 
-### <a name="setup"></a>Instalação
-
-Nesta tarefa, você fará uma configuração básica do Microsoft Defender para Nuvem a fim de preparar a assinatura e habilitar e atribuir uma política padrão.
-
-1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
-
-1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
-
-1. No canto superior esquerdo da tela, ao lado de onde diz Microsoft Azure, selecione o ícone de menu Mostrar portal (as três linhas horizontais também conhecidas como ícone de hambúrguer) e, no painel de navegação esquerdo, em Favoritos, selecione **Microsoft Defender para Nuvem**.  Se ele não estiver listado em favoritos, na caixa de pesquisa, insira **Microsoft Defender para Nuvem** e, na lista de resultados, selecione **Microsoft Defender para Nuvem**.
-
-1. Se esta for a primeira vez que você entra no Microsoft Defender para Nuvem com sua assinatura, você pode acessar a página de introdução e pode ser solicitado a atualizar.  Role até a parte inferior da página e selecione **Pular**.  Você será direcionado à página Visão Geral.
-    1. Na parte superior, você verá uma caixa de informações azul claro que indica: "Preparando sua assinatura. Isso pode levar alguns minutos...”.
-    1. Quando a assinatura estiver pronta, será exibida uma nova caixa de informações que diz: "Uma assinatura não tem a política padrão atribuída. Para examinar a lista de assinaturas, abra a página Política de Segurança".  Selecione a seta para a direita no final da frase ou clique em **Configurações do ambiente** no painel de navegação esquerdo.
-        1. Isso direcionará você para a página Configurações do ambiente. Selecione **Passe do Azure – Patrocínio**.  Observação:  Se o ambiente do Azure for baseado em uma assinatura do Azure gerenciada pelo Hoster do Laboratório Autorizado, em vez de um Azure Pass, você a verá referenciada. Expanda a opção selecionando o sinal maior que até que não seja mais possível expandir as opções e você veja a assinatura.
-        1. No painel de navegação esquerdo, clique em **Política de segurança**.
-        1. Na página principal, em “Iniciativa padrão”, selecione **Atribuir política**.
-        1. Na parte inferior da página, selecione **Examinar + criar**.
-        1. Na parte inferior dessa página, clique em **Criar**.  Isso atribui o Azure Security Benchmark como uma iniciativa de política padrão.  Atualize a tela (pode levar alguns minutos).
-        1. Clique no **X** da página de configurações do ambiente para sair dela.  
-        1. Na página de serviços do Azure, selecione **Microsoft Defender para Nuvem** a fim de retornar à página de visão geral.
-
 ### <a name="task-1"></a>Tarefa 1:
 
-Nesta tarefa, você fará um passo a passo de alto nível de alguns dos recursos do Microsoft Defender para Nuvem.
+Nesta tarefa, você fará um passo a passo de alto nível de algumas das funcionalidades do Microsoft Defender para Nuvem
 
-1. Observe as informações disponíveis na página Visão Geral do Microsoft Defender para Nuvem.  As informações na parte superior da página incluem o número de assinaturas do Azure, o número de Recursos avaliados, o número de recomendações ativas e outros alertas de segurança.  No corpo principal da página, há cartões que representam Secure Score, Conformidade regulatória, Insights e muito mais.
+1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
+1. Entre com suas credenciais de administrador.
+    1. Na janela Entrar, insira o nome de usuário fornecido pelo provedor de hospedagem do laboratório e selecione **Avançar**.
+    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+
+1. Na barra de pesquisa azul, insira **Microsoft Defender para Nuvem** e, na lista de resultados, selecione **Microsoft Defender para Nuvem**.
+
+1. Se esta for a primeira vez que você entra no Microsoft Defender para Nuvem com sua assinatura, você poderá chegar à página Introdução e precisar fazer a atualização.  Role a página até a parte inferior e selecione **Lembrar-me mais tarde** (ou **Ignorar**).  Você será direcionado à página Visão geral.
+
+1. Na página Visão geral do Microsoft Defender para Nuvem, observe as informações disponíveis na página (se você observar 0 recursos avaliados e recomendações ativas, atualize a página do navegador. Isso pode levar alguns minutos).  As informações na parte superior da página incluem o número de assinaturas do Azure, o número de Recursos avaliados, o número de recomendações ativas e outros alertas de segurança.  No corpo principal da página, há cartões que representam a Postura de segurança, a Conformidade regulatória, os Insights, entre outros.  Observação: a iniciativa de política padrão do Microsoft Defender para Nuvem, que normalmente precisará ser atribuída pelo administrador, já foi atribuída como parte da configuração da assinatura do Azure. No entanto, a classificação de segurança será mostrada como 0%, pois pode haver um atraso de até 24 horas para o Azure refletir uma classificação inicial.
 
 1. Na parte superior da página, selecione **Recursos avaliados**.  (Observe que isso equivale a selecionar Inventário no painel de navegação esquerdo da página inicial da Central de Segurança).
-    1. Essa ação leva você para a página **Inventário** que mostra sua assinatura do Azure Pass.  Selecione **Azure Pass – Sponsorship**.
-    1. A página Resource Health fornece uma lista de recomendações.  Na lista disponível, selecione **Deve haver mais de um proprietário atribuído à sua assinatura**.
-    1. Selecione a seta suspensa ao lado de Etapas de correção. Observe como as etapas de correção detalhadas são fornecidas junto com a opção de ação.  
-    1. Selecione **Microsoft Defender para Nuvem** no canto superior esquerdo da tela para retornar à página de visão geral do Microsoft Defender para Nuvem.
+    1. Isso levará você à página **Inventário** que lista os recursos atuais. Selecione o recurso de máquina virtual, **sc900-winwm**. Esse recurso está associado à máquina virtual usada no laboratório anterior.
+    1. A página Integridade do recurso da VM fornece uma lista de recomendações.  Na lista disponível, selecione qualquer item que mostre o status **não íntegro**.
+    1. Observe a descrição detalhada.  Selecione a seta suspensa ao lado de Etapas de correção. Observe como as instruções de correção (ou links para instruções) são fornecidas com a opção de executar uma ação.  Saia da janela sem executar nenhuma ação.
+    1. Volte à página de visão geral do Microsoft Defender para Nuvem selecionando **Microsoft Defender para Cloud | Visão geral** na parte superior da página, acima de Integridade do recurso.
 
-1. Na parte superior da página, selecione **Recomendações ativas**.  (Observe que isso equivale a selecionar Recomendações no painel de navegação esquerdo da página inicial do Microsoft Defender para Nuvem).
-    1. A página de recomendações mostra o painel do Secure Score.
-    1. Abaixo do painel do Secure Score, há uma lista de controles. Cada controle de segurança representa um risco de segurança que deve ser mitigado e também inclui informações sobre a pontuação máxima associada a esse controle, a pontuação atual, o aumento potencial da pontuação e o status da integridade do recurso.  
-    1. Selecione um dos controles, como **Implementar práticas recomendadas de segurança**.  Selecione um dos subitens, como **Deve haver mais de um proprietário atribuído à assinatura**.  Na página que é aberta, você verá uma descrição, etapas de correção e recursos afetados. Feche a página selecionando o **X** no canto superior direito da tela.
+1. No painel de navegação à esquerda, selecione **Recomendações**.  (Observe que isso equivale a selecionar Recomendações ativas na parte superior da página de visão geral do Microsoft Defender para Nuvem).
+    1. Verifique se a guia **Todas as recomendações** está selecionada (sublinhada).  Observe a exibição do painel que mostra Recomendações ativas por gravidade, Integridade do recurso, entre outros.
+    1. Observe que alguns itens são mostrados como recursos não íntegros, conforme descrito pela barra vermelha à direita do item de linha.  Na lista, selecione **O Microsoft Defender para Resource Manager deve ser habilitado**.  Na página que será aberta, você verá uma descrição, as etapas de correção e os recursos afetados. Feche a página selecionando o **X** no canto superior direito da tela.
     1. Feche a página de recomendações clicando no **X** no canto superior direito da tela para voltar à página de visão geral.
 
-1. Na página principal, selecione **Conformidade regulatória**. A página de conformidade regulatória fornece uma lista de controles de conformidade.  Em cada controle, está um conjunto de avaliações baseadas no parâmetro de comparação de segurança do Azure, que fornece recomendações sobre como você pode proteger suas soluções de nuvem no Azure.
-    1. Selecione **IM. Gerenciamento de Identidades** e selecione **IM.6 Usar controles de autenticação forte**.  A lista mostra as ações de responsabilidade do cliente que podem ser tomadas para melhorar a postura de conformidade.
-    1. Selecione o **X** no canto superior direito da tela para voltar à página Visão Geral do Microsoft Defender para Nuvem.
-    1. Mantenha aberta a página de visão geral do Microsoft Defender para Nuvem, você usará na próxima tarefa.
+1. No painel de navegação principal à esquerda, selecione **Conformidade regulatória**. A página de conformidade regulatória fornece uma lista de controles de conformidade com base no parâmetro de comparação de segurança da nuvem da Microsoft (verifique se a guia Parâmetro de comparação de segurança da nuvem da Microsoft está selecionada/sublinhada). Em cada domínio de controle há um subconjunto de controles e, para cada controle, há uma ou mais avaliações. Cada avaliação fornece informações, incluindo descrição, correção e recursos afetados.
+    1. Vamos explorar uma das áreas de domínios de controle. Selecione (expanda) **NS. Segurança de Rede**. Uma lista de controles relacionados à segurança de rede é exibida.
+    1. Selecione **NS-10. O Microsoft Defender para DNS deve ser habilitado**. Observe a lista de avaliações automatizadas (que incluem avaliações automatizadas para a AWS) e como cada item de linha de avaliação fornece informações, incluindo o tipo de recurso, os recursos com falha e as estações de conformidade. Selecione as avaliações listadas.  Aqui você verá informações, incluindo uma descrição, as etapas de correção e os recursos afetados.
+    1. Selecione o **X** no canto superior direito da tela para fechar a página.
+    1. Selecione **Visão geral** no painel de navegação à esquerda para voltar à página Visão geral do Microsoft Defender para Nuvem.
+    1. Mantenha aberta a página de visão geral do Microsoft Defender para Nuvem, pois você a usará na próxima tarefa.
 
 ### <a name="task-2"></a>Tarefa 2:
 
-Lembre-se de que o Microsoft Defender para Nuvem é oferecido em dois modos: sem recursos de segurança aprimorados (gratuitos) e com recursos de segurança aprimorados que estão disponíveis por meio dos planos do Microsoft Defender para Nuvem. Nesta tarefa, você descobre como habilitar/desabilitar os vários planos do Microsoft Defender para Nuvem.
+Lembre-se de que o Microsoft Defender para Nuvem é oferecido em dois modos: sem recursos de segurança aprimorada (gratuitos) e com recursos de segurança aprimorada que estão disponíveis por meio dos planos do Microsoft Defender para Nuvem. Nesta tarefa, você descobrirá como habilitar/desabilitar os vários planos do Microsoft Defender para Nuvem.
 
 1. Na página de visão geral do Microsoft Defender para Nuvem, selecione as **Configurações de ambiente** no painel de navegação esquerdo.
-1. Selecione o sinal maior que **>** ao lado de onde está o Grupo Raiz do Locatário para expandi-lo (não selecione Grupo Raiz do Locatário diretamente, pois isso direcionará você para uma página diferente) e, em seguida, selecione **Azure Pass — Patrocínio**
-1. Na página Planos do Defender, observe como você pode selecionar Habilitar todos ou selecionar planos individuais do Defender. Deixe as configurações como estão com todos os planos definidos como desligados.
+1. Selecione a caixa **Expandir tudo** e escolha a **Assinatura MOC – lodXXXXXXXX** listada ao lado do ícone de chave amarela.
+1. Na página Planos do Defender, observe como você pode selecionar Habilitar todos ou selecionar planos individuais do Defender. 
+    1. Verifique se o status do CSPM está definido como **Ativado**, caso contrário, defina-o agora.  
+    1. Habilite o plano para servidores.  Selecione **Ativado** para o item de linha Servidores e escolha **Salvar** na parte superior da página.
 1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 
-Neste laboratório, você explorou o Microsoft Defender para Nuvem e aprendeu como a Classificação de Segurança do Azure pode ser usada para melhorar a postura de segurança da sua organização.
+Neste laboratório, você explorou o Microsoft Defender para Nuvem.
