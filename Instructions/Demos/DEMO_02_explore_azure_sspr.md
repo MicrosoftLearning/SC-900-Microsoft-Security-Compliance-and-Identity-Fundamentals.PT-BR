@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892132"
----
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'SSPR (redefinição de senha self-service) do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
@@ -22,7 +14,7 @@ Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
 ## <a name="demo-scenario"></a>Cenário da demonstração
 
-Nesta demonstração, você verá as várias configurações associadas à habilitação da redefinição de senha self-service.
+Nesta demonstração, você verá as várias configurações associadas à habilitação da redefinição de senha por autoatendimento.
 
 1. Vá para a guia Contoso – Microsoft Azure aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory. Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
 
@@ -30,7 +22,7 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 
 1. A guia de propriedades é realçada.  Na janela Propriedades, observe que o SSPR pode ser habilitado para Nenhum, Selecionar ou Todos.
     1. Coloque o cursor sobre o ícone de informações próximo a “Redefinição de senha self-service habilitada” e destaque que você pode escolher “Selecionado” para restringir a redefinição de senha a um grupo limitado de usuários, em vez de selecionar Nenhum ou Todos.
-    1. Coloque o cursor sobre o ícone de informações próximo a “selecionar grupo” e destaque que é aqui que você identifica o grupo de usuários que têm permissão para redefinir as próprias senhas.   Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você simplesmente adicione usuários ao grupo SSPR.
+    1. Coloque o cursor sobre o ícone de informações próximo a “selecionar grupo” e destaque que é aqui que você identifica o grupo de usuários que têm permissão para redefinir as próprias senhas.   Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você adicione os usuários ao grupo da SSPR.
     1. Observe a caixa de informações em azul-claro e a destaque aos alunos. Essas configurações se aplicam apenas aos usuários finais em sua organização. Os administradores estão sempre habilitados para a redefinição de senha por autoatendimento e devem usar dois métodos de autenticação para redefinir a própria senha.
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione Métodos de autenticação.
@@ -39,7 +31,7 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione Registro.
     1. Passe o mouse sobre o ícone de informações ao lado de “Exigir que os usuários se registrem ao entrar”.   Destaque isso para os usuários.  
-    1. Passe o mouse sobre o ícone de informações ao lado de “Número de dias antes que o usuário seja solicitado a reconfirmar as informações de autenticação”.   Destaque isso para os usuários.  
+    1. Posicione o mouse sobre o ícone de informações ao lado de “Número de dias antes que os usuários precisem confirmar novamente as informações de autenticação”.   Destaque isso para os usuários.  
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione Notificações.  Destaque as duas configurações. Passe o mouse sobre o ícone de informações para ver a descrição.
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892144"
----
 <a name="---"></a><!---
 ---
 Laboratório: Título: 'Explorar o Azure Policy' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 6: descrever as funcionalidades da governança de recursos no Azure; Unidade 2: descrever o Azure Policy'
@@ -22,81 +14,48 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
-O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, vamos começar explorando a página de aterrissagem do Azure Policy. Após essa introdução à página do Azure Policy, vamos criar uma política e verificar o impacto dessa política.
+O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, você criará uma política e verá o impacto dela.  Você também vai explorar por informações de conformidade e correção disponíveis na página da política.
 
-**Tempo estimado**: 20 a 25 minutos
+**Tempo estimado**: 15 a 20 minutos
 
 ### <a name="task-1"></a>Tarefa 1:
 
-Explorar brevemente a página do Azure Policy.
+Nesta tarefa, você vai criar uma atribuição de política básica para exigir uma marca em um grupo de recurso.
+1.  Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
+1. Entre com as credenciais de administrador da sua assinatura do Azure (essas credenciais de administrador são diferentes das credenciais de administrador do Microsoft 365).
+    1. Na janela Entrar, insira **User1-XXXXXXXX@LODSPRODMSLEARNMCA.onmicrosoft.com** (em que XXXXXXXX é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
 
-1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Insira a senha de administrador fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se for exibida uma mensagem perguntando se você deseja permanecer conectado, selecione **Sim**.
 
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
-
-1. Agora estamos no Portal do Azure.  Na caixa de pesquisa, na barra azul, na parte superior da página, ao lado de onde está escrito Microsoft Azure, insira **política** e selecione **Política** nos resultados da pesquisa. A página inicial Política será aberta, gerando a exibição do painel.  O escopo das informações que estamos verificando se aplica ao Azure Pass usado por você como parte deste laboratório.   Observe as informações disponíveis no painel.
-
-1. Há um item chamado ASC Default (ASC refere-se ao Central de Segurança do Azure que agora é chamado de Microsoft Defender para Nuvem) cujo escopo é Azure Pass – Sponsorship.   Selecione **Padrão ASC**.
-
-1. No topo da página, em Essentials, encontramos o nome, a descrição e outras informações essenciais.  Leia a descrição (posicione o cursor do mouse sobre a descrição). OBSERVAÇÃO: o campo de descrição faz Central de Segurança do Azure que foi renomeado para Microsoft Defender para Nuvem.
-
-1. Observe que as informações apresentadas no painel são atualizadas de acordo com o item selecionado, o Padrão ASC. Esse padrão de ASC é a definição de iniciativa do Azure Security Benchmark.  Lembre-se de que a definição da inciativa é uma coleta de definições de políticas ajustada para obter um objetivo singular abrangente. As informações podem ser exibidas por grupo, políticas, recursos não compatíveis ou eventos.
-
-1. Saia da página ASC e retorne à página inicial da política selecionando **X** no canto superior direito da janela.
-
-1. Do lado esquerdo do painel de navegação, selecione **Introdução**.  Aqui encontramos diferentes opções, incluindo a opção para procurar políticas internas e atribuir políticas em escala. É possível criar definições de política personalizadas para o seu ambiente, atribuições de política recomendadas e muito mais.
-
-1. À esquerda no painel de navegação, selecione **Conformidade**.  Assim como na página de visão geral, aqui é possível exibir o estado de conformidade das políticas e/ou iniciativas listadas.  Na página Conformidade da Política, também é possível atribuir uma política ou iniciativa (vamos atribuir uma política na próxima tarefa).
-
-1. Do lado esquerdo do painel de navegação, selecione **Correção**.  Esta página apresenta uma lista de políticas que têm recursos não compatíveis.  Selecionando uma política na página de correção, é possível disparar a criação de uma tarefa para corrigir a política.  
-
-1. Do lado esquerdo do painel de navegação, em criação, selecione **Atribuições**.  Aqui, encontramos atribuições atuais de políticas e/ou inciativas e é possível criar atribuições de políticas ou iniciativas.  Vamos voltar a esse tema na próxima tarefa.  
-
-1. Do lado esquerdo do painel de navegação, selecione **Definições**.  Nesta página, selecione **Auditar máquinas com configurações de segurança de senha não seguras**.  Esta é uma definição de iniciativa que inclui diversas políticas.  Para conferir o aspecto de uma definição de política, selecione **Auditar máquinas do Windows cuja senha não tenha uma idade máxima de 70 dias**.  Quando a página abrir, vamos encontrar a real definição da política na estrutura Java Script Object Notation (JSON).   Como podemos ver no texto em vermelho, a definição da política contém elementos que definem o nome de exibição, a descrição, os parâmetros, as regras da política, entre outros. NÃO ALTERE NADA.  
-
-1. Saia da página Definição da política selecionando o **X** no canto superior direito da página.
-
-1. Saia da página Definição da iniciativa selecionando o **X** no canto superior direito da página.
-
-1. Mantenha essa guia (Política – Microsoft Azure) aberta no navegador para a próxima tarefa.
-
-### <a name="task-2"></a>Tarefa 2:
-
-Nesta tarefa, vamos criar uma atribuição de política básica para exigir uma marca em grupos de recursos.
-
-1. Abra a guia do navegador Política – Microsoft Azure.
+1. Agora você está no portal do Azure.  Na caixa de pesquisa, na barra azul, na parte superior da página, ao lado de onde está escrito Microsoft Azure, insira **política** e selecione **Política** nos resultados da pesquisa. Isso abrirá a home page da Política, que fornece uma exibição do painel.  O escopo da exibição Painel é a assinatura do Azure fornecida pelo ALH (hoster do laboratório autorizado). Você verá uma política listada. Essa é uma política criada pelo ALH para uso da assinatura do Azure.
 
 1. Do lado esquerdo do painel de navegação, em Criação, selecione **Atribuições**.
 
-1. Na parte superior da página, selecione **Atribuir política**.
+1. Na parte superior da página, selecione **Atribuir política**. O assistente para Atribuir política será aberto para orientar o administrador no processo de atribuição de uma política.
 
-1. O assistente de Atribuir política será aberto para guiar o administrador no processo de atribuição de política.  Próximo ao campo Definição de política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  
+1. Comece na guia Informações Básicas.
+    1. Para o Escopo, mantenha a configuração padrão. Nesse caso, o escopo da política é a assinatura do Azure fornecida pelo ALH (hoster do laboratório autorizado).
+    1. Em Definição de Política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  Na barra de pesquisa, insira **Exigir uma marca**. A partir dos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (pode ser necessário rolar a página) e depois **Selecionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
+    1. Observe o nome de atribuição padrão.  Mantenha o nome como está.
+    1. Verifique se a opção Imposição de política está definida como **Habilitada** e selecione **Avançar**.
 
-1. Na barra de pesquisa, insira **Marca**.
+1. Agora você está na guia Parâmetros. No campo Nome da marca, insira **Ambiente** e selecione **Avançar**.
 
-1. A partir dos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (pode ser necessário rolar a página) e depois **Selecionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
+1. Na guia Correção, mantenha as configurações padrão como estão e selecione **Avançar**.
 
-1. Observe o nome de atribuição padrão.  Mantenha o nome como está e selecione **Avançar** na parte inferior da página.
+1. Agora você está na guia Mensagens de não conformidade. No campo da mensagem de não conformidade, insira **Uma marca de ambiente é obrigatória** e selecione **Avançar**. Observação: essa mensagem aparece por conta da não conformidade dos grupos de recursos criados antes da atribuição da política, já que eles não têm uma marca de Ambiente.
 
-1. No campo Nome da marca, insira **Ambiente** e depois selecione **Avançar**.
-
-1. Deixe as configurações de correção padrão como estão e selecione **Avançar**.
-
-1. Na mensagem de não conformidade, insira **É necessária uma marca de ambiente** e depois selecione **Avançar**. Observação: essa mensagem aparece por conta da não conformidade dos grupos de recursos criados antes da atribuição da política, já que eles não têm uma marca de Ambiente.  Grupos de recursos criados depois da criação da política terão sua criação negada caso não tenham uma marca de ambiente.
-
-1. Verifique a atribuição da política e selecione Criar.  Se você não encontrar a política de imediato, selecione **Atualizar**. Observação: Pode levar até 30 minutos para a política entrar em vigor.
+1. Revise a atribuição de política e selecione **Criar**.  Se você não encontrar a política de imediato, selecione **Atualizar**. Observação: pode levar até 30 minutos para que a política entre em vigor, mas geralmente isso é muito mais rápido.
 
 1. Saia da página Atribuições de política selecionando o **X** no canto superior direito da tela.
 
-1. Agora estamos na página inicial de serviços do Azure.  Deixe essa página aberta; vamos precisar para a próxima tarefa.
+1. Agora você está na home page dos serviços do Azure.  Mantenha essa página aberta, pois você precisará dela para a próxima tarefa.
 
-### <a name="task-3"></a>Tarefa 3
+### <a name="task-2"></a>Tarefa 2:
 
-Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, criando um grupo de recursos no Azure sem marca. Depois, vamos atualizar o grupo de recursos para incluir uma marca.  Observação: Pode levar até 30 minutos para que a política criada na tarefa anterior entre em vigor, mas geralmente é mais rápido.
+Nesta tarefa, você verá o impacto da atribuição de política do Azure com a tentativa de criar um grupo de recursos no Azure sem marca.
 
 1. Abra a guia do navegador Página Inicial – Microsoft Azure.
 
@@ -104,7 +63,7 @@ Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, c
 
 1. No canto superior esquerdo da página, selecione **+ Criar**.
 
-1. Na guia Básico da página Criar um grupo de recursos, deixe o campo Assinatura como está, Azure Pass - Sponsorship.
+1. Na guia Informações Básicas da página Criar um grupo de recursos, mantenha o campo Assinatura como está.
 
 1. No campo Grupo de recursos, insira **SC900-Labs**.
 
@@ -112,31 +71,45 @@ Nesta tarefa, vamos verificar o impacto da atribuição de política do Azure, c
 
 1. Deixe os campos do Nome e do Valor vazios.  NÃO PREENCHA, e selecione **Revisar + criar**.
 
-1. Vai aparecer validação aprovada (o nome e o valor da marca não são campos exigidos no assistente), então selecione **Criar**.
+1. Você verá uma mensagem indicando a aprovação na validação (o nome e o valor da marca não são campos obrigatórios no assistente). Selecione **Criar**.
 
-1. Uma mensagem de falha será exibida no topo da tela, dizendo “Falha ao criar o grupo de recursos. Exibir detalhes de erro”.  Selecione **Exibir detalhes de erro**. A condição que integra a política do Azure não foi atendida, então a criação do grupo de recursos foi bloqueada por não conformidade.
-
-    Observação: Caso você não veja uma mensagem de falha e o grupo de recursos seja criado, é porque a política ainda não entrou em vigor.  Vá para a página Política para a política criada na tarefa anterior. Quando a política entrar em vigor, o recurso vai aparecer como não compatível.  A página de detalhes inclui a mensagem de não conformidade. Caso você receba o erro, as etapas a seguir demonstram como corrigir a implantação.
+1. Você verá a mensagem "Falha ao criar o grupo de recursos" na parte superior da tela. Selecione **Exibir detalhes de erro**. A condição que faz parte da política do Azure não foi atendida, ou seja, a criação do grupo de recursos foi bloqueada por não conformidade. Observação: Caso você não veja uma mensagem de falha e o grupo de recursos seja criado, é porque a política ainda não entrou em vigor.  Acesse a página Política da política criada na tarefa anterior. Quando a política entrar em vigor, você verá que o recurso está fora de conformidade.  A página de detalhes inclui a mensagem de não conformidade.
 
 1. O resumo do erro mostra o tipo de erro, “O recurso ‘SC900-Labs’ não foi permitido pela política.  Feche essa janela selecionando o **X** no canto superior esquerdo da tela.
 
 1. Na janela Criar um grupo de recursos, selecione **Anterior**.
 
-1. Estamos de volta à página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Examinar + Criar >** .
+1. Você está novamente na página Marcas para Criar um grupo de recursos.  No campo Nome, insira Ambiente e, no campo Valor, insira **SC900-Labs**. Depois, selecione **Avançar: Examinar + Criar >** .
 
 1. Verifique a marca e selecione **Criar**.
 
-1. O grupo de recursos aparecerá listado.  Como a marca foi gerada no grupo de recursos, a condição incluída como parte da política do Azure foi atendida.  O grupo de recursos é compatível com a política.
+1. No campo Nome, insira **Ambiente** e, no campo Valor, insira **Laboratórios** (esse valor pode ser qualquer coisa, a política apenas exige um valor de marca) e selecione **Avançar: Revisar + Criar >** e **Criar**.
 
-1. Antes de sair, remova a política do Azure.
-    1. No canto superior esquerdo da página, selecione Página Inicial para voltar à página inicial do Azure.
+1. Você verá o grupo de recursos listado.  
 
-    1. Abaixo de Serviços do Azure, selecione Política do Azure.
-    1. No meio da página, encontramos uma lista das atribuições de políticas/iniciativas do Azure.  Selecione as reticências para a atribuição de política Exigir uma marca no grupo de recursos. Depois, selecione Excluir atribuição.
-    1. Vai aparecer uma solicitação para confirmar se você deseja excluir a atribuição.  Selecione Sim.
+1. Selecione **Página Inicial** na parte superior da navegação estrutural para voltar à home page do Azure.
 
-1. Feche todas as guias abertas do navegador.
+1. Mantenha a guia do navegador aberta, pois você precisará dela para a próxima tarefa.
+
+### <a name="task-3-optional"></a>Tarefa 3 (opcional)
+
+Nesta tarefa, você percorrerá as etapas usadas para corrigir um grupo de recursos fora de conformidade. OBSERVAÇÃO: a assinatura do Azure usada para o laboratório enfrentará um atraso maior do que o normal para atualizar o status de conformidade de um grupo de recursos corrigido.
+
+1. Na home page do Azure, selecione **política**. Isso abrirá a home page da Política, que fornece uma exibição do painel.  O escopo da exibição Painel é a assinatura do Azure fornecida pelo hoster do laboratório autorizado.  
+
+1. Você verá a política criada anteriormente. Selecione-a.
+
+1. No topo da página, em Essentials, encontramos o nome, a descrição e outras informações essenciais.  Observe que a política é exibida como fora de conformidade.  Selecione a política para obter mais informações sobre o motivo de a política não estar em conformidade. Aqui você pode ver que um recurso listado como resourgegroup1 está fora de conformidade.  Este é um exemplo de um grupo de recursos que foi criado, anterior à criação da política. Selecione **Detalhes** para obter mais informações.  Aqui você pode ver a mensagem de conformidade indicando que uma marca de ambiente é obrigatória.  Selecione o **X** no canto superior direito para fechar a janela.
+
+1. Selecione **resourcegroup1** e, na parte superior da página, **Exibir Recurso**.
+    1. Ao lado de Marcas, selecione **editar**
+    1. Posicione o cursor do mouse no campo Marca e selecione **Ambiente**.
+    1. Posicione o cursor do mouse no campo Valor, selecione **Laboratórios** e escolha **Salvar**.
+
+1. Agora, volte à página da política.  Posicione e o cursor do mouse na caixa de pesquisa azul na parte superior da página e selecione **Política**.
+
+1. À esquerda no painel de navegação, selecione **Conformidade**.  Assim como na página de visão geral, aqui é possível exibir o estado de conformidade das políticas e/ou iniciativas listadas.  OBSERVAÇÃO: embora você tenha adicionado a marca ao grupo de recursos, levará tempo para que o status seja atualizado.  As assinaturas do Azure usadas para fins de laboratório podem enfrentar atrasos mais longos do que o normal. Se você quiser aguardar o status de conformidade para que esse recurso seja atualizado, não encerre o laboratório. Dependendo do ambiente de laboratório, a atualização pode levar uma hora ou mais.  
 
 ### <a name="review"></a>Revisão
 
-Neste laboratório, exploramos a página de aterrissagem da política do Azure. Após essa introdução à página da política do Azure, acompanhamos o processo de criação de uma política e verificamos o impacto dessa política.
+Neste laboratório, você passou pelo processo de criação de uma atribuição de política do Azure e pôde ver o impacto dessa política.
