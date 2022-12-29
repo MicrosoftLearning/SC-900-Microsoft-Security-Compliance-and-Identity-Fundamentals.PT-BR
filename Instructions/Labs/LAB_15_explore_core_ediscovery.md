@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892658"
----
 <a name="---"></a><!---
 ---
 Laboratório: Título: 'Explorar o fluxo de trabalho da Descoberta Eletrônica (padrão)' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 5: descrever as funcionalidades de Descoberta Eletrônica e auditoria do Microsoft Purview; Unidade 2: descrever as soluções de Descoberta Eletrônica no Microsoft 365'
@@ -22,9 +14,9 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 ## <a name="lab-scenario"></a>Cenário do laboratório
 
-Neste laboratório, vamos acompanhar as etapas necessárias para configurar a Descoberta Eletrônica. Depois, vamos explorar o fluxo de trabalho da Descoberta Eletrônica (Standard) criando uma retenção de Descoberta Eletrônica e uma consulta de pesquisa, e exportando os resultados da pesquisa.  Observação:  O licenciamento para a Descoberta Eletrônica (Standard) exige a assinatura apropriada da organização e licenciamento por usuário. Se você não sabe quais licenças dão suporte à Descoberta Eletrônica (Standard), visite [Introdução à Descoberta Eletrônica (Standard) no Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+Neste laboratório, você acompanhará as etapas necessárias para configurar a Descoberta Eletrônica, incluindo a configuração de permissões de função, a criação de um caso de Descoberta Eletrônica, a criação de uma retenção de Descoberta Eletrônica e a criação de uma consulta de pesquisa.  Observação:  O licenciamento para a Descoberta Eletrônica (Standard) exige a assinatura apropriada da organização e licenciamento por usuário. Se você não sabe quais licenças dão suporte à Descoberta Eletrônica (Standard), visite [Introdução à Descoberta Eletrônica (Standard) no Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Tempo estimado**: 20 a 25 minutos
+**Tempo estimado**: 25-30 minutos
 
 ### <a name="task-1"></a>Tarefa 1:
 
@@ -33,9 +25,9 @@ Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro d
  Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
 
 1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de locatário exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione **Avançar**.
+    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
 
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem de laboratório. Selecione **Entrar**.
+    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
@@ -44,23 +36,23 @@ Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro d
 
 1. No painel de navegação esquerdo, selecione **Permissões**.
 
-1. Na página de Permissões e funções, no Portal de Conformidade, selecione **Funções**.
+1. Na página Permissões e funções, em Soluções do Microsoft Purview, selecione **Funções**.
 
 1. No campo de pesquisa, insira **Descoberta Eletrônica** e selecione o ícone de pesquisa (lupa).  Selecione **Gerente de Descoberta Eletrônica**.
 
-1. Na janela aberta, observe que há dois subgrupos, o Gerente de Descoberta Eletrônica e o Administrador de Descoberta Eletrônica.  Leia a descrição de cada um deles.  Para este laboratório, vamos adicionar membros ao subgrupo Administrador de Descoberta Eletrônica. Selecione **Editar**, perto de Administrador de Descoberta Eletrônica.  Como prática geral recomendada, o privilégio mínimo exigido para a função deve ser atribuído aos usuários.
+1. Na janela que será aberta, observe que há dois subgrupos: Gerente de Descoberta Eletrônica e Administrador de Descoberta Eletrônica.  Leia a descrição de cada um deles.  Para este laboratório, vamos adicionar membros ao subgrupo Administrador da Descoberta Eletrônica. Selecione **Editar**, perto de Administrador de Descoberta Eletrônica.  Como prática geral recomendada, o privilégio mínimo exigido para a função deve ser atribuído aos usuários.
 
 1. Para adicionar membros a esse grupo de função, verifique se você está na guia **Escolher Administrador de Descoberta Eletrônica** e selecione **Escolher Administrador de Descoberta Eletrônica**.
 
 1. Selecione **+ Adicionar** na parte superior da página.
 
-1. A partir da lista de nomes, selecione **Administrador MOD**, **Megan Bowen**, e depois **Adicionar** na parte inferior da página. Então, selecione **Concluído** na parte inferior da página.
+1. Na lista de nomes, selecione **Administrador MOD**, **Mila Moraes** e **Adicionar** na parte inferior da página. Em seguida, escolha **Concluído** na parte inferior da página.
 
 1. Verifique se os membros adicionados estão corretos e selecione **Salvar**.
 
 1. Na parte inferior da janela Descoberta Eletrônica, selecione **Fechar**.
 
-1. Deixe essa guia do navegador aberta; vamos usá-la na próxima tarefa.
+1. Mantenha essa guia do navegador aberta, pois você vai usá-la na próxima tarefa.
 
 ### <a name="task-2"></a>Tarefa 2:
 
@@ -78,11 +70,11 @@ Nesta tarefa, como Administrador da Descoberta Eletrônica (o administrador MOD 
 
 1. Como você criou o processo e tem privilégios de Administrador de Descoberta Eletrônica, é possível começar a trabalhar nele.  
 
-1. Deixe essa guia do navegador aberta; vamos usá-la na próxima tarefa.
+1. Mantenha essa guia do navegador aberta, pois você vai usá-la na tarefa seguinte.
 
 ### <a name="task-3"></a>Tarefa 3
 
-Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começar a trabalhar nele.  Nesta tarefa, vamos criar uma retenção de Descoberta Eletrônica para o processo recém-criado.  Especificamente, vamos criar uma retenção para a caixa de correio exchange pertencente à Adele Vance.
+Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começar a trabalhar nele.  Nesta tarefa, você criará uma retenção de Descoberta Eletrônica para o caso criado.  Especificamente, você criará uma retenção para a caixa de correio do Exchange pertencente a Alice Pena.
 
 1. Abra a guia Descoberta Eletrônica (Standard) no navegador.
 
@@ -90,25 +82,27 @@ Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começa
 
 1. Na Página Inicial do processo, selecione a guia **Retenção** e depois **+Criar**.
 
-1. No campo do nome, insira **Retenção teste** e depois selecione Avançar.
+1. No campo do nome, insira **Retenção teste** e selecione **Avançar**.
 
-1. Na página Escolher localizações, selecione o botão de alternância próximo a **Caixas de correio do Exchange** para definir o status como **Ativado** e selecione **Escolher usuários, grupos ou equipes**.  Na caixa de pesquisa, insira **Adele** e pressione o enter no teclado. A partir dos resultados da pesquisa, selecione **Adele Vance** e depois Escolher. Em seguida, selecione **Concluído**.
+1. Na página Escolher localizações, selecione a opção de alternância ao lado de **Caixas de correio do Exchange** para definir o status como **Ativado**.  
+
+1. Agora, selecione **Escolher usuários, grupos ou equipes**.  Na caixa de pesquisa, insira **Adele** e pressione o enter no teclado. Nos resultados da pesquisa, selecione **Alice Pena** e **Concluído**.
 
 1. Na página Escolher localizações, selecione **Avançar**.  Por uma questão de conveniência para o laboratório, nenhuma outra localização vai ser incluída nesta retenção.
 
-1. A página Consultar condições permite criar uma retenção com base em Palavras-chave ou Condições atendidas. Selecione **+Condições** para exibir as opções disponíveis.  Selecione **Avançar**. Quando não tiver nenhuma condição, a retenção preserva todo o conteúdo da localização especificada.
+1. A página Condições de consulta permite que você crie uma retenção, com base em palavras-chave ou condições específicas atendidas. Selecione **+ Adicionar condição** para ver as opções disponíveis.  Selecione **Avançar**. Quando não tiver nenhuma condição, a retenção preserva todo o conteúdo da localização especificada.
 
 1. Verifique as configurações e selecione **Enviar**; isso pode levar um minuto. Depois, selecione **Concluído**.  A Retenção teste deve aparecer na lista.  Se você não a encontrar de imediato, selecione **Atualizar**
 
-1. Deixe essa guia do navegador aberta; vamos usá-la na próxima tarefa.
+1. Mantenha essa guia do navegador aberta, pois você vai usá-la na tarefa seguinte.
 
 ### <a name="task-4"></a>Tarefa 4
 
-Com uma retenção estabelecida, vamos criar uma consulta de pesquisa.  Quando a pesquisa estiver concluída, vamos exportar e baixar os resultados para uma investigação futura.   Observação:  As pesquisas associadas a um caso da Descoberta Eletrônica (Standard) não são listadas na página Pesquisar conteúdo do portal de conformidade do Microsoft Purview. Essas pesquisas são listadas apenas na página Pesquisas do caso da Descoberta Eletrônica (Standard) associado.
+Com uma retenção estabelecida, você criará uma consulta de pesquisa.  Após a conclusão da pesquisa, a Descoberta Eletrônica dá suporte a ações, como a exportação e o download dos resultados para investigação futura.   Observação:  As pesquisas associadas a um caso da Descoberta Eletrônica (Standard) não são listadas na página Pesquisar conteúdo do portal de conformidade do Microsoft Purview. Essas pesquisas são listadas apenas na página Pesquisas do caso da Descoberta Eletrônica (Standard) associado.
 
-1. Abra a guia do Processo teste SC900 no navegador.
+1. Abra a guia Caso de Teste SC900 no navegador.
 
-1. Na página Retenções do processo, selecione **Pesquisas**.
+1. Na página Caso de Teste de SC900, selecione **Pesquisas**.
 
 1. Na página Pesquisa, selecione **+ Nova Pesquisa**.
 
@@ -120,24 +114,12 @@ Com uma retenção estabelecida, vamos criar uma consulta de pesquisa.  Quando a
 
 1. Verifique as configurações e selecione **Enviar**; isso pode levar um minuto. Depois, selecione **Concluído**.  A pesquisa deve aparecer na lista.  Se você não a encontrar de imediato, selecione **Atualizar**
 
-1. Na janela Pesquisas, selecione a pesquisa que acabamos de criar, **Retenção Teste - Pesquisa de Vendas**.  Uma janela será aberta com a guia Resumo selecionada.  Quando a pesquisa for concluída, o status indicará isso.  Você vai encontrar a guia Estatísticas da pesquisa (se não encontrar, a pesquisa ainda pode estar em execução e pode levar alguns minutos para ser concluída).  Selecione **Estatísticas da pesquisa** e selecione o menu suspenso próximo de Pesquisar conteúdo.  Também é possível encontrar mais informações para o Relatório de condições e as Localizações principais.  
+1. Na janela Pesquisas, selecione a pesquisa criada, **Retenção Teste – Pesquisa de Vendas**.  Uma janela será aberta com a guia Resumo selecionada.  Quando a pesquisa for concluída, o status indicará isso.  Você verá uma guia Estatísticas da pesquisa (se não encontrá-la, a pesquisa ainda poderá estar em execução e poderá levar alguns minutos para ser concluída).  Selecione **Estatísticas da pesquisa** e selecione o menu suspenso próximo de Pesquisar conteúdo.  Também é possível encontrar mais informações para o Relatório de condições e as Localizações principais.  
 
-1. Na parte inferior da página, selecione **Ações**.  Observe as opções disponíveis e selecione **Exportar resultados**.
-
-    1. Na janela Exportar resultados, mantenha o padrão e selecione **Exportar** na parte inferior da página. Voltaremos automaticamente à janela “Retenção Teste - Pesquisa de Vendas”. Selecione **fechar** na parte inferior da página.
-
-    1. Na página SC900 - Processo teste, selecione **Exportações** na parte superior da página.
-    1. Selecione **Retenção Teste - Pesquisa de Vendas_Export**
-    1. Na janela aberta, “Retenção Teste - Pesquisa de Vendas_Export”, encontramos uma Chave de exportação. Selecione **Copiar à área de transferência**.
-    1. Na parte superior da janela, selecione **Baixar resultados**. Uma nova página é aberta no navegador e uma janela pop-up aparece perguntando se você deseja abrir este arquivo. Selecione **Abrir**.
-    1. Se esta for a primeira vez que você baixa uma pesquisa de conteúdo, aparecerá uma solicitação para instalar o Microsoft Office 365 e a ferramenta de Exportação de Descoberta Eletrônica.  Selecione **Instalar**.
-    1. Quando a instalação for concluída, a janela da ferramenta de exportação de descoberta eletrônica será aberta.  No primeiro campo, cole a chave de exportação copiada à área de transferência (use o Control V no teclado ou clique com o botão direito do mouse e selecione colar).
-    1. No segundo campo, selecione a localização desejada para armazenar o arquivo exportado. Depois, selecione **Iniciar**.  Quando o processo de download for concluído, selecione **Fechar** e fecha essa guia do navegador.
-    1. Estamos de volta à janela “Retenção Teste - Pesquisa de Vendas_Export”.  Selecione **Fechar**.
-    1. Verifique a localização do download para conferir se ele foi concluído com sucesso.
+1. Na parte inferior da página, selecione **Ações**.  Observe as opções disponíveis que incluem opções de exportação (as opções de exportação não podem ser selecionadas na plataforma do laboratório fornecida pelo hoster do laboratório autorizado, mas estão disponíveis em um ambiente de produção e são consideradas parte do fluxo de trabalho padrão). Selecione **Fechar**.
 
 1. Feche todas as guias abertas do navegador.
 
 ### <a name="review"></a>Revisão
 
-Neste laboratório, acompanhamos as etapas necessárias de introdução à Descoberta Eletrônica (Standard), incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um processo de Descoberta Eletrônica.  Com o processo criado, acompanhamos o fluxo de trabalho da Descoberta Eletrônica (Standard), criando uma retenção de Descoberta Eletrônica e uma consulta de pesquisa, e exportando os resultados da pesquisa para uso em investigações futuras.
+Neste laboratório, você acompanhará as etapas necessárias para começar a usar a Descoberta Eletrônica (Standard), incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um caso da Descoberta Eletrônica.  Com o caso criado, você acompanhou os elementos do fluxo de trabalho da Descoberta Eletrônica (Standard) criando uma retenção de Descoberta Eletrônica e uma consulta de pesquisa.
