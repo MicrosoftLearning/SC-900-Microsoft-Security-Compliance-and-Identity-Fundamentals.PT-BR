@@ -87,15 +87,15 @@ Nesta tarefa, você percorrerá o processo de criação de uma política de aces
 
 ### <a name="task-3"></a>Tarefa 3
 
-Nesta tarefa, você verá o impacto da política de acesso condicional da perspectiva do usuário, Clara Barbosa. Você começará entrando em um aplicativo que não está incluído na política de acesso condicional.  Em seguida, você repetirá o processo para um aplicativo incluído na política de acesso condicional.  Lembre-se de que a política exige que o usuário passe pelo MFA ao acessar um aplicativo de gerenciamento do Microsoft Azure.  Para usar o MFA, o usuário deve primeiro registrar o método de autenticação que será usado para o MFA, por exemplo, um código enviado para um dispositivo móvel ou um aplicativo autenticador.
+Nesta tarefa, você verá o impacto da política de acesso condicional da perspectiva do usuário, Clara Barbosa. Você começará entrando em um aplicativo que não está incluso na política de acesso condicional (o portal do Microsoft 365 em login.microsoftonline.com).  Em seguida, repita o processo para um aplicativo incluso na política de acesso condicional (o portal do Azure em portal.azure.com).  Lembre-se de que a política exige que o usuário passe pelo MFA ao acessar um aplicativo de gerenciamento do Microsoft Azure.  Para usar o MFA, o usuário deve primeiro registrar o método de autenticação que será usado para o MFA, por exemplo, um código enviado para um dispositivo móvel ou um aplicativo autenticador.
 
-1. Entre como Clara Barbosa. 
-    1. Na janela Entrar, insira **DebraB@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
+1. Abra o Microsoft Edge.  Na barra de endereços, insira **login.microsoftonline.com**.
+    1. Entre como **DebraB@WWLxZZZZZZ.onmicrosoft.com** , (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Próximo**.
     1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
     1. Como a senha fornecida quando você, como administrador, a redefiniu é temporária, é preciso atualizar a senha (isso não faz parte da política da MFA). Insira a senha atual e, para a nova senha, insira **SC900-Lab** e **SC900** novamente para confirmar a senha.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.  Você deve estar conectado à sua conta do Microsoft 365. O MFA não era necessário para este aplicativo, pois não faz parte da política.
 
-1. Agora você tentará entrar em um aplicativo que atende aos critérios da MFA. Abra uma nova guia no portal.Microsoft Microsoft Edge e na barra de endereços, insira **portal.azure.com**.
+1. Agora você tentará entrar em um aplicativo que atende aos critérios da MFA. Abra uma nova guia do navegador e insira **portal.azure.com**.
 
 1. Você verá uma janela indicando Mais informações necessárias.  Selecione **Avançar**.  Observação: isso iniciará o processo de registro da MFA, pois esta é a primeira vez que você está acessando o aplicativo em nuvem que foi identificado na política de acesso condicional.  Este processo de registro é necessário apenas uma vez.   Uma alternativa para o usuário passar pelo processo de registro é fazer com que o administrador configure o método de autenticação a ser usado.
 
