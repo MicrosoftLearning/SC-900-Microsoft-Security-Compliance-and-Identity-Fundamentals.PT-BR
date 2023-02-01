@@ -84,9 +84,9 @@ Nesta tarefa, você acompanhará o processo de aplicação de um rótulo da pers
 
 1. Na página inicial do portal de conformidade do Microsoft Purview, selecione o **ícone de inicialização do aplicativo** ao lado de Contoso Electronics. Selecione o **ícone do Word**.  
 
-1. Selecione **+ Novo documento em branco** e insira algum texto na página.  Na parte superior da página, selecione a seta para baixo, ao lado de Documento – Salvo e, na caixa Nome do Arquivo, insira **Rótulo-teste** e pressione **ENTER** no teclado.
+1. Em Criar, selecione **Documento em branco** e insira algum texto na página.  Na parte superior da página, selecione a seta para baixo, ao lado de Documento – Salvo e, na caixa Nome do Arquivo, insira **Rótulo-teste** e pressione **ENTER** no teclado.
 
-1. Na barra de menus superior, selecione **Ícone de confidencialidade** (o ícone à direita do ícone de microfone), se você não vir essa opção imediatamente, atualize a página. No menu suspenso, selecione **Confidencial – Finanças**.  
+1. Na barra de menus superior, selecione **Ícone de confidencialidade**, o ícone à direita do microfone (dependendo do tamanho da tela, pode ser necessário selecionar as reticências e a confidencialidade). No menu suspenso, selecione **Confidencial – Finanças**.  OBSERVAÇÃO: se você não vir imediatamente a opção Confidencialidade, atualize a página, mas como esse é um ambiente de locatário de laboratório, é possível que ele demora mais que o normal (de 10 a 15 minutos) para aparecer.
 
 1. Na barra de menu superior, selecione **Exibição** e depois **Modo de Exibição de Leitura**.
 
@@ -100,13 +100,13 @@ Lembre-se da primeira parte da demonstração de que o rótulo Confidencial – 
 
 1. Na página inicial do portal de conformidade do Microsoft Purview, selecione o **ícone de inicialização do aplicativo** ao lado de Contoso Electronics. Selecione o **ícone do Outlook**.
 
-1. Selecione **Nova mensagem** na no canto superior esquerdo da tela.  Insira um endereço de email ao qual você tem acesso e que não faça parte do domínio WWLxZZZZ.OnMicrosoft.com. Depois, insira **Teste** no assunto.
+1. Selecione **Nova mensagem** no canto superior esquerdo da tela.  Insira um endereço de email ao qual você tem acesso e que não faça parte do domínio WWLxZZZZ.OnMicrosoft.com. Depois, insira **Teste** no assunto.
 
-1. Selecionar **Anexar**.
+1. Selecione **Anexar** (o ícone de clipe de papel).
 
-1. Selecione **Procurar localizações na nuvem**.
+1. Selecione **OneDrive**.
 
-1. Na lista aberta, selecione o documento criado, ao qual aplicamos o rótulo **Rótulo-teste**. Selecione **Avançar** e depois **Anexar como cópia**.  Pressione **Enviar**.
+1. Verifique se a guia **Recente** no painel de navegação à esquerda está selecionada.  Na lista aberta, selecione o documento criado, ao qual aplicamos o rótulo **Rótulo-teste**. Selecione **Avançar** e depois **Anexar como cópia**.  Pressione **Enviar**.
 
 1. Verifique o email a que você enviou o documento.  Lembre-se de que o email pode ter sido direcionado à pasta de lixo eletrônico.  O email foi enviado com sucesso, mas quando você tentar abrir o arquivo do Word anexado, que foi originalmente rotulado como Confidencial – Finanças, verá uma notificação informando que não tem permissão para abrir o documento.
 
