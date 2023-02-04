@@ -37,9 +37,11 @@ Nesta tarefa, você vai criar uma atribuição de política básica para exigir 
 
 1. Comece na guia Informações Básicas.
     1. Para o Escopo, mantenha a configuração padrão. Nesse caso, o escopo da política é a assinatura do Azure fornecida pelo ALH (hoster do laboratório autorizado).
-    1. Em Definição de Política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  Na barra de pesquisa, insira **Exigir uma marca**. A partir dos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (pode ser necessário rolar a página) e depois **Selecionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
+    1. Em Definição de Política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  Na barra de pesquisa, insira **Exigir uma marca**. Nos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (talvez seja necessário percorrer a página) e escolha **Adicionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
     1. Observe o nome de atribuição padrão.  Mantenha o nome como está.
-    1. Verifique se a opção Imposição de política está definida como **Habilitada** e selecione **Avançar**.
+    1. Verifique se a opção de Imposição de política está **Habilitada**
+
+1. Selecione **Avançar** e clique em **Avançar** novamente para ir para a guia Parâmetros (você também pode selecionar a guia parâmetros diretamente).
 
 1. Agora você está na guia Parâmetros. No campo Nome da marca, insira **Ambiente** e selecione **Avançar**.
 
