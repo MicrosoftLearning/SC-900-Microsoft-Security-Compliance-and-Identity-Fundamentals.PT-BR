@@ -1,6 +1,7 @@
 <a name="---"></a><!---
 ---
-Laboratório: Título: 'Configuração'
+Laboratório:
+    Título: 'Configuração'
 ---
 --->
 

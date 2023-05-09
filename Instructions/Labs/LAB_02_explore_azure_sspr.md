@@ -1,6 +1,8 @@
 <a name="---"></a><!---
 ---
-Laboratório: Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+Laboratório: 
+    Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' 
+    Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
 ---
 --->
 
