@@ -4,11 +4,7 @@ demo:
   module: 'Módulo 3: descrever a proteção de informações e o gerenciamento de ciclo de vida de dados no Microsoft Purview'
 ---
 
-<a name="---"></a><!---
----
-Demonstração: Título: 'Rótulos de confidencialidade no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 3: descrever a proteção de informações e o gerenciamento de ciclo de vida de dados no Microsoft Purview; Unidade 4: descrever rótulos de confidencialidade'
----
---->
+
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demonstração: Rótulos de confidencialidade no Microsoft Purview
 

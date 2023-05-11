@@ -4,11 +4,6 @@ lab:
   module: 'Módulo 1: descrever as funcionalidades do gerenciamento de conformidade na Microsoft'
 ---
 
-<a name="---"></a><!---
----
-Laboratório: Título: 'Explorar o Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 1: descrever as funcionalidades do gerenciamento de conformidade na Microsoft; Unidade 2: explorar o Portal de Confiança do Serviço'
----
---->
 
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratório: Explore o Portal de Confiança do Serviço
 

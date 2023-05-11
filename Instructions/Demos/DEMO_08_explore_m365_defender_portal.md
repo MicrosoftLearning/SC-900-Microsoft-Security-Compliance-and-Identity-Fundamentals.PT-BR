@@ -5,11 +5,6 @@ demo:
 ---
 
 
-<a name="---"></a><!---
----
-Demonstração: Título: 'O portal Microsoft 365 Defender' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 7: descrever o portal Microsoft 365 Defender'
----
---->
 
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demonstração: O Portal do Microsoft 365 Defender
 

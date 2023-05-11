@@ -4,11 +4,6 @@ demo:
   module: 'Configuração antes da demonstração'
 ---
 
-<a name="---"></a><!---
----
-Configuração de pré-demonstração: Título: 'Instalação de demonstração'
----
---->
 
 ## <a name="pre-demo-setup"></a>Configuração antes da demonstração
 

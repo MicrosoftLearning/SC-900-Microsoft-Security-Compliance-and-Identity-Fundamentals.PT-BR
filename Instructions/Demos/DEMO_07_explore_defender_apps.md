@@ -4,12 +4,6 @@ demo:
   module: 'Module 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365'
 ---
 
-<a name="---"></a><!---
----
-Demonstração: Título: Microsoft Defender for Cloud Apps ' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Module 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 5: descrever o Microsoft Defender for Cloud Apps'
----
---->
-
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demonstração: Microsoft Defender for Cloud Apps
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:

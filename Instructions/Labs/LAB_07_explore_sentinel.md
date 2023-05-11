@@ -4,11 +4,6 @@ lab:
   module: 'Módulo 3: descrever as funcionalidades de segurança do Microsoft Sentinel'
 ---
 
-<a name="---"></a><!---
----
-Laboratório: Título: 'Explorar o Microsoft Sentinel' Roteiro de aprendizagem/Módulo/Título: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 3: descrever as funcionalidades de segurança do Microsoft Sentinel; Unidade 3: descrever como o Microsoft Sentinel fornece gerenciamento integrado de ameaças'
----
---->
 
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratório: Explorar o Microsoft Sentinel
 

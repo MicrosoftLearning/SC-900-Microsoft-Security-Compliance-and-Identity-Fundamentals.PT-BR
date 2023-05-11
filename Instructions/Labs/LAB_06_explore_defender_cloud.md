@@ -4,11 +4,6 @@ lab:
   module: 'Módulo 2: descrever as funcionalidades do gerenciamento de segurança do Azure'
 ---
 
-<a name="---"></a><!---
----
-Laboratório: Título: 'Explorar o Microsoft Defender para Nuvem' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 2: descrever as funcionalidades do gerenciamento de segurança do Azure; Unidade 3: descrever o Microsoft Defender para Nuvem'
----
---->
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Laboratório: Explorar o Microsoft Defender para Nuvem
 
