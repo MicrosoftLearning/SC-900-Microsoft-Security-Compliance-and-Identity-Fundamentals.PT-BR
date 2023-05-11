@@ -1,3 +1,9 @@
+---
+demo:
+  title: 'Acesso condicional do Azure AD'
+  module: 'Módulo 3: descrever as funcionalidades de gerenciamento de acesso do Azure AD'
+---
+
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'Acesso condicional do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 3: descrever as funcionalidades de gerenciamento de acesso do Azure AD; Unidade 2: descrever o acesso condicional no Azure AD'

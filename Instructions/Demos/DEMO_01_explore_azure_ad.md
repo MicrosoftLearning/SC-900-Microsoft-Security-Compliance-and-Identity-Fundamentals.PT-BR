@@ -1,3 +1,9 @@
+---
+demo:
+  title: 'Explorar as Configurações do Usuário do Azure AD'
+  module: 'Módulo 1: descrever os serviços básicos e os tipos de identidade de Azure AD'
+---
+
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'Explorar as Configurações do Usuário do Azure AD': 'Roteiro de aprendizagem: descrever as funcionalidades do Azure Active Directory (Azure AD), parte do Microsoft Entra; Módulo 1: descrever os serviços básicos e os tipos de identidade de Azure AD; Unidade 4: descrever os tipos de identidade Azure AD'

@@ -1,3 +1,9 @@
+---
+demo:
+  title: 'Explore o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview'
+  module: 'Módulo 2: descrever as funcionalidades do gerenciamento de conformidade no Microsoft Purview'
+---
+
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'Explore o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 2: descrever as funcionalidades do gerenciamento de conformidade no Microsoft Purview; Unidade 2: descrever o portal de conformidade do Microsoft Purview'

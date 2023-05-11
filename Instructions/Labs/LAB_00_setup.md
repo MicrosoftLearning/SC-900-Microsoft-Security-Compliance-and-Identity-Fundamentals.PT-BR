@@ -1,9 +1,17 @@
+---
+lab:
+  title: 'Configuração'
+  module: 'Instalação'
+---
+
 <a name="---"></a><!---
 ---
 Laboratório:
     Título: 'Configuração'
 ---
 --->
+
+
 
 # <a name="lab-setup"></a>Laboratório: Instalação
 

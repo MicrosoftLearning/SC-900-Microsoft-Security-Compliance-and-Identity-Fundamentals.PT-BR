@@ -1,3 +1,9 @@
+---
+demo:
+  title: 'Microsoft Defender para Nuvem'
+  module: 'Módulo 2: descrever as funcionalidades do gerenciamento de segurança do Azure'
+---
+
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'Microsoft Defender para Nuvem' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 2: descrever as funcionalidades do gerenciamento de segurança do Azure; Unidade 3: descrever o Microsoft Defender para Nuvem'

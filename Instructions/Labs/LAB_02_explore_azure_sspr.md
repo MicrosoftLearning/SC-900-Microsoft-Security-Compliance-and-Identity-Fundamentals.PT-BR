@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service'
+    module: 'Módulo 2: descrever as funcionalidades de autenticação do Azure AD'
+---
+
+
 <a name="---"></a><!---
 ---
 Laboratório: 
@@ -5,6 +12,7 @@ Laboratório:
     Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
 ---
 --->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
 

@@ -1,9 +1,18 @@
+---
+lab:
+    title: 'Explorar o gerenciamento de acesso no Azure AD com o acesso condicional'
+    module: 'Módulo: 'Descrever as funcionalidades de gerenciamento de acesso do Azure AD'
+---
+
 <a name="---"></a><!---
 ---
 Laboratório: 
     Roteiro de aprendizagem: 'Descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra' Módulo: 'Descrever as funcionalidades de gerenciamento de acesso do Azure AD' Unidade: 'Descrever o acesso condicional no Azure AD'
 ---
 --->
+
+
+
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Laboratório: Explorar o gerenciamento de acesso no Azure AD com o acesso condicional
 

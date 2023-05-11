@@ -1,3 +1,10 @@
+---
+demo:
+  title: 'O portal Microsoft 365 Defender'
+  module: 'Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365'
+---
+
+
 <a name="---"></a><!---
 ---
 Demonstração: Título: 'O portal Microsoft 365 Defender' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 7: descrever o portal Microsoft 365 Defender'
