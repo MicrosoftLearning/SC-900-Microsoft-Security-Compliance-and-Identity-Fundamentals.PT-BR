@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'Configuração'
-  module: 'Instalação'
+  module: 'Configuração'
 ---
 
 

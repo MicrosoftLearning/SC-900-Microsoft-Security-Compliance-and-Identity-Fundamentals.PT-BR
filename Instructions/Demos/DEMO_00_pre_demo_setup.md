@@ -1,7 +1,7 @@
 ---
 demo:
   title: 'Instalação de demonstração'
-  module: 'Configuração antes da demonstração'
+  module: 'Instalação de demonstração'
 ---
 
 
