@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Explorar o Azure Policy'
-  module: 'Módulo 6: descrever as funcionalidades da governança de recursos no Azure'
+Laboratório: Título: 'Explorar o Azure Policy' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 6: descrever as funcionalidades da governança de recursos no Azure; Unidade 2: descrever o Azure Policy'
 ---
-
+--->
 
 # <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
 

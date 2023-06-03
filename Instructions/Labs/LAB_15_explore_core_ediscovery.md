@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Explorar o fluxo de trabalho da Descoberta Eletrônica (padrão)'
-  module: 'Módulo 5: descrever as funcionalidades de Descoberta Eletrônica e auditoria do Microsoft Purview'
+Laboratório: Título: 'Explorar o fluxo de trabalho da Descoberta Eletrônica (padrão)' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 5: descrever as funcionalidades de Descoberta Eletrônica e auditoria do Microsoft Purview; Unidade 2: descrever as soluções de Descoberta Eletrônica no Microsoft 365'
 ---
-
+--->
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratório: Explorar o fluxo de trabalho da Descoberta Eletrônica (Standard)
 

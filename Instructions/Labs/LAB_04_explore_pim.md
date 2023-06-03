@@ -1,11 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: 'Explorar a governança de identidade no Azure AD com o Privileged Identity Management'
-    module: 'Módulo 4: descrever as funcionalidades de proteção e governança de identidade do Azure AD'
+Laboratório: Título: 'Explorar a governança de identidade no Azure AD com o Privileged Identity Management. ' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 4: descrever as funcionalidades de proteção e governança de identidade do Azure AD; Unidade 4: descrever as funcionalidades do Privileged Identity Management'
 ---
-
-
-
+--->
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratório: Explore a governança de identidade no Azure AD com o Privileged Identity Management
 

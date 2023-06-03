@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Explorar o portal Microsoft 365 Defender'
-  module: 'Module 1 - Introduction to AI'
+Laboratório: Título: 'Explorar o portal Microsoft 365 Defender' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 7: descrever o portal Microsoft 365 Defender'
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratório: Explorar o portal do Microsoft 365 Defender
 

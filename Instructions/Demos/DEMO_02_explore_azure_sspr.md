@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'SSPR (redefinição de senha self-service) do Azure AD'
-  module: 'Módulo 2: descrever as funcionalidades de autenticação do Azure AD'
+Demonstração: Título: 'SSPR (redefinição de senha self-service) do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
 ---
-
+--->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demonstração: SSPR (redefinição de senha self-service do Azure AD)
 
