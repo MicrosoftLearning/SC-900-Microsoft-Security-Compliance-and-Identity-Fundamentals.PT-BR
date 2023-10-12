@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demonstração: Título: 'SSPR (redefinição de senha self-service) do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+Demonstração: Título: 'Redefinição de senha self-service (SSPR) do Microsoft Entra' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as capacidades do Microsoft Entra; Módulo 2: descrever as capacidades de autenticação do Microsoft Entra ID; Unidade 4: descrever a redefinição de senha self-service'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demonstração: SSPR (redefinição de senha self-service do Azure AD)
+# Demonstração: redefinição de senha self-service (SSPR) do Microsoft Entra
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
-- Módulo: descrever as funcionalidades de autenticação do Azure AD
-- Unidade: descrever a redefinição de senha self-service no Azure AD
+- Roteiro de aprendizagem: descrever as capacidades do Microsoft Entra
+- Módulo: descrever as capacidades de autenticação do Microsoft Entra ID
+- Unidade: descrever a redefinição de senha self-service
 
-## <a name="demo-scenario"></a>Cenário da demonstração
+## Cenário da demonstração
 
 Nesta demonstração, você verá as várias configurações associadas à habilitação da redefinição de senha por autoatendimento.
 
-1. Vá para a guia Contoso – Microsoft Azure aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory. Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
+1. Retorne à guia do navegador aberta com o título "Centro de Administração Microsoft Entra."  Se tiver fechado previamente essa guia do navegador, abra o Microsoft Edge e faça logon em **[entra.microsoft.com](https://entra.microsoft.com)** com suas credenciais de administrador do Microsoft 365.
 
-1. No painel de navegação esquerdo, selecione Redefinição de senha.
+1. No painel de navegação à esquerda, expanda **Proteção** e selecione **Redefinição de senha**.
 
 1. A guia de propriedades é realçada.  Na janela Propriedades, observe que o SSPR pode ser habilitado para Nenhum, Selecionar ou Todos.
     1. Coloque o cursor sobre o ícone de informações próximo a “Redefinição de senha self-service habilitada” e destaque que você pode escolher “Selecionado” para restringir a redefinição de senha a um grupo limitado de usuários, em vez de selecionar Nenhum ou Todos.
@@ -41,6 +41,6 @@ Nesta demonstração, você verá as várias configurações associadas à habil
 
 1. Deixe esta página do navegador aberta para a próxima demonstração.
 
-### <a name="review"></a>Revisão
+### Revisão
 
 Nesta demonstração, você mostrou as configurações associadas à redefinição de senha self-service.

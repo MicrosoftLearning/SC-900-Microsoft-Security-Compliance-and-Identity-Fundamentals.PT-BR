@@ -1,75 +1,35 @@
-<a name="---"></a><!---
+<!---
 ---
-Laboratório: Título: 'Explorar a autenticação do Azure AD com a redefinição de senha self-service' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 2: descrever as funcionalidades de autenticação do Azure AD; Unidade 4: descrever a redefinição de senha self-service no Azure AD'
+Laboratório: Título: 'Explorar a autenticação do Microsoft Azure AD com redefinição de senha self-service' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as capacidades do Azure Active Directory (Azure AD), parte do Microsoft Entra; Módulo 2: descrever as capacidades de autenticação do Microsoft Azure AD; Unidade 4: descrever a senha self-service'
 ---
 --->
 
-# <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratório: Explorar a autenticação do Azure AD com redefinição de senha de autoatendimento
+# Laboratório: redefinição de senha self-service do Microsoft Entra
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
-- Módulo: descrever as funcionalidades de autenticação do Azure AD
-- Unidade: descrever a redefinição de senha self-service no Azure AD
+- Roteiro de aprendizagem: descrever as capacidades do Microsoft Entra
+- Módulo: descrever as capacidades de autenticação do Microsoft Entra ID
+- Unidade: descrever a redefinição de senha self-service
 
-## <a name="lab-scenario"></a>Cenário do laboratório
+## Cenário do laboratório
 
-Neste laboratório, você, como administrador, percorrerá o processo de ativação da redefinição de senha de autoatendimento. Com a SSPR habilitada, você assumirá a função de um usuário e passará pelo processo de registro da SSPR e pela redefinição da senha.  Por fim, você, como administrador, poderá ver os registros de auditoria, dados de uso e insights para o SSPR.
+Neste laboratório, você, como administrador, percorrerá o processo de adição de um usuário ao grupo de segurança SSPR, que já está configurado no seu locatário do Microsoft 365. Com a SSPR habilitada, você assumirá a função de um usuário e passará pelo processo de registro da SSPR e pela redefinição da senha.  Por fim, você, como administrador, poderá ver os registros de auditoria, dados de uso e insights para o SSPR.
 
 **Tempo estimado**: 15 a 20 minutos
 
-### <a name="task-1"></a>Tarefa 1:
+### Tarefa 1:
 
-Nesta tarefa, você, como administrador, adicionará um usuário existente, Adele Vance, ao grupo de usuários de segurança do SSPR.  Além disso, você também precisará redefinir a senha do usuário para se conectar pela primeira vez, como usuário, e se registrar na SSPR.
+Nesta tarefa, você, como administrador, percorrerá algumas das definições de configuração disponíveis para o SSPR.
 
-1. Abra o Microsoft Edge.
-
-2. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
+1. Abra o navegador Microsoft Edge. Na barra de endereços, insira **https://entra.microsoft.com** e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH).
+    1. Na Janela de Entrada, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a ID de Locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
-3. Selecione **Azure Active Directory**.  
+1. No painel de navegação à esquerda, expanda a opção **Proteção** e selecione **Redefinição de senha**.  
 
-4. No painel de navegação esquerdo, selecione **Grupos**.
-
-5. Uma lista de grupos existentes é exibida. No campo de grupos de Pesquisa, digite **SSPR** e nos resultados de pesquisa selecione **SSPRSecurityGroupUsers**.  Você será direcionado para a opção de configuração para este grupo.
-
-6. No painel de navegação esquerdo, selecione **Membros**.
-
-7. Na parte superior da página, selecione **+ Adicionar membros**.  
-
-8. Na caixa de pesquisa, digite **Adele**.  Assim que o usuário, **Adele Vance**, aparecer abaixo da caixa de pesquisa, selecione-o e clique em **Selecionar** no fim da página.
-
-9. Feche a janela SSPRSecurityUsers, selecionando o **X** no canto superior direito da tela,
-
-10. Selecione **Contoso** no canto superior esquerdo da tela, logo acima de Grupos, para voltar para a página do Contoso Azure Active Directory.
-
-11. No painel de navegação esquerdo selecione **Usuários**.
-
-12. Selecione **Adele Vance** na lista de usuários.
-
-13. Selecione **Redefinir senha** na parte superior da página. Como você não fez logon anteriormente como Alice Pena, precisa redefinir a senha
-
-14. Quando a janela de redefinição de senha abrir, selecione **Redefinir senha**.  IMPORTANTE: anote a nova senha, pois você precisará dela em uma tarefa posterior, para entrar como o usuário.
-
-15. Selecione o **X**, no canto superior direito da página, para fechar a janela de redefinição de senha.
-
-16. Selecione o **X**, no canto superior direito da página, para fechar a janela Adele Vance.
-
-17. Selecione o **X**, no canto superior direito da página, para fechar a janela Usuários.
-
-18. Mantenha a janela Visão geral do Contoso aberta, pois você vai usá-la na tarefa seguinte.
-
-### <a name="task-2"></a>Tarefa 2:
-
-Nesta tarefa, você, como administrador, aprenderá como configurar a redefinição de senha para usuários, incluindo a configuração dos tipos de métodos de autenticação que devem ser usados
-
-1. Vá para a guia Contoso – Microsoft Azure aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory.  Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
-
-1. No painel de navegação esquerdo, selecione **Redefinição de senha**.  
-
-1. As propriedades para reconfiguração de senha de autoatendimento são exibidas.  Verifique se a opção **Redefinição por autoatendimento** está **selecionada** para o grupo listado, o **SSPRSecurityGroupUsers**.  Posicione o cursor sobre o ícone de informações ao lado de "selecionar grupo" e observe que ele indica "Define o grupo de usuários que tem permissão para redefinir as respectivas senhas". Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente.  Além disso, se você alterar o grupo, o grupo selecionado substituirá o grupo listado atualmente.  Portanto, é recomendável que você adicione os usuários ao grupo da SSPR.  Por último, observe a caixa de informações azul, "Estas configurações se aplicam apenas a usuários finais em sua organização. Os administradores estão sempre habilitados para redefinir a senha de autoatendimento e são obrigados a usar dois métodos de autenticação para redefinir a senha."
+1. As propriedades para reconfiguração de senha de autoatendimento são exibidas. Selecione o ícone de informações no local no qual está escrito **Redefinição de senha self-service habilitada** para exibir a descrição. Certifique-se de que **Selecionado** esteja destacado em azul. Agora, coloque o cursor sobre o ícone de informações próximo ao local no qual está escrito **Selecionar grupo** e observe que ele diz: "Define o grupo de usuários que têm permissão para redefinir suas próprias senhas." Você deve incluir usuários no grupo. Não é possível selecionar usuários individualmente. Observe que já existe um grupo listado: SSPRSecurityGroupUsers (esse grupo foi pré-configurado como parte do seu locatário do Microsoft 365). Por último, observe a caixa de informações azul, "Estas configurações se aplicam apenas a usuários finais em sua organização. Os administradores estão sempre habilitados para redefinir a senha de autoatendimento e são obrigados a usar dois métodos de autenticação para redefinir a senha."
 
 1. No painel de navegação esquerdo de Redefinição de senha, selecione **Métodos de Autenticação**.
 
@@ -87,93 +47,97 @@ Nesta tarefa, você, como administrador, aprenderá como configurar a redefiniç
 
 1. Observe como o painel de navegação de redefinição de senha também inclui opções para exibir logs de auditoria e Uso e insights.
 
-1. **Saia** de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
+1. Feche a janela de redefinição de senha selecionando o **X** no canto superior direito da janela. Isso o leva de volta ao centro de administração Microsoft Entra.
 
-### <a name="task-3"></a>Tarefa 3
+1. Mantenha a janela do Microsoft Entra aberta.
 
-Nesta tarefa, você, como usuário Adele Vance, passará pelo processo de registro para redefinição de senha de autoatendimento.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto ou uma conta de email pessoal que você possa acessar
+### Tarefa 2:
+
+Nesta tarefa, você, como administrador, adicionará o usuário criado no exercício de laboratório anterior ao grupo de segurança SSPR.
+
+1. Abra a guia do navegador da página inicial do Centro de Administração Microsoft Entra **[entra.microsoft.com](https://entra.microsoft.com)** . Se necessário, expanda **Identidade**.
+
+1. No painel de navegação à esquerda, em "Identidade", expanda **Grupos** e selecione **Todos os grupos**.
+
+1. Uma lista de grupos existentes é exibida. No campo de grupos de Pesquisa, digite **SSPR** e nos resultados de pesquisa selecione **SSPRSecurityGroupUsers**.  Você será direcionado para a opção de configuração para este grupo.
+
+1. No painel de navegação esquerdo, selecione **Membros**.
+
+1. Na parte superior da página, selecione **+ Adicionar membros**.  
+
+1. Na caixa Pesquisar, insira **Sara Perez**.  Uma vez que o usuário, **Sara Perez**, aparecer abaixo da caixa de pesquisa, selecione-o e pressione **Selecionar** na parte inferior da página.  Que será retornado à página de membros.  Selecione **Atualizar** na parte superior da página. Agora você deverá ver a usuária Sara Perez listada como membro do grupo de segurança SSPR.
+
+1. Saia de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
+
+### Tarefa 3
+
+Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registro da redefinição de senha self-service.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto ou uma conta de email pessoal que você possa acessar
+
+1. Abra o Microsoft Edge e, na barra de endereços, insira **https://login.microsoft.com** .
+
+1. Entre como Sara Perez.
+
+1. Um pop-up indicando que Mais informações são necessárias é exibido.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Observação:  Uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação ao adicionar um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
+
+1. A página “Mantenha sua conta segura” se abre.  A janela que aparece é para o método de autenticação por telefone, se você não tiver um dispositivo móvel habilitado para receber mensagens de texto, passe para a próxima etapa.  Você precisará inserir um número de telefone. Garanta que a opção **Envie-me um código por mensagem** esteja ativada.   Digite o número de telefone que pode receber um código e selecione o botão **Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Digite o código recebido e selecione **Avançar**. Uma janela se abre indicando Sucesso e mostrando seu método de logon Padrão.  Selecione **Concluído**.  
+    1. Como alternativa, você pode configurar outro método, conforme mostrado no canto inferior esquerdo da janela.  Se você optar por configurar outro método, selecione **Quero configurar um método diferente**, uma janela pop-up será exibida perguntando "Qual método deseja usar?"  No menu suspenso, escolha seu método preferido, **Email**, e selecione o botão **Confirmar**.  Digite o email que deseja usar e selecione **Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o email que você informou.  Acesse o email que você informou para obter o código.  Digite o código recebido e selecione **Avançar**. Uma janela se abre indicando Sucesso e mostrando seu método de logon Padrão.  Selecione **Concluído**.
+
+1. Agora você pode concluir a entrada. Se você perceber que o tempo de entrada expirou, basta digitar a senha novamente.
+
+1. Saia de todas as guias do navegador clicando no ícone do usuário ao lado do endereço de email, no canto superior direito da tela. Em seguida, feche todas as janelas do navegador.
+
+### Tarefa 4 (opcional)
+
+Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefinição da senha
 
 1. Abra o Microsoft Edge.
 
-2. Na barra de endereços, insira **login.microsoftonline.com**.
+1. Na barra de endereços, insira **https://login.microsoftonline.com** .
 
-3. Faça logon como Adele Vance,
-    1. Na janela Entrar, insira **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
-    1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
-    1. Se você receber um aviso para permanecer conectado, selecione **Sim**
+1. Entre como Sara Perez, inserindo seu email **sara@WWLxZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de Locatário exclusivo fornecida pelo provedor de hospedagem de laboratório) e selecione o botão **Avançar**. Em vez disso, você vê a janela Escolha uma conta aberta; se for o caso, selecione a conta para Sara Perez.
 
+1. Na janela Digitar senha, selecione **Esqueci minha senha**.
 
-4. Como esta é a sua primeira entrada como Alice Pena, você precisa redefinir sua senha.  Coloque sua senha antiga.  Para sua nova senha, insira **SC900-Lab**. Digite **SC-900-Lab** no campo de confirmação de senha.  Selecione **Entrar**.  Observação: estamos usando essa senha apenas para a conveniência do laboratório. Como prática recomendada, você deve digitar uma senha mais segura.
+1. A janela para Voltar para a sua conta se abre.   Verifique se o email de Sara Perez, sara@WWLxZZZZ.onmicrosoft.com, é mostrado na caixa de email ou nome de usuário.  Se não, digite-o.  
 
-5. Um pop-up indicando que Mais informações são necessárias é exibido.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Observação:  Uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação ao adicionar um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
+1. Na caixa vazia, digite os caracteres exibidos na imagem ou as palavras do áudio. Depois de inseri-los, selecione **Avançar**.
 
-6. A página “Mantenha sua conta segura” se abre.  A janela que aparece é para o método de autenticação por telefone, se você não tiver um dispositivo móvel habilitado para receber mensagens de texto, passe para a próxima etapa.  Você precisará inserir um número de telefone. Garanta que a opção **Envie-me um código por mensagem** esteja ativada.   Digite o número de telefone que pode receber um código e selecione o botão **Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Digite o código recebido e selecione **Avançar**. Uma janela se abre indicando Sucesso e mostrando seu método de logon Padrão.  Selecione **Concluído**.  
+1. A tela mostra Voltar para sua conta e mostra etapa de Verificação 1 > escolha uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para meu celular**.  Você precisará inserir o número do seu celular.  Depois de inseri-lo, selecione o **botão de Texto**.  Se, durante o registro, você selecionar Email, a janela Voltar para sua conta indicará que você receberá um email com um código de verificação no seu endereço de email alternativo.  Selecione **Email**.
 
-7. Pule esta etapa se você conseguiu configurar o SSPR com o número do telefone celular.  Como alternativa, você pode configurar outro método, conforme mostrado no canto inferior esquerdo da janela.  Se você optar por configurar outro método, selecione **Quero configurar um método diferente**, uma janela pop-up será exibida perguntando "Qual método deseja usar?"  No menu suspenso, escolha seu método preferido, **Email**, e selecione o botão **Confirmar**.  Digite o email que deseja usar e selecione **Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o email que você informou.  Acesse o email que você informou para obter o código.  Digite o código recebido e selecione **Avançar**. Uma janela se abre indicando Sucesso e mostrando seu método de logon Padrão.  Selecione **Concluído**.
+1. Insira o código de verificação e clique em **Avançar**.
 
-8. Agora você pode concluir a entrada.  Você está na página de aterrissagem do portal do Azure.  Se o tempo de logon vencer, basta inserir novamente a senha, SC900-Lab.
+1. Na próxima tela, você precisará inserir a nova senha e confirmá-la.  Digite-os agora e selecione o botão **Concluir**.
 
-9. Saia do portal do Azure e feche a janela do navegador.
+1. Você verá uma mensagem na tela informando que a sua senha foi redefinida.  Selecione **clicar aqui** para entrar com sua nova senha.
 
-### <a name="task-4-optional"></a>Tarefa 4 (opcional)
+1. Na caixa Escolher uma informação de conta, selecione **sara@WWLxZZZZZZ.onmicrosoft.com** , digite sua nova senha e selecione o botão **Entrar**.  Se for exibida uma mensagem perguntando se deseja permanecer conectado. selecione **Não**.
 
-Nesta tarefa, você, usando o usuário Alice Pena, passará pelo processo de redefinição de senha
+1. Agora você deve estar no portal do Office.
 
-1. Abra o Microsoft Edge.
+1. Saia selecionando o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador
 
-2. Na barra de endereços, insira **login.microsoftonline.com**.
-
-3. Faça logon como Adele Vance, digitando seu email **AdeleV@WWLxZZZZ.onmicrosoft.com** (ZZZZZZ é a sua ID de titular exclusiva fornecida pelo provedor de hospedagem de laboratório) e selecione o botão **Avançar**. Você pode, em vez disso, ver a janela Escolher uma conta aberta; em caso afirmativo, selecione a conta de Adele Vance.
-
-4. Na janela Digitar senha, selecione **Esqueci minha senha**.
-
-5. A janela para Voltar para a sua conta se abre.   Verifique se o email para Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, é mostrado na caixa email ou nome de usuário.  Se não, digite-o.  
-
-6. Na caixa vazia, digite os caracteres exibidos na imagem ou as palavras do áudio. Depois de inseri-los, selecione **Avançar**.
-
-7. A tela mostra Voltar para sua conta e mostra etapa de Verificação 1 > escolha uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para meu celular**.  Você precisará inserir o número do seu celular.  Depois de inseri-lo, selecione o **botão de Texto**.  Se, durante o registro, você selecionar Email, a janela Voltar para sua conta indicará que você receberá um email com um código de verificação no seu endereço de email alternativo.  Selecione **Email**.
-
-8. Insira o código de verificação e clique em **Avançar**.
-
-9. Na próxima tela, você precisará inserir a nova senha e confirmá-la.  Digite-os agora e selecione o botão **Concluir**.
-
-10. Você verá uma mensagem na tela informando que a sua senha foi redefinida.  Selecione **clicar aqui** para entrar com sua nova senha.
-
-11. Na caixa Escolher uma informação de conta, selecione **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , digite sua nova senha e selecione o botão **Entrar**.  Se for exibida uma mensagem perguntando se deseja permanecer conectado. selecione **Não**.
-
-12. Agora você deve estar no portal do Office.
-
-13. Saia selecionando o ícone do usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador
-
-### <a name="task-5-optional"></a>Tarefa 5 (opcional)
+### Tarefa 5 (opcional)
 
 Nesta tarefa, você, como administrador, verá resumidamente os registros de auditoria e os dados de Uso e Insights associados à redefinição de senha
 
 1. Abra o Microsoft Edge.
 
-2. Na barra de endereços, insira **portal.azure.com**
+1. Na barra de endereços, insira **https://entra.microsoft.com** e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH).
 
-3. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+1. Você está no centro de administração Microsoft Entra.  No painel de navegação à esquerda, expanda a opção **Proteção** e selecione **Redefinição de senha**.
 
-4. Selecione **Azure Active Directory**.  
+1. No painel de navegação esquerdo, selecione **Logs de Auditoria**.  Observe as informações e os filtros disponíveis.  Observe também que você pode baixar os logs.  
 
-5. No painel de navegação esquerdo, selecione **Redefinição de senha**.
+1. Selecione **Baixar**.  Observe que você pode formatar o download como CSV ou JSON.  Selecione o **X** no canto superior direito da tela para fechar a janela.
 
-6. No painel de navegação esquerdo, selecione **Logs de Auditoria**.  Observe as informações e os filtros disponíveis.  Observe também que você pode baixar os logs.  
+1. No painel de navegação esquerdo, selecione **Usos e Insight**.
 
-7. Selecione **Baixar**.  Observe que você pode formatar o download como CSV ou JSON.  Selecione o **X** no canto superior direito da tela para fechar a janela.
+1. Observe as informações disponíveis que pertencem ao registro.  Pode levar algum tempo para atualizar esses dados mesmo depois de uma atualização, ele pode ainda não mostrar o registro ou os dados de uso da tarefa anterior.
 
-8. No painel de navegação esquerdo, selecione **Usos e Insight**.
+1. Na parte superior da página, selecione **Uso** para ver o número de redefinições de senha de autoatendimento e desbloqueios de conta por método.  Pode levar algum tempo para atualizar esses dados mesmo depois de uma atualização, ele pode ainda não mostrar os dados de uso da tarefa anterior.
 
-9. Observe as informações disponíveis que pertencem ao registro.  Pode levar algum tempo para atualizar esses dados mesmo depois de uma atualização, ele pode ainda não mostrar o registro ou os dados de uso da tarefa anterior.
+1. Feche as guias do navegador abertas.
 
-10. Na parte superior da página, selecione **Uso** para ver o número de redefinições de senha de autoatendimento e desbloqueios de conta por método.  Pode levar algum tempo para atualizar esses dados mesmo depois de uma atualização, ele pode ainda não mostrar os dados de uso da tarefa anterior.
-
-11. Feche as guias do navegador abertas.
-
-### <a name="review"></a>Revisão
+### Revisão
 
 Neste laboratório, você, como administrador, percorreu o processo de ativação da redefinição de senha de autoatendimento. Com a SSPR habilitada, você assumirá a função de um usuário para passar pelo processo de registro da SSPR e pela redefinição da senha.  Por fim, você, como administrador, aprendeu onde acessar os registros de auditoria, dados de uso e insights para o SSPR.

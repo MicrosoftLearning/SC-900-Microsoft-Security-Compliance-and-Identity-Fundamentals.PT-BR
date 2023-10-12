@@ -1,38 +1,38 @@
-<a name="---"></a><!---
+<!---
 ---
-Demonstração: Título: 'Acesso condicional do Azure AD' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Active Directory), parte do Microsoft Entra; Módulo 3: descrever as funcionalidades de gerenciamento de acesso do Azure AD; Unidade 2: descrever o acesso condicional no Azure AD'
+Demonstração: Título: "Acesso condicional do Azure AD" Roteiro de aprendizagem/módulo/unidade: "Roteiro de aprendizagem: descrever as funcionalidades do Microsoft Entra; Módulo 3: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra ID; Unidade 2: descrever o acesso condicional"
 ---
 --->
 
-# <a name="demo-azure-ad-conditional-access"></a>Demonstração: acesso condicional do Azure AD
+# Demonstração: acesso condicional do Microsoft Entra
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades do Azure AD (Azure Active Directory), parte do Microsoft Entra
-- Módulo: descrever as funcionalidades de gerenciamento de acesso do Azure AD
-- Unidade: descrever o acesso condicional no Azure AD
+- Roteiro de aprendizagem: descrever as funcionalidades do Microsoft Entra
+- Módulo: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra ID
+- Unidade: descrever o acesso condicional
 
-## <a name="demo-scenario"></a>Cenário da demonstração
+## Cenário da demonstração
 
 Nesta demonstração, você verá as várias opções disponíveis para uma política de acesso condicional.
 
-1. Vá para a guia **Contoso – Microsoft Azure** aberta no seu navegador. Se você fechou a guia anteriormente, abra uma página do navegador e, na barra de endereços, insira portal.azure.com e selecione Azure Active Directory. Você deve estar conectado como administrador no portal do Azure; caso contrário, entre novamente.
+1. Volte para a guia aberta do navegador intitulada "Página Inicial-Centro de administração do Microsoft Entra".  Se você fechou anteriormente essa guia do navegador, abra o Microsoft Edge e faça logon em **[entra.microsoft.com](https://entra.microsoft.com)** com suas credenciais de administrador do Microsoft 365.
 
-1. No painel de navegação esquerdo, selecione **Segurança**.
+1. No painel de navegação esquerdo, expanda **Proteção** e selecione **Acesso condicional**.
 
-1. No painel de navegação esquerdo, selecione **Acesso condicional**.
+1. A página de visão geral do acesso condicional é exibida.  Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.  No painel de navegação à esquerda, selecione **Políticas**.
 
 1. A tela Políticas de acesso condicional é exibida. Todas as políticas de acesso condicional existentes são listadas aqui. Para mostrar as configurações associadas ao acesso condicional, selecione **+ Nova política**.
 
 1. No campo **Nome**, insira um nome para a política.
 
 1. Observe que você tem várias opções em **Atribuições**.  Como as políticas de acesso condicional são como declarações se/então, as configurações de atribuições são como declarações “se”.
-    1. **Usuários e grupos** — passe o mouse sobre o ícone de informações próximo a “Usuários e grupos” e destaque que é aqui que você define os usuários e grupos no diretório ao qual a política se aplica. Selecione **0 usuários e grupos selecionados**.  Agora você verá a opção Incluir ou Excluir usuários ou grupos. Selecione e destaque as configurações disponíveis para a guia **Incluir** e, em seguida, selecione e fale sobre as configurações disponíveis para a guia **Excluir**.
-    1. **Ações ou aplicativos de nuvem** — passe o mouse sobre o ícone de informação próximo a “Ações ou aplicativos de nuvem” e destaque que é aqui que você define os aplicativos usados ou as ações executadas pelo usuário para a política de acesso condicional.  Selecione **Nenhum aplicativo de nuvem, ação ou contexto de autenticação selecionado**.
-        1. Selecione a seta suspensa na caixa abaixo de onde está escrito **Selecionar a que esta política se aplica** e observe as opções.  Deixe a configuração padrão – Aplicativos de nuvem.
-        1. Selecione e destaque as configurações disponíveis para a guia Incluir. Na guia **Incluir**, escolha **Selecionar aplicativos**.  Observe a janela que é aberta, em que você pode selecionar um aplicativo de uma lista.  Não selecione nada. Feche esta janela selecionando o **X** no canto superior direito da janela. Volte para escolher **Nenhum** para remover o erro.
-        1. Depois, selecione e fale sobre as configurações disponíveis para a **guia Excluir**.  Mais uma vez, aqui você pode selecionar aplicativos específicos para excluir.
-    1. **Condições** — passe o mouse sobre o ícone de informações próximo a “Condições” e destaque que isso define quando a política se aplicará. Selecione **0 condições selecionadas**. Fale sobre os “sinais” diferentes listados.   Selecione algumas opções, selecionando primeiro o ícone de informações para definir o que é e depois selecione **Não configurado** para o item específico para exibir as várias opções.
+    1. **Usuários** – passe o mouse sobre o ícone de informações próximo a "Usuários" e destaque que é aqui que você as identidades no diretório ao qual a política se aplica, incluindo usuários, grupos e entidades de serviço. Selecione **0 usuários e grupos selecionados**.  Agora você verá a opção Incluir ou Excluir usuários ou grupos. Selecione e destaque as configurações disponíveis para a guia **Incluir** e, em seguida, selecione e fale sobre as configurações disponíveis para a guia **Excluir**.
+    1. **Recursos de destino** – selecione **Recursos de destino**.  Aqui você controla o acesso com base em todo ou parte do tráfego de acesso à rede, aplicativos de nuvem ou ações.  Expanda o campo abaixo de onde diz para selecionar ao que essa política se aplica.  Aqui, você pode selecionar se a política se aplica a aplicativos de nuvem, ações do usuário ou contexto de autenticação.  
+        1. Selecione **Aplicativos de nuvem** e, em seguida, na guia Incluir, selecione a opção **Selecionar aplicativos** e, em seguida, abaixo de onde diz **Selecionar**, selecione **Nenhum**, e uma janela será aberta para selecionar um ou mais dos aplicativos para os quais a política será aplicada.
+        1. Feche a janela Selecionar aplicativos de nuvem selecionando o **X** no canto superior direito da janela.
+        1. Como o tempo permite, você pode optar por percorrer as outras opções (ações do usuário e contexto de autenticação) para ver as opções de configuração para cada uma.
+    1. **Condições** – passe o mouse sobre o ícone de informações próximo a "Condições" e destaque que isso define condições que definem quando a política será aplicada. Por exemplo, "local. Selecione **0 condições selecionadas**. Fale sobre os “sinais” diferentes listados.   Selecione algumas opções, selecionando primeiro o ícone de informações para definir o que é e depois selecione **Não configurado** para o item específico para exibir as várias opções.
         1. **Risco do usuário** — um risco do usuário representa a probabilidade de que determinada identidade ou conta seja comprometida. Esses riscos são calculados offline usando as fontes de inteligência de ameaças internas e externas da Microsoft.
         1. **Risco de entrada** — um risco de entrada representa a probabilidade de uma determinada solicitação de autenticação não estar autorizada pelo proprietário da identidade. Alguns exemplos são credenciais com origem de endereço IP anônimo ou viagem atípica etc.
         1. **Plataforma de dispositivo** — plataforma na qual o usuário está entrando. Por exemplo, iOS.
@@ -46,10 +46,10 @@ Nesta demonstração, você verá as várias opções disponíveis para uma pol�
 
 1. Depois de configurar uma política, você pode habilitá-la selecionando **Ativado**. Depois, pressione o botão **Criar** para criar uma política.
 
-1. Selecione o **X** no canto superior direito da página para fechar a política e selecione Microsoft Azure na barra azul na parte superior da página para voltar à home page do portal do Azure.
+1. Selecione o **X** no canto superior direito da página para fechar a política.
 
-1. Deixe esta página do navegador aberta para a próxima demonstração.
+1. Feche as guias do navegador abertas.
 
-### <a name="review"></a>Revisão
+### Revisão
 
 Nesta demonstração, você mostrou as várias opções disponíveis para uma política de acesso condicional.
