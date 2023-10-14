@@ -1,18 +1,25 @@
-<a name="---"></a><!---
+<!---
 ---
 Laboratório: Título: 'Configuração'
 ---
 --->
 
-# <a name="lab-setup"></a>Laboratório: Instalação
+# Laboratório: Instalação
 
-## <a name="lab-scenario"></a>Cenário do laboratório
+## Locatários do WWL – Termos de uso
+Se você estiver recebendo um locatário como parte de uma entrega de treinamento com instrutor, observe que o locatário é disponibilizado com a finalidade de dar suporte aos laboratórios práticos no treinamento com instrutor.
+
+Os locatários não devem ser compartilhados ou usados para fins fora dos laboratórios práticos. O locatário usado neste curso é um locatário de avaliação e não pode ser usado ou acessado após o fim da aula e não está qualificado para extensão.
+
+Os locatários não podem ser convertidos em uma assinatura paga. Os locatários obtidos como parte deste curso permanecem a propriedade da Microsoft Corporation e reservamos o direito de obter acesso e a qualquer momento.
+
+## Cenário do laboratório
 
 Esse laboratório de instalação consiste em habilitar o Log de Auditoria da Microsoft.
 
 **Tempo estimado**: 5-10 minutos
 
-### <a name="setup---enable-microsoft-365-audit-log"></a>Configuração – Habilitar o log de auditoria do Microsoft 365
+### Configuração – Habilitar o log de auditoria do Microsoft 365
 
 Nesta tarefa de configuração, você ativará o recurso de log de auditoria no Microsoft 365.  Embora a documentação indique que o log de auditoria está ativado por padrão, a maioria dos locatários do laboratório não tem este recurso habilitado e pode levar horas para que isso entre em vigor.  Ativar este recurso é benéfico porque o Microsoft 365 usa logs de auditoria para insights de usuário e atividades identificadas nas políticas e nos insights analíticos.
 
@@ -35,6 +42,6 @@ Nesta tarefa de configuração, você ativará o recurso de log de auditoria no 
 
 1. Volte à home page do portal de conformidade do Microsoft Purview selecionando **Página Inicial** no painel de navegação à esquerda para sair do Microsoft 365. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras MA (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
 
-### <a name="review"></a>Revisão
+### Revisão
 
 Nesta configuração, você habilitou a funcionalidade de log de auditoria do Microsoft 365.

@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Demonstração: Título: 'Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 1: descrever as funcionalidades do gerenciamento de conformidade na Microsoft; Unidade 2: explorar o Portal de Confiança do Serviço'
+Demonstração: Título: 'Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: Descrever as funcionalidades de conformidade da Microsoft; Módulo 1: Descrever as funcionalidades de privacidade e o Portal de Confiança do Serviço; Unidade 2: Explorar o Portal de Confiança do Serviço'
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Demonstração: Portal de Confiança do Serviço
+# Demonstração: Portal de Confiança do Serviço
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
 - Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
-- Módulo: Descrever as funcionalidades de gerenciamento de conformidade da Microsoft
+- Módulo: Descrever as funcionalidades de privacidade e o Portal de Confiança do Serviço da Microsoft
 - Unidade: explorar o Portal de Confiança do Serviço
 
-## <a name="demo-scenario"></a>Cenário da demonstração
+## Cenário da demonstração
 
 Nesta demonstração, você mostrará os recursos e o conteúdo disponível no Portal de Confiança do Serviço. Também está incluída a navegação na Central de Confiabilidade para exibir informações sobre privacidade na Microsoft.
 
-### <a name="demo-part-1"></a>Demonstração parte 1
+### Demonstração parte 1
 
 Nesta parte, você apresentará ao aprendiz os diferentes tipos de conteúdo disponíveis no Portal de Confiança do Serviço, como acessar relatórios e como salvá-los na sua biblioteca.
 
@@ -40,11 +40,11 @@ Nesta parte, você apresentará ao aprendiz os diferentes tipos de conteúdo dis
 
 1. Para voltar à home page do Portal de Confiança do Serviço, selecione o link **Portal de Confiança do Serviço** na parte superior da página.
 
-1. Na home page do Portal de Confiança do Serviço, role a página para baixo até a categoria **Recurso para sua Organização**. Selecione **Recursos para sua Organização**.  Observe que todos os documentos listados aqui são baseados na assinatura e nas permissões da sua organização.
+1. Na home page do Portal de Confiança do Serviço, role a página para baixo até a categoria **Recursos da sua Organização**. Selecione **Recursos para sua Organização**.  Observe que todos os documentos listados aqui são baseados na assinatura e nas permissões da sua organização.
 
 1. Para voltar à home page do Portal de Confiança do Serviço, selecione o link **Portal de Confiança do Serviço** na parte superior da página.
 
-### <a name="demo-part-2-optional"></a>Demonstração parte 2 (opcional)
+### Demonstração parte 2 (opcional)
 
 Nesta parte da demonstração, você mostrará a Central de Confiabilidade e navegará até informações que descrevem a privacidade na Microsoft.
 
@@ -54,8 +54,8 @@ Nesta parte da demonstração, você mostrará a Central de Confiabilidade e nav
 
 1. Uma nova guia do navegador será aberta na Central de Confiabilidade da Microsoft, em que você encontrará mais informações, incluindo informações sobre privacidade, entre outros. Explore o conteúdo dessa página e navegue por diferentes links.
 
-1. Feche todas as guias abertas do navegador.
+1. Feche as guias abertas do navegador do Portal de Confiança do Serviço e da Central de Confiabilidade.
 
-### <a name="review"></a>Revisão
+### Revisão
 
 Nesta demonstração, você explorou algumas das opções disponíveis no Portal de Confiança do Serviço e como usar o recurso Minha Biblioteca para salvar documentos para análise futura.  Além disso, você visitou a Central de Confiabilidade para acessar e examinar informações sobre privacidade na Microsoft.
