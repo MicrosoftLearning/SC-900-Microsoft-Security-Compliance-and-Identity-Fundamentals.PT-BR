@@ -4,7 +4,7 @@ Configuração de pré-demonstração: Título: 'Instalação de demonstração'
 ---
 --->
 
-## Locatários do WWL – Termos de uso
+## Locatários do WWL – Termos de uso
 Se você estiver recebendo um locatário como parte de uma entrega de treinamento com instrutor, observe que o locatário é disponibilizado com a finalidade de dar suporte aos laboratórios práticos no treinamento com instrutor.
 
 Os locatários não devem ser compartilhados ou usados para fins fora dos laboratórios práticos. O locatário usado neste curso é um locatário de avaliação e não pode ser usado ou acessado após o fim da aula e não está qualificado para extensão.
@@ -27,11 +27,11 @@ Nesta tarefa de configuração, você habilitará a funcionalidade de log de aud
 
 1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Mostrar todos**.
 
-1. Do lado esquerdo do painel de navegação, em soluções, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada pela página inicial do Microsoft 365 Defender.
+1. Em Soluções, no painel de navegação esquerdo, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio da página inicial do Microsoft 365 Defender.
 
-1. Verifique se a guia **Pesquisa** está selecionada (sublinhada).
+1. Verifique se a guia **Pesquisar** está selecionada (sublinhada).
 
-1. Após abrir a página Auditoria, aguarde de 2 a 3 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Começar a registrar atividade de usuário e administrador**.  Quando a auditoria estiver habilitada, a barra azul desaparece.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
+1. Depois de acessar a página Auditoria, aguarde de 2 a 3 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
 
 1. Volte à página inicial do portal de conformidade do Microsoft Purview selecionando **Página Inicial** no painel de navegação esquerdo.
 
@@ -41,7 +41,7 @@ Nesta tarefa de instalação, você vai habilitar o monitoramento de arquivos no
 
 1. Abra a guia do navegador no centro de administração do Microsoft 365.  Se você a fechou anteriormente, abra uma nova guia do navegador, insira **https://admin.microsoft.com** na barra de endereços, e, no painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo**.
 
-1. Em Centros de administração, selecione **Segurança**.  A página inicial do Portal do Microsoft 365 Defender vai ser aberta no navegador.  
+1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft 365 Defender é aberta em uma nova página do navegador.  
 
 1. No painel de navegação à esquerda, selecione **Arquivos**, listado em Aplicativos de nuvem.
 
@@ -53,11 +53,11 @@ Nesta tarefa de instalação, você vai habilitar o monitoramento de arquivos no
 
 Para essa configuração, você está usando o ambiente da Fatia de Nuvem do Azure, que é separado do locatário do Microsoft 365 fornecido. Faça logoff do locatário do Microsoft 365 e logon usando as credenciais da Fatia de Nuvem do Azure.
 
-### Máquina virtual do Azure
+### Máquina Virtual do Azure
 
 Verifique se uma VM já foi criada. Caso contrário, configure-a agora. Você usará a VM como parte da demonstração do NSG.
 
-1. Abra o Microsoft Edge.  Na barra de endereços, insira **https://portal.azure.com** e entre com as credenciais do Azure fornecidas pelo ALH (hoster de laboratório autorizado).  Em seguida, você será direcionado à home page dos serviços do Azure.
+1. Abra o Microsoft Edge.  Na barra de endereços, insira **https://portal.azure.com** e entre com as credenciais do Azure fornecidas pelo hoster de laboratório autorizado (ALH).  Isso o levará você à página inicial dos serviços do Azure.
 
 1. Na caixa de pesquisa azul na parte superior da página, insira **Máquinas Virtuais** e selecione **Máquinas Virtuais** nos resultados da pesquisa.
 
@@ -88,13 +88,13 @@ Verifique se um NSG já foi criado. Se o NSG não tiver sido criado, configure-o
 
 1. Na barra de pesquisa azul na parte superior da página, insira **Grupos de segurança de rede**. Nos resultados, selecione **Grupos de segurança de rede** (não selecione Grupos de segurança de rede clássicos).
 
-1. Selecione **Criar grupo de segurança de rede**. Na guia Básico da página Criar grupo de segurança de rede, especifique as seguintes configurações:
+1. Selecione **Criar grupo de segurança de rede**. Na guia Noções básicas da página Criar grupo de segurança de rede, especifique as seguintes configurações:
     1. Assinatura: mantenha o valor padrão (essa é a assinatura do Azure fornecida pelo hoster do laboratório autorizado)
-    1. Grupo de recursos:  **LabsSC900**
+    1. Grupo de recursos: **LabsSC900**
     1. Nome:  **NSG-SC900**
     1. Região:  mantenha o valor padrão.
-    1. Selecione **Revisar + criar** e depois **Criar**.
-    1. Depois que a implantação for concluída (isso acontece muito rapidamente), selecione **Ir para o recurso**.
+    1. Selecione **Revisar + criar** e **Criar**.
+    1. Uma vez concluída a implantação (isso acontece muito rapidamente), selecione **Ir para o recurso**.
 
 ### Microsoft Defender para Nuvem
 
@@ -124,14 +124,14 @@ Verifique se uma instância do Microsoft Sentinel já foi criada. Caso contrári
 
 1. Na página Adicionar o Microsoft Sentinel a um workspace, selecione **Criar um workspace**.
 
-1. Na guia Básico da página Criar espaço de trabalho do Log Analytics, insira:
+1. Na guia Básico do workspace Criar Log Analytics, insira o seguinte:
     1. Assinatura: mantenha o padrão.
-    1. Grupo de recursos: selecione **Criar novo**, insira o nome **SC900-Sentinel-RG** e clique em **OK**.
+    1. Grupo de recursos: selecione **Criar novo**, insira o nome **SC900-Sentinel-RG** e selecione **OK**.
     1. Nome: **SC900-LogAnalytics-workspace**.
     1. Região: **Leste dos EUA** (uma região padrão diferente pode ser selecionada de acordo com sua localização)
     1. Selecione **Revisar + Criar** (nenhuma marca será configurada).
-    1. Verifique as informações inseridas e selecione **Criar**.
-    1. Pode levar um ou dois minutos até que o novo workspace seja listado; caso ele ainda não seja exibido, selecione **Atualizar** e depois **Adicionar**.
+    1. Verifique se você inseriu as informações corretas e, em seguida, selecione **Criar**.
+    1. Pode levar um ou dois minutos para que o workspace seja listado. Se você ainda não conseguir vê-lo, selecione **Atualizar** e, em seguida, selecione **Adicionar**.
 
 1. Depois que o novo workspace for adicionado, a página Microsoft Sentinel | Novidades e guias será exibida, indicando que a avaliação gratuita do Microsoft Sentinel está ativada.  Selecione **OK**.
 

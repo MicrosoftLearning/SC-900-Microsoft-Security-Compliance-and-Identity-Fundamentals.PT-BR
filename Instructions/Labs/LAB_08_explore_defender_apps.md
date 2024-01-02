@@ -4,11 +4,11 @@ Laboratório: Título: 'Explorar o Microsoft Defender for Cloud Apps ' Módulo: 
 ---
 --->
 
-# Laboratório: Explorar aplicativos do Microsoft Defender for Cloud Apps
+# Laboratório: explorar aplicativos do Microsoft Defender para Nuvem
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades da solução de segurança da Microsoft
+- Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft
 - Módulo: descrever as funcionalidades de proteção contra ameaças do Microsoft 365
 - Unidade: descrever o Microsoft Defender for Cloud Apps
 
@@ -31,28 +31,28 @@ Explorar o Cloud Discovery.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
-1. Em Centros de administração, selecione **Segurança**.  A página inicial do Portal do Microsoft 365 Defender vai ser aberta no navegador.  
+1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft 365 Defender é aberta em uma nova página do navegador.  
 
-1. Se essa for a primeira vez que você visita o portal do Microsoft 365 Defender, pode ser que apareça uma janela pop-up para fazer um tour rápido.  Feche a janela.
+1. Se esta for a primeira vez que você visita o portal do Microsoft 365 Defender, você pode obter uma janela pop-up para fazer um tour rápido.  Feche isso.
 
 1. No painel de navegação à esquerda, selecione **Aplicativos de nuvem** para expandir a lista e selecione **Cloud Discovery**. Isso levará você para a exibição Painel.  Observe as informações disponíveis no painel. Na exibição de painel, você poderá selecionar diferentes guias na parte superior da página.  
 
-1. Selecione **Aplicativos descobertos**. A janela de arquivos descobertos oferece uma visão mais detalhada dos aplicativos descobertos, incluindo pontuação de risco, tráfego, número de usuários, etc.
-    1. A partir de qualquer item da lista, selecione as **reticências** na coluna de ações na tabela.  Observe as diversas opções disponíveis, incluindo a possibilidade de marcar um aplicativo como sancionado ou não sancionado.  Selecione as **reticências** de novo para fechar a caixa de ações.
-    1. Ao selecionar algum dos itens listados nas linhas, uma página de detalhes é aberta para o aplicativo específico.  Selecione um item na lista e revise as informações disponíveis na página de visão geral.  Para o item selecionado, selecione a guia **Uso do aplicativo na nuvem** para ver informações mais detalhadas, incluindo **Uso**, **Usuários, IP**, **Endereços** e **Alertas**. Quando terminar de explorar a página de detalhes, volte à página de aplicativos descobertos selecionando **Cloud Discovery** na navegação estrutural na parte superior da página.  Se você selecionar Cloud Discovery no painel de navegação à esquerda, isso levará você novamente ao exibição de painel.
-    1. Na parte superior da página, selecione a guia **Endereços IP**. Aqui, você encontrará dados, incluindo o número de transações, a quantidade de tráfego e os valores de upload, por endereço IP.  Observe que também é possível filtrar por endereço IP específico ou exportar os dados para uma análise mais aprofundada.
-    1. Na parte superior da página, selecione **Usuários**.  Esse é o mesmo tipo de informação fornecida quando você seleciona os endereços IP, mas aqui ela é listada por usuários individuais.  Mais uma vez, é possível filtrar por usuário específico e exportar dados para análises mais aprofundadas.
+1. Selecione **Aplicativos descobertos**. A janela de aplicativos descobertos fornece uma visão mais detalhada dos aplicativos descobertos, incluindo pontuação de risco, tráfego, número de usuários e muito mais.
+    1. Em um dos itens da lista, selecione as **reticências** na coluna de ações da tabela.  Observe as várias opções disponíveis, incluindo a capacidade de marcar um aplicativo como sancionado ou não sancionado.  Selecione as **reticências** de novo para fechar a caixa de ações.
+    1. A seleção de um item de linha específico abre uma página de detalhes para o aplicativo específico.  Selecione um item na lista e revise as informações disponíveis na página de visão geral.  Para o item selecionado, selecione a guia **Uso do aplicativo na nuvem** para ver informações mais detalhadas, incluindo **Uso**, **Usuários, IP**, **Endereços** e **Alertas**. Quando terminar de explorar a página de detalhes, volte à página de aplicativos descobertos selecionando **Cloud Discovery** na navegação estrutural na parte superior da página.  Se você selecionar Cloud Discovery no painel de navegação à esquerda, isso levará você novamente ao exibição de painel.
+    1. Na parte superior da página, selecione a guia **Endereços IP**. Aqui, você encontrará dados, incluindo o número de transações, a quantidade de tráfego e os valores de upload, por endereço IP.  Observe que você também pode filtrar por endereço IP específico ou exportar os dados para análise posterior.
+    1. Na parte superior da página, selecione **Usuários**.  Esse é o mesmo tipo de informação fornecida quando você seleciona os endereços IP, mas aqui ela é listada por usuários individuais.  Aqui, novamente, você filtra por usuário específico e exporta dados para análise posterior.
 
 1. As informações apresentadas na página Cloud Discovery e nas guias relacionadas são geradas em relatórios de instantâneos dos logs de tráfego carregados manualmente dos firewalls ou dos proxies ou em relatórios contínuos que analisam todos os logs encaminhados da sua rede por meio do Cloud App Security.  Para ver o local em que é feita essa configuração, selecione **Ações** no canto superior direito da página.
-    1. Selecione a primeira opção, **Criar relatório de instantâneo do Cloud Discovery** e escolha **Avançar**. Aqui, você preenche os detalhes exigidos e carrega os logs de tráfego para gerar e carregar um relatório.  Selecione **Sair** e, se o prompt Tem certeza? for exibido, escolha **Sair** novamente.  Os dados que você vê no locatário do laboratório são provenientes de um Relatório de instantâneo. É possível ver essa informação na parte superior da janela Cloud Discovery.
-    1. Para ver a opção de relatórios contínuos, selecione **Ações** no canto superior direito da página e, no menu suspenso, escolha **Configurar upload automático**.  Não tem fontes de dados conectadas, mas aqui é onde seria possível adicionar uma fonte de dados. Selecione **Adicionar uma fonte de dados** e escolha a seta para baixo no campo **Selecionar dispositivo** para ver os tipos de dispositivos que você pode conectar como uma fonte de dados.  Selecione **Cancelar** para sair.
+    1. Selecione a primeira opção, **Criar relatório de instantâneo do Cloud Discovery** e escolha **Avançar**. Aqui você preencheria os detalhes solicitados e carregaria logs de tráfego para gerar e carregar um relatório.  Selecione **Sair** e, se o prompt Tem certeza? for exibido, escolha **Sair** novamente.  Os dados que você vê no locatário do laboratório são provenientes de um Relatório de instantâneo. É possível ver essa informação na parte superior da janela Cloud Discovery.
+    1. Para ver a opção de relatórios contínuos, selecione **Ações** no canto superior direito da página e, no menu suspenso, escolha **Configurar upload automático**.  Não há fontes de dados conectadas, mas é aqui que você adicionaria uma fonte de dados. Selecione **Adicionar uma fonte de dados** e escolha a seta para baixo no campo **Selecionar dispositivo** para ver os tipos de dispositivos que você pode conectar como uma fonte de dados.  Selecione **Cancelar** para sair.
     1. No painel de navegação à esquerda, selecione **Cloud Discovery** para voltar à página do Cloud Discovery.
 
 1. Você pode se conectar aos aplicativos diretamente configurando conectores de aplicativos que oferecerão maior visibilidade e controle dos aplicativos de nuvem. No canto superior direito da tela, selecione **Ações** e escolha **Configurações do Cloud Discovery**.  No lado esquerdo da tela, em Aplicativos conectados, selecione **Conectores de aplicativo**.  
 
     1. Na página Aplicativos conectados, selecione **Office 365** na lista para exibir as informações detalhadas disponíveis e, em seguida, selecione as reticências verticais no lado direito da tela e selecione **Exibir configurações do Conector de aplicativos** para retornar à página do Conector de aplicativos. Se o Office 365 mostrar um erro de conexão, será provável que a Auditoria não esteja ativada.  Se a auditoria estiver habilitada, acesse as reticências verticais no lado direito do item de linha e selecione **Editar configurações**.  Para se reconectar, selecione **Conectar o Office 365** na parte inferior da página. A página agora mostrará que o Office 365 está conectado. Selecione **Concluído**.  O status agora será exibido com um sinal de aviso amarelo, indicando que não há nenhum status recente.  Levará algum tempo para que o status seja atualizado, pois o período de verificação retroativo varia de acordo com o aplicativo, e os locatários do laboratório podem enfrentar atrasos mais longos do que o normal.
 
-    1. Agora você vai configurar um novo conector de aplicativo. Selecione **+Conectar um aplicativo**. Na lista suspensa, selecione **Microsoft Azure**.  Na janela pop-up do Microsoft Azure, selecione **Conectar Microsoft Azure** e escolha **Concluído**.  Você verá um status online (se não o vir, atualize o navegador). Selecione **Microsoft Azure** para exibir as informações detalhadas sobre verificação de usuários, dados e atividades.  Volte ao painel do Cloud Discovery selecionando **Cloud Discovery** sob Aplicativos de Nuvem no painel de navegação mais à esquerda.
+    1. Agora você vai configurar um novo conector de aplicativo. Selecione **+Conectar um aplicativo** e, na lista suspensa, selecione **Microsoft Azure**.  Na janela pop-up do Microsoft Azure, selecione **Conectar Microsoft Azure** e escolha **Concluído**.  Você verá um status online (se não o vir, atualize o navegador). Selecione **Microsoft Azure** para exibir as informações detalhadas sobre verificação de usuários, dados e atividades.  Volte ao painel do Cloud Discovery selecionando **Cloud Discovery** sob Aplicativos de Nuvem no painel de navegação mais à esquerda.
 
 1. Mantenha essa página aberta, pois você vai usá-la na próxima tarefa.
 
@@ -72,7 +72,7 @@ O Cloud Discovery analisa seus logs de tráfego com base no catálogo de mais de
 
 Explore as maneiras de investigar as atividades gravadas com o log de atividades e os arquivos.
 
-1. No painel de navegação à esquerda, selecione **Log de Atividades**. Aqui você obtém visibilidade de todas as atividades de seus aplicativos conectados. Talvez você não veja nenhum dado listado, pois pode levar várias horas para executar verificações retroativas depois que a auditoria estiver habilitada e os locatários do laboratório poderão enfrentar atrasos mais longos do que o normal. Observe as opções de filtro disponíveis e a opção para criar uma política por meio da pesquisa.
+1. No painel de navegação à esquerda, selecione **Log de Atividades**. Aqui você consegue ver todas as atividades dos seus aplicativos conectados. Talvez você não veja nenhum dado listado, pois pode levar várias horas para executar verificações retroativas depois que a auditoria estiver habilitada e os locatários do laboratório poderão enfrentar atrasos mais longos do que o normal. Observe as opções de filtro disponíveis e a opção para criar uma política por meio da pesquisa.
 
 1. Para fornecer proteção de dados, o Microsoft Defender para Aplicativos de Nuvem fornece visibilidade de todos os arquivos de seus aplicativos conectados; por exemplo, todos os arquivos armazenados no SharePoint e no Salesforce. No painel de navegação esquerdo, selecione e explore a opção **Arquivos**.
     1. A capacidade de verificar arquivos deve ser habilitada como parte das configurações de Proteção de informações de aplicativos do Microsoft 365 Cloud.  Selecione **Habilitar monitoramento de arquivos** e selecione a caixa ao lado de onde diz **Habilitar monitoramento de arquivos** e, em seguida, selecione **Salvar**.  
@@ -84,7 +84,7 @@ Explore as maneiras de investigar as atividades gravadas com o log de atividades
 
 Nesta tarefa, você vai explorar as políticas do Microsoft Defender para Aplicativos de Nuvem.
 
-1. No painel de navegação à esquerda, selecione **Políticas** e **Gerenciamento de políticas**.  As políticas listadas fornecem informações sobre o número de alertas gerados pela política, gravidade etc. Selecione qualquer item de linha para ver informações mais detalhadas sobre a política.
+1. No painel de navegação à esquerda, selecione **Políticas** e **Gerenciamento de políticas**.  As políticas listadas fornecem informações sobre o número de alertas gerados pela política, gravidade, etc. A seleção de um item de linha fornece informações mais detalhadas sobre a política.
     1. Observe que você também pode criar uma política. Selecione **+ Criar política** para ver os tipos de políticas que você pode criar.  Selecione **Política de atividade** para ver as diferentes opções disponíveis para criar a política.  Selecione **Cancelar** para sair da janela de configuração.
     1. Observe que você também pode ter a opção de exportar as informações da política.
 

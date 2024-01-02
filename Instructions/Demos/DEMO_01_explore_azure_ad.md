@@ -12,7 +12,7 @@ Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 - Módulo: descreva os tipos de função e identidade do Microsoft Entra ID.
 - Unidade: descreva os tipos de identidades.
 
-## Cenário da demonstração
+## Cenário de demonstração
 
 Nesta demonstração, você acessará o Microsoft Entra ID e acompanhará as várias configurações de um usuário existente.
 
@@ -32,27 +32,27 @@ Nesta demonstração, você acessará o Microsoft Entra ID e acompanhará as vá
 
 1. No painel de navegação à esquerda, expanda **Usuários** e selecione **Todos os usuários**.  Na página de usuários, você pode ver opções de navegação adicionais e a lista de usuários. O seu locatário já está configurado com usuários.
 
-1. Na lista de usuários, selecione **Adele Vence**.
+1. Na lista de usuários, selecione **Adele Vance**.
 
 1. Observe que, no painel de navegação esquerdo, a **Visão geral** é realçada em cinza claro.  Mostre/fale sobre as informações exibidas na página de visão geral.  Selecione a guia **Monitoramento** na parte superior da página, que mostra as entradas do usuário (nenhuma entrada será exibida, a menos que você tenha se conectado anteriormente como Adele Vance).  Em seguida, selecione **Propriedades** para ver todas as propriedades do objeto de usuário Adele Vance.
 
-1. No painel de navegação esquerdo, selecione **Funções atribuídas**.  Este usuário não tem nenhuma função administrativa atribuída.  Na parte superior da página, selecione **+ Adicionar atribuições** e, na página de adicionar atribuições, expanda o campo de função Pesquisa em Selecionar função para ver uma listagem dos tipos de funções administrativas disponíveis.  Não adicione nada, apenas feche a página selecionando o **X** no canto superior direito da página.
+1. No painel de navegação à esquerda, selecione **Funções atribuídas**.  Este usuário não tem nenhuma função administrativa atribuída.  Na parte superior da página, selecione **+ Adicionar atribuições** e, na página de adicionar atribuições, expanda o campo de função Pesquisa em Selecionar função para ver uma listagem dos tipos de funções administrativas disponíveis.  Não adicione nada, apenas feche a página, selecionando o **X** no canto superior direito da página.
 
-1. No painel de navegação esquerdo, selecione **Grupos**.  Fale sobre o fato de que este usuário é membro de vários grupos.  Aqui, você pode falar sobre os tipos de grupos.  Para adicionar este usuário a outros grupos, selecione **+ Adicionar associações**.  Não adicione novos grupos, apenas fale sobre como é fácil adicionar um usuário aos grupos existentes. Feche a janela Selecionar grupos selecionando o **X** no canto superior direito da página.
+1. No painel de navegação à esquerda, selecione **Grupos**.  Fale do fato de que este usuário é membro de vários grupos.  Aqui você pode falar com os tipos de grupos.  Para adicionar este usuário a outros grupos, selecione **+ Adicionar associações**.  Não adicione novos grupos, apenas fale sobre como é fácil adicionar um usuário aos grupos existentes. Feche a janela Selecionar grupos selecionando o **X** no canto superior direito da página.
 
-1. No painel de navegação esquerdo selecione **Licenças**. Observe que este usuário recebeu licenças do Microsoft 365 E5 e licença do EMS.  Para adicionar uma licença, selecione **+ Atribuições** na parte superior da janela principal.  Mostre as licenças para este usuário. NÃO altere nada.  Feche esta janela selecionando o **X** no canto superior direito da página.
+1. No painel de navegação à esquerda, selecione **Licenças**. Observe que este usuário possui as licenças do Microsoft 365 E5 e do EMS.  Para adicionar uma licença, selecione **+ Atribuições** na parte superior da janela principal.  Mostre as licenças para este usuário. NÃO altere nada.  Feche a janela selecionando o **X** no canto superior direito da página.
 
-1. No painel de navegação à esquerda, selecione **Dispositivos**.  Nada aparece, mas você pode dizer que se este usuário tivesse dispositivos atribuídos, é aqui que apareceriam.
+1. No painel de navegação à esquerda, selecione **Dispositivos**.  Nada aparece, mas você pode dizer que, se esse usuário tivesse dispositivos atribuídos, é aqui que eles apareceriam.
 
-1. No painel de navegação esquerdo, selecione **Atribuições de função do Azure**.  Destacar que:
+1. No painel de navegação à esquerda, selecione **Atribuições de função do Azure**.  Chamada:
     1. Isso é diferente da guia de funções atribuídas mostrada anteriormente, pois a guia anterior é para controle de acesso baseado em função no Microsoft Entra.
-    1. Embora nada esteja listado aqui, esta é a guia em que você seria capaz de exibir atribuições de função, atribuídas à Adele, para recursos do Azure. Por exemplo, se você criasse um Grupo de Recursos do Azure e atribuísse a Adele uma função específica, como proprietário ou colaborador do grupo de recursos, você veria essa função listada aqui. Isso faz parte do Azure RBAC (controle de acesso baseado em função do Azure). Essa atribuição de função é adicionada e gerenciada como parte desse recurso específico.
+    1. Embora nada esteja listado aqui, esta é a guia em que você seria capaz de exibir atribuições de função, atribuídas à Adele, para recursos do Azure. Por exemplo, se você criasse um Grupo de Recursos do Azure e atribuísse a Adele uma função específica, como o proprietário ou colaborador do grupo de recursos, veria essa função listada aqui. Isto faz parte do RBAC do Azure (controle de acesso baseado em função do Azure). Essa atribuição de função é adicionada e gerenciada como parte desse recurso específico.
 
-1. No painel de navegação esquerdo, selecione **Métodos de autenticação**.  Destaque a descrição que diz: 'Aqui, você pode definir os números de telefone e endereços de email que os usuários usam para realizar a autenticação multifator e redefinição de senha self-service de um usuário'. Se um usuário estiver configurado para a SSPR ou precisar usar a MFA e você, como administrador, preencher isso, esse usuário já estará registrado e não precisará passar pelas etapas de registro para a SSPR ou a MFA.  É comum que um usuário se registre em vez de um administrador precisar fazer isso.
+1. No painel de navegação à esquerda, selecione **Métodos de autenticação**.  Chame a descrição que diz: "Aqui, você pode definir os números de telefone e endereços de e-mail que os usuários usam para executar a autenticação multifator e a redefinição de senha de self-service e redefinir a senha de um usuário". Se um usuário estiver configurado para a SSPR ou precisar usar a MFA e você, como administrador, preencher isso, esse usuário já estará registrado e não precisará passar pelas etapas de registro para a SSPR ou a MFA.  É comum que um usuário se registre em vez de um administrador precisar fazer isso.
 
-1. Selecione o **X** no canto superior direito da página. Isso o leva de volta à lista de usuários.
+1. Selecione **X** no canto superior direito da página. Isso retorna você à lista de usuários.
 
-1. Selecione o **X** no canto superior direito da página. Isso retorna você para a página principal do Centro de administração do Microsoft Entra.
+1. Selecione **X** no canto superior direito da página. Isso retorna você para a página principal do Centro de administração do Microsoft Entra.
 
 1. Mantenha essa guia do navegador aberta; vamos usá-la na próxima demonstração.
 

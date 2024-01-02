@@ -12,7 +12,7 @@ Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 - Módulo: descrever as capacidades de autenticação do Microsoft Entra ID.
 - Unidades: descrever os métodos de autenticação e a autenticação multifator.
 
-## Cenário da demonstração
+## Cenário de demonstração
 
 Nesta demonstração, você explorará as várias configurações disponíveis para autenticação no Microsoft Entra.
 

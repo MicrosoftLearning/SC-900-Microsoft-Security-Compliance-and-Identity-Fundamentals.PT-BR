@@ -4,37 +4,37 @@ Demonstração: Título: 'O portal Microsoft 365 Defender' Módulo: 'Roteiro de 
 ---
 --->
 
-# Demonstração: O Portal do Microsoft 365 Defender
+# Demonstração:o portal do Microsoft 365 Defender
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades da solução de segurança da Microsoft
+- Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft
 - Módulo: descrever as funcionalidades de proteção contra ameaças do Microsoft 365
 - Unidade: descrever o portal do Microsoft 365 Defender
 
-## Cenário da demonstração
+## Cenário de demonstração
 
 Nesta demonstração, você mostrará o portal do Microsoft 365 Defender acompanhando o conteúdo exibido na página de aterrissagem. Você também acompanhará as opções do painel de navegação que fornece acesso rápido à funcionalidade que integra a solução XDR (Detecção e Resposta Estendida) da Microsoft: o Microsoft Defender para Pontos de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você também mostrará como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
 
 ### Demonstração parte 1
 
-Explorar a página de aterrissagem do Microsoft 365 Defender.
+Explore a página inicial do Microsoft 365 Defender.
 
-1. Abra a guia do navegador na página inicial de segurança do Microsoft 365.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** e entre com as credenciais de administrador do locatário do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH), para acessar o centro de administração do Microsoft 365. No painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo** e, em seguida, **Segurança**.  A página inicial do Portal do Microsoft 365 Defender vai ser aberta no navegador.  
+1. Abra a guia do navegador na página inicial de segurança do Microsoft 365.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** e entre com as credenciais de administrador do locatário do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH), para acessar o centro de administração do Microsoft 365. No painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo** e, em seguida, **Segurança**.  A página inicial do portal do Microsoft 365 Defender é aberta em uma nova página do navegador.  
 
-1. A página inicial do portal do Microsoft 365 Defender mostra muitos dos cartões comuns de que os agrupamentos de segurança precisam. A composição dos cartões e dados depende da função do usuário. Role a página para exibir o conjunto padrão de cartões para a sua função de administrador global.
+1. A página inicial do portal do Microsoft 365 Defender mostra muitos dos cartões comuns de que os agrupamentos de segurança precisam. A composição de cartões e dados depende da função do usuário. Percorra a página para ver o conjunto padrão de cartões para a sua função de administrador global.
 
-1. Os cartões exibidos podem ser personalizados de acordo com a sua preferência.  Selecione **+Adicionar cartões**. Abre-se uma janela que exibe todos os cartões disponíveis para serem adicionados à sua página inicial.  Talvez você já tenha todos os cartões exibidos e, nesse caso, verá a observação "Você já tem todos os cartões na sua página inicial." Feche a janela selecionando o **X** no canto superior direito da tela.
+1. Os cartões exibidos podem ser personalizados de acordo com sua preferência.  Selecione **+ Adicionar cartões**. Uma Janela é aberta que exibe todos os cartões que estão disponíveis para adicionar à sua página inicial.  Talvez você já tenha todos os cartões exibidos; nesse caso, você verá a nota " Você já tem todos os cartões em sua página inicial". Clique em **X** no canto superior direito da janela para fechá-la.
 
-1. Ao selecionar as reticências na parte superior direita de qualquer cartão, encontramos mais ações disponíveis.  
+1. Selecionar as reticências no canto superior direito de qualquer cartão fornece mais ações que você pode realizar.  
 
-1. Também é possível mover os cartões. Posicione o cursor do mouse sobre a barra de título de qualquer cartão. Quando um sinal de adição aparecer no cursor, selecione o cartão e mova-o para o local desejado.
+1. Você também pode mover os cartões. Posicione o cursor do mouse sobre a barra de título de qualquer cartão. Quando um sinal de adição aparecer no cursor, selecione o cartão e mova-o para o local desejado.
 
-1. Ao selecionar o título de um cartão, encontramos informações adicionais sobre esse tópico. Você vai explorar isso na próxima tarefa.
+1. Selecionar o título de um cartão levará você a informações adicionais para esse tópico. Você vai explorar isso na próxima tarefa.
 
-1. O painel de navegação à esquerda oferece links/acesso a informações que fazem parte da solução XDR (Detecção e Resposta Estendida) da Microsoft, incluindo incidentes e alertas, buscas, central de ações, análise de ameaças, classificação de segurança, entre outros.  Também inclui acesso rápido ao Microsoft Defender para Pontos de Extremidade (os links listados em Pontos de Extremidade), Defender para Office para 365 (links listados em Email e Colaboração), Microsoft Defender for Cloud Apps (links em Aplicativos de Nuvem) e muito mais.  Explorar essas opções selecionando alguns links.   Para voltar à página inicial do portal do Microsoft 365 Defender, selecione **Página Inicial** à esquerda no painel de navegação.
+1. O painel de navegação à esquerda oferece links/acesso a informações que fazem parte da solução XDR (Detecção e Resposta Estendida) da Microsoft, incluindo incidentes e alertas, buscas, central de ações, análise de ameaças, classificação de segurança, entre outros.  Também inclui acesso rápido ao Microsoft Defender para Pontos de Extremidade (os links listados em Pontos de Extremidade), Defender para Office para 365 (links listados em Email e Colaboração), Microsoft Defender for Cloud Apps (links em Aplicativos de Nuvem) e muito mais.  Explore essas opções selecionando alguns dos links.   No painel de navegação à esquerda, selecione **Página Inicial** para voltar à Página Inicial do portal do Microsoft 365 Defender.
 
-1. Mantenha a janela do navegador aberta.
+1. Mantenha essa janela do navegador aberta.
 
 ### Demonstração parte 2
 
@@ -48,11 +48,11 @@ Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pod
 
 1. Selecione **Ações recomendadas** na parte superior da página.  Observe as informações disponíveis para cada item na tabela.  
 
-1. Selecione os primeiros itens da lista e analise as informações disponíveis. Na janela que será aberta, observe as opções de status disponíveis. Selecione a guia **Implementação** para exibir informações relacionadas à implementação. Selecione o **X** no canto superior direito para fechar essa janela.
+1. Selecione os primeiros itens da lista e examine as informações disponíveis. Na janela que será aberta, observe as opções de status disponíveis. Selecione a guia **Implementação** para exibir informações relacionadas à implementação. Selecione o **X** no canto superior direito para fechar esta janela.
 
-1. Selecione a guia **Histórico** na parte superior da página.  Para cada atividade listada, há uma breve instrução que fornece contexto.  Selecione um item na tabela do histórico.  Na parte superior direita da página de detalhes, em Histórico, selecione **X eventos** (em que X é um número).  A janela do histórico de ações será aberta, mostrando mais informações.  Selecione **Fechar** na parte inferior da página, depois **X** no canto superior direito da página de detalhes para voltar à página Histórico.
+1. Selecione a guia **Histórico** na parte superior da página.  Para cada atividade listada, há uma breve instrução que fornece contexto.  Selecione um item na tabela do histórico.  No canto superior direito da página de detalhes, em Histórico, selecione **X eventos** (onde X é um número).  A janela do histórico de ações será aberta, mostrando mais informações.  Selecione **Fechar** no canto inferior da página e selecione o **X** no canto superior direito da página de detalhes para retornar para a página Histórico.
 
-1. Na parte superior da página, selecione **Métricas e tendências**.  Observe as informações disponíveis.  No canto superior direito da página, selecione o **ícone de calendário**.  Você pode refinar a visualização, personalizando um intervalo de datas.  A seleção do **ícone de filtro** permite filtrar a exibição por identidade, dispositivos e/ou aplicativos.  Feche a janela.
+1. Na parte superior da página, selecione **Métricas e tendências**.  Observe as informações disponíveis.  Selecione o **ícone de calendário** no canto superior direito da página.  Você pode restringir a exibição a um intervalo de datas personalizado.  A seleção do **ícone de filtro** permite filtrar a exibição por identidade, dispositivos e/ou aplicativos.  Feche a janela.
 
 1. No painel de navegação à esquerda, selecione **Página Inicial** para acessar a página inicial do Microsoft 365 Defender.
 
@@ -60,4 +60,4 @@ Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pod
 
 ### Revisão
 
-Nesta demonstração, você explorou o portal do Microsoft 365 Defender acompanhando o conteúdo exibido na página de aterrissagem, explorou as opções do painel de navegação que fornece acesso rápido à funcionalidade que integra a solução de XDR (Detecção e Resposta Estendida) da Microsoft, o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você mostrou como o Microsoft Secure Score pode ajudar uma organização a melhorar a postura de segurança.
+Nesta demonstração, você explorou o portal do Microsoft 365 Defender acompanhando o conteúdo exibido na página de aterrissagem, explorou as opções do painel de navegação que fornece acesso rápido à funcionalidade que integra a solução de XDR (Detecção e Resposta Estendida) da Microsoft, o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você também mostrará como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
