@@ -67,9 +67,9 @@ Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começa
 
 1. Na página Escolher locais, selecione **Avançar**.  Por uma questão de conveniência, para a demonstração, nenhuma outra localização será incluída nesta retenção.
 
-1. A página Condições de consulta permite que você crie uma retenção, com base em palavras-chave ou condições específicas atendidas. Selecione **+ Adicionar condição** para ver as opções disponíveis.  Selecione **Avançar**. Sem quaisquer condições, a retenção preservará todo o conteúdo no local especificado.
+1. A página Condições de consulta permite que você crie uma retenção, com base em palavras-chave ou condições específicas atendidas. Selecione **+ Adicionar condição** para ver as opções disponíveis.  Selecione **Avançar**. Sem nenhuma condição, a retenção preservará todo o conteúdo no local especificado.
 
-1. Revise suas configurações e selecione **Enviar**, pode levar um minuto e, em seguida, selecione **Concluído**.  A retenção de teste deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
+1. Revise suas configurações e selecione **Enviar**, isso pode levar um minuto e, em seguida, selecione **Concluído**.  A retenção de teste deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
 
 1. Mantenha essa guia do navegador aberta.
 
@@ -85,9 +85,9 @@ Com uma retenção estabelecida, você criará uma consulta de pesquisa.  Após 
 
 1. Na página Escolher locais, selecione **locais em espera** e desmarque **Adicionar Conteúdo do Aplicativo para usuários locais**, pois seu ambiente de laboratório não tem usuários locais e, em seguida, selecione **Avançar**.
 
-1. A página Condições de consulta permite que você crie uma pesquisa, com base em palavras-chave ou condições específicas que são satisfeitas, No campo palavra-chave, digite **Vendas** e selecione **Avançar**.
+1. A página Condições de consulta permite que você crie uma pesquisa, com base em palavras-chave ou condições específicas que são satisfeitas. No campo palavra-chave, digite **Vendas** e selecione **Avançar**.
 
-1. Revise suas configurações e selecione **Enviar**, pode levar um minuto e, em seguida, selecione **Concluído**.  A pesquisa deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
+1. Revise suas configurações e selecione **Enviar**, isso pode levar um minuto e, em seguida, selecione **Concluído**.  A pesquisa deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
 
 1. Na janela Pesquisas, selecione a pesquisa criada, **Retenção Teste – Pesquisa de Vendas**.  Uma janela que é aberta com a guia Resumo selecionada.  Quando a pesquisa for concluída, o status indicará isso.  Você verá uma guia Estatísticas da pesquisa (se não encontrá-la, a pesquisa ainda poderá estar em execução e poderá levar alguns minutos para ser concluída).  Selecione a guia **Estatísticas de pesquisa** e selecione o menu suspenso próximo de Pesquisar conteúdo.  Você também pode exibir mais informações sobre o relatório de condição e os principais locais.  
 

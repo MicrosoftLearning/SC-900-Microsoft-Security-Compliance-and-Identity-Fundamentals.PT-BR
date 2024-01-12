@@ -58,7 +58,7 @@ Explorar o Cloud Discovery.
 
 ### Tarefa 2 – explorar o catálogo de aplicativos na nuvem
 
-O Cloud Discovery analisa seus logs de tráfego com base no catálogo de mais de 31 mil aplicativos na nuvem do Microsoft Defender para Aplicativos de Nuvem. Os aplicativos são classificados e pontuados com base em mais de 80 fatores de risco para fornecer visibilidade contínua do uso da nuvem, do shadow IT e o risco que o shadow IT representa para sua organização.  Nesta tarefa, você vai explorar as funcionalidades do catálogo de aplicativos na nuvem.
+O Cloud Discovery analisa seus logs de tráfego com base no catálogo de mais de 31 mil aplicativos de nuvem do Microsoft Defender para Aplicativos de Nuvem. Os aplicativos são classificados e pontuados com base em mais de 80 fatores de risco para fornecer visibilidade contínua do uso da nuvem, do shadow IT e o risco que o shadow IT representa para sua organização.  Nesta tarefa, você vai explorar as funcionalidades do catálogo de aplicativos na nuvem.
 
 1. No painel de navegação à esquerda, selecione **catálogo de aplicativos na nuvem**.
 
