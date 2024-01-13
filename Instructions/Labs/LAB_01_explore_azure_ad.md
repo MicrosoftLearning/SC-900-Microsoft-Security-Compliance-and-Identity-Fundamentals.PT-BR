@@ -18,7 +18,7 @@ Neste laboratório, você acessará o Microsoft Entra ID (anteriormente conhecid
 
 **Tempo estimado**: 10 a 15 minutos
 
-### Tarefa 1:
+### Tarefa 1
 
 Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (anteriormente conhecido como Azure AD).  Nesta tarefa, você aprenderá a criar um novo usuário no Microsoft Entra ID e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
 
@@ -29,7 +29,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
 1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra. Aqui você verá informações básicas sobre o seu locatário da Contoso. Se você rolar para baixo na janela principal, também verá informações sobre alertas, meu feed, destaques de recursos e muito mais.
 
-1. No painel de navegação à esquerda, expanda **Usuários** e selecione **Todos os usuários**. Observe que seu locatário já está configurado com usuários.
+1. No painel de navegação à esquerda, expanda **Usuários** e selecione **Todos os usuários**. Observe que o seu locatário já está configurado com usuários.
 
 1. Na parte superior da página, selecione **+ Novo usuário** e, na caixa suspensa, escolha **Criar usuário**.
 
@@ -64,7 +64,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
     1. A janela que é aberta mostra todos os grupos disponíveis.  
 
-    1. Veja a lista de grupos disponíveis.  Na lista, selecione **Operações**.  Na parte inferior da página, use o botão **Selecionar**.  Pode levar alguns segundos, mas você deverá ver a exibição do grupo de operações na página de atribuições.
+    1. Obter a lista dos grupos disponíveis.  Na lista, selecione **Operações**.  Na parte inferior da página, use o botão **Selecionar**.  Pode levar alguns segundos, mas você deverá ver a exibição do grupo de operações na página de atribuições.
 
     1. Na parte superior da página, selecione **Adicionar função**.  Uma janela é aberta que mostra todas as funções de diretório disponíveis.  Exiba as opções disponíveis, mas não adicione novas funções.  Feche essa página selecionando o **X** no canto superior direito da página de funções do diretório.
     1. Na parte inferior da página, selecione **Examinar + criar**. Um resumo das configurações será exibido.  Na parte inferior dessa página, clique em **Criar**.
@@ -73,17 +73,17 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
 1. Na lista de usuários, selecione o usuário que você criou, **Sara Melo**.  A página **Visão geral** é aberta.
 
-1. O painel de navegação à esquerda mostra as várias opções que podem ser configuradas para o usuário. Exibir as opções disponíveis.
+1. O painel de navegação esquerdo mostra as várias opções que podem ser configuradas para o usuário. Exibir as opções disponíveis.
 
-1. No painel de navegação esquerdo selecione **Licenças**.  Veja que não há nenhuma atribuição de licença para esse usuário.  OBSERVAÇÃO: as licenças só poderão ser atribuídas se um local de uso tiver sido configurado. Se você não definiu o local de uso, volte para essa etapa na tarefa anterior.
+1. No painel de navegação à esquerda, selecione **Licenças**.  Observe que não há atribuições de licença encontradas para este usuário.  OBSERVAÇÃO: as licenças só poderão ser atribuídas se um local de uso tiver sido configurado. Se você não definiu o local de uso, volte para essa etapa na tarefa anterior.
 
-    1. Para adicionar uma licença, clique em **+ Atribuições** na parte superior da janela principal.
+    1. Para adicionar uma licença, selecione **+ Atribuições** na parte superior da janela principal.
 
-    1. Em Selecionar licenças, escolha **Office 365 E3** e **Windows 10/11 Enterprise E3** e selecione o botão **Salvar** na parte inferior da tela. Uma notificação no canto superior direito da tela deve mostrar que a atribuição de licença foi bem-sucedida.
+    1. Em Selecionar licenças, escolha **Office 365 E3** e **Windows 10/11 Enterprise E3** e selecione o botão **Salvar** na parte inferior da tela. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
 
-    1. Clique no **X** no canto superior direito para fechar a janela de atribuição de licença.
+    1. Selecione o **X** no canto superior direito da tela para fechar a janela Atribuições de licença.
 
-    1. Clique no **ícone Atualizar** na parte superior da página para confirmar a atribuição de licença.
+    1. Selecione o **ícone de Atualização** na parte superior da página para confirmar as atribuições de licença.
 
 1. Retorne ao centro de administração do Microsoft Entra selecionando **Página Inicial** no painel de navegação esquerdo ou no canto superior esquerdo da tela (a trilha), acima de onde diz Sara Perez | Licenças.
 
@@ -91,7 +91,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
 1. Saia de todas as guias abertas do navegador. Saia do serviço selecionando o ícone de usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Feche todas as janelas do navegador.
 
-### Tarefa 2:
+### Tarefa 2
 
 Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
@@ -102,14 +102,14 @@ Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 3. Entre como **sara@WWLxZZZZZ.onmicrosoft.com** , (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo seu ALH)
 4. Insira a senha temporária que você definiu na tarefa anterior.
 
-5. Agora você vai receber a notificação para atualizar sua senha. No campo Senha atual, insira a senha temporária da tarefa anterior.
+5. Você é solicitado a atualizar sua senha. No campo Senha atual, insira a senha temporária da tarefa anterior.
 
 6. No campo Nova senha, insira uma nova senha, confirme a senha e selecione **Entrar**.  Anote sua nova senha, pois você precisará dela para o exercício de laboratório subsequente na SSPR.
 
-7. Agora você deve estar conectado ao Microsoft 365.
+7. Agora, você deve entrar com êxito no Microsoft 365.
 
 8. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras SP (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
 
 ### Revisão
 
-Neste laboratório, você começou sua exploração inicial do Azure AD. Como os assinantes do Microsoft 365 estão usando o Azure AD automaticamente, você descobriu que pode acessar os recursos e serviços do Azure AD pelo Portal de administração do Microsoft 365 ou pelo Portal do Azure.  Seja qual for sua abordagem preferida, você chegará ao mesmo lugar.  Você também passou pelo processo de criação de um usuário, além das diferentes configurações que podem ser definidas, incluindo os grupos aos quais o usuário pode ser atribuído, a disponibilidade de funções e a atribuição de licenças de usuário.
+Neste laboratório, você iniciou sua exploração inicial do Azure AD. Como os assinantes do Microsoft 365 estão usando automaticamente o Azure AD, você descobriu que pode acessar recursos e serviços do Azure AD por meio do portal de administração do Microsoft 365 ou do portal do Azure.  Seja qual for a abordagem que você preferir para chegar ao mesmo lugar.  Você também passou pelo processo de criação de um usuário, além das diferentes configurações que podem ser definidas, incluindo os grupos aos quais o usuário pode ser atribuído, a disponibilidade de funções e a atribuição de licenças de usuário.

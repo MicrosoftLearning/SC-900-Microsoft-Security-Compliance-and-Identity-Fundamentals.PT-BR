@@ -4,7 +4,7 @@ Laboratório: Título: 'Explore o portal de conformidade e o Gerenciador de Conf
 ---
 --->
 
-# Laboratório: Explorar o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview
+# Laboratório: explorar o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
@@ -18,7 +18,7 @@ Neste laboratório, você vai explorar a home page do portal de conformidade do 
 
 **Tempo estimado**: 30 a 45 minutos
 
-### Tarefa 1:
+### Tarefa 1
 
 Explorar a página inicial do portal de conformidade do Microsoft Purview e aprender a personalizar a exibição de cartão e o painel de navegação.
 
@@ -32,33 +32,33 @@ Explorar a página inicial do portal de conformidade do Microsoft Purview e apre
 
 1. Em Centros de administração, selecione **Conformidade**.  A página inicial do portal de conformidade do Microsoft Purview é aberta em uma nova página do navegador.  
 
-1. A seção de cartão na página inicial apresenta uma visão rápida de como a sua organização está lidando com a sua postura de conformidade, quais soluções estão disponíveis para a sua organização, entre outros.
+1. A seção de cartões na página inicial mostra, rapidamente, como sua organização está se saindo com sua postura de conformidade, quais soluções estão disponíveis para sua organização e muito mais.
 
-1. Na janela principal, role a página para exibir diferentes cartões. Os cartões disponíveis na tela inicial e a posição dos cartões podem ser alterados de acordo com a preferência de cada administrador.  
+1. Na janela principal, role para baixo para ver os diferentes cartões. Os cartões disponíveis na tela inicial e a posição dos cartões podem ser alterados para acomodar a preferência de cada administrador.  
 
-1. Ao colocar o cursor do mouse sobre o título de qualquer cartão, a barra de título vai ficar cinza.  Quando perceber que o cursor assumiu uma forma de cruz, é possível mover o cartão para a localização desejada.
+1. Colocar o cursor do mouse sobre a barra de título de qualquer cartão a tornará cinza.  Quando você vê o cursor se transformar em uma forma de cruz, você pode mover o cartão para o local desejado.
 
-1. Na barra de título de qualquer cartão, você também verá reticências que apresentam as ações possíveis.  Selecione as reticências no Catálogo de soluções e depois **Remover**.
+1. Na barra de título de qualquer cartão, você também verá reticências que apresentam as ações possíveis.  Selecione as reticências no catálogo de soluções e selecione **Remover**.
 
-1. É possível adicionar cartões selecionando **+ Adicionar cartões**.  A janela Adicionar cartões à sua página inicial será aberta.  Posicione o cursor do mouse sobre o cartão mostrado nesta janela e arraste-o até a localização que deseja posicioná-lo na tela inicial.
+1. Você pode adicionar cartões, selecionando **+ Adicionar cartões**.  A janela Adicionar cartões à sua página inicial é aberta.  Posicione o cursor do mouse sobre o cartão mostrado nesta janela e arraste-o até a localização que deseja posicioná-lo na tela inicial.
 
 1. No painel de navegação esquerdo da página inicial do portal de conformidade do Microsoft Purview, observe os itens listados em Soluções.  
 
-1. Como administrador de conformidade, pode haver um conjunto de soluções que você gerencia para nossa organização e, como tal, talvez você queira ter apenas as soluções listadas no painel de navegação que você vê. Para personalizar de acordo com a suas preferências, selecione **Personalizar navegação**.  
+1. Como administrador de conformidade, pode haver um conjunto de soluções que você gerencia para nossa organização e, como tal, talvez você queira ter apenas as soluções listadas no painel de navegação que você vê. Para personalizar de acordo com suas preferências, selecione **Personalizar navegação**.  
 
 1. Na janela rotulada Personalizar o painel de navegação, observe como você pode selecionar os itens que deseja que apareçam no painel de navegação e desmarcar os itens que não deseja ver. Para fins desses laboratórios, mantenha todos os itens selecionados e selecione **Salvar** na parte inferior da janela.  
 
-1. Deixe a guia do navegador aberta.
+1. Deixe esta guia do navegador aberta.
 
-### Tarefa 2:
+### Tarefa 2
 
-Aprender sobre a postura de conformidade da sua organização através do Gerenciador de Conformidade.
+Saiba mais sobre a postura de conformidade da sua organização por meio do Gerenciador de Conformidade.
 
-1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Gerenciador de Conformidade**.  Também é possível selecionar o Gerenciador de Conformidade a partir da barra de título do cartão Gerenciador de Conformidade.
+1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Gerenciador de Conformidade**.  Como alternativa, você pode selecionar o Gerenciador de conformidade na barra de título do cartão Gerenciador de conformidade.
 
-1. Na página Gerenciador de Conformidade, verifique se a **Visão Geral** está selecionada (sublinhada). Role a página para verificar todas as informações disponíveis na página.  As informações dessa página incluem sua pontuação de conformidade, seus pontos atingidos, e os pontos atingidos gerenciados pela Microsoft.   Você verá as principais ações de aprimoramento, as soluções que afetam sua pontuação e o detalhamento da pontuação de conformidade por categorias.
+1. Na parte superior da página Gerenciador de conformidade, verifique se **Visão geral** está selecionada (sublinhada). Role para baixo para ver todas as informações disponíveis na página.  As informações dessa página incluem sua pontuação de conformidade, seus pontos atingidos, e os pontos atingidos gerenciados pela Microsoft.   Você verá as principais ações de aprimoramento, as soluções que afetam sua pontuação e o detalhamento da pontuação de conformidade por categorias.
 
-1. Na parte superior da página Visão Geral, selecione **Ações de melhoria**.  Essas são ações que podem melhorar a pontuação de conformidade da organização. Observe que, à medida que as ações de melhoria são realizadas, os pontos podem levar até 24 horas para serem atualizados.  Observe os filtros disponíveis.
+1. Na parte superior da página Visão geral, selecione **Ações de melhoria**.  Essas são ações que podem melhorar a pontuação de conformidade da organização. Observe que, à medida que as ações de melhoria são realizadas, os pontos podem levar até 24 horas para serem atualizados.  Observe os filtros disponíveis.
 
 1. Na lista de ações de melhoria, selecione **Habilitar redefinição de senha self-service**.  Revise as informações disponíveis para a ação de aprimoramento.  O lado esquerdo da janela fornece uma breve visão geral sobre a implementação, o status do teste, entre outros. À direita da visão geral está a página de detalhes, em que é possível selecionar a implementação, o teste, os padrões relacionados, os requisitos regulatórios e os documentos. Cada uma dessas guias fornece informações mais detalhadas sobre a ação de aprimoramento.
 
@@ -66,9 +66,9 @@ Aprender sobre a postura de conformidade da sua organização através do Gerenc
 
 1. Na parte superior da página, selecione **Soluções**. Nesta página, você verá como as soluções podem contribuir para a sua pontuação e as demais oportunidades de aprimoramento.
 
-1. Na parte superior da página, selecione **Avaliações**. Nesta página, você verá a Linha de Base de Proteção de Dados do Microsoft 365.  Esta é uma avaliação de linha de base padrão oferecida pela Microsoft no Gerenciador de Conformidade para o Microsoft 365.  Essa avaliação da linha de base tem um conjunto de controles para regulamentos e standards para proteção de dados e governança geral de dados. O Gerenciador de Conformidade passa a ser mais útil quando você adiciona suas avaliações para atender às necessidades específicas da sua organização.
+1. Na parte superior da página, selecione **Avaliações**. Nesta página, você verá a Linha de Base de Proteção de Dados do Microsoft 365.  Esta é uma avaliação de linha de base padrão oferecida pela Microsoft no Gerenciador de Conformidade para o Microsoft 365.  Essa avaliação de linha de base possui um conjunto de controles para regulamentos e padrões principais para proteção de dados e governança geral de dados. O Gerenciador de Conformidade passa a ser mais útil quando você adiciona suas avaliações para atender às necessidades específicas da sua organização.
 
-1. Selecione **Linha de Base de Proteção de Dados**.  Observe as informações disponíveis na guia de progresso. Você também pode ver informações nos Controles, as ações de aprimoramento e as ações da Microsoft.  
+1. Selecione **Linha de base de proteção de dados**.  Observe as informações disponíveis na guia de progresso. Você também pode ver informações nos Controles, as ações de aprimoramento e as ações da Microsoft.  
 
 1. Na parte superior esquerda da página, acima de Avaliações (trilha de navegação), selecione **Avaliações** para voltar à página de avaliações.  Antes de sair da guia de avaliações, observe que você pode adicionar suas próprias avaliações.
 

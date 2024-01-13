@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Laboratório: Título: 'Explorar o Azure Policy' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 6: descrever as funcionalidades da governança de recursos no Azure; Unidade 2: descrever o Azure Policy'
 ---
 --->
 
-# <a name="lab-explore-azure-policy"></a>Laboratório: Explorar o Azure Policy
+# Laboratório: Explorar o Azure Policy
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
@@ -12,13 +12,13 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 - Módulo: descrever as funcionalidades de governança de recursos no Azure
 - Unidade: descrever o Azure Policy
 
-## <a name="lab-scenario"></a>Cenário do laboratório
+## Cenário do laboratório
 
 O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. O Azure Policy avalia os recursos no Azure comparando as propriedades desses recursos com as regras de negócio. Neste laboratório, você criará uma política e verá o impacto dela.  Você também vai explorar por informações de conformidade e correção disponíveis na página da política.
 
 **Tempo estimado**: 15 a 20 minutos
 
-### <a name="task-1"></a>Tarefa 1:
+### Tarefa 1:
 
 Nesta tarefa, você vai criar uma atribuição de política básica para exigir uma marca em um grupo de recurso.
 1.  Abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com**.
@@ -37,7 +37,7 @@ Nesta tarefa, você vai criar uma atribuição de política básica para exigir 
 
 1. Comece na guia Informações Básicas.
     1. Para o Escopo, mantenha a configuração padrão. Nesse caso, o escopo da política é a assinatura do Azure fornecida pelo ALH (hoster do laboratório autorizado).
-    1. Em Definição de Política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  Na barra de pesquisa, insira **Exigir uma marca**. Nos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (talvez seja necessário percorrer a página) e escolha **Adicionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
+    1. Em Definição de política, selecione as **reticências**.  Uma lista de definições de política disponíveis será exibida.  Na barra de pesquisa, insira **Exigir uma marca**. Nos resultados da pesquisa, selecione **Exigir marca em grupo de recursos** (talvez seja necessário percorrer a página) e escolha **Adicionar**.  Observação: o objetivo dessa política é Negar a criação de qualquer novo grupo de recursos que não atenda ao requisito.  
     1. Observe o nome de atribuição padrão.  Mantenha o nome como está.
     1. Verifique se a opção de Imposição de política está **Habilitada**
 
@@ -55,7 +55,7 @@ Nesta tarefa, você vai criar uma atribuição de política básica para exigir 
 
 1. Agora você está na home page dos serviços do Azure.  Mantenha essa página aberta, pois você precisará dela para a próxima tarefa.
 
-### <a name="task-2"></a>Tarefa 2:
+### Tarefa 2:
 
 Nesta tarefa, você verá o impacto da atribuição de política do Azure com a tentativa de criar um grupo de recursos no Azure sem marca.
 
@@ -93,7 +93,7 @@ Nesta tarefa, você verá o impacto da atribuição de política do Azure com a 
 
 1. Mantenha a guia do navegador aberta, pois você precisará dela para a próxima tarefa.
 
-### <a name="task-3-optional"></a>Tarefa 3 (opcional)
+### Tarefa 3 (opcional)
 
 Nesta tarefa, você percorrerá as etapas usadas para corrigir um grupo de recursos fora de conformidade. OBSERVAÇÃO: a assinatura do Azure usada para o laboratório enfrentará um atraso maior do que o normal para atualizar o status de conformidade de um grupo de recursos corrigido.
 
@@ -112,6 +112,7 @@ Nesta tarefa, você percorrerá as etapas usadas para corrigir um grupo de recur
 
 1. À esquerda no painel de navegação, selecione **Conformidade**.  Assim como na página de visão geral, aqui é possível exibir o estado de conformidade das políticas e/ou iniciativas listadas.  OBSERVAÇÃO: embora você tenha adicionado a marca ao grupo de recursos, levará tempo para que o status seja atualizado.  As assinaturas do Azure usadas para fins de laboratório podem enfrentar atrasos mais longos do que o normal. Se você quiser aguardar o status de conformidade para que esse recurso seja atualizado, não encerre o laboratório. Dependendo do ambiente de laboratório, a atualização pode levar uma hora ou mais.  
 
-### <a name="review"></a>Revisão
+### Revisão
 
 Neste laboratório, você passou pelo processo de criação de uma atribuição de política do Azure e pôde ver o impacto dessa política.
+

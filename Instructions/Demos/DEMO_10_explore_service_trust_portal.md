@@ -12,7 +12,7 @@ Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 - Módulo: Descrever as funcionalidades de privacidade e o Portal de Confiança do Serviço da Microsoft
 - Unidade: explorar o Portal de Confiança do Serviço
 
-## Cenário da demonstração
+## Cenário de demonstração
 
 Nesta demonstração, você mostrará os recursos e o conteúdo disponível no Portal de Confiança do Serviço. Também está incluída a navegação na Central de Confiabilidade para exibir informações sobre privacidade na Microsoft.
 
@@ -22,7 +22,7 @@ Nesta parte, você apresentará ao aprendiz os diferentes tipos de conteúdo dis
 
 1. Abra o Microsoft Edge.
 
-1. Na barra de endereços, insira **aka.ms/STP**. Vai ser aberta a página de aterrissagem do Portal de Confiança do Serviço. O Portal de Confiança do Serviço contém detalhes sobre a implementação de controles e processos da Microsoft que protegem nossos serviços na nuvem e os dados do cliente encontrados neles.
+1. Na barra de endereços, insira **aka.ms/STP**. Isso o levará à página inicial do Portal de Confiança do Serviço. O Portal de Confiança do Serviço contém detalhes sobre a implementação de controles e processos da Microsoft que protegem nossos serviços na nuvem e os dados do cliente encontrados neles.
 
 1. Para acessar alguns dos recursos do Portal de Confiança do Serviço, você precisa entrar como um usuário autenticado, com a sua conta de serviços em nuvem da Microsoft, ler e aceitar o Acordo de Confidencialidade da Microsoft para Materiais de Conformidade. No canto superior direito da página de aterrissagem do Portal de Confiança do Serviço, você verá a opção Entrar.  **Entre** usando suas credenciais de administrador e, se solicitado, selecione **Concordar** para aceitar o Contrato de Confidencialidade da Microsoft para Materiais de Conformidade.
 
@@ -30,7 +30,7 @@ Nesta parte, você apresentará ao aprendiz os diferentes tipos de conteúdo dis
 
 1. Observe a descrição na parte superior da página e os documentos aplicáveis disponíveis.  Selecione as **reticências** no cabeçalho Mais Opções do primeiro documento da lista.  Observe as diferentes opções.
 
-1. Selecione **Salvar na Biblioteca**.  Uma janela será exibida perguntando se você deseja assinar este documento.  Selecione **Sim**. Uma janela será exibida para as configurações de notificação. Observe as diferentes configurações. Clique em **Salvar**.
+1. Selecione **Salvar na Biblioteca**.  Uma janela será exibida perguntando se você deseja assinar este documento.  Selecione **Sim**. Uma janela será exibida para as configurações de notificação. Observe as diferentes configurações. Selecione **Salvar**.
 
 1. Para verificar se o documento foi salvo, role a página até a parte superior e selecione **Minha Biblioteca**.  Em qualquer documento na página Minha Biblioteca, selecione as reticências para ver as opções disponíveis.
 
