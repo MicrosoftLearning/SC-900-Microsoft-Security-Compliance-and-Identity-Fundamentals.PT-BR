@@ -27,7 +27,7 @@ Nesta demonstração, você apresentará as configurações de um rótulo de con
 
 1. No painel de navegação à esquerda, selecione **Rótulos**.
 
-1. Para sua conveniência, alguns rótulos foram configurados previamente no seu locatário de laboratório do Microsoft 365. Selecione o rótulo denominado **Confidencial – Finanças**.  Uma janela será aberta com informações sobre este rótulo.  Observe as configurações dessa etiqueta.  Selecione o **ícone de lápis** na parte superior da página para visualizar algumas configurações básicas. Se você não vir o ícone de lápis, selecione as reticências.
+1. Para sua conveniência, alguns rótulos foram configurados previamente no seu locatário de laboratório do Microsoft 365. Selecione o rótulo denominado **Confidencial – Finanças**.  Uma janela será aberta com informações sobre este rótulo.  Observe as configurações dessa etiqueta.  Selecione o **Editar rótulo** (também pode aparecer como um ícone de lápis) na parte superior da página para visualizar algumas configurações básicas. Caso não encontre essa opção, selecione os três pontinhos.
     1. A configuração começa informando o nome e a descrição do rótulo.  Não altere nada.  Selecione **Avançar** na parte inferior da página.
     1. Observe o escopo desta etiqueta. Não altere nada.  Selecione **Avançar** na parte inferior da página.
     1. Esta próxima tela é onde você pode escolher as configurações de proteção para os itens rotulados. Observe que essa etiqueta está configurada para dar suporte à marcação de conteúdo. Não altere nada.  Selecione **Avançar** na parte inferior da página.
@@ -38,9 +38,7 @@ Nesta demonstração, você apresentará as configurações de um rótulo de con
 
 1. No painel de navegação à esquerda, selecione **Políticas de rótulo**.  É por meio das políticas de rótulo que os rótulos de confidencialidade podem ser publicados.  O locatário do Microsoft 365 foi configurado com algumas políticas de rótulo, para sua conveniência.
 
-1. Selecione **Confidencial – Política de finanças**.  Uma janela será aberta com informações sobre a política. 
-
-1. Selecione **Editar política** na parte superior da janela.  Aqui você vai percorrer as configurações sem alterar nada.
+1. Selecione **Confidencial – Política de finanças**.  Uma janela será aberta com informações sobre a política. Selecione **Editar política** na parte superior da janela.  Aqui você vai percorrer as configurações sem alterar nada.
     1. Leia a descrição de "Escolher rótulos de confidencialidade para publicar".  Observe o rótulo que está listado.  Não altere nenhuma configuração.  Selecione **Avançar** na parte inferior da página.
     1. Examine a descrição de "Atribuir unidades de administração". As unidades de administração são definidas como o diretório completo; não altere nenhuma configuração. Selecione **Avançar**.  
     1. Examine a descrição em “Publicar para usuários e grupos”.  Observe que esse rótulo está disponível para todos os usuários.  Não altere nenhuma configuração.  Selecione **Avançar** na parte inferior da página.
@@ -52,7 +50,7 @@ Nesta demonstração, você apresentará as configurações de um rótulo de con
     1. A última opção de configuração é para nomear a política.  Como você está editando a política, o campo de nome fica esmaecido. Selecione **Avançar** na parte inferior da página.
     1. Verifique as configurações da política. Selecione **Cancelar** para descartar as alterações e retornar à página Políticas de rótulo.
 
-1. Na página Proteção de informações, selecione Rotulamento automático. Examine a descrição. Observe que você cria políticas de rotulagem automática para aplicar automaticamente os rótulos de confidencialidade às mensagens de email ou aos arquivos do OneDrive e do SharePoint que contêm informações confidenciais. Se houver políticas de rotulagem automática configuradas, selecione uma e revise as informações da política no painel de detalhes.  Se nenhuma política estiver listada, você poderá optar por percorrer as etapas para criar uma, se o tempo permitir.
+1. No painel de navegação à esquerda, dentro de Proteção de informações, escolha a opção de Rotulagem automática. Examine a descrição. Observe que você cria políticas de rotulagem automática para aplicar automaticamente os rótulos de confidencialidade às mensagens de email ou aos arquivos do OneDrive e do SharePoint que contêm informações confidenciais. Se houver políticas de rotulagem automática configuradas, selecione uma e revise as informações da política no painel de detalhes.  Se nenhuma política estiver listada, você poderá optar por percorrer as etapas para criar uma, se o tempo permitir.
 
 1. À esquerda no painel de navegação, selecione Página Inicial para voltar ao portal de conformidade do Microsoft Purview.
 
@@ -66,8 +64,8 @@ Nesta etapa, você mostrará o processo de aplicação de um rótulo da perspect
 
 1. Selecione **Documento em branco** e insira um texto na página.  Na barra azul na parte superior da página, selecione a seta para baixo, ao lado de Documento – Salvo, insira **Rótulo-teste** e pressione a tecla **ENTER** no teclado.
 
-1. Na barra de menus superior, selecione **Ícone de confidencialidade** (o ícone à direita do ícone de microfone), se você não vir essa opção imediatamente, atualize a página. No menu suspenso, selecione **Confidencial – Finanças**.   OBSERVAÇÃO: se você não vir imediatamente a opção Confidencialidade, atualize a página, mas como esse é um ambiente de locatário de laboratório, é possível que ele demora mais que o normal (de 10 a 15 minutos) para aparecer.
-1. 
+1. No canto direito da barra de menu superior (também conhecida como faixa de opções), você encontrará uma seta para baixo, selecione-a depois escolha **Faixa de Opções Clássica**.  Isso vai ajudar a identificar o ícone de confidencialidade mais facilmente. Selecione **Confidencialidade**, que está ao lado do ícone do microfone. No menu suspenso, selecione **Confidencial-Finanças**.  
+
 1. Na barra de menu superior, selecione **Exibição** e depois **Modo de Exibição de Leitura**.
 
 1. Observe que o documento inclui a marca-d’água.  
