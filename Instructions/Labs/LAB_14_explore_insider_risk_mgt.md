@@ -84,7 +84,7 @@ Nesta tarefa, você percorrerá as configurações para criar uma política.  O 
     1. Gatilhos: o evento de gatilho determina quando uma política começará a atribuir pontuações de risco à atividade de um usuário.  Você pode escolher entre uma política DLP existente ou se o usuário executará uma atividade de exfiltração. Selecione **O usuário corresponde a uma política DLP (prevenção contra perda de dados)** e, na lista suspensa, selecione **Dados Financeiros dos EUA**. Selecione **Avançar**.
     1. Indicadores: observe que todos os indicadores do Office selecionados na tarefa anterior estão marcados (você pode ver isso selecionando a tecla de seta para baixo ao lado dos indicadores do Office) e selecione **Avançar**.
     1. Na página Opções de detecção, mantenha todas as configurações padrão, mas leia a descrição associada às várias opções e posicione o mouse sobre o ícone de informações para obter informações mais detalhadas sobre uma configuração específica.  Selecione **Avançar**.
-    1. Na página Decida se deseja usar os limites de indicador padrão ou do cliente, mantenha a configuração padrão **Limites padrão** e selecione **Avançar**.
+    1. Na página “Decida se deseja usar os limites de indicador padrão ou do cliente”, mantenha a configuração padrão **Aplicar limites fornecidos pela Microsoft** e selecione **Avançar**.
     1. Concluir: examine as configurações e selecione **Enviar**.
     1. Examine a descrição do que acontece a seguir e selecione **Concluído**.
 
