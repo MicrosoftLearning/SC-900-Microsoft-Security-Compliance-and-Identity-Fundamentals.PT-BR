@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar o Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 1: descrever as funcionalidades do gerenciamento de conformidade na Microsoft; Unidade 2: explorar o Portal de Confiança do Serviço'
+lab:
+  title: Explorar o Portal de Confiança do Serviço
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Laboratório: explorar o Portal de Confiança do Serviço
 

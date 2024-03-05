@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Roteiro de aprendizagem: 'Descrever as funcionalidades do Microsoft Entra' Módulo: 'Descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra ID' Unidade: 'Descrever o acesso condicional'
+lab:
+  title: Acesso Condicional do Microsoft Entra.
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # Laboratório: Acesso condicional do Microsoft Entra
 

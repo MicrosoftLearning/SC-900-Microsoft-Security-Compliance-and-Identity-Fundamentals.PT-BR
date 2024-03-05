@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar rótulos de confidencialidade no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 3: descrever a proteção de informações e o gerenciamento de ciclo de vida de dados no Microsoft Purview; Unidade 4: descrever rótulos de confidencialidade'
+lab:
+  title: Explorar os rótulos de confidencialidade no Microsoft Purview
+  module: Describe information protection and data lifecycle management in Microsoft Purview
 ---
---->
 
 # Laboratório: Explorar rótulos de confidencialidade no Microsoft Purview
 
