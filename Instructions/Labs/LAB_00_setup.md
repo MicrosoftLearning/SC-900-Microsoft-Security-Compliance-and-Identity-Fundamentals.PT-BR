@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Configuração'
+lab:
+  title: Configuração do laboratório
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # Laboratório: configuração
 

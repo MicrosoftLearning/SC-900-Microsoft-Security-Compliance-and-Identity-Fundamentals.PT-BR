@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: "Explorar o Privileged Identity Management". ' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as capacidades do Microsoft Entra; Módulo 4: Módulo: descrever as capacidades de proteção de identidade e governança do Microsoft Entra; Unidade 4: descrever as capacidades do Privileged Identity Management'
+lab:
+  title: Explorar o Privileged Identity Management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Laboratório: explorar o Privileged Identity Management
 

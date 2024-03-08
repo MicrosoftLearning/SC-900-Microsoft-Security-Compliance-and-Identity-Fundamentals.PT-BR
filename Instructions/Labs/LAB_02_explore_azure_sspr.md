@@ -1,3 +1,9 @@
+---
+lab:
+  title: Redefinição de senha de autoatendimento do Microsoft Entra
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Laboratório: Título: 'Explorar a autenticação do Microsoft Azure AD com redefinição de senha self-service' Roteiro de Aprendizagem/Módulo/Unidade: 'Roteiro de Aprendizagem: descrever as capacidades do Azure Active Directory (Azure AD), parte do Microsoft Entra; Módulo 2: descrever as capacidades de autenticação do Microsoft Azure AD; Unidade 4: descrever a senha self-service'
