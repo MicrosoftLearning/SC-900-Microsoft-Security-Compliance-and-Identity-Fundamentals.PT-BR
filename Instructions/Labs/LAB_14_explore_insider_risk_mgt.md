@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar o gerenciamento de risco interno no Microsoft Purview' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 4: descrever as funcionalidades de risco interno no Microsoft Purview; Unidade 2: descrever o gerenciamento de risco interno'
+lab:
+  title: Explorar o gerenciamento de riscos internos no Microsoft Purview
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # Laboratório: Explorar o gerenciamento de riscos internos no Microsoft Purview
 

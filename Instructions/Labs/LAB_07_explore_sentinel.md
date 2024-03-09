@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar o Microsoft Sentinel' Roteiro de Aprendizagem/Módulo/Título: 'Roteiro de Aprendizagem: descrever as capacidades das soluções de segurança da Microsoft; Módulo 3: descrever as capacidades de segurança do Microsoft Sentinel; Unidade 3: descrever as capacidades de detecção e mitigação de ameaças no Microsoft Sentinel'
+lab:
+  title: Explorar o Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # Laboratório: explorar o Microsoft Sentinel
 
@@ -14,7 +14,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 ## Cenário do laboratório
 
-, você conhecerá o processo de criação de uma instância do Microsoft Sentinel.  Você também vai configurar as permissões para garantir o acesso aos recursos que serão implantados para dar suporte ao Microsoft Sentinel.  Depois que essa configuração básica for concluída, você vai seguir as etapas para conectar o Microsoft Sentinel às suas fontes de dados, configurar uma pasta de trabalho e mostrar um breve passo a passo de algumas das principais funcionalidades disponíveis no Microsoft Sentinel.
+Neste laboratório, você percorrerá o processo de criação de uma instância do Microsoft Sentinel.  Você também vai configurar as permissões para garantir o acesso aos recursos que serão implantados para dar suporte ao Microsoft Sentinel.  Depois que essa configuração básica for concluída, você vai seguir as etapas para conectar o Microsoft Sentinel às suas fontes de dados, configurar uma pasta de trabalho e mostrar um breve passo a passo de algumas das principais funcionalidades disponíveis no Microsoft Sentinel.
 
 **Tempo estimado**: 45 a 60 minutos
 

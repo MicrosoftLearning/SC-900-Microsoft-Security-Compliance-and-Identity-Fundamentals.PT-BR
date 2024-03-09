@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar o fluxo de trabalho da Descoberta Eletrônica (padrão)' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft; Módulo 5: descrever as funcionalidades de Descoberta Eletrônica e auditoria do Microsoft Purview; Unidade 2: descrever as soluções de Descoberta Eletrônica no Microsoft 365'
+lab:
+  title: Explore o fluxo de trabalho de Descoberta Eletrônica (Padrão)
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # Laboratório: explore o fluxo de trabalho de Descoberta Eletrônica (Standard)
 

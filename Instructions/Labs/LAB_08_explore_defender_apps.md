@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratório: Título: 'Explorar o Microsoft Defender for Cloud Apps ' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Module 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 5: descrever o Microsoft Defender for Cloud Apps'
+lab:
+  title: Explorar o Microsoft Defender para Aplicativos na Nuvem
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Laboratório: explorar aplicativos do Microsoft Defender para Nuvem
 
