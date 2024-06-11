@@ -43,7 +43,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha para a usuária D
 
 ### Tarefa 2
 
-Nesta tarefa, você percorrerá o processo de criação de uma política de acesso condicional no Azure AD.
+Nessa tarefa, você passará pelo processo de criação de uma política de acesso condicional no Microsoft Entra ID.
 
 1. Abra a guia do navegador na home page do centro de administração do Microsoft Entra.   Se você fechou a guia do navegador anteriormente, abra o Microsoft Edge, insira **https://entra.microsoft.com** na barra de endereços e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo ALH.
 

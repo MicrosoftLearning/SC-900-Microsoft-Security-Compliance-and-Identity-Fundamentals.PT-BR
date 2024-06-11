@@ -5,6 +5,7 @@ Configuração de pré-demonstração: Título: 'Instalação de demonstração'
 --->
 
 ## Locatários do WWL – Termos de uso
+
 Se você estiver recebendo um locatário como parte de uma entrega de treinamento com instrutor, observe que o locatário é disponibilizado com a finalidade de dar suporte aos laboratórios práticos no treinamento com instrutor.
 
 Os locatários não devem ser compartilhados ou usados para fins fora dos laboratórios práticos. O locatário usado neste curso é um locatário de avaliação e não pode ser usado ou acessado após o fim da aula e não está qualificado para extensão.
