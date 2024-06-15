@@ -43,7 +43,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha para o usuário D
 
 ### Tarefa 2
 
-Nesta tarefa, você, como administrador, atribuirá a Diego uma função do Azure AD no Privileged Identity Management.
+Nesta tarefa, você, como administrador, atribuirá a Diego uma função do Microsoft Entra ID no Privileged Identity Management.
 
 1. Abra a guia do navegador para a página inicial do centro de Administração Microsoft Entra.
 
@@ -108,9 +108,9 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
 1. Você responderá se deseja permanecer conectado.  Selecione **Sim**.
 1. A janela Ativar administrador do usuário é exibida.  Você deve inserir um motivo para a ativação.  Na caixa exibida, digite o motivo desejado (máximo de 500 caracteres) e selecione **Ativar**.
 1. Você verá o status (três fases de progresso), conforme a ativação é processada.
-1. Depois que a ativação for concluída, você voltará à página Minhas funções | Funções do Azure AD, em que verá uma notificação informando que uma função foi ativada.  Selecione **Clique aqui** para exibir suas funções ativas.  Se você notar que a hora de término é diferente da configurada originalmente, selecione a chave de atualização na parte superior da página (pode levar alguns minutos para atualizar).
+1. Depois que a ativação for concluída, você retornará à página Minhas funções | Funções do Microsoft Entra ID, na qual verá uma notificação informando que ativou uma função.  Selecione **Clique aqui** para exibir suas funções ativas.  Se você notar que a hora de término é diferente da configurada originalmente, selecione a chave de atualização na parte superior da página (pode levar alguns minutos para atualizar).
 1. Retorne à página inicial do Centro de Administração do Microsoft Entra, selecionando **Página Inicial** no painel de navegação à esquerda. 
-1. Como administrador de usuários do Azure AD, você pode criar usuários e grupos, gerenciar licenças e muito mais. No painel de navegação à esquerda, expanda **Identidade**, selecione **Usuários** e, em seguida, **Todos os usuários**.
+1. Como administrador de usuários do Microsoft Entra ID, você pode criar usuários e grupos, gerenciar licenças e muito mais. No painel de navegação à esquerda, expanda **Identidade**, selecione **Usuários** e, em seguida, **Todos os usuários**.
 1. Na lista de usuários, selecione **Bianca Pisani**.
 1. No painel de navegação à esquerda, selecione **Licenças**.
 1. Observe como Bianca não tem licenças atribuídas.  Na parte superior da página, selecione **+ Atribuições**.
@@ -122,4 +122,4 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
 
 ### Revisão
 
-Neste laboratório, você explorou o PIM.  Você, como administrador, configurou Diego com privilégios de administrador de usuário por um período de tempo especificado.  Em seguida, você, como Diego, percorreu o processo de ativação dos privilégios de administrador do usuário e as configurações do usuário.  Lembre-se de que o PIM requer a licença P2 do Azure AD Premium.
+Neste laboratório, você explorou o PIM.  Você, como administrador, configurou Diego com privilégios de administrador de usuário por um período de tempo especificado.  Em seguida, você, como Diego, percorreu o processo de ativação dos privilégios de administrador do usuário e as configurações do usuário.  Lembre-se de que o PIM requer o licenciamento do Microsoft Entra ID Premium P2.
