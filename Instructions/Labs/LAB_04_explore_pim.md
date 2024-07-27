@@ -114,7 +114,7 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
 1. Na lista de usuários, selecione **Bianca Pisani**.
 1. No painel de navegação à esquerda, selecione **Licenças**.
 1. Observe como Bianca não tem licenças atribuídas.  Na parte superior da página, selecione **+ Atribuições**.
-1. Na lista de seleção de licenças, selecione **Office 365 E3** e **Windows 10 Enterprise E3**.
+1. Na lista de licenças selecionadas, selecione **Microsoft Power Apps para Desenvolvedores** e **Microsoft Power Automate Gratuito**.
 1. Selecione **Salvar** na parte inferior da página.  Você verá uma breve notificação no canto superior direito da página indicando que as licenças foram atribuídas com sucesso.
 1. Feche a página de atribuições de licenças atualizadas selecionando o **X** no canto superior direito da página.
 1. Saia escolhendo o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador.

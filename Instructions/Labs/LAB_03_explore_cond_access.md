@@ -67,7 +67,7 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. No campo abaixo do texto **Selecionar ao que essa política se aplica**, escolha a seta para baixo e observe as opções disponíveis.  Mantenha a configuração padrão **Aplicativos de nuvem**.  Verifique se a guia **Incluir** está sublinhada.  Escolha **Selecionar aplicativos** e, abaixo de **Selecionar**, escolha **Nenhum**.  A janela para Selecionar aplicativos na nuvem é aberta.
 
-1. Na barra de pesquisa, insira **Azure**.  Nos resultados da pesquisa que aparecem na caixa de pesquisa, selecione **Portais de administração da Microsoft** e pressione **Selecionar** na parte inferior da página.  Observe o aviso.  
+1. Clique em **Portais de Administração da Microsoft** e pressione **Selecionar** na parte inferior da página.  Observe o aviso.  
 
 1. Em Condições, selecione **0 condições selecionadas**.  Observe as diferentes opções que você pode configurar.  Por meio da política, você pode controlar o acesso do usuário com base nos sinais das condições, incluindo: risco do usuário, risco de entrada, plataforma do dispositivo, localização, aplicativos cliente ou filtrar dispositivos.  Explore essas opções configuráveis, mas não defina nenhuma condição.
 

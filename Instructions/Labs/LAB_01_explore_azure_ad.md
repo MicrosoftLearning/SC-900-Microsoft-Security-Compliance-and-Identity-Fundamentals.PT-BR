@@ -79,7 +79,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
     1. Para adicionar uma licença, selecione **+ Atribuições** na parte superior da janela principal.
 
-    1. Em Selecionar licenças, escolha **Office 365 E3** e **Windows 10/11 Enterprise E3** e selecione o botão **Salvar** na parte inferior da tela. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
+    1. Em Selecionar licenças, clique em **Microsoft Power Apps para Desenvolvedores** e **Microsoft Power Automate Gratuito** e clique no botão **Salvar** na parte inferior da tela. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
 
     1. Selecione o **X** no canto superior direito da tela para fechar a janela Atribuições de licença.
 
@@ -106,7 +106,7 @@ Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
 6. No campo Nova senha, insira uma nova senha, confirme a senha e selecione **Entrar**.  Anote sua nova senha, pois você precisará dela para o exercício de laboratório subsequente na SSPR.
 
-7. Agora, você deve entrar com êxito no Microsoft 365.
+7. Agora você conseguirá entrar na conta Microsoft de Sara.  Veja que a licença de Sara que você atribuiu na tarefa anterior era limitada apenas ao Power Automate Gratuito e ao Power Apps para Desenvolvedores e não incluiu uma licença para o E5.
 
 8. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras SP (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
 
