@@ -77,7 +77,7 @@ Nesta tarefa, você, como administrador, adicionará o usuário criado no exerc
 
 ### Tarefa 3
 
-Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registro da redefinição de senha self-service.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto ou uma conta de email pessoal que você possa acessar
+Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registro da redefinição de senha self-service.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto.
 
 1. Abra o Microsoft Edge e, na barra de endereços, insira **https://login.microsoft.com** .
 
@@ -85,8 +85,10 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registr
 
 1. Um pop-up é exibido indicando que Mais informações são necessárias.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Nota: uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação quando adicionam um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
 
-1. A página "Proteja sua conta" é aberta.  A janela que aparece é para o método de autenticação do telefone, se você não tiver um dispositivo móvel com você que seja capaz de receber mensagens de texto, pule para a próxima etapa.  Você precisará inserir um número de telefone. Verifique se a opção **Enviar SMS com um código** está habilitada.   Digite o número de telefone onde você pode receber um código de texto e selecione o **botão Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Insira o código que receber e selecione **Avançar**. Uma janela é aberta indicando o êxito e mostrando seu método de entrada padrão.  Selecione **Concluído**.  
-    1. Como alternativa, você pode configurar outro método, conforme mostrado no canto inferior esquerdo da janela.  Se você optar por configurar outro método, selecione **Quero configurar um método diferente**, uma janela pop-up será exibida perguntando "Qual método deseja usar?"  No menu suspenso, escolha seu método preferido, **Email**, e selecione o botão **Confirmar**.  Digite o email que você gostaria de usar e selecione **Avançar**.  Uma nova janela será aberta, indicando que um código foi enviado para o email que você informou.  Acesse o email digitado para obter o código.  Insira o código que receber e selecione **Avançar**. Uma janela é aberta indicando o êxito e mostrando seu método de entrada padrão.  Selecione **Concluído**.
+1. A página "Proteja sua conta" é aberta.  A janela exibida é para o método do Microsoft Authenticator que requer o aplicativo autenticador.  Para este laboratório, usaremos um método diferente, para evitar a etapa de ter que baixar o aplicativo.  Selecione **Quero usar um método diferente**.
+    1. Na janela pop-up exibida, clique na seta suspensa, depois em **Telefone** e, em seguida, em **Confirmar**.
+    1. Você precisará inserir um número de telefone. Confirme se a opção **Receber um código** está habilitada.   Digite o número de telefone onde você pode receber o código e clique em **Avançar**.  
+    1. Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Insira o código que receber e selecione **Avançar**. Uma janela será aberta indicando que o código foi vierificado. Clique em **Avançar** e **Concluído**.  
 
 1. Agora você pode concluir a entrada. Se você perceber que o tempo de entrada expirou, basta digitar a senha novamente.
 
@@ -108,7 +110,7 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefi
 
 1. Na caixa vazia, insira os caracteres exibidos na imagem ou as palavras do áudio. Depois de inseri-los, selecione **Avançar**.
 
-1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para o meu celular**.  Você precisará inserir o número do seu celular.  Depois de inseri-lo, selecione o **botão de Texto**.  Se, durante o registro, você selecionar Email, a janela Voltar para sua conta indicará que você receberá um email com um código de verificação no seu endereço de email alternativo.  Selecione **Email**.
+1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para o meu celular**.  Você precisará inserir o número do seu celular.  Depois de inseri-lo, selecione o **botão de Texto**. 
 
 1. Insira o código de verificação e pressione **Avançar**.
 
@@ -118,7 +120,7 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefi
 
 1. Na caixa Escolher uma informação de conta, selecione **sara@WWLxZZZZZZ.onmicrosoft.com**, digite sua nova senha e selecione o botão **Entrar**.  Se for exibida uma mensagem perguntando se deseja permanecer conectado. selecione **Não**.
 
-1. Agora você deve estar no portal do Office.
+1. Agora você conseguirá entrar na conta Microsoft de Sara.
 
 1. Saia selecionando o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador.
 
