@@ -41,15 +41,15 @@ Nesta tarefa, você, como administrador, percorrerá algumas das definições de
 
 1. No Número de métodos necessários para redefinir, selecione **1**. Observe a caixa de informações na tela.
 
-1. Observe os diferentes métodos disponíveis para os usuários.  **Email** e **Celular (somente SMS)** já devem estar marcados, caso contrário, marque-os.
+1. Observe os diferentes métodos disponíveis para os usuários.  **Email** e **Celular** já devem estar marcados, caso contrário, marque-os.
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione **Registro**.  
 
-1. Defina Exigir que os usuários se registrem ao entrar como **Sim**.  Mantenha o Número de dias antes que os usuários precisem confirmar novamente as informações de autenticação como o padrão de 180.   Preste atenção à caixa de informações na página.
+1. Defina Exigir que os usuários se registrem ao entrar como **Sim**.  Mantenha o Número de dias antes que os usuários precisem confirmar novamente as informações de autenticação como o padrão de **180**.   Preste atenção à caixa de informações na página.
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione **Notificações**.  
 
-1. Defina a configuração Notificar usuários sobre redefinições de senha como **Sim**.  Defina Notificar todos os administradores quando outros administradores redefinirem suas próprias senhas como Não.
+1. Defina a configuração Notificar usuários sobre redefinições de senha como **Sim**.  Defina Notificar todos os administradores quando outros administradores redefinirem suas próprias senhas como **Não**.
 
 1. Observe como o painel de navegação Redefinição de senha também inclui opções para exibir logs de auditoria e Uso e insights.
 
@@ -85,10 +85,10 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registr
 
 1. Um pop-up é exibido indicando que Mais informações são necessárias.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Nota: uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação quando adicionam um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
 
-1. A página "Proteja sua conta" é aberta.  A janela exibida é para o método do Microsoft Authenticator que requer o aplicativo autenticador.  Para este laboratório, usaremos um método diferente, para evitar a etapa de ter que baixar o aplicativo.  Selecione **Quero usar um método diferente**.
-    1. Na janela pop-up exibida, clique na seta suspensa, depois em **Telefone** e, em seguida, em **Confirmar**.
+1. A página "Proteja sua conta" é aberta.  A janela que aparece é para o método de Telefone.
     1. Você precisará inserir um número de telefone. Confirme se a opção **Receber um código** está habilitada.   Digite o número de telefone onde você pode receber o código e clique em **Avançar**.  
-    1. Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Insira o código que receber e selecione **Avançar**. Uma janela será aberta indicando que o código foi vierificado. Clique em **Avançar** e **Concluído**.  
+    1. Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Insira o código que receber e selecione **Avançar**. Uma janela será aberta indicando que seu telefone foi registrado. Clique em **Avançar** e **Concluído**.  
+    1. Se você quiser usar o email, selecione **Quero configurar um método diferente** e siga as etapas. 
 
 1. Agora você pode concluir a entrada. Se você perceber que o tempo de entrada expirou, basta digitar a senha novamente.
 
