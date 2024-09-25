@@ -27,7 +27,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
-1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra. Aqui você verá informações básicas sobre o seu locatário da Contoso. Se você rolar para baixo na janela principal, também verá informações sobre alertas, meu feed, destaques de recursos e muito mais.
+1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra.
 
 1. No painel de navegação à esquerda, expanda **Usuários** e selecione **Todos os usuários**. Observe que o seu locatário já está configurado com usuários.
 
@@ -66,7 +66,7 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
     1. Obter a lista dos grupos disponíveis.  Na lista, selecione **Operações**.  Na parte inferior da página, use o botão **Selecionar**.  Pode levar alguns segundos, mas você deverá ver a exibição do grupo de operações na página de atribuições.
 
-    1. Na parte superior da página, selecione **Adicionar função**.  Uma janela é aberta que mostra todas as funções de diretório disponíveis.  Exiba as opções disponíveis, mas não adicione novas funções.  Feche essa página selecionando o **X** no canto superior direito da página de funções do diretório.
+    1. Na parte superior da página, selecione **+ Adicionar função**.  Uma janela é aberta que mostra todas as funções de diretório disponíveis.  Exiba as opções disponíveis, mas não adicione novas funções.  Feche essa página selecionando o **X** no canto superior direito da página de funções do diretório.
     1. Na parte inferior da página, selecione **Examinar + criar**. Um resumo das configurações será exibido.  Na parte inferior dessa página, clique em **Criar**.
 
 1. Você será retornado à página de usuários.  Depois de alguns segundos, Sara Perez será listada.  Talvez seja necessário selecionar o ícone de **atualização** na parte superior da página.
@@ -75,23 +75,28 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 
 1. O painel de navegação esquerdo mostra as várias opções que podem ser configuradas para o usuário. Exibir as opções disponíveis.
 
-1. No painel de navegação à esquerda, selecione **Licenças**.  Observe que não há atribuições de licença encontradas para este usuário.  OBSERVAÇÃO: as licenças só poderão ser atribuídas se um local de uso tiver sido configurado. Se você não definiu o local de uso, volte para essa etapa na tarefa anterior.
+1. No painel de navegação à esquerda, selecione **Licenças**.  Observe que não há atribuições de licença encontradas para esse usuário, observe também o ícone de aviso que diz: "Adicionar, remover e reprocessar atribuições de licenciamento só está disponível no Centro de Administração do M365".  Você vai fazer isso na próxima tarefa.  OBSERVAÇÃO: as licenças só poderão ser atribuídas se um local de uso tiver sido configurado. Se você não definiu o local de uso, volte para essa etapa agora.
 
-    1. Para adicionar uma licença, selecione **+ Atribuições** na parte superior da janela principal.
+### Tarefa 2
 
-    1. Em Selecionar licenças, clique em **Microsoft Power Apps para Desenvolvedores** e **Microsoft Power Automate Gratuito** e clique no botão **Salvar** na parte inferior da tela. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
+Nesta tarefa, você atribuirá uma licença ao usuário que acabou de criar, usando o Centro de administração do Microsoft 365.
 
-    1. Selecione o **X** no canto superior direito da tela para fechar a janela Atribuições de licença.
+1. Abra a guia do navegador **Página Inicial – Centro de administração do Microsoft 365**.
 
-    1. Selecione o **ícone de Atualização** na parte superior da página para confirmar as atribuições de licença.
+1. No painel de navegação esquerdo, selecione **Usuários ativos**.  Na lista de usuários, selecione **Sara Perez**.  Uma janela é aberta mostrando informações sobre o usuário.  
+
+    1. Selecione a guia **Licença e aplicativos**.
+    1. Para cada uma das licenças listadas, você verá o número de licenças disponíveis.  Como não há licenças disponíveis do Microsoft 365 E5 (elas já foram atribuídas a outros usuários), atribua as licenças do **Desenvolvedor Microsoft Power Apps** e do **Microsoft Power Automate Gratuito** marcando a caixa de seleção ao lado delas.
+    1. Selecione **Salvar alterações**. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
+    1. Feche a página selecionando o **X** no canto superior direito da página.
 
 1. Retorne ao centro de administração do Microsoft Entra selecionando **Página Inicial** no painel de navegação esquerdo ou no canto superior esquerdo da tela (a trilha), acima de onde diz Sara Perez | Licenças.
 
-1. Você criou e configurou com êxito um usuário no Microsoft Entra ID.
+1. Você atribuiu licenças com êxito ao usuário.
 
 1. Saia de todas as guias abertas do navegador. Saia do serviço selecionando o ícone de usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Feche todas as janelas do navegador.
 
-### Tarefa 2
+### Tarefa 3
 
 Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
