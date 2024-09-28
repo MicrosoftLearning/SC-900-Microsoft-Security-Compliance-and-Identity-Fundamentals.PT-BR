@@ -14,9 +14,9 @@ Os locatários não podem ser convertidos em uma assinatura paga. Os locatários
 
 ## Configuração de pré-demonstração do locatário do Microsoft 365
 
-### Habilitar o log de auditoria do Microsoft 365
+### Habilitar o monitoramento de arquivos e log de auditoria do Microsoft 365
 
-Nesta tarefa de configuração, você habilitará a funcionalidade de log de auditoria do Microsoft 365.  Embora a documentação indique que o log de auditoria está ativado por padrão, a maioria dos locatários do laboratório não tem este recurso habilitado e pode levar horas para que isso entre em vigor.  É útil habilitar este recurso, porque o Microsoft 365 usa os logs de auditoria para os insights de usuário e as atividades identificadas nas políticas e nos insights de análise.
+Nesta tarefa de configuração, você habilitará a funcionalidade de monitoramento de arquivos e log de auditoria do Microsoft 365.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** .
 
@@ -24,31 +24,33 @@ Nesta tarefa de configuração, você habilitará a funcionalidade de log de aud
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
-1. Em Centros de administração, selecione **Conformidade**.  A página inicial do portal de conformidade do Microsoft Purview é aberta em uma nova página do navegador.  
+1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
 
 1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Mostrar todos**.
 
-1. Em Soluções, no painel de navegação esquerdo, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio da página inicial do Microsoft 365 Defender.
+1. No painel de navegação esquerdo, role para baixo e expanda **Sistema**.  Na lista expandida, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio do portal Microsoft Purview.
 
-1. Verifique se a guia **Pesquisar** está selecionada (sublinhada).
+1. Depois de acessar a página Auditoria, aguarde de 1 a 2 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
 
-1. Depois de acessar a página Auditoria, aguarde de 2 a 3 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
+1. No painel de navegação esquerdo, em Sistema, selecione **Configurações**
 
-1. Volte à página inicial do portal de conformidade do Microsoft Purview selecionando **Página Inicial** no painel de navegação esquerdo.
+1. Na página de configurações, selecione **Aplicativos de nuvem**.   Role para baixo e em Proteção de informações, selecione **Arquivos**.
 
-### Monitoramento de arquivos do Microsoft Defender para Aplicativos de Nuvem
+1. Se isso ainda não estiver habilitado, selecione a caixa ao lado do texto **Habilitar monitoramento de arquivos** e escolha **Salvar**.  
 
-Nesta tarefa de instalação, você vai habilitar o monitoramento de arquivos no Microsoft Defender para Aplicativos de Nuvem.
+### Configurar a função de administrador de conformidade
 
-1. Abra a guia do navegador no centro de administração do Microsoft 365.  Se você a fechou anteriormente, abra uma nova guia do navegador, insira **https://admin.microsoft.com** na barra de endereços, e, no painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo**.
+Nesta tarefa de configuração, você adicionará a si mesmo como administrador do MOD ao grupo de funções Administrador de conformidade.
 
-1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft 365 Defender é aberta em uma nova página do navegador.  
-
-1. No painel de navegação à esquerda, selecione **Arquivos**, listado em Aplicativos de nuvem.
-
-1. Se isso ainda não estiver habilitado, escolha **Habilitar monitoramento de arquivos**, selecione a caixa ao lado do texto **Habilitar monitoramento de arquivos** e escolha **Salvar**.  
-
-1. No painel de navegação à esquerda, em Aplicativos de nuvem, selecione **Arquivos** para voltar à página de arquivos.  Se você habilitar o monitoramento de arquivos com sucesso, verá as opções de filtro na parte superior da página.  Pode levar algum tempo para que os arquivos do locatário do laboratório configurado previamente sejam exibidos.
+1. Abra uma nova aba no navegador Microsoft Edge e, na barra de endereços, digite **https://purview.microsoft.com**. Para acessar o novo portal do Microsoft Purview, marque a caixa ao lado de onde diz **Eu concordo com os termos de divulgação de fluxo de dados e políticas de privacidade** e selecione **Introdução**.  
+1. No painel de navegação esquerdo, selecione **Configurações**.
+1. No painel de navegação que é aberto, selecione **Funções e escopo** para expandir a opção e, em seguida, selecione **Grupos de funções**.
+1. Na caixa de pesquisa no lado direito da tela, pesquise o termo **Conformidade**.  Selecione **Administrador de conformidade**.
+    1. Selecione **Editar**.
+    1. Clique em **Selecionar usuário**.
+    1. Procure por Administrador MOD, marque a caixa ao lado de **Administrador MOD** e clique no botão **Selecionar** na parte inferior da página.
+    1. Selecione **Avançar**, depois selecione **Salvar** e, finalmente, selecione **Concluído**.
+1. Isso conclui a configuração do locatário do Microsoft 365 e você pode fechar as guias do navegador.
 
 ## Configuração de pré-demonstração da assinatura da Fatia de Nuvem do Azure
 
@@ -66,6 +68,7 @@ Verifique se uma VM já foi criada. Caso contrário, configure-a agora. Você us
     1. Grupo de recursos: selecione **Criar**, insira **LabsSC900** e escolha **OK**.
     1. Nome da máquina virtual: insira **SC900-WinVM**.
     1. Opções de disponibilidade: na lista suspensa, selecione **Nenhuma redundância de infraestrutura necessária**.
+    1. Tipo de segurança: no menu suspenso selecione **Padrão**.
     1. Imagem: na lista suspensa, selecione **Windows 11 Pro, versão 22H2 – x64 Gen2** (ou qualquer imagem do Windows 10 ou do Windows 11 listada).
     1. Tamanho: selecione **Ver todos os tamanhos** e escolha **Standard_B1s** e **Selecionar** na parte inferior da página.
     1. Nome de usuário: insira **SC900-VM-User**

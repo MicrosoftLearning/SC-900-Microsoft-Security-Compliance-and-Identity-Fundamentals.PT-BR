@@ -20,7 +20,7 @@ Nesta demonstração, você verá as várias opções disponíveis para uma pol�
 
 1. No painel de navegação esquerdo, expanda **Proteção** e selecione **Acesso condicional**.
 
-1. A página de visão geral do acesso condicional é exibida.  Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.  No painel de navegação à esquerda, selecione **Políticas**.
+1. A página de visão geral do acesso condicional é exibida.  Aqui você verá informações sobre o resumo da política, as novidades e os alertas gerais.  No painel de navegação esquerdo da janela Acesso Condicional, selecione **Políticas**.
 
 1. A tela Políticas de acesso condicional é exibida. Todas as políticas de acesso condicional existentes são listadas aqui. Para mostrar as configurações associadas ao acesso condicional, selecione **+ Nova política**.
 
@@ -32,9 +32,11 @@ Nesta demonstração, você verá as várias opções disponíveis para uma pol�
         1. Selecione **Aplicativos de nuvem** e, em seguida, na guia Incluir, selecione a opção **Selecionar aplicativos** e, em seguida, abaixo de onde diz **Selecionar**, selecione **Nenhum**, e uma janela será aberta para selecionar um ou mais dos aplicativos para os quais a política será aplicada.
         1. Feche a janela Selecionar aplicativos de nuvem selecionando o **X** no canto superior direito da janela.
         1. Como o tempo permite, você pode optar por percorrer as outras opções (ações do usuário e contexto de autenticação) para ver as opções de configuração para cada uma.
+    1. **Rede** – passe o mouse sobre o ícone de informações ao lado de onde está escrito "Rede".  Enfatize que os locais de rede são determinados pelo intervalo de endereços IP ou pelas coordenadas de GPS das quais o usuário está entrando.  Selecione **Não configurado** para ver as opções disponíveis.
     1. **Condições** – passe o mouse sobre o ícone de informações próximo a "Condições" e destaque que isso define condições que definem quando a política será aplicada. Por exemplo, "local. Selecione **0 condição selecionada**. Fale com os diferentes "sinais" listados.   Selecione algumas das opções selecionando primeiro o ícone de informações para definir o que é e, em seguida, selecionando **Não configurado** para o item específico para mostrar as várias opções.
         1. **Risco do usuário** — um risco do usuário representa a probabilidade de que determinada identidade ou conta seja comprometida. Esses riscos são calculados offline usando as fontes de inteligência de ameaças internas e externas da Microsoft.
         1. **Risco de entrada** — um risco de entrada representa a probabilidade de uma determinada solicitação de autenticação não estar autorizada pelo proprietário da identidade. Exemplos podem incluir se o logon for de um endereço IP anônimo ou viagem atípica, etc.
+        1. **Risco interno** – o risco interno, configurado na proteção adaptativa, avalia o risco com base nas atividades arriscadas relacionadas a dados de um usuário.
         1. **Plataforma de dispositivo** — plataforma na qual o usuário está entrando. Por exemplo, "iOS".
         1. **Localização** — localização (determinada usando o intervalo de endereços IP) da qual o usuário está entrando
         1. **Aplicativos clientes** — software que o usuário está usando para acessar o aplicativo na nuvem. Por exemplo, "navegador"

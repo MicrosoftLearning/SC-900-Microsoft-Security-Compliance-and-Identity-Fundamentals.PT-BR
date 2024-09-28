@@ -4,7 +4,7 @@ lab:
   module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
 
-# Laboratório: configuração
+# Laboratório: Configuração do locatário do Microsoft 365
 
 ## Locatários do WWL – Termos de uso
 Se você estiver recebendo um locatário como parte de uma entrega de treinamento com instrutor, observe que o locatário é disponibilizado com a finalidade de dar suporte aos laboratórios práticos no treinamento com instrutor.
@@ -15,33 +15,36 @@ Os locatários não podem ser convertidos em uma assinatura paga. Os locatários
 
 ## Cenário do laboratório
 
-Esse laboratório de instalação consiste em habilitar o Log de Auditoria da Microsoft.
+Este laboratório de configuração consiste em habilitar o Log de Auditoria da Microsoft e os recursos de monitoramento de arquivos no locatário do Microsoft 365.
 
 **Tempo estimado**: 5 a 10 minutos
 
-### Configuração – Habilitar o log de auditoria do Microsoft 365
+### Configuração – habilitar o monitoramento de arquivos e log de auditoria do Microsoft 365
 
-Nesta tarefa de configuração, você habilitará a funcionalidade de log de auditoria do Microsoft 365.  Embora a documentação indique que o log de auditoria está ativado por padrão, a maioria dos locatários do laboratório não tem este recurso habilitado e pode levar horas para que isso entre em vigor.  É útil habilitar este recurso, porque o Microsoft 365 usa os logs de auditoria para os insights de usuário e as atividades identificadas nas políticas e nos insights de análise.
+Nesta tarefa de configuração, você habilitará a funcionalidade de monitoramento de arquivos e log de auditoria do Microsoft 365.  
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
+1. Abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** .
 
-1. Entre com suas credenciais de administrador.
-    1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
-    1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
+1. Entre com as credenciais de administrador do locatário do Microsoft 365 fornecido pelo ALH (hoster de laboratório autorizado).
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
-1. Em Centros de administração, selecione **Conformidade**.  A página inicial do portal de conformidade do Microsoft Purview é aberta em uma nova página do navegador.  
+1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
 
-1. Em Soluções, no painel de navegação esquerdo, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio da página inicial do Microsoft 365 Defender (anteriormente chamada de central de segurança do Microsoft 365).
+1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Mostrar todos**.
 
-1. Verifique se a guia **Nova Pesquisa** está selecionada (sublinhada).
+1. No painel de navegação esquerdo, role para baixo e expanda **Sistema**.  Na lista expandida, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio do portal Microsoft Purview.
 
-1. Depois de acessar a página Auditoria, aguarde de 2 a 3 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior onde se lê "Iniciar a atividade de gravação de usuário e administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Se precisar confirmar se as configurações da organização precisam ser atualizadas, selecione **Sim**. Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.  Outra maneira de verificar se a auditoria está habilitada é por meio do PowerShell, mas isso está fora do escopo deste curso.
+1. Depois de acessar a página Auditoria, aguarde de 1 a 2 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
 
-1. Volte à home page do portal de conformidade do Microsoft Purview selecionando **Página Inicial** no painel de navegação à esquerda para sair do Microsoft 365. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras MA (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
+1. No painel de navegação esquerdo, em Sistema, selecione **Configurações**
+
+1. Na página de configurações, selecione **Aplicativos de nuvem**.   Role para baixo e em Proteção de informações, selecione **Arquivos**.
+
+1. Se isso ainda não estiver habilitado, selecione a caixa ao lado do texto **Habilitar monitoramento de arquivos** e escolha **Salvar**.  
+
+1. Isso conclui a configuração do laboratório no locatário do Microsoft 365.
 
 ### Revisão
 
-Nesta configuração, você habilitou a funcionalidade de log de auditoria do Microsoft 365.
+Nesta configuração, você habilitou a funcionalidade de monitoramento de arquivos e log de auditoria do Microsoft 365.
