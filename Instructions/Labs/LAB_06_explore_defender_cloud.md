@@ -52,7 +52,7 @@ Nesta tarefa, você fará um passo a passo de alto nível de algumas das funcion
 
 Lembre-se de que o Microsoft Defender para Nuvem é oferecido em dois modos: sem recursos de segurança aprimorada (gratuitos) e com recursos de segurança aprimorada que estão disponíveis por meio dos planos do Microsoft Defender para Nuvem. Nesta tarefa, você descobrirá como habilitar/desabilitar os vários planos do Microsoft Defender para Nuvem.
 
-1. Na página de visão geral do Microsoft Defender para Nuvem, selecione as **Configurações de ambiente** no painel de navegação esquerdo.
+1. Na página de visão geral do Microsoft Defender para Nuvem, expanda **Gerenciamento** e selecione as **Configurações de ambiente** no painel de navegação esquerdo.
 1. Selecione a caixa **Expandir tudo** e escolha a **Assinatura MOC – lodXXXXXXXX** listada ao lado do ícone de chave amarela.
 1. Na página Planos do Defender, observe como você pode selecionar Habilitar todos ou selecionar planos individuais do Defender. 
     1. Verifique se o status do CSPM está definido como **Ativado**, caso contrário, defina-o agora.  
