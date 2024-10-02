@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você percorrerá o processo de criação de uma instância do Microsoft Sentinel.  Você também vai configurar as permissões para garantir o acesso aos recursos que serão implantados para dar suporte ao Microsoft Sentinel.  Depois que essa configuração básica for concluída, você vai seguir as etapas para conectar o Microsoft Sentinel às suas fontes de dados, configurar uma pasta de trabalho e mostrar um breve passo a passo de algumas das principais funcionalidades disponíveis no Microsoft Sentinel.
 
-**Tempo estimado**: 45 a 60 minutos
+**Tempo estimado**: 60 minutos
 
 ### Tarefa 1
 

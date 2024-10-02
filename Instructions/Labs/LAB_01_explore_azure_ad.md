@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você acessará o Microsoft Entra ID (anteriormente conhecido como Azure Active Directory).  Além disso, você vai criar um usuário e definir configurações diferentes, incluindo a adição de licenças.  
 
-**Tempo estimado**: 10 a 15 minutos
+**Tempo estimado**: 30 minutos
 
 ### Tarefa 1
 

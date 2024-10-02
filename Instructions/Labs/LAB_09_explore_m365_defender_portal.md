@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você vai explorar o portal do Microsoft 365 Defender acompanhando o conteúdo exibido na página de aterrissagem. Também vai explorar as opções do painel de navegação que fornece um acesso rápido à funcionalidade que integra a solução XDR (Detecção e Resposta Estendida) da Microsoft: o Microsoft Defender para Pontos de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você também vai explorar como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
 
-**Tempo estimado**: 10 a 15 minutos
+**Tempo estimado**: 30 minutos
 
 ### Tarefa 1
 

@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você vai explorar a função dos grupos de segurança de rede no Azure.  Você fará isso criando um NSG (grupo de segurança de rede) e atribuindo o NSG à interface de uma VM (máquina virtual) pré-existente.  Após a configuração, você vai observar as regras de entrada e de saída padrão, criar regras e testá-las.  Neste laboratório, a VM que você usará com o NSG será criada para você, ou seja, primeiro, você verá algumas das informações associadas a essa VM.
   
-**Tempo estimado**: 30 a 45 minutos
+**Tempo estimado**: 45 minutos
 
 ### Tarefa 1
 

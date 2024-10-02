@@ -22,9 +22,9 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você, como administrador, percorrerá o processo de adição de um usuário ao grupo de segurança SSPR, que já está configurado no seu locatário do Microsoft 365. Com a SSPR habilitada, você assumirá a função de um usuário e passará pelo processo de registro da SSPR e pela redefinição da senha.  Por fim, você, como administrador, poderá visualizar os logs de auditoria e dados de uso e insights para SSPR.
 
-**Tempo estimado**: 15 a 20 minutos
+**Tempo estimado**: 30 minutos
 
-### Tarefa 1:
+### Tarefa 1
 
 Nesta tarefa, você, como administrador, percorrerá algumas das definições de configuração disponíveis para o SSPR.
 
@@ -77,7 +77,7 @@ Nesta tarefa, você, como administrador, adicionará o usuário criado no exerc
 
 ### Tarefa 3
 
-Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registro da redefinição de senha self-service.  Esta tarefa requer que você tenha acesso a um dispositivo móvel onde possa receber mensagens de texto.
+Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registro da redefinição de senha self-service.
 
 1. Abra o Microsoft Edge e, na barra de endereços, insira **https://login.microsoft.com** .
 
@@ -85,10 +85,13 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registr
 
 1. Um pop-up é exibido indicando que Mais informações são necessárias.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Nota: uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação quando adicionam um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
 
-1. A página "Proteja sua conta" é aberta.  A janela que aparece é para o método de Telefone.
-    1. Você precisará inserir um número de telefone. Confirme se a opção **Receber um código** está habilitada.   Digite o número de telefone onde você pode receber o código e clique em **Avançar**.  
-    1. Uma nova janela será aberta, indicando que um código foi enviado para o telefone que você informou.  Insira o código que receber e selecione **Avançar**. Uma janela será aberta indicando que seu telefone foi registrado. Clique em **Avançar** e **Concluído**.  
-    1. Se você quiser usar o email, selecione **Quero configurar um método diferente** e siga as etapas. 
+1. A página "Proteja sua conta" é aberta.  A janela exibida e as etapas que seguem são para o método do aplicativo Microsoft Authenticator. Se você quiser usar o email, selecione **Quero configurar um método diferente** e siga as etapas.
+    1. Se você já possui o aplicativo Microsoft Authenticator instalado em seu dispositivo móvel, selecione **Avançar**. Caso contrário, selecione **Baixar agora** e siga as etapas.
+    1. Você começará a configurar a sua conta.  Selecione **Avançar**.
+    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, selecione **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante**.
+    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, escaneie o código QR na tela do PC .
+    1. Siga as etapas no computador e no dispositivo móvel e selecione **Avançar**.
+    1. Depois de definir suas informações de segurança, você verá uma janela de êxito.  Selecione **Concluído**.
 
 1. Agora você pode concluir a entrada. Se você perceber que o tempo de entrada expirou, basta digitar a senha novamente.
 
@@ -100,7 +103,7 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefi
 
 1. Abra o Microsoft Edge.
 
-1. Na barra de endereços, insira **https://login.microsoftonline.com** .
+1. Na barra de endereços, insira **https://login.microsoft.com** .
 
 1. Entre como Sara Perez, inserindo seu email **sara@WWLxZZZZ.onmicrosoft.com** (em que ZZZZZZ é sua ID de Locatário exclusivo fornecida pelo provedor de hospedagem de laboratório) e selecione o botão **Avançar**. Em vez disso, você vê a janela Escolha uma conta aberta; se for o caso, selecione a conta para Sara Perez.
 
@@ -110,9 +113,9 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefi
 
 1. Na caixa vazia, insira os caracteres exibidos na imagem ou as palavras do áudio. Depois de inseri-los, selecione **Avançar**.
 
-1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Deixe a configuração padrão **Enviar mensagem de texto para o meu celular**.  Você precisará inserir o número do seu celular.  Depois de inseri-lo, selecione o **botão de Texto**. 
+1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Selecione **Aprovar uma notificação no meu aplicativo autenticador** e, em seguida, escolha **Enviar notificação**.
 
-1. Insira o código de verificação e pressione **Avançar**.
+1. Anote o número em seu computador e siga as instruções para aprovar a entrada usando o aplicativo Microsoft Authenticator em seu dispositivo móvel.
 
 1. Na próxima tela, você precisará inserir a nova senha e confirmá-la.  Insira-os agora e selecione o botão **Concluir**.
 

@@ -16,24 +16,22 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você acompanhará as etapas necessárias para configurar a Descoberta Eletrônica, incluindo a configuração de permissões de função, a criação de um caso de Descoberta Eletrônica, a criação de uma retenção de Descoberta Eletrônica e a criação de uma consulta de pesquisa.  Observação: o licenciamento para Descoberta Eletrônica (Standard) requer a assinatura apropriada da organização e o licenciamento por usuário. Se você não sabe quais licenças dão suporte à Descoberta Eletrônica (Standard), visite [Introdução à Descoberta Eletrônica (Standard) no Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Tempo estimado**: 25 a 30 minutos
+**Tempo estimado**: 45 minutos
 
 ### Tarefa 1
 
 Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro de um caso da Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta etapa, você, como administrador global, adicionará usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
 
-1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  A página inicial do portal de conformidade do Microsoft Purview é aberta em uma nova página do navegador.  
+1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
 
+1. No painel de navegação esquerdo, selecione **Configurações**, expanda **Funções e escopos** e selecione **Grupos de funções**.
 
-1. No painel de navegação esquerdo, expanda (selecione a seta para baixo) **Funções e escopos** e selecione **Permissões**.
+1. No campo de pesquisa, na parte superior direita da página, insira **Descoberta Eletrônica** e pressione ENTER no teclado.  Selecione **Gerenciador de Descoberta Eletrônica**.
 
-1. Em Soluções do Microsoft Purview, selecione **Funções**.
-
-1. No campo de pesquisa, insira **Descoberta Eletrônica** e pressione ENTER no teclado.  Selecione **Gerenciador de Descoberta Eletrônica**.
-
-1. Selecione **Editar**.  Observe que há dois subgrupos: Gerente de Descoberta Eletrônica e Administrador de Descoberta Eletrônica.  
-    1. A página “Gerenciar o Gerente de Descoberta Eletrônica” permite adicionar usuários à função de Gerente de Descoberta Eletrônica. Neste laboratório, vamos adicionar membros ao subgrupo Administrador de Descoberta Eletrônica. Portanto, selecione **Avançar**.
-    1. Na página “Gerenciar o Administrador de Descoberta Eletrônica”, selecione **Escolher usuários**. Pesquise e selecione **Administrador MOD** e **Megan Bowen** e, em seguida, pressione **Selecionar** na parte inferior da página e selecione **Avançar**; em seguida, **Salvar**.
+1. Selecione **Editar**. Para a finalidade deste laboratório, você se definirá como administrador(a) do MOD, Gerenciador(a) e administrador(a) da Descoberta Eletrônica.  Na prática, você atribui usuários específicos a funções específicas.
+    1. A página “Gerenciar o Gerente de Descoberta Eletrônica” permite adicionar usuários à função de Gerente de Descoberta Eletrônica.
+    1. Clique em **Selecionar usuário**. Pesquise e selecione **Administrador do MOD**, pressione **Selecionar** na parte inferior da página e escolha **Avançar**.
+    1. Na página “Gerenciar o Administrador de Descoberta Eletrônica”, selecione **Escolher usuários**. Pesquise e selecione **Administrador MOD**, pressione **Selecionar** na parte inferior da página, escolha **Avançar** e então, **Salvar**.
     1. Na página “Você atualizou com sucesso o grupo de funções”, selecione **Concluído**.
 
 1. Mantenha essa guia do navegador aberta, pois você vai usá-la na próxima tarefa.
@@ -42,9 +40,9 @@ Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro d
 
 Nesta tarefa, como Administrador da Descoberta Eletrônica (o administrador MOD é um administrador da Descoberta Eletrônica), você vai criar um caso para começar a usar a Descoberta Eletrônica (Standard).
 
-1. Você ainda deve estar na página de funções do portal de conformidade. Se você fechou a guia do navegador da tarefa anterior, abra uma nova guia e insira **compliance.microsoft.com**
+1. Você ainda deve estar na página de funções do portal de conformidade. Se você fechou a guia do navegador da tarefa anterior, abra uma nova guia e insira **compliance.microsoft.com** para acessar o portal do Microsoft Purview.
 
-1. No painel de navegação à esquerda, em Soluções, expanda **Descoberta Eletrônica** e escolha **Padrão**.
+1. No painel de navegação à esquerda, em Soluções, expanda **Descoberta Eletrônica** e escolha **Casos Padrão**.
 
 1. No topo da página Descoberta Eletrônica (Standard), selecione **+ Criar um caso**.
 
