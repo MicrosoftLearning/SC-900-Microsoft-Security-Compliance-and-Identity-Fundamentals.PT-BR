@@ -1,6 +1,6 @@
 <!---
 ---
-Demonstração: Título: 'Portal de Confiança do Serviço' Roteiro de aprendizagem/Módulo/Unidade: 'Roteiro de aprendizagem: Descrever as funcionalidades de conformidade da Microsoft; Módulo 1: Descrever as funcionalidades de privacidade e o Portal de Confiança do Serviço; Unidade 2: Explorar o Portal de Confiança do Serviço'
+Demonstração: Título: "Portal de Confiança do Serviço" Roteiro de aprendizagem/Módulo/Unidade: "Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview; Módulo 1: descrever as funcionalidades de privacidade e o portal de Confiança do Serviço da Microsoft; Unidade 2: explorar o Portal de Confiança do Serviço"
 ---
 --->
 

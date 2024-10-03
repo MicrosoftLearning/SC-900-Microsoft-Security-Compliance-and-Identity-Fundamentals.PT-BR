@@ -1,10 +1,10 @@
 <!---
 ---
-Demonstração: Título: 'Explorar o portal de conformidade e o Gerenciador de Conformidade do Microsoft Purview' Roteiro de aprendizagem/módulo/unidade: 'Descrever as funcionalidades do Microsoft Priva e Microsoft Purview; Módulo 2: descrever as soluções de conformidade de dados do Microsoft Purview; Unidade 4: descrever o gerenciador de conformidade'
+Demonstração: Título: "Explorar o portal e o Gerenciador de Conformidade do Microsoft Purview" Roteiro de Aprendizagem/Módulo/Unidade: "Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview; Módulo 2: Descrever as soluções de conformidade de dados do Microsoft Purview; Unidade 4: Descrever o Gerenciador de Conformidade"
 ---
 --->
 
-# Demonstração: explorar o portal de conformidade e o Gerenciador de conformidade do Microsoft Purview
+# Demonstração: Explorar o portal do Microsoft Purview e o Gerenciador de Conformidade
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
@@ -18,7 +18,7 @@ Nesta demonstração, você mostrará a home page do novo portal do Microsoft Pu
 
 ### Demonstração parte 1
 
-Mostrar a página inicial do portal do Microsoft Purview e como personalizar a exibição de cartão e o painel de navegação.
+Mostre a home page do portal do Microsoft Purview.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **https://purview.microsoft.com** . Você já deve estar conectado como administrador. Caso contrário, entre com as credenciais de administrador no locatário do Microsoft 365 fornecido pelo ALH (hoster de laboratório autorizado).
 

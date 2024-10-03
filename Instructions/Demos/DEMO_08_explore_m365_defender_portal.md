@@ -1,6 +1,6 @@
 <!---
 ---
-Demonstração: Título: 'O portal do Microsoft Defender' Módulo: 'Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft 365; Unidade 7: descrever o portal do Microsoft Defender'
+Demonstração: Título: "O portal do Microsoft Defender'" Módulo: "Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft; Módulo 4: descrever as funcionalidades de proteção contra ameaças do Microsoft Defender XDR; Unidade 7: descrever o portal do Microsoft Defender"
 ---
 --->
 
@@ -9,7 +9,7 @@ Demonstração: Título: 'O portal do Microsoft Defender' Módulo: 'Roteiro de a
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
 - Roteiro de aprendizagem: descrever as funcionalidades das soluções de segurança da Microsoft
-- Módulo: descrever as funcionalidades de proteção contra ameaças do Microsoft 365
+- Módulo: descrever as funcionalidades de proteção contra ameaças do Microsoft Defender XDR
 - Unidade: descrever o portal do Microsoft Defender
 
 ## Cenário de demonstração
@@ -20,7 +20,7 @@ Nesta demonstração, você mostrará o portal do Microsoft Defender acompanhand
 
 Explorar a página inicial do Microsoft Defender.
 
-1. Abra a guia do navegador na página inicial de segurança do Microsoft 365.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** e entre com as credenciais de administrador do locatário do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH), para acessar o centro de administração do Microsoft 365. No painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo** e, em seguida, **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
+1. Abra a guia do navegador da home page do Microsoft Defender.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** e entre com as credenciais de administrador do locatário do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH), para acessar o centro de administração do Microsoft 365. No painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo** e, em seguida, **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
 
 1. A home page do portal do Microsoft Defender mostra muitos dos cartões comuns de que às equipes de segurança precisam utilizar. A composição de cartões e dados depende da função do usuário. Percorra a página para ver o conjunto padrão de cartões para a sua função de administrador global.
 
@@ -50,7 +50,7 @@ Nesta parte da demonstração, você explorará algumas das opções disponívei
     1. **Busca** – aqui você pode criar regras de detecção personalizadas e buscar ameaças específicas em seu ambiente.
     1. **Ações e submissões** – a Central de ações unificada reúne ações de correção no Microsoft Defender para Ponto de Extremidade e no Microsoft Defender para Office 365. Lista as ações de correção pendentes e concluídas para seus dispositivos, email e conteúdo de colaboração e identidades em apenas um local. Em organizações do Microsoft 365 com caixas de correio do Exchange Online, os administradores podem usar a página Envios no portal do Microsoft Defender para enviar mensagens, URLs e anexos à Microsoft para análise.
     1. **Catálogo de parceiros** – O catálogo de parceiros lista parceiros de tecnologia compatíveis e serviços profissionais que podem ajudar sua organização a aprimorar as funcionalidades de detecção, investigação e inteligência contra ameaças da plataforma.
-1. **Inteligência contra ameaças** – na guia Inteligência contra Ameaças, os usuários acessam a Inteligência contra Ameaças do Microsoft Defender e o suporte a recursos, incluindo análise de ameaças, perfis de inteligência, explorador de inteligência e projetos de inteligência.
+1. **Inteligência contra ameaças** – na guia Inteligência contra Ameaças, os usuários acessam a Inteligência contra Ameaças do Microsoft Defender e as funcionalidades suportadas pela solução, incluindo análise de ameaças, perfis de inteligência, explorador de inteligência e projetos de inteligência.
 1. **Ativos** – a guia Ativos permite que você exiba e gerencie o inventário de ativos protegidos e descobertos da sua organização (dispositivos e identidades).
 1. **Microsoft Sentinel** – alguns recursos do Microsoft Sentinel estão disponíveis na seção Microsoft Sentinel do portal do Defender.  Isso requer a configuração da integração por meio da página Configurações.
 1. **Identidades** – o nó Identidades é mapeado para a funcionalidade associada ao Microsoft Defender para Identidade. O Painel fornece insights críticos e dados em tempo real sobre a ITDR (detecção e resposta a ameaças de identidade). A página Problemas de saúde lista quaisquer problemas de saúde atuais para a implantação e os sensores do Defender para Identidade, alertando-o sobre quaisquer problemas na implantação do Defender para Identidade. A página de ferramentas lista informações adicionais para ajudar a gerenciar seu ambiente Microsoft Defender para Identidade.
@@ -68,17 +68,15 @@ Nesta parte da demonstração, você explorará algumas das opções disponívei
     1. Configurações – aqui você define as configurações para o portal do Defender, o Defender XDR, as soluções que fazem parte do Microsoft Defender XDR e o Microsoft Sentinel.  Explore isso à vontade.
 1. **Personalizar navegação** – aqui você pode selecionar para mostrar ou ocultar itens no painel de navegação. Outros administradores não verão suas alterações.
 
-1. O painel de navegação à esquerda oferece links/acesso a informações que fazem parte da solução XDR (Detecção e Resposta Estendida) da Microsoft, incluindo incidentes e alertas, buscas, central de ações, análise de ameaças, classificação de segurança, entre outros.  Também inclui acesso rápido ao Microsoft Defender para Pontos de Extremidade (os links listados em Pontos de Extremidade), Defender para Office para 365 (links listados em Email e Colaboração), Microsoft Defender for Cloud Apps (links em Aplicativos de Nuvem) e muito mais.  Explore essas opções selecionando alguns dos links.   No painel de navegação à esquerda, selecione **Página Inicial** para voltar à home page do portal do Microsoft Defender.
-
 ### Demonstração parte 3
 
 Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
 
-1. No painel de navegação à esquerda, selecione **Microsoft Secure Score**.
+1. No painel de navegação à esquerda, expanda **Gerenciamento de exposição** e clique em **Secure Score**.
 
 1. A página do Microsoft Secure Score é aberta na guia Visão geral. O Microsoft Secure Score é uma medida da postura de segurança de uma organização. A classificação de segurança da sua organização é mostrada como um percentual, acompanhado do número de pontos atingidos considerando o total de pontos possíveis e divididos por categoria. Selecione **Incluir**, ao lado de onde está a sua classificação de segurança. você pode escolher a exibição de sua pontuação para incluir a pontuação viável, a pontuação planejada e a pontuação de licença atual.
 
-1. A página de visão geral também inclui as principais ações recomendadas, pontuação de comparação, histórico e recursos adicionais.
+1. A página de visão geral também inclui as principais ações recomendadas, pontuação de comparação, histórico e recursos.
 
 1. Selecione **Ações recomendadas** na parte superior da página.  Observe as informações disponíveis para cada item na tabela.  
 
@@ -94,4 +92,4 @@ Nesta parte da demonstração, você mostrará como o Microsoft Secure Score pod
 
 ### Revisão
 
-Nesta demonstração, você explorou o portal do Microsoft Defender acompanhando o conteúdo exibido na página de aterrissagem, explorou as opções do painel de navegação que fornece acesso rápido à funcionalidade que integra a solução de XDR (Detecção e Resposta Estendida) da Microsoft, o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Office 365 (email e colaboração).  Por fim, você também mostrará como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
+Nesta demonstração, você explorou o portal do Microsoft Defender acompanhando o conteúdo exibido na página de aterrissagem, explorou as opções do painel de navegação que fornece rápido acesso à funcionalidade que integra o Microsoft Defender XDR.  Por fim, você também mostrará como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.

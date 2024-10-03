@@ -1,15 +1,15 @@
 ---
 lab:
   title: Acesso Condicional do Microsoft Entra.
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # Laboratório: Acesso condicional do Microsoft Entra
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Entra
-- Módulo: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra ID
+- Roteiro de aprendizagem: descrever as capacidades do Microsoft Entra
+- Módulo: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra
 - Unidade: Descrever o acesso condicional
 
 ## Cenário do laboratório
@@ -99,18 +99,18 @@ Nesta tarefa, você verá o impacto da política de acesso condicional da perspe
 
 1. Na janela Proteja a sua conta, você tem a opção de selecionar o método a ser usado pela MFA.  O Microsoft Authenticator é uma opção. Por conveniência neste exercício do laboratório, você escolherá outro método.  Selecione **Quero configurar um método diferente**.  Na janela pop-up Escolher um método diferente, selecione a **seta suspensa** e selecione **Telefone** e, em seguida, selecione **Confirmar**.
 
-1. A janela exibida e as etapas que seguem são para o método do aplicativo Microsoft Authenticator. .
-    1. Se você já possui o aplicativo Microsoft Authenticator instalado em seu dispositivo móvel, selecione **Avançar**. Caso contrário, selecione **Baixar agora** e siga as etapas.
-    1. Você começará a configurar a sua conta.  Selecione **Avançar**.
-    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, selecione **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante**.
-    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, escaneie o código QR na tela do PC .
-    1. Usando o aplicativo Microsoft Authenticator no seu dispositivo móvel, digitalize o código QR.
-    1. Siga as etapas no computador e no dispositivo móvel e selecione **Avançar**.
-    1. Depois de definir suas informações de segurança, você verá uma janela de êxito.  Selecione **Concluído**.
+1. A janela exibida e as etapas seguintes são do método do aplicativo Microsoft Authenticator. .
+    1. Se você já tiver instalado o aplicativo Microsoft Authenticator no seu dispositivo móvel, clique em **Avançar**. Caso contrário, clique em **Baixar agora** e siga as etapas.
+    1. Você começará a configurar sua conta.  Selecione **Avançar**.
+    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, clique em **+** para adicionar uma conta e selecione **Conta corporativa ou de estudante.**
+    1. Selecione a opção **Digitalizar o código QR** e, em seguida, usando seu dispositivo móvel, digitalize o código QR na tela do seu computador.
+    1. Digitalize o código QR usando o aplicativo Microsoft Authenticator no seu dispositivo móvel.
+    1. Siga as etapas no computador e no dispositivo móvel e clique em **Avançar**.
+    1. Depois de configurar suas informações de segurança, você verá uma janela de sucesso.  Selecione **Concluído**.
 
 1. Agora você já deve poder acessar o portal do Azure.  O portal do Azure é um portal de administração da Microsoft e, portanto, requer autenticação multifator, de acordo com a política de acesso condicional que foi criada.  
     1. Se você receber uma mensagem indicando que a entrada atingiu o tempo limite, insira a senha e escolha **Entrar**.
-    1. Você verá uma janela que exige que você aprove a solicitação de entrada.  Anote o número em seu computador e siga as instruções no aplicativo Microsoft Authenticator.
+    1. Você verá uma janela pedindo que aprove a solicitação de entrada.  Anote o número em seu computador e siga as instruções no aplicativo Microsoft Authenticator.
     1. Se for exibida uma mensagem perguntando se deseja permanecer conectado, selecione **Não**.
 
 1. Desconecte-se escolhendo o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando Sair. Em seguida, feche todas as janelas do navegador.

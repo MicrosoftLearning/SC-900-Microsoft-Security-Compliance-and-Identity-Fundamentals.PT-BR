@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Explore o fluxo de trabalho de Descoberta Eletrônica (Padrão)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Explorar a Descoberta Eletrônica
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Laboratório: explore o fluxo de trabalho de Descoberta Eletrônica (Standard)
+# Laboratório: Explorar a Descoberta Eletrônica
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
-- Módulo: descrever as funcionalidades de Descoberta Eletrônica e auditoria do Microsoft Purview
-- Unidade: Descrever as soluções de Descoberta Eletrônica no Microsoft Purview
+- Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview
+- Módulo: descrever as soluções de conformidade de dados do Microsoft Purview
+- Unidade: descrever a Descoberta Eletrônica
 
 ## Cenário do laboratório
 
@@ -24,14 +24,14 @@ Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro d
 
 1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
 
-1. No painel de navegação esquerdo, selecione **Configurações**, expanda **Funções e escopos** e selecione **Grupos de funções**.
+1. No painel de navegação à esquerda, selecione **Configurações**, expanda **Funções e escopos** e selecione **Grupos de funções**.
 
 1. No campo de pesquisa, na parte superior direita da página, insira **Descoberta Eletrônica** e pressione ENTER no teclado.  Selecione **Gerenciador de Descoberta Eletrônica**.
 
-1. Selecione **Editar**. Para a finalidade deste laboratório, você se definirá como administrador(a) do MOD, Gerenciador(a) e administrador(a) da Descoberta Eletrônica.  Na prática, você atribui usuários específicos a funções específicas.
+1. Selecione **Editar**. Para a finalidade deste laboratório, você se definirá como administrador do MOD, Gerenciador e administrador da Descoberta Eletrônica.  Na prática, você atribui usuários específicos a funções específicas.
     1. A página “Gerenciar o Gerente de Descoberta Eletrônica” permite adicionar usuários à função de Gerente de Descoberta Eletrônica.
-    1. Clique em **Selecionar usuário**. Pesquise e selecione **Administrador do MOD**, pressione **Selecionar** na parte inferior da página e escolha **Avançar**.
-    1. Na página “Gerenciar o Administrador de Descoberta Eletrônica”, selecione **Escolher usuários**. Pesquise e selecione **Administrador MOD**, pressione **Selecionar** na parte inferior da página, escolha **Avançar** e então, **Salvar**.
+    1. Clique em **Selecionar usuário**. Pesquise e selecione **Administrador do MOD**, pressione **Selecionar** na parte inferior da página e clique em **Avançar**.
+    1. Na página “Gerenciar o Administrador de Descoberta Eletrônica”, selecione **Escolher usuários**. Pesquise e selecione **Administrador MOD**, pressione **Selecionar** na parte inferior da página, clique em **Avançar** e, depois, em **Salvar**.
     1. Na página “Você atualizou com sucesso o grupo de funções”, selecione **Concluído**.
 
 1. Mantenha essa guia do navegador aberta, pois você vai usá-la na próxima tarefa.
