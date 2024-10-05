@@ -1,15 +1,15 @@
 ---
 lab:
   title: Acesso Condicional do Microsoft Entra.
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # Laboratório: Acesso condicional do Microsoft Entra
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Entra
-- Módulo: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra ID
+- Roteiro de aprendizagem: descrever as capacidades do Microsoft Entra
+- Módulo: descrever as funcionalidades de gerenciamento de acesso do Microsoft Entra
 - Unidade: Descrever o acesso condicional
 
 ## Cenário do laboratório
@@ -69,6 +69,8 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. Clique em **Portais de Administração da Microsoft** e pressione **Selecionar** na parte inferior da página.  Observe o aviso.  
 
+1. Em Rede, selecione **Qualquer rede ou local**.  Revise as opções, mas não selecione nenhuma opção.
+
 1. Em Condições, selecione **0 condições selecionadas**.  Observe as diferentes opções que você pode configurar.  Por meio da política, você pode controlar o acesso do usuário com base nos sinais das condições, incluindo: risco do usuário, risco de entrada, plataforma do dispositivo, localização, aplicativos cliente ou filtrar dispositivos.  Explore essas opções configuráveis, mas não defina nenhuma condição.
 
 1. Agora você definirá os controles de acesso.  Em Concessão, selecione **0 controles selecionados**.
@@ -97,11 +99,18 @@ Nesta tarefa, você verá o impacto da política de acesso condicional da perspe
 
 1. Na janela Proteja a sua conta, você tem a opção de selecionar o método a ser usado pela MFA.  O Microsoft Authenticator é uma opção. Por conveniência neste exercício do laboratório, você escolherá outro método.  Selecione **Quero configurar um método diferente**.  Na janela pop-up Escolher um método diferente, selecione a **seta suspensa** e selecione **Telefone** e, em seguida, selecione **Confirmar**.
 
-1. Na janela aberta, verifique se o seu país está selecionado e insira o número do celular que deseja usar.  Verifique se a opção **Envie-me um código por SMS** está selecionada e pressione **Avançar**.  Você receberá uma mensagem de texto no seu telefone com um código que precisará inserir em Inserir código.  Insira o código recebido e pressione **Avançar**.  Depois de confirmada, a tela exibirá "SMS verificado. Seu telefone foi registrado com sucesso".  Selecione **Avançar**. Em seguida, selecione **Concluído**.  Isso conclui o processo de registro único.
+1. A janela exibida e as etapas seguintes são do método do aplicativo Microsoft Authenticator. .
+    1. Se você já tiver instalado o aplicativo Microsoft Authenticator no seu dispositivo móvel, clique em **Avançar**. Caso contrário, clique em **Baixar agora** e siga as etapas.
+    1. Você começará a configurar sua conta.  Selecione **Avançar**.
+    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, clique em **+** para adicionar uma conta e selecione **Conta corporativa ou de estudante.**
+    1. Selecione a opção **Digitalizar o código QR** e, em seguida, usando seu dispositivo móvel, digitalize o código QR na tela do seu computador.
+    1. Digitalize o código QR usando o aplicativo Microsoft Authenticator no seu dispositivo móvel.
+    1. Siga as etapas no computador e no dispositivo móvel e clique em **Avançar**.
+    1. Depois de configurar suas informações de segurança, você verá uma janela de sucesso.  Selecione **Concluído**.
 
 1. Agora você já deve poder acessar o portal do Azure.  O portal do Azure é um portal de administração da Microsoft e, portanto, requer autenticação multifator, de acordo com a política de acesso condicional que foi criada.  
     1. Se você receber uma mensagem indicando que a entrada atingiu o tempo limite, insira a senha e escolha **Entrar**.
-    1. Você verá uma janela que exige a verificação da sua identidade.  Selecione Texto =X XXXXXXX para receber um código no seu celular. Insira o código e escolha **Verificar**.
+    1. Você verá uma janela pedindo que aprove a solicitação de entrada.  Anote o número em seu computador e siga as instruções no aplicativo Microsoft Authenticator.
     1. Se for exibida uma mensagem perguntando se deseja permanecer conectado, selecione **Não**.
 
 1. Desconecte-se escolhendo o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando Sair. Em seguida, feche todas as janelas do navegador.

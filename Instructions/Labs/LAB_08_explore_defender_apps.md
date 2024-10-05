@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você vai explorar as funcionalidades do Microsoft Defender para Aplicativos de Nuvem.  Você verá as informações disponíveis no painel do Cloud Discovery, o catálogo de aplicativos na nuvem, as funcionalidades disponíveis para investigar as descobertas com o Log de atividades e os Arquivos e as formas de controlar o impacto na sua organização por meio de Políticas. Observação: uma organização precisa ter uma licença para usar o Microsoft Defender para Aplicativos de Nuvem, pois este é um serviço por assinatura baseado no usuário.
 
-**Tempo estimado**: 15 a 20 minutos
+**Tempo estimado**: 30 minutos
 
 ### Tarefa 1 – Explorar o Cloud Discovery
 
