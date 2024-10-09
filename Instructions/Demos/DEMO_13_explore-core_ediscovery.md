@@ -1,6 +1,6 @@
 <!---
 ---
-Demonstração: Título: "Explorar o fluxo de trabalho da Descoberta eletrônica (Standard)" Roteiro de aprendizagem/Módulo/Unidade: "Roteiro de aprendizagem: descrever as funcionalidades do Microsoft Priva e do Microsoft Purview; Módulo 3: descrever as soluções de conformidade de dados do Microsoft Purview; Unidade 2: descrever a Descoberta eletrônica"
+Demonstração: Título: "Explorar o fluxo de trabalho da Descoberta Eletrônica" Roteiro de aprendizagem/Módulo/Unidade: "Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview; Módulo 3: descrever as soluções de conformidade de dados do Microsoft Purview; Unidade 2: Descrever a Descoberta Eletrônica"
 ---
 --->
 
@@ -8,26 +8,26 @@ Demonstração: Título: "Explorar o fluxo de trabalho da Descoberta eletrônica
 
 Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades do Microsoft Priva e do Microsoft Purview
-- Módulo: descrever as soluções de conformidade de dados do Microsoft Purview
-- Unidade: descrever a Descoberta Eletrônica
+- Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview
+- Módulo: Descrever as soluções de conformidade de dados do Microsoft Purview
+- Unidade: Descrever a Descoberta Eletrônica
 
 ## Cenário de demonstração
 
-Nesta demonstração, você acompanhará as etapas necessárias para configurar a Descoberta Eletrônica, incluindo a configuração de permissões de função, a criação de um caso de Descoberta Eletrônica, a criação de uma retenção de Descoberta Eletrônica e a criação de uma consulta de pesquisa.  OBSERVAÇÃO: no portal do Microsoft Purview, as atualizações na interface do usuário estão sendo lançadas gradualmente. Alguns locatários de laboratório/demonstração podem ainda não visualizar a interface do usuário mais recente, portanto, todas as etapas do laboratório são mostradas usando a interface do usuário clássica de Descoberta eletrônica.
+Nesta demonstração, você acompanhará as etapas necessárias para configurar a Descoberta Eletrônica, incluindo a configuração de permissões de função, a criação de um caso de Descoberta Eletrônica, a criação de uma retenção de Descoberta Eletrônica e a criação de uma consulta de pesquisa.  OBSERVAÇÃO: no portal do Microsoft Purview, as atualizações na interface do usuário estão sendo lançadas gradualmente. Alguns locatários de laboratório/demonstração talvez ainda não mostrar a interface do usuário mais recente, portanto, todas as etapas do laboratório são mostradas usando a interface do usuário clássica de Descoberta Eletrônica.
 
 ### Demonstração parte 1
 
 Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro de um caso da Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta parte da demonstração, você, como administrador global, percorrerá o processo de adição de usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
 
-1. Abra a guia do navegador no **Microsoft Purview**. Se a tiver fechado previamente, abra uma guia do navegador e, na barra de endereços, insira **https://purview.microsoft.com**. Para acessar o novo portal do Microsoft Purview, marque a caixa ao lado de onde diz **Eu concordo com os termos de divulgação de fluxo de dados e políticas de privacidade** e selecione **Introdução**.  
-1. No painel de navegação esquerdo, selecione **Configurações**.
-1. No painel de navegação que é aberto, selecione **Funções e escopo** para expandir a opção e, em seguida, selecione **Grupos de funções**.
+1. Abra a guia do navegador no **Microsoft Purview**. Se a tiver fechado previamente, abra uma guia do navegador e, na barra de endereços, insira **https://purview.microsoft.com**. Para acessar o novo portal do Microsoft Purview, marque a caixa ao lado de onde diz **"Eu concordo com os termos de divulgação de fluxo de dados e Políticas de Privacidade"** e escolha **Introdução**.  
+1. No painel de navegação à esquerda, clique em **Configurações**
+1. No painel de navegação que abriu, selecione **Funções e escopo** para expandir a opção e, em seguida, selecione **Grupos de funções**.
 1. Na caixa de pesquisa no lado direito da tela, pesquise o termo **Descoberta Eletrônica**.  Selecione **Gerenciador de Descoberta Eletrônica**.
     1. Selecione **Editar**.
-    1. Clique em **Selecionar usuário**.
-    1. Procure por Administrador MOD, marque a caixa ao lado de **Administrador MOD** e clique no botão **Selecionar** na parte inferior da página.
-    1. Selecione **Avançar**, depois selecione **Salvar** e, finalmente, selecione **Concluído**.
+    1. Selecione **Escolher usuários**.
+    1. Procure por Administrador do MOD, marque a caixa ao lado de **Administrador do MOD** e clique no botão **Selecionar** na parte inferior da página.
+    1. Clique em **Avançar**, **Salvar** e, por fim, em **Concluído**.
 
 1. Mantenha essa guia do navegador aberta.
 
