@@ -1,45 +1,45 @@
 ---
 lab:
   title: Explorar os rótulos de confidencialidade no Microsoft Purview
-  module: Describe information protection and data lifecycle management in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # Laboratório: Explorar rótulos de confidencialidade no Microsoft Purview
 
 Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
-- Roteiro de aprendizagem: descrever as funcionalidades de conformidade da Microsoft
-- Módulo: descrever a proteção de informações e o gerenciamento do ciclo de vida de dados no Microsoft Purview
-- Unidade: descrever rótulos de confidencialidade
+- Roteiro de aprendizagem: Descrever as funcionalidades do Microsoft Priva e do Microsoft Purview
+- Módulo: Descrever as soluções de segurança de dados do Microsoft Purview
+- Unidade: descrever os rótulos e políticas de confidencialidade na Proteção de informações do Microsoft Purview
 
 ## Cenário do laboratório
 
 Neste laboratório, você vai explorar as funcionalidades dos rótulos de confidencialidade.  Você percorrerá as configurações dos rótulos de confidencialidade que foram criados e a política correspondente para publicá-lo.   Depois, você verá como aplicar o rótulo e o impacto dele da perspectiva do usuário.
 
-**Tempo estimado**: 20 a 25 minutos
+**Tempo estimado**: 45 minutos
 
-### Tarefa 1:
+### Tarefa 1
 
-Nesta tarefa, você obterá uma compreensão do que os rótulos de confidencialidade podem fazer ao passar pelo processo de criar uma nova etiqueta e uma política para publicá-la.
+Nesta tarefa, você entenderá o que os rótulos de confidencialidade podem fazer ao passar pelo processo de criar um novo rótulo e uma política para publicá-lo.
 
-1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  A página inicial do portal de conformidade do Microsoft Purview é aberta em uma nova página do navegador.
+1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
 
-1. No painel de navegação à esquerda, em soluções, expanda **Proteção de informações** e selecione **Visão geral**. Observe o aviso na parte superior da página e role para baixo para exibir as informações disponíveis.
-   1. Na página de visão geral, observe que a caixa de informações amarela indica que a sua organização não habilitou o processamento de conteúdo em arquivos online do Office com rótulos de confidencialidade criptografados e que estão armazenados no OneDrive e no SharePoint.  Selecione **Habilitar agora**.  Depois de fazer isso, pode haver um atraso para a configuração se propagar pelo sistema e há etapas adicionais que devem ser concluídas para proteger o Teams, sites do SharePoint e Grupos do Microsoft 365.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.
 
-1. No painel de navegação à esquerda, selecione **Rótulos**.
-   1. Na página Rótulos, observe que a caixa de informações amarela indica que a sua organização não habilitou o processamento de conteúdo em arquivos online do Office com rótulos de confidencialidade criptografados e que estão armazenados no OneDrive e no SharePoint.  Selecione **Habilitar agora**.  Depois de fazer isso, pode haver um atraso para a configuração se propagar pelo sistema e há etapas adicionais que devem ser concluídas para proteger o Teams, sites do SharePoint e Grupos do Microsoft 365.
+1. No painel de navegação à esquerda, selecione **Soluções** e, depois, **Proteção de informações**.  Você está na página de visão geral. Role para baixo para ver as informações disponíveis.
 
-1. Alguns rótulos foram pré-configurados em seu locatário de laboratório do Microsoft 365, para sua conveniência. Selecione o rótulo denominado **Confidencial – Finanças**.  Uma janela será aberta com informações sobre este rótulo.  Observe as configurações dessa etiqueta.  Selecione o **Editar rótulo** (também pode aparecer como um ícone de lápis) na parte superior da página para visualizar algumas configurações básicas. Caso não encontre essa opção, selecione os três pontinhos.
-    1. A configuração começa informando o nome e a descrição do rótulo.  Não altere nada.  Selecione **Avançar** na parte inferior da página.
+1. No painel de navegação à esquerda, selecione **Rótulos de confidencialidade**.
+
+1. Alguns rótulos foram pré-configurados em seu locatário de laboratório do Microsoft 365, para sua conveniência. Selecione o rótulo denominado **Confidencial – Finanças**.  Uma janela será aberta com informações sobre este rótulo.  Observe as configurações dessa etiqueta.  Clique em **Editar rótulo**. Se não vir essa opção, clique nos três pontos.
+    1. A configuração começará com o fornecimento de detalhes básicos para o rótulo.  Não altere nada.  Selecione **Avançar** na parte inferior da página.
     1. Observe o escopo desta etiqueta. Não altere nada.  Selecione **Avançar** na parte inferior da página.
     1. Esta próxima tela é onde você pode escolher as configurações de proteção para os itens rotulados. Observe que essa etiqueta está configurada para dar suporte à marcação de conteúdo. Não altere nada.  Selecione **Avançar** na parte inferior da página.
         1. Na página de marcações de conteúdo, observe a caixa de informações no topo da página.  Não altere nenhuma configuração.  Selecione **Avançar** na parte inferior da página.
     1. Agora você está na janela Rotulamento automático de arquivos e emails.  Leia a descrição de rotulamento automático no topo da página e a caixa de informações abaixo delas.  Observe também que este rótulo está definido para o rotulamento automático para condições específicas. Não altere nenhuma configuração.  Selecione **Avançar** na parte inferior da página.
-    1. A próxima janela define as configurações de proteção para equipes, grupos e sites que têm esta etiqueta aplicada. Isso não está habilitado; selecione **Avançar** na parte inferior da página.
+    1. A janela define as configurações de proteção para grupos e sites em que esse rótulo está aplicado. Isso não está habilitado; selecione **Avançar** na parte inferior da página.
     1. Esta janela é uma versão prévia do recurso de aplicação automática da etiqueta aos ativos de dados esquematizados no Mapa de Dados do Microsoft Purview (como o SQL, o Synapse, entre outros) que contêm os tipos de informações confidenciais escolhidos por você.  O recurso não está habilitado. Selecione **Cancelar** na parte inferior da página para sair do assistente de configuração de rótulos e voltar à página Proteção de Informações.
 
-1. No painel de navegação à esquerda, selecione **Políticas de rótulo**.  É por meio das políticas de rótulo que os rótulos de confidencialidade podem ser publicados.  O locatário do Microsoft 365 foi configurado com algumas políticas de rótulo, para sua conveniência.
+1. No painel de navegação à esquerda, expanda **Políticas** e selecione **Políticas de publicação**.  É por meio das políticas de rótulo que os rótulos de confidencialidade podem ser publicados.  O locatário do Microsoft 365 foi configurado com algumas políticas de rótulo, para sua conveniência.
 
 1. Selecione **Confidencial – Política de finanças**.  Uma janela será aberta com informações sobre a política. Selecione **Editar política** na parte superior da janela.  Aqui você vai percorrer as configurações sem alterar nada.
     1. Leia a descrição de "Escolher rótulos de confidencialidade para publicar".  Observe o rótulo que está listado.  Não altere nenhuma configuração.  Selecione **Avançar** na parte inferior da página.

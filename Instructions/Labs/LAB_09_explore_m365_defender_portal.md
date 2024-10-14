@@ -26,8 +26,8 @@ Explorar a página inicial do Microsoft Defender.
 
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
-
     1. Insira a senha de administrador fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
     1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, abaixo de Centros de administração, selecione **Segurança**.  Se você não vir Segurança listada, selecione **Mostrar tudo** e, em seguida, selecione **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
@@ -50,7 +50,7 @@ Explorar a página inicial do Microsoft Defender.
 
 Nesta parte do laboratório, você explorará algumas das opções disponíveis no painel de navegação à esquerda do portal do Defender.  Por meio do portal do Microsoft Defender, a Microsoft cumpre a promessa de uma plataforma de operações de segurança unificada. O portal do Microsoft Defender combina proteção, detecção, investigação e resposta a ameaças em toda a sua organização e todos os seus componentes, em um local central.  
 
-1. Explore o painel de navegação à esquerda, à vontade.
+1. Explore o painel de navegação à esquerda à vontade.
 
 1. No painel de navegação à esquerda, selecione **Página Inicial** para voltar à home page do portal do Microsoft Defender.
 
@@ -58,7 +58,7 @@ Nesta parte do laboratório, você explorará algumas das opções disponíveis 
 
 Nesta tarefa, você vai explorar como o Microsoft Secure Score pode ajudar uma organização a aprimorar a postura de segurança.
 
-1. Na Página Inicial do portal Microsoft Defender, selecione **Microsoft Secure Secore** na barra de título do cartão (o texto ficará azul).  Como alternativa, você pode selecionar **Classificação de Segurança** no painel de navegação esquerdo.
+1. Na Página Inicial do portal do Microsoft Defender, selecione **Microsoft Secure Secore** na barra de título do cartão (o texto ficará azul).  Como alternativa, você pode selecionar **Classificação de Segurança** no painel de navegação esquerdo.
 
 1. A página do Microsoft Secure Score é aberta na guia Visão geral. O Microsoft Secure Score é uma medida da postura de segurança de uma organização. A classificação de segurança da sua organização é mostrada como um percentual, acompanhado do número de pontos atingidos considerando o total de pontos possíveis e divididos por categoria. Selecione **Incluir**, ao lado de onde está a sua classificação de segurança.  Uma janela pequena é aberta, permitindo que você inclua a pontuação atingível, a pontuação planejada e a pontuação segura de licença atual na divisão da Pontuação da sua organização.  Selecione **Incluir** novamente para fechar a janela.
 

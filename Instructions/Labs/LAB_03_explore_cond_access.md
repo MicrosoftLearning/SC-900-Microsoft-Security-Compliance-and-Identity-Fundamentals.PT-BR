@@ -25,6 +25,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha para a usuária D
 1. Abra o Microsoft Edge.  Na barra de endereços, insira **https://entra.microsoft.com** e entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se você já fez login como administrador, poderá solicitado que conclua uma autenticação secundária como parte da MFA. Se você ainda não fez login como administrador, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. No painel de navegação à esquerda, expanda **Identidade**, expanda **Usuários** e selecione **Todos os usuários**.
@@ -53,7 +54,7 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. No painel de navegação à esquerda, selecione **Políticas**. Todas as políticas de acesso condicional existentes são listadas aqui. Selecione **+ Nova política**.
 
-1. No campo Nome, insira **Política de teste de MFA**.
+1. No campo Nome, insira **Bloquear portais de administração**.
 
 1. Em Usuários, selecione **0 usuários e grupos escolhidos**.
 
@@ -69,13 +70,13 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. Clique em **Portais de Administração da Microsoft** e pressione **Selecionar** na parte inferior da página.  Observe o aviso.  
 
-1. Em Rede, selecione **Qualquer rede ou local**.  Revise as opções, mas não selecione nenhuma opção.
+1. Em Rede, selecione **Qualquer rede ou local**.  Revise as opções, mas não selecione nenhuma.
 
 1. Em Condições, selecione **0 condições selecionadas**.  Observe as diferentes opções que você pode configurar.  Por meio da política, você pode controlar o acesso do usuário com base nos sinais das condições, incluindo: risco do usuário, risco de entrada, plataforma do dispositivo, localização, aplicativos cliente ou filtrar dispositivos.  Explore essas opções configuráveis, mas não defina nenhuma condição.
 
 1. Agora você definirá os controles de acesso.  Em Concessão, selecione **0 controles selecionados**.
 
-1. A janela Conceder é aberta.  Verifique se a opção **Permitir acesso** está selecionada e escolha **Exigir a autenticação multifator**. Role a página um pouco para baixo na janela direita e, na seção Para vários controles, mantenha o padrão **Exigir todos os controles selecionados**.  Pressione **Selecionar** na parte inferior da página.
+1. A janela Conceder é aberta.  Seleione **Bloquear acesso**. Pressione **Selecionar** na parte inferior da página.
 
 1. Na parte inferior da página, em Habilitar política, selecione **Ativado** e **Criar**.
 
@@ -85,36 +86,19 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 ### Tarefa 3
 
-Nesta tarefa, você verá o impacto da política de acesso condicional da perspectiva do usuário, Clara Barbosa. Você começará entrando em um aplicativo que não está incluído na política de acesso condicional (o portal do Microsoft 365 em https://login.microsoftonline.com) ).  Em seguida, você vai repetir o processo para um aplicativo incluído na política de acesso condicional (o portal do Azure em https://portal.azure.com) ).  Lembre-se de que a política exige que o usuário passe pela MFA ao acessar qualquer um dos Portais de administração da Microsoft, incluindo o portal do Azure.  Para usar a MFA, usuários devem primeiro registrar o método de autenticação que será usado para a MFA, por exemplo, um código enviado para um dispositivo móvel ou um aplicativo autenticador.
+Nesta tarefa, você verá o impacto da política de acesso condicional da perspectiva do usuário, Clara Barbosa. Você começará entrando em um aplicativo que não está incluído na política de acesso condicional (o portal do Microsoft 365 em https://login.microsoftonline.com) ).  Em seguida, você vai repetir o processo para um aplicativo incluído na política de acesso condicional (o portal do Azure em https://portal.azure.com) ).  Lembre-se de que a política bloqueia o acesso de qualquer um dos Portais de administração da Microsoft, incluindo o portal do Azure.  OBSERVAÇÃO: por motivos de segurança, todas as contas de usuário que acessam qualquer portal devem a usar a MFA.  O requisito da MFA é independente deste exercício de laboratório.
 
 1. Abra o Microsoft Edge.  Na barra de endereços, insira **https://login.microsoftonline.com** .
     1. Entre como **DebraB@WWLxZZZZZZ.onmicrosoft.com**, (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Próximo**.
     1. Digite a senha que você anotou na tarefa anterior. Selecione **Entrar**.
-    1. Como a senha fornecida quando você, como administrador, a redefiniu é temporária, é preciso atualizar a senha (isso não faz parte da política da MFA). Insira a senha atual, insira uma nova senha e confirme a nova senha.  Anote a nova senha, pois você vai precisar dela para concluir a tarefa.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.  Você deve se conectar com êxito à sua conta do Microsoft 365. A MFA não era necessária para este aplicativo, pois não faz parte da política.
+    1. Como a senha fornecida quando você, como administrador, a redefiniu é temporária, é preciso atualizar a senha. Insira a senha atual, insira uma nova senha e confirme a nova senha.  Anote a nova senha, pois você vai precisar dela para concluir a tarefa.
+    1. Como esta é a primeira vez que você está fazendo login como Débora Borges, poderá ser solicitado que você configure a MFA. Siga as instruções na tela para configurar a MFA.
+    1. Quando solicitado a permanecer conectado, selecione **Sim**.  Você deve se conectar com êxito à sua conta do Microsoft 365.
 
-1. Agora você tentará entrar em um aplicativo que atende aos critérios da MFA. Abra uma nova guia do navegador e insira **https://portal.azure.com** .
-
-1. Você verá uma janela indicando Mais informações necessárias.  Selecione **Avançar**.  Observação: isso iniciará o processo de registro da MFA, pois esta é a primeira vez que você está acessando o aplicativo em nuvem que foi identificado na política de acesso condicional.  Este processo de registro é necessário apenas uma vez.   Uma alternativa para que o usuário passe pelo processo de registro é fazer com que o administrador configure o método de autenticação a ser usado.
-
-1. Na janela Proteja a sua conta, você tem a opção de selecionar o método a ser usado pela MFA.  O Microsoft Authenticator é uma opção. Por conveniência neste exercício do laboratório, você escolherá outro método.  Selecione **Quero configurar um método diferente**.  Na janela pop-up Escolher um método diferente, selecione a **seta suspensa** e selecione **Telefone** e, em seguida, selecione **Confirmar**.
-
-1. A janela exibida e as etapas seguintes são do método do aplicativo Microsoft Authenticator. .
-    1. Se você já tiver instalado o aplicativo Microsoft Authenticator no seu dispositivo móvel, clique em **Avançar**. Caso contrário, clique em **Baixar agora** e siga as etapas.
-    1. Você começará a configurar sua conta.  Selecione **Avançar**.
-    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, clique em **+** para adicionar uma conta e selecione **Conta corporativa ou de estudante.**
-    1. Selecione a opção **Digitalizar o código QR** e, em seguida, usando seu dispositivo móvel, digitalize o código QR na tela do seu computador.
-    1. Digitalize o código QR usando o aplicativo Microsoft Authenticator no seu dispositivo móvel.
-    1. Siga as etapas no computador e no dispositivo móvel e clique em **Avançar**.
-    1. Depois de configurar suas informações de segurança, você verá uma janela de sucesso.  Selecione **Concluído**.
-
-1. Agora você já deve poder acessar o portal do Azure.  O portal do Azure é um portal de administração da Microsoft e, portanto, requer autenticação multifator, de acordo com a política de acesso condicional que foi criada.  
-    1. Se você receber uma mensagem indicando que a entrada atingiu o tempo limite, insira a senha e escolha **Entrar**.
-    1. Você verá uma janela pedindo que aprove a solicitação de entrada.  Anote o número em seu computador e siga as instruções no aplicativo Microsoft Authenticator.
-    1. Se for exibida uma mensagem perguntando se deseja permanecer conectado, selecione **Não**.
+1. Agora você tentará entrar em um aplicativo que atende aos critérios da Política de acesso condicional. Abra uma nova guia do navegador e insira **https://portal.azure.com**, que é o portal de administração do Azure.  Uma janela pop-up aparecerá indicando "Você não tem acesso".  Isso é resultado da política de acesso condicional que bloqueia o seu acesso a todos os portais de administração da Microsoft.
 
 1. Desconecte-se escolhendo o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando Sair. Em seguida, feche todas as janelas do navegador.
 
 ### Revisão
 
-Neste laboratório, você conheceu o processo de configuração de uma política de acesso condicional que exige uma MFA ao acessar um portal de administração da Microsoft.  Em seguida, como usuário, você passou pelo processo de registro da MFA e viu o impacto da política de acesso condicional que exigia que você usasse a MFA ao acessar o portal do Azure.
+Neste laboratório, você passou pelo processo de configuração de uma política de acesso condicional que bloqueia o acesso de todos os usuários incluídos na política aos portais de administração da Microsoft.  Em seguida, como usuário, você sofreu o impacto da política de acesso condicional ao acessar o portal do Azure.

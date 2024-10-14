@@ -27,6 +27,7 @@ Nesta tarefa você, como administrador, irá redefinir a senha para o usuário D
 1. Entre com as credenciais de administrador do Microsoft 365 fornecidas por seu ALH.
     1. Na Janela de Entrada, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a ID de Locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se você já fez login como administrador, poderá solicitado que conclua uma autenticação secundária como parte da MFA. Se você ainda não fez login como administrador, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. No painel de navegação à esquerda, expanda **Identidade**, expanda **Usuários** e selecione **Todos os usuários**.
@@ -49,7 +50,7 @@ Nesta tarefa, você, como administrador, atribuirá a Diego uma função do Micr
 
 1. No painel de navegação à esquerda, em "Identidade", expanda **Governança de Identidade** e selecione **Privileged Identity Management**.
 
-1. Agora você está na página de início rápido do Privileged Identity Management. Analise as informações na página Introdução. Na janela principal, em Gerenciar acesso, selecione **Gerenciar**.
+1. Agora você está na página de início rápido do Privileged Identity Management. Analise as informações na página Introdução. Na janela principal, onde diz Gerenciar acesso, selecione **Gerenciar**.
 
 1. Agora você está na página Funções da Contoso.  Na parte superior da página, insira **usuário** na barra de pesquisa.  Nos resultados da pesquisa, selecione **Administrador de usuário**.
 
@@ -83,7 +84,7 @@ Nesta tarefa, você, como administrador, atribuirá a Diego uma função do Micr
 
 ### Tarefa 3
 
-Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração Microsoft Entra para acessar a capacidade do Azure AD Privileged Identity Management para ativar sua atribuição como Administrador do Usuário.  Depois de isso ser ativado, você fará algumas alterações na configuração de um usuário existente. Observação: para esta tarefa, você precisará de acesso a um dispositivo móvel para usar com o aplicativo Microsoft Authenticator.
+Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração Microsoft Entra para acessar a capacidade do Azure AD Privileged Identity Management para ativar sua atribuição como Administrador do Usuário.  Depois de isso ser ativado, você fará algumas alterações na configuração de um usuário existente. Observação: para esta tarefa, você precisará acessar um dispositivo móvel para usar com o aplicativo Microsoft Authenticator.
 
 1. Abra o Microsoft Edge.  Na barra de endereços do navegador, insira **Entra.microsoft.com**.
 
@@ -91,6 +92,7 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
     1. Na janela Entrar, insira **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
     1. Insira a senha temporária que você anotou na tarefa anterior e selecione **Entrar**.  Selecione **Entrar**.
     1. Como a senha que você inseriu era apenas temporária, você precisa atualizá-la agora. Insira a senha atual, insira uma nova senha e confirme a nova senha.  Observe que essa nova senha será necessária para concluir a tarefa.
+    1. Como esta é a primeira vez que você está fazendo login como Diego, poderá ser solicitado que você configure a MFA. Siga as instruções na tela para configurar a MFA.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. Você deve estar conectado com êxito ao centro de administração Microsoft Entra.
@@ -100,12 +102,12 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
 1. Você verá um ícone de aviso indicando que é necessário fazer uma verificação adicional.  Selecione **Clique para continuar**.  Lembre-se de que as configurações do PIM para a função Administrador de usuários exigem a autenticação multifator.  Além disso, como as informações de contato de Diego para uso com a MFA (métodos de autenticação) não foram configuradas anteriormente, ele deve registrar suas próprias informações, para poder usar a MFA.  Embora ele tenha que fazer a MFA sempre que entrar como administrador de usuário, dentro do período de atribuição, o processo de registro MFA é necessário apenas uma vez.
 1. A janela exibida e as etapas que seguem são para o método do aplicativo Microsoft Authenticator. .
     1. Se você já possui o aplicativo Microsoft Authenticator instalado em seu dispositivo móvel, selecione **Avançar**. Caso contrário, selecione **Baixar agora** e siga as etapas.
-    1. Você começará a configurar a sua conta.  Selecione **Avançar**.
-    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, selecione **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante**.
-    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, escaneie o código QR na tela do PC .
+    1. Você começará a configurar sua conta.  Selecione **Avançar**.
+    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, clique em **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante.**
+    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, digitalize o código QR na tela do seu computador.
     1. Usando o aplicativo Microsoft Authenticator no seu dispositivo móvel, digitalize o código QR.
-    1. Siga as etapas no computador e no dispositivo móvel e selecione **Avançar**.
-    1. Depois de definir suas informações de segurança, você verá uma janela de êxito.  Selecione **Concluído**.
+    1. Siga as etapas no computador e no dispositivo móvel e clique em **Avançar**.
+    1. Depois de configurar suas informações de segurança, você verá uma janela de sucesso.  Selecione **Concluído**.
 
 1. Depois de concluir o processo de registro de MFA, você retornará à página Administrador de Usuário Ativo do PIM.
 1. A janela Ativar administrador do usuário é exibida.  Você deve inserir um motivo para a ativação.  Na caixa exibida, digite o motivo desejado (máximo de 500 caracteres) e selecione **Ativar**.
@@ -117,11 +119,11 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
 1. No painel de navegação à esquerda, selecione **Grupos**.
 1. Observe os grupos aos quais Bianca já está atribuída. Na parte superior da página, selecione **+ Associações**.
 1. Na lista de grupos, selecione **Equipe do Projeto Mark 8**.
-1. Na parte inferior da página, selecione **Salvar**.
-1. Na página Grupos, observe que o grupo Equipe do Projeto Mark 8 foi adicionado à lista (se você não o vir imediatamente listado, selecione **Atualizar**).
+1. Clique em **Selecionar** na parte inferior da página.
+1. Na página Grupos, observe que o grupo Equipe do Projeto Mark 8 foi adicionado à lista (se você não o vir imediatamente listado, clique no botão **Atualizar**).
 1. Saia escolhendo o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador.
 1. A duração da função de Usuário Administrador é limitada ao tempo que foi configurado.
 
 ### Revisão
 
-Neste laboratório, você explorou o PIM.  Você, como administrador, configurou Diego com privilégios de administrador de usuário por um período de tempo especificado.  Em seguida, você, como Diego, percorreu o processo de ativação dos privilégios de administrador de usuários e um usuário para um grupo.  Lembre-se de que o PIM requer o licenciamento do Microsoft Entra ID Premium P2.
+Neste laboratório, você explorou o PIM.  Você, como administrador, configurou Diego com privilégios de administrador de usuário por um período de tempo especificado.  Em seguida, você, como Diego, passou pelo processo de ativação dos privilégios de administrador e um usuário para um grupo.  Lembre-se de que o PIM requer o licenciamento do Microsoft Entra ID Premium P2.

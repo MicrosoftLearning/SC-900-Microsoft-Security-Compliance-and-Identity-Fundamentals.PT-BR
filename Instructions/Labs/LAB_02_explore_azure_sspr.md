@@ -31,6 +31,7 @@ Nesta tarefa, você, como administrador, percorrerá algumas das definições de
 1. Abra o navegador Microsoft Edge. Na barra de endereços, insira **https://entra.microsoft.com** e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH).
     1. Na Janela de Entrada, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a ID de Locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. No painel de navegação à esquerda, expanda a opção **Proteção** e selecione **Redefinição de senha**.  
@@ -81,17 +82,17 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de registr
 
 1. Abra o Microsoft Edge e, na barra de endereços, insira **https://login.microsoft.com** .
 
-1. Entre como Sara Perez.
+1. Entre como Sara Perez. O processo de entrada pode exigir a MFA.
 
 1. Um pop-up é exibido indicando que Mais informações são necessárias.  Isso ocorre porque, como membro do grupo SSPRSecurityGroupUsers, a configuração exige que seus membros se registrem ao entrar.  Selecione o botão **Avançar**.  Nota: uma alternativa para que os próprios usuários façam o registro é que os administradores configurem diretamente os métodos de autenticação quando adicionam um usuário. Isso exige que os administradores conheçam e definam os números de telefone e endereços de email que os usuários usam para realizar a redefinição de senha de autoatendimento e para redefinir a senha de um usuário.
 
 1. A página "Proteja sua conta" é aberta.  A janela exibida e as etapas que seguem são para o método do aplicativo Microsoft Authenticator. Se você quiser usar o email, selecione **Quero configurar um método diferente** e siga as etapas.
     1. Se você já possui o aplicativo Microsoft Authenticator instalado em seu dispositivo móvel, selecione **Avançar**. Caso contrário, selecione **Baixar agora** e siga as etapas.
-    1. Você começará a configurar a sua conta.  Selecione **Avançar**.
-    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, selecione **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante**.
-    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, escaneie o código QR na tela do PC .
-    1. Siga as etapas no computador e no dispositivo móvel e selecione **Avançar**.
-    1. Depois de definir suas informações de segurança, você verá uma janela de êxito.  Selecione **Concluído**.
+    1. Você começará a configurar sua conta.  Selecione **Avançar**.
+    1. Usando o aplicativo Microsoft Authenticator em seu dispositivo móvel, clique em **+** para adicionar uma conta e escolha **Conta corporativa ou de estudante.**
+    1. Selecione a opção para **Digitalizar o código QR** e, usando o seu dispositivo móvel, digitalize o código QR na tela do seu computador.
+    1. Siga as etapas no computador e no dispositivo móvel e clique em **Avançar**.
+    1. Depois de configurar suas informações de segurança, você verá uma janela de sucesso.  Selecione **Concluído**.
 
 1. Agora você pode concluir a entrada. Se você perceber que o tempo de entrada expirou, basta digitar a senha novamente.
 
@@ -113,7 +114,7 @@ Nesta tarefa, você, como usuária Sara Perez, passará pelo processo de redefi
 
 1. Na caixa vazia, insira os caracteres exibidos na imagem ou as palavras do áudio. Depois de inseri-los, selecione **Avançar**.
 
-1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Selecione **Aprovar uma notificação no meu aplicativo autenticador** e, em seguida, escolha **Enviar notificação**.
+1. A tela mostra Voltar à sua conta e mostra a etapa de Verificação 1 > escolher uma nova senha. Selecione a opção **Aprovar uma notificação no meu aplicativo autenticador** e, em seguida, escolha **Enviar notificação**.
 
 1. Anote o número em seu computador e siga as instruções para aprovar a entrada usando o aplicativo Microsoft Authenticator em seu dispositivo móvel.
 

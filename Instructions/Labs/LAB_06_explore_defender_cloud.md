@@ -22,7 +22,7 @@ Neste laboratório, você vai explorar o Microsoft Defender para Nuvem.  OBSERVA
 
 Nesta tarefa, você fará um passo a passo de alto nível de algumas das funcionalidades do Microsoft Defender para Nuvem
 
-1. Que deverá ser a página inicial dos serviços do Azure.  Se você fechou o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador.
+1. Que deverá ser a página inicial dos serviços do Azure.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador. Se você já fez login como administrador, poderá ser solicitado que conclua uma autenticação secundária, como parte da MFA.  Se você não tiver feito login anteriormente, poderá ser solicitado a configurar a MFA.  Siga as instruções na tela para configurar a MFA.
 
 1. Na barra de pesquisa azul, insira **Microsoft Defender para Nuvem** e, na lista de resultados, selecione **Microsoft Defender para Nuvem**.
 
