@@ -27,6 +27,7 @@ Nesta tarefa, você verá alguns dos parâmetros associados à VM que foi criada
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira o nome de usuário fornecido pelo provedor de hospedagem do laboratório e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
+    1. Se você já fez login como administrador, poderá ser solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
     1. Se for exibida uma mensagem perguntando se você deseja permanecer conectado, selecione **Sim**.
 
 1. Na parte superior da página, abaixo de Serviços do Azure, selecione **Máquinas Virtuais**.  Se essa opção não estiver listada, na caixa de pesquisa, na barra azul na parte superior da página ao lado de Microsoft Azure, insira **Máquinas Virtuais** e selecione **Máquinas Virtuais** nos resultados da pesquisa.
@@ -35,7 +36,7 @@ Nesta tarefa, você verá alguns dos parâmetros associados à VM que foi criada
 
 1. Agora você está na página da SC900-WinVM.  Anote algumas das informações básicas sobre a VM.
 
-1. No painel de navegação à esquerda, selecione **Configurações de rede**.  As seções essenciais da janela principal mostram a interface de rede para a VM.  Observe como não há algo listado ao lado do grupo de segurança de rede, pois não há NSG atribuído à interface.
+1. No painel de navegação à esquerda, expanda **Rede** e selecionet **Configurações de Rede**.  As seções essenciais da janela principal mostram a interface de rede para a VM.  Observe como não há algo listado ao lado do grupo de segurança de rede, pois não há NSG atribuído à interface.
 
 1. Mantenha essa guia aberta.
 
@@ -60,7 +61,7 @@ Nesta tarefa, você criará um grupo de segurança de rede, atribuirá o adaptad
 
 1. Você deve estar na página de visão geral do NSG recém-criado.  Caso contrário, no painel de navegação esquerdo, selecione **Visão geral**. Na parte superior da página Informações Gerais, você verá algumas informações básicas sobre o NSG que criou.  Dois pontos a serem observados são que não há regras de segurança personalizada e que não há sub-redes nem adaptadores de rede associados a esse NSG.  Embora não haja regras de segurança personalizadas, há regras de entrada e de saída padrão incluídas em cada NSG, conforme mostrado na página.  Revise as regras de entrada e de saída. As regras de entrada padrão negam todo o tráfego de entrada que não é de uma rede virtual ou de um balanceador de carga do Azure.  As regras de saída negam todo o tráfego de saída, exceto o tráfego entre as redes virtuais e o tráfego de saída para a Internet.
 
-1. No painel de navegação à esquerda, na página NSG-SC900, em Configurações, selecione **Adaptadores de rede**.
+1. No painel de navegação à esquerda, na página NSG-SC900, expanda **Configurações** e selecione **Interfaces de rede**.
     1. Selecione **Associar**.
     2. No campo de associações do adaptador de rede, selecione a **seta para baixo**, **sc900-winvmXXX e** **OK** na parte inferior da janela. Uma vez que a interface é associada ao NSG, ela aparecerá na lista.  O NSG agora é atribuído à interface de rede da sua VM.
 
@@ -95,7 +96,7 @@ Nesta tarefa, você testará a regra NSG de entrada recém-criada para confirmar
 
 1. No painel de navegação à esquerda, selecione **Conectar**.
 
-1. Selecione **Verificar acesso** (verifique se a porta está definida como 3389).  O status será exibido como “Acessível”.
+1. Selecione **Verificar acesso** (verifique se a porta está definida como 3389).  O status será exibido como “Acessível”.  Se você ainda estiver vendo "Não acessível", atualize a página e tente novamente. Pode levar alguns minutos para que a nova regra de entrada seja vista pela opção de verificação de acesso.
 
 1. Agora se conecte diretamente à VM clicando em **Selecionar** na caixa RDP nativo.
    
@@ -108,7 +109,10 @@ Nesta tarefa, você testará a regra NSG de entrada recém-criada para confirmar
 1. Agora você está conectado à VM. Neste caso, você conseguiu se conectar à VM porque a regra de tráfego de entrada criada permite o tráfego de entrada para a VM via RDP.  Após alguns segundos na tela de boas-vindas, talvez você veja uma janela para escolher as configurações de privacidade para seu dispositivo. Selecione **Aceitar**.  Se a janela Redes for exibida, selecione **Não**.
 
 1. Com a VM na sessão do RDP em execução, teste a conectividade de saída com a Internet na VM.
-    1. Na VM aberta, selecione **Microsoft Edge** para abrir o navegador.  Como esta é a primeira vez que você abre o Microsoft Edge, talvez você veja uma janela pop-up. Selecione **Iniciar sem os seus dados**, **Continuar sem esses dados** e **Confirmar e iniciar a navegação**.
+    1. Na VM aberta, selecione **Microsoft Edge** para abrir o navegador. Como esta é a primeira vez que você está abrindo a VM e o navegador, pode ser solicitado que você faça algumas configurações básicas.  
+    1. Pode ser solicitado que você escolha configurações de privacidade para o seu dispositivo. Deixe o que for padrão e clique em **Aceitar**.  
+    1. Um painel lateral de Redes poderá ser exibido.  Selecione **Não**.
+    1. Pode aparecer uma janela que diz "Navegue na web com o navegador de melhor desempenho no Windows". Clique em **Continuar**, **Iniciar sem seus dados**, **Confirmar e continuar**, **Continuar sem esses dados** e, por último, **Confirmar e começar a navegar**.
     1. Insira **www.bing.com** na barra de endereços e confirme se é possível se conectar ao mecanismo de pesquisa.
     1. Depois de confirmar se consegue acessar www.bing.com, feche a janela do navegador na VM, mas mantenha a VM ativa.
 

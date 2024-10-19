@@ -25,7 +25,8 @@ Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (an
 1. Abra o navegador do Microsoft Edge. Na barra de endereços, insira **[admin.microsoft.com](https://admin.microsoft.com)** e entre com as credenciais do Microsoft 365 fornecidas pelo ALH (hoster de laboratório autorizado).
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+    1. Como esta é a primeira vez que você está fazendo login, poderá ser solicitado que você configure a MFA. Siga as instruções na tela para configurar a MFA.
+    1. Se for exibida uma mensagem perguntando se você deseja permanecer conectado, selecione **Sim**.
 
 1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra.
 
@@ -102,18 +103,20 @@ Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
 1. Abra o Microsoft Edge.
 
-2. Na barra de endereços, insira **https://login.microsoft.com** .
+1. Na barra de endereços, insira **https://login.microsoft.com** .
 
-3. Entre como **sara@WWLxZZZZZ.onmicrosoft.com** , (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo seu ALH)
-4. Insira a senha temporária que você definiu na tarefa anterior.
+1. Entre como **sara@WWLxZZZZZ.onmicrosoft.com** , (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo seu ALH)
+1. Insira a senha temporária que você definiu na tarefa anterior.
 
-5. Você é solicitado a atualizar sua senha. No campo Senha atual, insira a senha temporária da tarefa anterior.
+1. Você é solicitado a atualizar sua senha. No campo Senha atual, insira a senha temporária da tarefa anterior.
 
-6. No campo Nova senha, insira uma nova senha, confirme a senha e selecione **Entrar**.  Anote sua nova senha, pois você precisará dela para o exercício de laboratório subsequente na SSPR.
+1. No campo Nova senha, insira uma nova senha, confirme a senha e selecione **Entrar**.  Anote sua nova senha, pois você precisará dela para o exercício de laboratório subsequente na SSPR.
 
-7. Agora você conseguirá entrar na conta Microsoft de Sara.  Veja que a licença de Sara que você atribuiu na tarefa anterior era limitada apenas ao Power Automate Gratuito e ao Power Apps para Desenvolvedores e não incluiu uma licença para o E5.
+1. Como esta é a primeira vez que você está fazendo login como Sara Perez, poderá ser solicitado que configure a MFA. Siga as instruções na tela para configurar a MFA.
 
-8. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras SP (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
+1. Agora você conseguirá entrar na conta Microsoft de Sara.  Veja que a licença de Sara que você atribuiu na tarefa anterior era limitada apenas ao Power Automate Gratuito e ao Power Apps para Desenvolvedores e não incluiu uma licença para o E5.
+
+1. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras SP (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
 
 ### Revisão
 
