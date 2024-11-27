@@ -23,15 +23,13 @@ Este laboratório de configuração consiste em habilitar o Log de Auditoria da 
 
 Nesta tarefa de configuração, você habilitará a funcionalidade de monitoramento de arquivos e log de auditoria do Microsoft 365.  
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **https://admin.microsoft.com** .
+1. Abra o Microsoft Edge. Na barra de endereços, insira **`https://admin.microsoft.com`** .
 
 1. Entre com as credenciais de administrador do locatário do Microsoft 365 fornecido pelo ALH (hoster de laboratório autorizado).
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
-1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.  
-
-1. À esquerda no painel de navegação do portal de conformidade do Microsoft Purview, selecione **Mostrar todos**.
+1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft Defender é aberta em uma nova página do navegador.
 
 1. No painel de navegação esquerdo, role para baixo e expanda **Sistema**.  Na lista expandida, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio do portal Microsoft Purview.
 
@@ -39,7 +37,7 @@ Nesta tarefa de configuração, você habilitará a funcionalidade de monitorame
 
 1. No painel de navegação esquerdo, em Sistema, selecione **Configurações**
 
-1. Na página de configurações, selecione **Aplicativos de nuvem**.   Role para baixo e em Proteção de informações, selecione **Arquivos**.
+1. Na página de configurações, selecione **Aplicativos de nuvem**.   Role para baixo e em **Proteção de informações**, selecione **Arquivos**.
 
 1. Se isso ainda não estiver habilitado, selecione a caixa ao lado do texto **Habilitar monitoramento de arquivos** e escolha **Salvar**.  
 

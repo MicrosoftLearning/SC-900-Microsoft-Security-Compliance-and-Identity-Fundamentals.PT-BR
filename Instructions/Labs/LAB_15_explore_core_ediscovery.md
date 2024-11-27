@@ -22,7 +22,7 @@ Neste laboratório, você acompanhará as etapas necessárias para configurar a 
 
 Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro de um caso da Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta etapa, você, como administrador global, adicionará usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
 
-1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
+1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH).
 
 1. No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
 
@@ -74,7 +74,7 @@ Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começa
 
 1. Na página Escolher locais, selecione **Avançar**.  Por uma questão de conveniência, para o laboratório, nenhuma outra localização será incluída nesta retenção.
 
-1. A página Condições de consulta permite que você crie uma retenção, com base em palavras-chave ou condições específicas atendidas. Selecione **+ Adicionar condição** para ver as opções disponíveis.  Selecione **Avançar**. Sem nenhuma condição, a retenção preservará todo o conteúdo no local especificado.
+1. A página Condições de consulta permite que você crie um bloqueio para itens com base em uma consulta que você pode criar.  Você pode optar por usar o Construtor de Consultas para criar uma consulta ou, para usuários mais avançados, pode usar o editor KQL. Para este exercício, você deseja que o bloqueio preserve todo o conteúdo no local especificado para o usuário especificado, portanto, você não criará uma consulta.
 
 1. Revise suas configurações e selecione **Enviar**, isso pode levar um minuto e, em seguida, selecione **Concluído**.  A retenção de teste deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
 
@@ -82,7 +82,7 @@ Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começa
 
 ### Tarefa 4
 
-Com uma retenção estabelecida, você criará uma consulta de pesquisa.  Após a conclusão da pesquisa, a Descoberta Eletrônica dá suporte a ações, como a exportação e o download dos resultados para investigação futura.   Observação: as pesquisas associadas a um caso da Descoberta Eletrônica (Standard) não são listadas na página Pesquisa de conteúdo do portal de conformidade do Microsoft Purview. Essas pesquisas são listadas apenas na página Pesquisas do caso da Descoberta Eletrônica (Standard) associado.
+Com uma retenção estabelecida, você criará uma consulta de pesquisa.  Após a conclusão da pesquisa, a Descoberta Eletrônica dá suporte a ações, como a exportação e o download dos resultados para investigação futura.   Observação: as pesquisas associadas a um caso da Descoberta Eletrônica (Standard) não são listadas na página de pesquisa de conteúdo do portal do Microsoft Purview. Essas pesquisas são listadas apenas na página Pesquisas do caso da Descoberta Eletrônica (Standard) associado.
 
 1. Abra a guia Caso de Teste SC900 no navegador.
 

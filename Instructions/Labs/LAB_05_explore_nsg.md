@@ -27,8 +27,7 @@ Nesta tarefa, você verá alguns dos parâmetros associados à VM que foi criada
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira o nome de usuário fornecido pelo provedor de hospedagem do laboratório e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, poderá ser solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
-    1. Se for exibida uma mensagem perguntando se você deseja permanecer conectado, selecione **Sim**.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
 
 1. Na parte superior da página, abaixo de Serviços do Azure, selecione **Máquinas Virtuais**.  Se essa opção não estiver listada, na caixa de pesquisa, na barra azul na parte superior da página ao lado de Microsoft Azure, insira **Máquinas Virtuais** e selecione **Máquinas Virtuais** nos resultados da pesquisa.
 
@@ -126,7 +125,7 @@ Na tarefa anterior, você confirmou que podia estabelecer uma conexão RDP com a
 
 1. Você estará na página SC900-WinVM \| Conectar. No painel de navegação à esquerda, selecione **Rede**. Se você fechou anteriormente a guia do navegador, selecione a barra de pesquisa azul na parte superior da página, escolha Máquinas virtuais, a VM, **SC900-WinVM**, e **Rede**.
 
-1. Selecione a guia **Regras da porta de saída**. Você encontrará as regras de saída padrão.  Observe a regra padrão "AllowInternetOutBound". Essa regra permite qualquer tráfego de saída da Internet. Não é possível remover as regras padrão, mas você pode substituí-las criando regras com prioridades mais altas. No lado direito da página, selecione **Adicionar regra da porta de saída**.
+1. Selecione a guia **Regras da porta de saída**. Você encontrará as regras de saída padrão.  Observe a regra padrão "AllowInternetOutBound". Essa regra permite qualquer tráfego de saída da Internet. Não é possível remover as regras padrão, mas você pode substituí-las criando regras com prioridades mais altas. No lado direito da página, selecione **+Criar regra de porta** e, na lista suspensa, selecione **Regra de porta de saída**.
 
 1. Na página Adicionar regra de segurança de saída, especifique as seguintes configurações:
     1. Origem: **Qualquer**

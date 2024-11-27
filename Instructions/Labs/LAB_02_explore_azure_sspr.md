@@ -31,8 +31,8 @@ Nesta tarefa, você, como administrador, percorrerá algumas das definições de
 1. Abra o navegador Microsoft Edge. Na barra de endereços, insira **https://entra.microsoft.com** e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo seu hoster de laboratório autorizado (ALH).
     1. Na Janela de Entrada, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a ID de Locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. No painel de navegação à esquerda, expanda a opção **Proteção** e selecione **Redefinição de senha**.  
 
