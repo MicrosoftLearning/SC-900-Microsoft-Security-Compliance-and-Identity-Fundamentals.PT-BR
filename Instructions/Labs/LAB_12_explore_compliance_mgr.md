@@ -20,14 +20,14 @@ Neste laboratório, você vai explorar a home page do portal do Microsoft Purvie
 
 ### Tarefa 1
 
-Explorar a página inicial do portal de conformidade do Microsoft Purview e aprender a personalizar a exibição de cartão e o painel de navegação.
+Explore a home page do portal do Microsoft Purview.
 
 1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
 1. Entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
@@ -73,4 +73,4 @@ Saiba mais sobre a postura de conformidade da sua organização por meio do Gere
 
 ### Revisão
 
-Neste laboratório, você explorou a home page do portal de conformidade do Microsoft Purview e as formas pelas quais as funcionalidades do Gerenciador de Conformidade podem ajudar as organizações a aprimorar a postura de conformidade.
+Neste laboratório, você explorou a home page do portal do Microsoft Purview e como as funcionalidades do Gerenciador de Conformidade podem ajudar organizações a aprimorar a postura de conformidade.

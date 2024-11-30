@@ -22,13 +22,14 @@ Neste laboratório, você vai explorar as funcionalidades dos rótulos de confid
 
 Nesta tarefa, você entenderá o que os rótulos de confidencialidade podem fazer ao passar pelo processo de criar um novo rótulo e uma política para publicá-lo.
 
-1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
+1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **`https://admin.microsoft.com`** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH).
 
 1. No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.
 
 1. No painel de navegação à esquerda, selecione **Soluções** e, depois, **Proteção de informações**.  Você está na página de visão geral. Role para baixo para ver as informações disponíveis.
 
 1. No painel de navegação à esquerda, selecione **Rótulos de confidencialidade**.
+1. Você verá um banner amarelo que indica que a sua organização não habilitou o processamento de conteúdo em arquivos online do Office com rótulos de confidencialidade criptografados e que se encontram armazenados no OneDrive e no SharePoint.  Selecione **Habilitar agora**.
 
 1. Alguns rótulos foram pré-configurados em seu locatário de laboratório do Microsoft 365, para sua conveniência. Selecione o rótulo denominado **Confidencial – Finanças**.  Uma janela será aberta com informações sobre este rótulo.  Observe as configurações dessa etiqueta.  Clique em **Editar rótulo**. Se não vir essa opção, clique nos três pontos.
     1. A configuração começará com o fornecimento de detalhes básicos para o rótulo.  Não altere nada.  Selecione **Avançar** na parte inferior da página.
@@ -65,7 +66,7 @@ Nesta tarefa, você entenderá o que os rótulos de confidencialidade podem faze
     1. Você pode decidir testar a política agora ou depois.  Selecione **Deixar a política desativada** e selecione **Avançar**.
     1. Examine as configurações e selecione **Criar política** e, em seguida, selecione **Concluído**.
 
-1. À esquerda no painel de navegação, selecione **Página Inicial** para voltar ao portal de conformidade do Microsoft Purview.
+1. No painel de navegação esquerdo, selecione **Página Inicial** para retornar ao portal do Microsoft Purview.
 
 1. Mantenha essa página aberta, pois você vai usá-la na próxima tarefa.
 
@@ -73,9 +74,10 @@ Nesta tarefa, você entenderá o que os rótulos de confidencialidade podem faze
 
 Nesta tarefa, você passará pelo processo de aplicação de um rótulo de confidencialidade a um documento do Microsoft Word e, em seguida, exibirá a marca do conteúdo (marca d'água) gerada pelo rótulo. OBSERVAÇÃO: ao usar o Microsoft Word online, você pode sofrer um atraso antes que a opção para selecionar rótulos de confidencialidade apareça na faixa de opções superior.  É recomendável que você conclua todos os laboratórios restantes e retorne a esta tarefa.
 
-1. Na página inicial do portal de conformidade do Microsoft Purview, selecione o **ícone de inicialização do aplicativo** ao lado de Contoso Electronics. Selecione o **ícone do Word**.  
+1. Você ainda deve estar na home page do portal do Microsoft Purview. 
+1. No portal do Microsoft Purview, selecione o **ícone do inicializador de aplicativos** ao lado de onde está escrito Microsoft Purview. Selecione o **ícone do Word**.  
 
-1. Em Criar, selecione **Documento em branco** e insira algum texto na página.  Na parte superior da página, selecione a seta para baixo, ao lado de Documento – Salvo e, na caixa Nome do Arquivo, insira **Rótulo-teste** e pressione **ENTER** no teclado.
+1. Em Criar, selecione **Documento em branco** e insira algum texto na página.  Na parte superior da página, ao lado do ícone do Word, selecione onde está escrito **Documento** e renomeie o arquivo para **Test-label** e então, pressione **Enter** em seu teclado.
 
 1. No canto direito da barra de menu superior (também conhecida como faixa de opções), você encontrará uma seta para baixo. Selecione-a e depois escolha **Faixa de Opções Clássica**.  Isso vai ajudar a identificar o ícone de confidencialidade mais facilmente. Selecione **Confidencialidade**, que está ao lado do ícone do microfone. No menu suspenso, selecione **Confidencial-Finanças**.  
 

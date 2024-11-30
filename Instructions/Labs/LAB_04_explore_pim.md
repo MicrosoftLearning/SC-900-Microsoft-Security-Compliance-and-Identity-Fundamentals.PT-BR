@@ -27,8 +27,8 @@ Nesta tarefa você, como administrador, irá redefinir a senha para o usuário D
 1. Entre com as credenciais de administrador do Microsoft 365 fornecidas por seu ALH.
     1. Na Janela de Entrada, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a ID de Locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, poderá solicitado que conclua uma autenticação secundária como parte da MFA. Se você ainda não fez login como administrador, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. No painel de navegação à esquerda, expanda **Identidade**, expanda **Usuários** e selecione **Todos os usuários**.
 

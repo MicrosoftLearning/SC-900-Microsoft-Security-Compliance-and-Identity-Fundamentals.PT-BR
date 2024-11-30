@@ -22,25 +22,25 @@ Neste laboratório, você vai explorar as funcionalidades do Microsoft Defender 
 
 Explorar o Cloud Discovery.
 
-1. Abra o Microsoft Edge. Na barra de endereços, insira **admin.microsoft.com**.
+1. Abra o Microsoft Edge. Na barra de endereços, insira **`https://admin.microsoft.com`** .
 
 1. Entre com suas credenciais de administrador para o locatário do Microsoft 365.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**. Vamos ser direcionados à página Centro de administração do Microsoft 365.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
 1. Em Centros de administração, selecione **Segurança**.  A página inicial do portal do Microsoft 365 Defender é aberta em uma nova página do navegador.  
 
-1. Se esta for a primeira vez que você visita o portal do Microsoft 365 Defender, você pode obter uma janela pop-up para fazer um tour rápido.  Feche isso.
+1. Se esta for a primeira vez que você visita o portal do Microsoft 365 Defender, você pode obter uma janela pop-up para fazer um tour rápido.  Você pode optar por fazer o breve tour ou fechar a janela.
 
 1. No painel de navegação à esquerda, selecione **Aplicativos de nuvem** para expandir a lista e selecione **Cloud Discovery**. Isso levará você para a exibição Painel.  Observe as informações disponíveis no painel. Na exibição de painel, você poderá selecionar diferentes guias na parte superior da página.  
 
 1. Selecione **Aplicativos descobertos**. A janela de aplicativos descobertos fornece uma visão mais detalhada dos aplicativos descobertos, incluindo pontuação de risco, tráfego, número de usuários e muito mais.
     1. A partir de qualquer item da lista, selecione as **reticências** (...) na coluna de ações na tabela.  Observe as várias opções disponíveis, incluindo a capacidade de marcar um aplicativo como sancionado ou não sancionado.  Selecione as **reticências** (...) de novo para fechar a caixa de ações.
-    1. A seleção de um item de linha específico abre uma página de detalhes para o aplicativo específico.  Selecione um item na lista e revise as informações disponíveis na página de visão geral.  Para o item selecionado, selecione a guia **Uso do aplicativo na nuvem** para ver informações mais detalhadas, incluindo **Uso**, **Usuários, IP**, **Endereços** e **Alertas**. Quando terminar de explorar a página de detalhes, volte à página de aplicativos descobertos selecionando **Cloud Discovery** na navegação estrutural na parte superior da página.  Se você selecionar Cloud Discovery no painel de navegação à esquerda, isso levará você novamente ao exibição de painel.
+    1. A seleção de um item de linha específico abre uma página de detalhes para o aplicativo específico.  Selecione um item na lista e revise as informações disponíveis na página de visão geral.  Para o item selecionado, selecione a guia **Uso do aplicativo na nuvem** para ver informações mais detalhadas, incluindo **Uso**, **Usuários, IP**, **Endereços** e **incidentes**. Quando terminar de explorar a página de detalhes, volte à página de aplicativos descobertos selecionando **Cloud Discovery** na navegação estrutural na parte superior da página.  Se você selecionar Cloud Discovery no painel de navegação à esquerda, isso levará você novamente ao exibição de painel.
     1. Na parte superior da página, selecione a guia **Endereços IP**. Aqui, você encontrará dados, incluindo o número de transações, a quantidade de tráfego e os valores de upload, por endereço IP.  Observe que você também pode filtrar por endereço IP específico ou exportar os dados para análise posterior.
     1. Na parte superior da página, selecione **Usuários**.  Esse é o mesmo tipo de informação fornecida quando você seleciona os endereços IP, mas aqui ela é listada por usuários individuais.  Aqui, novamente, você filtra por usuário específico e exporta dados para análise posterior.
 

@@ -25,8 +25,8 @@ Nesta tarefa você, como administrador, irá redefinir a senha para a usuária D
 1. Abra o Microsoft Edge.  Na barra de endereços, insira **https://entra.microsoft.com** e entre com suas credenciais de administrador.
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo provedor de hospedagem do laboratório) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Se você já fez login como administrador, poderá solicitado que conclua uma autenticação secundária como parte da MFA. Se você ainda não fez login como administrador, poderá ser solicitado que conclua o processo de registro da MFA. Siga as instruções na tela para configurar a MFA.
-    1. Quando solicitado a permanecer conectado, selecione **Sim**.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. No painel de navegação à esquerda, expanda **Identidade**, expanda **Usuários** e selecione **Todos os usuários**.
 
@@ -46,11 +46,11 @@ Nesta tarefa você, como administrador, irá redefinir a senha para a usuária D
 
 Nessa tarefa, você passará pelo processo de criação de uma política de acesso condicional no Microsoft Entra ID.
 
-1. Abra a guia do navegador na home page do centro de administração do Microsoft Entra.   Se você fechou a guia do navegador anteriormente, abra o Microsoft Edge, insira **https://entra.microsoft.com** na barra de endereços e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo ALH.
+1. Abra a guia do navegador na home page do centro de administração do Microsoft Entra.   Se você fechou a guia do navegador anteriormente, abra o Microsoft Edge, insira **`https://entra.microsoft.com`** na barra de endereços e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo ALH.
 
 1. No painel de navegação à esquerda, expanda **Proteção** e selecione **Acesso Condicional**.
 
-1. A página de visão geral do acesso condicional é exibida.  Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.  No painel de navegação à esquerda, selecione **Políticas**.
+1. A página de visão geral do acesso condicional é exibida. Quando você acessa a página de visão geral, a guia **Introdução** é selecionada (sublinhada). Selecione a guia **Visão geral**. Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.  No painel de navegação à esquerda, selecione **Políticas**.
 
 1. No painel de navegação à esquerda, selecione **Políticas**. Todas as políticas de acesso condicional existentes são listadas aqui. Selecione **+ Nova política**.
 
@@ -80,7 +80,7 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. Na parte inferior da página, em Habilitar política, selecione **Ativado** e **Criar**.
 
-1. No painel de navegação à esquerda, selecione **Políticas**. A política Piloto da MFA será exibida na lista de políticas de acesso condicional (se necessário, selecione o **ícone de Atualizar** na parte superior da página).
+1. No painel de navegação à esquerda, selecione **Políticas**. A política **Bloquear portais de administração** será exibida na lista de políticas de acesso condicional (se necessário, selecione o **ícone de Atualizar** na barra de comando na parte superior da página).
 
 1. Saia selecionando o ícone do usuário ao lado do endereço de email no canto superior direito da tela e selecionando **Sair**. Em seguida, feche todas as janelas do navegador.
 

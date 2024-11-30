@@ -22,7 +22,7 @@ Neste laboratório, você vai explorar o Microsoft Defender para Nuvem.  OBSERVA
 
 Nesta tarefa, você fará um passo a passo de alto nível de algumas das funcionalidades do Microsoft Defender para Nuvem
 
-1. Que deverá ser a página inicial dos serviços do Azure.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador. Se você já fez login como administrador, poderá ser solicitado que conclua uma autenticação secundária, como parte da MFA.  Se você não tiver feito login anteriormente, poderá ser solicitado a configurar a MFA.  Siga as instruções na tela para configurar a MFA.
+1. Que será a página inicial dos serviços do Azure.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador.
 
 1. Na barra de pesquisa azul, insira **Microsoft Defender para Nuvem** e, na lista de resultados, selecione **Microsoft Defender para Nuvem**.
 
@@ -40,7 +40,7 @@ Nesta tarefa, você fará um passo a passo de alto nível de algumas das funcion
     1. Verifique se a guia **Todas as recomendações** está selecionada (sublinhada).  Observe a exibição do painel que mostra Recomendações ativas por gravidade, Integridade do recurso, entre outros.
     1. Na lista, selecione um item.  Na página que se abre, você verá uma descrição e informações adicionais que podem incluir etapas de correção, recursos afetados e muito mais. Saia desta página, selecionando o **X** no canto superior direito da tela.
 
-1. No painel de navegação principal à esquerda, selecione **Conformidade regulatória**.  **OBSERVAÇÃO**: se você vir que não existe assinatura para calcular a conformidade, é porque pode haver um atraso de até 24 horas para que as informações apareçam. Mova para a Tarefa 2.  Se você vir as informações, prossiga com as etapas a seguir.
+1. No painel de navegação principal à esquerda, expanda **Segurança da nuvem** e selecione **Conformidade normativa**.  **OBSERVAÇÃO**: se você vir que não existe assinatura para calcular a conformidade, é porque pode haver um atraso de até 24 horas para que as informações apareçam. Mova para a Tarefa 2.  Se você vir as informações, prossiga com as etapas a seguir.
     1. A página de conformidade regulatória fornece uma lista de controles de conformidade com base no parâmetro de comparação de segurança da nuvem da Microsoft (verifique se a guia Parâmetro de comparação de segurança da nuvem da Microsoft está selecionada/sublinhada). Em cada domínio de controle há um subconjunto de controles e, para cada controle, há uma ou mais avaliações. Cada avaliação fornece informações, incluindo descrição, correção e recursos afetados.
     1. Vamos explorar uma das áreas de domínios de controle. Selecione (expanda) **NS. Segurança de Rede**. Uma lista de controles relacionados à segurança de rede é exibida.
     1. Selecione **NS-10. Assegurar a segurança do Sistema de Nomes de Domínio (DNS)** . Observe a lista de avaliações automatizadas (que incluem avaliações automatizadas para a AWS) e como cada item de linha de avaliação fornece informações, incluindo o tipo de recurso, os recursos com falha e as estações de conformidade. Selecione as avaliações listadas.  Aqui você verá informações, incluindo uma descrição, as etapas de correção e os recursos afetados.

@@ -22,7 +22,7 @@ Neste laboratório, você acompanhará o processo de configuração de uma polí
 
 Nesta tarefa, você, como administrador global, habilitará permissões para o gerenciamento de risco interno.  Especificamente, você vai adicionar usuários ao grupo de função de Gerenciamento de Risco Interno para garantir que os usuários designados possam acessar e gerenciar os recursos de gerenciamento de risco interno.  Pode levar até 30 minutos para que as permissões do grupo de funções sejam aplicadas aos usuários em toda a organização.
 
-1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). Se você já fez login como administrador, será solicitado que você conclua uma autenticação secundária, como parte da MFA. Se você não tiver feito login anteriormente como administrador, será solicitado que você conclua o processo de registro de MFA. Siga as instruções na tela para configurar a MFA.
+1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). 
 
 1. No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
 
@@ -75,7 +75,7 @@ Nesta tarefa, você percorrerá as configurações para criar uma política.  O 
 
 1. Como administrador, você pode começar imediatamente a atribuir pontuações de risco aos usuários com base na atividade detectada pelas políticas selecionadas. Isso ignora o requisito de que um evento de gatilho (como uma correspondência de política DLP) seja detectado primeiro.  Um administrador fará isso selecionando o quadrado vazio ao lado do nome da política para selecionar a política. Depois, ele selecionará **Começar atividade de pontuação para os usuários**, que é mostrada acima da tabela da política.  Uma nova janela será aberta, que exige que o administrador preencha os campos disponíveis. Mantenha os campos vazios, pois você não vai configurar essa opção, mas para obter mais informações sobre por que um administrador deseja fazer isso, selecione **Por que eu faria isso?**.  Saia da janela selecionando o **X** no canto superior direito.
 
-1. No painel de navegação à esquerda, selecione **Página Inicial** para voltar à página de aterrissagem do portal de conformidade do Microsoft Purview.
+1. No painel de navegação à esquerda, selecione **Página Inicial** para voltar à página de aterrissagem do portal do Microsoft Purview.
 
 1. Mantenha a guia do navegador aberta.
 

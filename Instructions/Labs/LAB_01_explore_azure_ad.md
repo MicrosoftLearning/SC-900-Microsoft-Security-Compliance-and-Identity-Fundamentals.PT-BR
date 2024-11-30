@@ -20,13 +20,13 @@ Neste laboratório, você acessará o Microsoft Entra ID (anteriormente conhecid
 
 ### Tarefa 1
 
-Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID (anteriormente conhecido como Azure AD).  Nesta tarefa, você aprenderá a criar um novo usuário no Microsoft Entra ID e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
+Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID.  Nesta tarefa, você aprenderá a criar um novo usuário no Microsoft Entra ID e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
 
-1. Abra o navegador do Microsoft Edge. Na barra de endereços, insira **[admin.microsoft.com](https://admin.microsoft.com)** e entre com as credenciais do Microsoft 365 fornecidas pelo ALH (hoster de laboratório autorizado).
+1. Abra o navegador do Microsoft Edge. Na barra de endereços, insira **`https://admin.microsoft.com`** e entre com as credenciais do Microsoft 365 fornecidas pelo seu ALH (hoster de laboratório autorizado).
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
-    1. Como esta é a primeira vez que você está fazendo login, poderá ser solicitado que você configure a MFA. Siga as instruções na tela para configurar a MFA.
-    1. Se for exibida uma mensagem perguntando se você deseja permanecer conectado, selecione **Sim**.
+    1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
+    1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
 1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra.
 

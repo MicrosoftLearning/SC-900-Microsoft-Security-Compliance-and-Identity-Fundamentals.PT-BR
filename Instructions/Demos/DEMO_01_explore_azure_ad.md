@@ -48,8 +48,6 @@ Nesta demonstração, você acessará o Microsoft Entra ID e acompanhará as vá
     1. Isso é diferente da guia de funções atribuídas mostrada anteriormente, pois a guia anterior é para controle de acesso baseado em função no Microsoft Entra.
     1. Embora nada esteja listado aqui, esta é a guia em que você seria capaz de exibir atribuições de função, atribuídas à Adele, para recursos do Azure. Por exemplo, se você criasse um Grupo de Recursos do Azure e atribuísse a Adele uma função específica, como o proprietário ou colaborador do grupo de recursos, veria essa função listada aqui. Isto faz parte do RBAC do Azure (controle de acesso baseado em função do Azure). Essa atribuição de função é adicionada e gerenciada como parte desse recurso específico.
 
-1. No painel de navegação à esquerda, selecione **Métodos de autenticação**.  Chame a descrição que diz: "Aqui, você pode definir os números de telefone e endereços de e-mail que os usuários usam para executar a autenticação multifator e a redefinição de senha de self-service e redefinir a senha de um usuário". Se um usuário estiver configurado para a SSPR ou precisar usar a MFA e você, como administrador, preencher isso, esse usuário já estará registrado e não precisará passar pelas etapas de registro para a SSPR ou a MFA.  É comum que um usuário se registre em vez de um administrador precisar fazer isso.
-
 1. Selecione **X** no canto superior direito da página. Isso retorna você à lista de usuários.
 
 1. Selecione **X** no canto superior direito da página. Isso retorna você para a página principal do Centro de administração do Microsoft Entra.
