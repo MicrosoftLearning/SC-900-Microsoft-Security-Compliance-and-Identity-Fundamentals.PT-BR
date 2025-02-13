@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900: Microsoft Security, Compliance, and Identity Fundamentals
 
 Esse repositório inclui scripts de demonstração e instruções de laboratório para **SC-900T00: Conceitos básicos de Segurança, Conformidade e Identidade da Microsoft**.  Tanto os scripts de demonstração quanto os laboratórios pressupõem o acesso ao locatário pré-configurado do WWL M365 Enterprise 2019 SPE_E5, disponível por meio de um hoster de laboratório autorizado (ALH) e o uso de uma assinatura do Azure fornecida pelo ALH. Scripts de demonstração e instruções dos laboratórios podem ser executados no locatário do Microsoft 365 e na a própria assinatura do Azure do usuário, mas isso não é garantido, pois alguns recursos podem ficar desabilitados ao usar a assinatura pessoal do usuário.
