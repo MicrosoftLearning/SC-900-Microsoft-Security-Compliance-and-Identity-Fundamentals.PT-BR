@@ -33,7 +33,14 @@ Nesta tarefa de configuração, você habilitará a funcionalidade de monitorame
 
 1. No painel de navegação esquerdo, role para baixo e expanda **Sistema**.  Na lista expandida, selecione **Auditoria**.  Observação: a funcionalidade de auditoria também pode ser acessada por meio do portal Microsoft Purview.
 
-1. Depois de acessar a página Auditoria, aguarde de 1 a 2 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.
+1. Depois de acessar a página Auditoria, aguarde de 1 a 2 minutos.  Se a Auditoria NÃO estiver habilitada, você verá uma barra azul na parte superior da página indicando "Começar a registrar atividade do usuário e do administrador".  Selecione **Iniciar a atividade de gravação de usuário e administrador**.  Depois que a auditoria estiver habilitada, a barra azul desaparecerá.  Se a barra azul não estiver presente, isso indicará que a auditoria já está habilitada e não é necessário realizar nenhuma ação adicional.  Se você vir uma mensagem: "Desculpe, estamos tendo problemas para descobrir se a atividade está sendo registrada. Tente atualizar a página" e nada mudar após a atualização da página, você precisará habilitar a auditoria por meio do PowerShell.
+    1. Selecione com o botão direito do mouse o ícone azul do Windows PowerShell e selecione **Executar como administrador**.
+    1. Para confirmar se o módulo PowerShell do Exchange Online está instalado no computador, insira **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**.  Você verá o nome, a versão e o local instalado do Exchange OnlineManagement.
+    1. Agora carregue o módulo inserindo **`Import-Module ExchangeOnlineManagement`**.
+    1. Para conectar, insira **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  Para o UPN, insira o nome de usuário do administrador encontrado na guia de recursos do laboratório.
+    1. Você será solicitado a entrar.  Insira o nome de usuário e a senha administrativos encontrados na guia de recursos do laboratório.
+    1. Para habilitar a Auditoria, insira **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. Uma mensagem é exibida informando que pode levar até 60 minutos para que a alteração entre em vigor.
+    1. Embora possa levar até 60 minutos para entrar em vigor, você pode verificar se o comando foi recebido inserindo **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  Se a auditoria estiver habilitada, a propriedade UnifiedAuditLogIngestionEnabled mostrará um valor true.
 
 1. No painel de navegação esquerdo, em Sistema, selecione **Configurações**
 
