@@ -49,7 +49,7 @@ Como acontece com todos os recursos do Azure, você deseja garantir que os usuá
 
 1. Na página SC900-Sentinel-RG, selecione **Controle de acesso (IAM)** no painel de navegação esquerdo.
 
-1. Na página Controle de acesso, selecione **Exibir meu acesso**.  Se você estiver usando a assinatura do Skillable Cloud Slice, a atribuição de função será definida como Proprietário LOD, que é uma atribuição de função personalizada configurada para essa assinatura do Cloud Slice e concederá as permissões necessárias. Para fins de demonstração, no entanto, é bom mostrar as funções específicas do Sentinel.  Selecione o **X** no canto superior direito da janela de tarefas para fechá-la.
+1. Na página Controle de acesso, selecione **Exibir meu acesso**.  Você provavelmente verá uma atribuição de função personalizada já configurada para esta assinatura e ela concederá as permissões necessárias.  Essa função personalizada terá sido configurada pelo host de laboratório autorizado (ALH) que fornece o ambiente de laboratório. Para fins de demonstração, no entanto, é bom mostrar as funções específicas do Sentinel.  Selecione o **X** no canto superior direito da janela de tarefas para fechá-la.
 
     1. Na página Controle de acesso, selecione **+ Adicionar** e, em seguida, **Adicionar atribuição de função**.
 
