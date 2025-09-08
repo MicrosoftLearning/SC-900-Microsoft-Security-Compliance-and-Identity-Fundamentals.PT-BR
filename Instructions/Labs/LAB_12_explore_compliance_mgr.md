@@ -31,7 +31,7 @@ Explore a home page do portal do Microsoft Purview.
 
 1. À esquerda no painel de navegação do Centro de administração do Microsoft 365, selecione **Mostrar todos**.
 
-1. Em Centros de administração, selecione **Conformidade**.  Uma nova página do navegador é aberta com uma janela pop-up dando as boas-vindas ao novo portal do Microsoft Purview. Na parte inferior da página, marque a caixa ao lado de onde diz **Eu concordo com os termos de divulgação de fluxo de dados e Políticas de privacidade** e selecione **Introdução**.
+1. Em Centros de Administração, selecione **Microsoft Purview**.  Uma nova página do navegador é aberta com uma janela pop-up dando as boas-vindas ao novo portal do Microsoft Purview. Na parte inferior da página, selecione **Introdução**.
 
 1. A seção de cartões na home page mostra, brevemente, como sua organização está se saindo com a sua postura de conformidade, quais soluções estão disponíveis para sua organização, avaliações disponíveis e recomendações e muito mais.
 
@@ -59,13 +59,13 @@ Saiba mais sobre a postura de conformidade da sua organização por meio do Gere
 
 1. Selecione **Avaliações** no painel de navegação à esquerda. Nesta página, você verá a Linha de Base de Proteção de Dados do Microsoft 365.  Esta é uma avaliação de linha de base padrão oferecida pela Microsoft no Gerenciador de Conformidade para o Microsoft 365.  Essa avaliação de linha de base possui um conjunto de controles para regulamentos e padrões principais para proteção de dados e governança geral de dados. O Gerenciador de Conformidade passa a ser mais útil quando você adiciona suas avaliações para atender às necessidades específicas da sua organização.  Você pode adicionar suas próprias avaliações.
 
-1. Selecione **Linha de base de proteção de dados**.  Observe as informações disponíveis na guia de progresso. Você também pode ver informações nos Controles, as ações de aprimoramento e as ações da Microsoft.  
+1. Selecione **Linha de Base de Proteção de Dados do Microsoft 365**.  Observe as informações disponíveis na guia de progresso. Você também pode ver informações nos Controles, as ações de aprimoramento e as ações da Microsoft.  
 
 1. Selecione **Regulamentos** no painel de navegação à esquerda.  Esta página lista os regulamentos disponíveis para a sua organização. Você verá informações específicas sobre essa regulamentação, incluindo controles, suas ações de melhoria e a ação da Microsoft. A partir desta página, no canto superior direito, você tem a opção de criar uma avaliação com base no modelo.
 
 1. 1. No painel de navegação à esquerda, selecione **Políticas**. Aqui é onde você verá a lista de políticas para ajudar a monitorar e receber notificações sobre eventos no Gerenciador de Conformidade que são importantes para você. Você pode criar ou modificar políticas, alterar os status de ativação e controlar a frequência e a gravidade do alerta. Selecione a **Política de Alerta Padrão do Gerenciador de Conformidade** para exibir detalhes sobre a política.  Selecione **Ações** para ver as opções disponíveis (explore à vontade).
 
-1. No painel de navegação esquerdo, selecione **Alertas**.   Aqui você pode exibir e gerenciar alertas para eventos que podem afetar a pontuação de conformidade da sua organização. 
+1. No painel de navegação esquerdo, selecione **Alertas**.   Aqui você pode exibir e gerenciar alertas para eventos que podem afetar a pontuação de conformidade da sua organização.
 
 1. No painel de navegação à esquerda, selecione **Página Inicial** para voltar à página de aterrissagem do portal do Microsoft Purview.
 

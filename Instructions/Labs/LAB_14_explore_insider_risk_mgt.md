@@ -20,11 +20,11 @@ Neste laboratório, você acompanhará o processo de configuração de uma polí
 
 ### Tarefa 1
 
-Nesta tarefa, você, como administrador global, habilitará permissões para o gerenciamento de risco interno.  Especificamente, você vai adicionar usuários ao grupo de função de Gerenciamento de Risco Interno para garantir que os usuários designados possam acessar e gerenciar os recursos de gerenciamento de risco interno.  Pode levar até 30 minutos para que as permissões do grupo de funções sejam aplicadas aos usuários em toda a organização.
+Nesta tarefa, você irá explorar as diferentes permissões de função para o gerenciamento de risco interno e verificar se usuários específicos já foram incluídos no grupo de funções do gerenciamento de risco interno. Garantir que os usuários possuam as permissões de função apropriadas assegura que os usuários designados possam acessar e gerenciar os recursos de gerenciamento de risco interno. Ao adicionar membros a um grupo de funções, pode levar até 30 minutos para que as permissões do grupo de funções se apliquem aos usuários em toda a organização.
 
 1. Abra a guia do navegador na home page do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://admin.microsoft.com** . Entre com as credenciais de administrador para o locatário do Microsoft 365 fornecido pelo hoster de laboratório autorizado (ALH). 
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft 365, selecione **Mostrar tudo** e depois **Conformidade**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
+1. No painel de navegação à esquerda do centro de administração do Microsoft 365, selecione **Mostrar tudo** e, em seguida, **Microsoft Purview**.  Uma nova página inicial do portal do Microsoft Purview será aberta em uma nova página do navegador.  
 
 1. No painel de navegação esquerdo, selecione **Configurações**, expanda **Funções e escopos** e escolha **Grupos de funções**.
 
@@ -38,11 +38,11 @@ Nesta tarefa, você, como administrador global, habilitará permissões para o g
 
 Nesta tarefa, você acompanhará as configurações associadas à solução de Gerenciamento de Risco Interno.  As configurações de gerenciamento de risco interno se aplicam a todas as políticas de gerenciamento de risco interno, independentemente do modelo escolhido ao criar uma política.
 
-1. Você deve estar na home page do portal do Microsoft Purview. Caso contrário, abra a guia do navegador **Página inicial – Conformidade do Microsoft 365**.
+1. Você deve estar na home page do portal do Microsoft Purview.
 
 1. Antes de começar a configurar uma política, há algumas configurações com que o administrador deve se familiarizar e elas devem ser definidas de acordo com as necessidades de sua organização. No painel de navegação esquerdo, selecione **Configurações** e, em seguida, escolha **Gerenciamento de Risco Interno**.  Aqui você explorará algumas das configurações disponíveis.
     1. Selecione **Privacidade**: para usuários que realizam atividades correspondentes às políticas de risco interno, essa configuração determinará se é para mostrar seus nomes verdadeiros ou usar versões anônimas para mascarar as identidades.  Para fins deste passo a passo, você pode manter a configuração padrão.
-    1. Selecione **Indicadores de política**. Uma vez que um evento de disparo de política ocorre, as atividades mapeadas para os indicadores selecionados são usadas para determinar a pontuação de risco do usuário. Os indicadores de política selecionados aqui estão incluídos nos modelos de política de risco interno.  Percorra a página para ver todos os indicadores disponíveis e todas informações associadas. 
+    1. Selecione **Indicadores de política**. Uma vez que um evento de disparo de política ocorre, as atividades mapeadas para os indicadores selecionados são usadas para determinar a pontuação de risco do usuário. Os indicadores de política selecionados aqui estão incluídos nos modelos de política de risco interno.  Percorra a página para ver todos os indicadores disponíveis e todas informações associadas.  Em **Indicadores do Office**, escolha **Selecionar Tudo**. As opções selecionadas nesta tela estão incluídas em seus modelos de política.
     1. Selecione **Prazos de política**. Os prazos escolhidos aqui entram em vigor para um usuário quando esse aciona uma correspondência para uma política de risco interno.   A janela Ativação determina por quanto tempo as políticas detectarão ativamente a atividade dos usuários e será acionada quando um usuário executar a primeira atividade correspondente a uma política. A detecção de atividade anterior determina até onde uma política deve ir para detectar a atividade do usuário e é acionada quando um usuário executa a primeira atividade correspondente a uma política.  Mantenha os valores padrão.
     1. Selecione **Detecções inteligentes**. Revise as opções aqui.  Observe as configurações dos domínios e como eles se relacionam com os indicadores.
     1. Explore outros itens listados nas configurações e observe que muitos estão em versão prévia.
@@ -53,19 +53,19 @@ Nesta tarefa, você acompanhará as configurações associadas à solução de G
 
 ### Tarefa 3
 
-Nesta tarefa, você percorrerá as configurações para criar uma política.  O objetivo é simplesmente ter uma noção das várias opções e a flexibilidade associadas à criação de uma política.
+Ao criar uma política para o gerenciamento de risco interno, você tem duas opções: uma política rápida ou uma política personalizada. As configurações de política rápida são preenchidas automaticamente a partir das melhores práticas recomendadas ou nos resultados da análise mais recente em sua organização.  Nesta tarefa, você percorrerá as configurações para criar uma política personalizada. O objetivo é simplesmente ter uma noção das várias opções e a flexibilidade associadas à criação de uma política.
 
 1. Você deve estar na página de visão geral de Gerenciamento de Risco Interno.  Se ainda não estiver nela, clique em **Soluções** no painel de navegação esquerdo e selecione **Gerenciamento de Risco Interno**.
 
-1. Na página Visão geral do gerenciamento de risco interno, selecione a guia **Políticas** e depois **+ Criar política**.  Configure cada uma das guias de política a seguir.
+1. Na página Visão geral do gerenciamento de risco interno, selecione a guia **Políticas**, depois **+ Criar política** e por fim, **Política personalizada**. Configure cada uma das guias de política a seguir.
 
-    1. Modelo de política: na categoria Vazamentos de dados, selecione **Vazamentos de dados**.  Leia os detalhes associados a este modelo. Nos pré-requisitos, a política DLP é mostrada com uma marca de seleção em um círculo verde para indicar que o pré-requisito foi satisfeito.  Há uma política DLP pré-configurada para esse locatário do laboratório. Selecione **Avançar**. 
-    1. Nome e descrição: insira um nome **SC900-InsiderRiskPolicy** e depois selecione **Avançar**.
+    1. Modelo de política: na categoria Vazamentos de dados, selecione **Vazamentos de dados**.  Leia os detalhes associados a este modelo. Nos pré-requisitos, a política DLP é mostrada com uma marca de seleção em um círculo verde para indicar que o pré-requisito foi satisfeito.  Há uma política DLP pré-configurada para esse locatário do laboratório. Selecione **Avançar**.
+    1. Nome e descrição: insira um nome, **`SC900-InsiderRiskPolicy`**, e selecione **Avançar**.
     1. Usuários e grupos: analise a caixa de informações.  Deixe a configuração padrão, **Incluir todos os usuários e grupos**.  Selecione **Avançar**.
-    1. Excluir usuários e grupos (opcional) (versão prévia): aqui você pode listar usuários e grupos a serem excluídos. Não altere nada. Selecione **Avançar**.
+    1. Excluir usuários e grupos (opcional): Aqui você pode listar usuários e grupos a serem excluídos. Não altere nada. Selecione **Avançar**.
     1. Conteúdo a ser priorizado: de acordo com a descrição, as pontuações de risco são aumentadas para qualquer atividade que tenha um conteúdo prioritário, o que, por sua vez, aumenta a chance de gerar um alerta de alta gravidade. Para simplificar, selecione **Não quero priorizar o conteúdo no momento** e selecione **Avançar**.
     1. Gatilhos: o evento de gatilho determina quando uma política começará a atribuir pontuações de risco à atividade de um usuário.  Você pode escolher entre uma política DLP existente ou se o usuário executará uma atividade de exfiltração. Selecione **O usuário corresponde a uma política DLP (prevenção contra perda de dados)** e, na lista suspensa, selecione **Dados Financeiros dos EUA**. Selecione **Avançar**.
-    1. Indicadores: anote os indicadores selecionados. Não altere nada. Selecione **Avançar**.
+    1. Indicadores: Expanda **Indicadores do Office**. Observe como a área de Indicadores do Office já foi selecionada. Isso se baseia nas configurações da tarefa anterior.  Você pode desmarcar alguns indicadores selecionados ou adicionar novos selecionando Escolher indicadores. Para este exercício, deixe as configurações atuais como estão e selecione **Avançar**.
     1. Na página Opções de detecção, mantenha todas as configurações padrão, mas leia a descrição associada às várias opções e posicione o mouse sobre o ícone de informações para obter informações mais detalhadas sobre uma configuração específica.  Selecione **Avançar**.
     1. Na página “Decida se deseja usar os limites de indicador padrão ou do cliente”, mantenha a configuração padrão **Aplicar limites fornecidos pela Microsoft** e selecione **Avançar**.
     1. Concluir: examine as configurações e selecione **Enviar**.
