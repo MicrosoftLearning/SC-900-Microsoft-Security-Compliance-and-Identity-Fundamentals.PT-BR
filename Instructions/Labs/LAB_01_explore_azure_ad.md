@@ -16,21 +16,23 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você acessará o Microsoft Entra ID (anteriormente conhecido como Azure Active Directory).  Além disso, você vai criar um usuário e definir configurações diferentes, incluindo a adição de licenças.  
 
-**Tempo estimado**: 30 minutos
+**Tempo estimado**: 45 minutos
 
 ### Tarefa 1
 
 Como assinante do Microsoft 365, você já está usando o Microsoft Entra ID.  Nesta tarefa, você aprenderá a criar um novo usuário no Microsoft Entra ID e conhecerá alguns dos serviços que podem ser gerenciados no nível do usuário.
 
-1. Abra o navegador do Microsoft Edge. Na barra de endereços, insira **`https://admin.microsoft.com`** e entre com as credenciais do Microsoft 365 fornecidas pelo seu ALH (hoster de laboratório autorizado).
+1. Se você tiver a guia centro de administração do Microsoft 365 aberta do exercício anterior, em centros de administração, selecione **Identidade**
+1. Se o centro de administração do Microsoft 365 já estiver aberto no navegador, do exercício anterior, pule para a próxima etapa, caso contrário, acesse o centro de administração da Microsoft da seguinte maneira:
+    1. Na barra de endereços, insira **`https://admin.microsoft.com`** e entre com as credenciais do Microsoft 365 fornecidas pelo seu ALH (hoster de laboratório autorizado).
     1. Na janela Entrar, insira **admin@WWLxZZZZZZ.onmicrosoft.com** (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo ALH) e selecione **Avançar**.
     1. Insira a senha de administrador que deve ser fornecida pelo provedor de hospedagem do laboratório. Selecione **Entrar**.
     1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
     1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
-1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra.
+1. Em Centros de administração, selecione **Identidade** (talvez seja necessário selecionar **Mostrar tudo** e rolar para baixo).  Uma nova página do navegador é aberta para a página de visão geral do Centro de administração do Microsoft Entra.  Se for solicitado que você configure a MFA, siga as etapas na tela.
 
-1. No painel de navegação à esquerda, expanda **Usuários** e selecione **Todos os usuários**. Observe que o seu locatário já está configurado com usuários.
+1. No painel de navegação esquerdo, selecione **Usuários**.  Isso irá levar você para a página de usuários. **Todos os usuários** já devem estar selecionados. Observe que o seu locatário já está configurado com usuários.
 
 1. Na parte superior da página, selecione **+ Novo usuário** e, na caixa suspensa, escolha **Criar usuário**.
 
@@ -87,13 +89,11 @@ Nesta tarefa, você atribuirá uma licença ao usuário que acabou de criar, usa
 1. No painel de navegação esquerdo, selecione **Usuários ativos**.  Na lista de usuários, selecione **Sara Perez**.  Uma janela é aberta mostrando informações sobre o usuário.  
 
     1. Selecione a guia **Licença e aplicativos**.
-    1. Para cada uma das licenças listadas, você verá o número de licenças disponíveis.  Como não há licenças disponíveis do Microsoft 365 E5 (elas já foram atribuídas a outros usuários), atribua as licenças do **Desenvolvedor Microsoft Power Apps** e do **Microsoft Power Automate Gratuito** marcando a caixa de seleção ao lado delas.
+    1. Para cada uma das licenças listadas, você verá o número de licenças disponíveis.  Como não há licenças disponíveis do Microsoft 365 E5 (elas já foram atribuídas a outros usuários), atribua a licença do **Desenvolvedor Microsoft Power Apps** marcando a caixa de seleção ao lado delas.
     1. Selecione **Salvar alterações**. Uma notificação no canto superior direito da tela deve mostrar que as atribuições de licença foram bem-sucedidas.
     1. Feche a página selecionando o **X** no canto superior direito da página.
 
-1. Retorne ao centro de administração do Microsoft Entra selecionando **Página Inicial** no painel de navegação esquerdo ou no canto superior esquerdo da tela (a trilha), acima de onde diz Sara Perez | Licenças.
-
-1. Você atribuiu licenças com êxito ao usuário.
+1. Você atribuiu uma licença com êxito ao usuário.
 
 1. Saia de todas as guias abertas do navegador. Saia do serviço selecionando o ícone de usuário próximo ao endereço de email no canto superior direito da tela e selecionando **Sair**. Feche todas as janelas do navegador.
 
@@ -103,7 +103,7 @@ Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
 1. Abra o Microsoft Edge.
 
-1. Na barra de endereços, insira **https://login.microsoft.com** .
+1. Na barra de endereços, insira **`https://login.microsoft.com`** .
 
 1. Entre como **sara@WWLxZZZZZ.onmicrosoft.com** , (em que ZZZZZZ é a sua ID de locatário exclusiva fornecida pelo seu ALH)
 1. Insira a senha temporária que você definiu na tarefa anterior.
@@ -114,9 +114,9 @@ Nesta tarefa, você se conectará como Sara Melo pela primeira vez.
 
 1. Como esta é a primeira vez que você está fazendo login como Sara Perez, poderá ser solicitado que configure a MFA. Siga as instruções na tela para configurar a MFA.
 
-1. Agora você conseguirá entrar na conta Microsoft de Sara.  Veja que a licença de Sara que você atribuiu na tarefa anterior era limitada apenas ao Power Automate Gratuito e ao Power Apps para Desenvolvedores e não incluiu uma licença para o E5.
+1. Agora você conseguirá entrar na conta Microsoft de Sara.  Note que a licença de Sara que você atribuiu na tarefa anterior era limitada apenas ao Power Apps para Desenvolvedores e não incluiu uma licença para o E5.
 
-1. Desconecte-se selecionando o ícone no canto superior direito da janela do Microsoft 365 que é mostrado como um círculo com as letras SP (ao lado do ícone de ponto de interrogação) e escolhendo **Sair**. Em seguida, feche o navegador.
+1. Para sair, selecione o email de Sara na parte inferior do painel de navegação esquerdo, selecione **Sair** e feche o navegador.
 
 ### Revisão
 

@@ -48,7 +48,7 @@ Nesta tarefa, você, como administrador, atribuirá a Diego uma função do Micr
 
 1. Abra a guia do navegador para a página inicial do centro de Administração Microsoft Entra.
 
-1. No painel de navegação à esquerda, em "Identidade", expanda **Governança de Identidade** e selecione **Privileged Identity Management**.
+1. No painel de navegação à esquerda, expanda **ID Governance** e selecione **Privileged Identity Management**.
 
 1. Agora você está na página de início rápido do Privileged Identity Management. Analise as informações na página Introdução. Na janela principal, onde diz Gerenciar acesso, selecione **Gerenciar**.
 
@@ -96,7 +96,7 @@ Nesta tarefa, você, como Diego Siciliani, entrará no Centro de Administração
     1. Quando solicitado a permanecer conectado, selecione **Sim**.
 
 1. Você deve estar conectado com êxito ao centro de administração Microsoft Entra.
-1. No painel de navegação à esquerda, expanda **Governança de Identidade** e selecione **Privileged Identity Management**.
+1. No painel de navegação à esquerda, expanda **ID Governance** e selecione **Privileged Identity Management**.
 1. No painel de navegação esquerdo, selecione **Minhas funções**.  Agora você está vendo informações sobre suas atribuições qualificadas.  Você verá que você, Diogo, recebeu a função Administrador de usuários.  
 1. Na última coluna da tabela, denominada ação, selecione **Ativar**.
 1. Você verá um ícone de aviso indicando que é necessário fazer uma verificação adicional.  Selecione **Clique para continuar**.  Lembre-se de que as configurações do PIM para a função Administrador de usuários exigem a autenticação multifator.  Além disso, como as informações de contato de Diego para uso com a MFA (métodos de autenticação) não foram configuradas anteriormente, ele deve registrar suas próprias informações, para poder usar a MFA.  Embora ele tenha que fazer a MFA sempre que entrar como administrador de usuário, dentro do período de atribuição, o processo de registro MFA é necessário apenas uma vez.

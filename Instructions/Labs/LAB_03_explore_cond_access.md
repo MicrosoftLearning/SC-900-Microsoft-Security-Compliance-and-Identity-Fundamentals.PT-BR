@@ -16,7 +16,7 @@ Esse laboratório é mapeado para o seguinte conteúdo do Learn:
 
 Neste laboratório, você vai explorar a MFA de acesso condicional, da perspectiva de um administrador e de um usuário.  Como administrador, você criará uma política que exigirá que usuários passem pela autenticação multifator ao acessar os portais de administração da Microsoft.  Da perspectiva de um usuário, você verá o impacto da política de acesso condicional, incluindo o processo de registro para a MFA.
 
-**Tempo estimado**: 30 minutos
+**Tempo estimado**: 45 minutos
 
 ### Tarefa 1
 
@@ -48,11 +48,11 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. Abra a guia do navegador na home page do centro de administração do Microsoft Entra.   Se você fechou a guia do navegador anteriormente, abra o Microsoft Edge, insira **`https://entra.microsoft.com`** na barra de endereços e entre com as credenciais de administrador do Microsoft 365 fornecidas pelo ALH.
 
-1. No painel de navegação à esquerda, expanda **Proteção** e selecione **Acesso Condicional**.
+1. No painel de navegação esquerdo, verifique se **Entra ID** foi expandido, role para baixo e selecione **Acesso condicional**.
 
-1. A página de visão geral do acesso condicional é exibida. Quando você acessa a página de visão geral, a guia **Introdução** é selecionada (sublinhada). Selecione a guia **Visão geral**. Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.  No painel de navegação à esquerda, selecione **Políticas**.
+1. A página de visão geral do acesso condicional é exibida. Quando você acessa a página de visão geral, a guia **Introdução** é selecionada (sublinhada). Selecione a guia **Visão geral**. Aqui, você verá blocos mostrando o resumo da política e os alertas gerais.
 
-1. No painel de navegação à esquerda, selecione **Políticas**. Todas as políticas de acesso condicional existentes são listadas aqui. Selecione **+ Nova política**.
+1. No painel de navegação à esquerda, selecione **Políticas** e **+ Nova política**.
 
 1. No campo Nome, insira **Bloquear portais de administração**.
 
@@ -66,7 +66,7 @@ Nessa tarefa, você passará pelo processo de criação de uma política de aces
 
 1. Em Recursos de destino, selecione **Nenhum recurso de destino selecionado**.
 
-1. No campo abaixo do texto **Selecionar ao que essa política se aplica**, escolha a seta para baixo e observe as opções disponíveis.  Mantenha a configuração padrão **Aplicativos de nuvem**.  Verifique se a guia **Incluir** está sublinhada.  Escolha **Selecionar aplicativos** e, abaixo de **Selecionar**, escolha **Nenhum**.  A janela para Selecionar aplicativos na nuvem é aberta.
+1. No campo abaixo do texto **Selecionar ao que essa política se aplica**, escolha a seta para baixo e observe as opções disponíveis.  Mantenha a configuração padrão, **Recursos (anteriormente Aplicativos de Nuvem)**.  Verifique se a guia **Incluir** está sublinhada.  Escolha **Selecionar recursos** e, abaixo de **Selecionar**, escolha **Nenhum**.  A janela para Selecionar aplicativos na nuvem é aberta.
 
 1. Clique em **Portais de Administração da Microsoft** e pressione **Selecionar** na parte inferior da página.  Observe o aviso.  
 

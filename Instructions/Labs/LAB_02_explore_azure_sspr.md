@@ -34,15 +34,15 @@ Nesta tarefa, você, como administrador, percorrerá algumas das definições de
     1. Dependendo do host do laboratório e se esta for a primeira vez que você está fazendo logon no locatário, pode ser que seja solicitado a concluir o processo de registro de MFA. Se este for o caso, siga as instruções na tela para configurar a MFA.
     1. Depois de entrar, você será levado para a página do Centro de administração do Microsoft 365.
 
-1. No painel de navegação à esquerda, expanda a opção **Proteção** e selecione **Redefinição de senha**.  
+1. No painel de navegação esquerdo, verifique se **Entra ID** foi expandido, role para baixo e selecione **Redefinição de senha**.  
 
 1. As propriedades para redefinição de senha self-service são exibidas. Selecione o ícone de informações no local no qual está escrito **Redefinição de senha self-service habilitada** para exibir a descrição. Certifique-se de que **Selecionado** esteja destacado em azul. Agora, coloque o cursor sobre o ícone de informações próximo ao local no qual está escrito **Selecionar grupo** e observe que ele diz: "Define o grupo de usuários que têm permissão para redefinir suas próprias senhas." Você precisa incluir usuários em um grupo, não é possível selecionar usuários individualmente. Observe que já existe um grupo listado: SSPRSecurityGroupUsers (esse grupo foi pré-configurado como parte do seu locatário do Microsoft 365). Por fim, observe a caixa de informações azul: "Essas configurações só se aplicam a usuários finais em sua organização. Os administradores estão sempre habilitados para a redefinição de senha self-service e precisam usar dois métodos de autenticação para a redefinição de senha.
 
 1. No painel de navegação à esquerda da Redefinição de senha, selecione **Métodos de autenticação**.
 
-1. No Número de métodos necessários para redefinir, selecione **1**. Observe a caixa de informações na tela.
-
-1. Observe os diferentes métodos disponíveis para os usuários.  **Email** e **Celular** já devem estar marcados, caso contrário, marque-os.
+1. Em Número de métodos necessários para a redefinição, selecione **1**. Há apenas um método listado, Perguntas de segurança, mas abaixo dessa opção existe a opção de **Usar a política de métodos de autenticação para gerenciar outros métodos de autenticação**.  
+    1. Selecione **política de métodos de autenticação** para exibir as políticas de método de autenticação disponíveis
+    1. Selecione **X** no canto superior direito da página para retornar à página anterior.
 
 1. No painel de navegação esquerdo da Redefinição de senha, selecione **Registro**.  
 
