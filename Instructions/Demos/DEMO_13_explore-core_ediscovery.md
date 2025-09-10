@@ -18,9 +18,9 @@ Nesta demonstração, você acompanhará as etapas necessárias para configurar 
 
 ### Demonstração parte 1
 
-Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro de um caso da Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta parte da demonstração, você, como administrador global, percorrerá o processo de adição de usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
+Para acessar a Descoberta Eletrônica ou ser adicionado como membro de um caso de Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta parte da demonstração, você, como administrador global, percorrerá o processo de adição de usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
 
-1. Abra a guia do navegador no **Microsoft Purview**. Se a tiver fechado previamente, abra uma guia do navegador e, na barra de endereços, insira **https://purview.microsoft.com**. Para acessar o novo portal do Microsoft Purview, marque a caixa ao lado de onde diz **Eu concordo com os termos de divulgação de fluxo de dados e políticas de privacidade** e selecione **Introdução**.  
+1. Abra a guia do navegador no **Microsoft Purview**. Se você o fechou anteriormente, abra uma guia do navegador e, na barra de endereços, insira **https://purview.microsoft.com** e selecione **Introdução**.  
 1. No painel de navegação esquerdo, selecione **Configurações**.
 1. No painel de navegação que é aberto, selecione **Funções e escopo** para expandir a opção e, em seguida, selecione **Grupos de funções**.
 1. Na caixa de pesquisa no lado direito da tela, pesquise o termo **Descoberta Eletrônica**.  Selecione **Gerenciador de Descoberta Eletrônica**.
@@ -33,64 +33,42 @@ Para acessar a Descoberta Eletrônica (Standard) ou ser adicionado como membro d
 
 ### Demonstração parte 2
 
-Nesta parte, você criará um caso para começar a usar a Descoberta Eletrônica (Padrão).
+Nesta parte, como Administrador de Descoberta Eletrônica (o administrador MOD é um Administrador de Descoberta Eletrônica), você vai criar um caso para começar a usar a Descoberta Eletrônica.
 
-1. No painel de navegação à esquerda, clique em **Soluções**, **Descoberta Eletrônica** e **Casos padrão**.
+1. Você deve estar na home page do portal do Microsoft Purview.
 
-1. No topo da página Descoberta Eletrônica (Standard), selecione **+ Criar um caso**.
+1. No painel de navegação à esquerda, em Soluções, expanda **Descoberta Eletrônica** e escolha **Casos**.
 
-1. Na janela Novo caso, insira um Nome do caso, **Caso de teste SC900** e selecione **Salvar** na parte inferior da página.
+1. Na página Casos, selecione **Criar caso**.
+
+1. Na janela Novo caso, insira o nome para o caso, **SC900 Test Case** e, em seguida, selecione **Criar**.
 
 1. O caso agora deve aparecer na lista.
 
 1. Como criador do caso e porque você tem privilégios de Administrador de Descoberta Eletrônica, você pode começar a trabalhar com ele.  
 
-1. Mantenha essa guia do navegador aberta.
+1. Mantenha essa guia do navegador aberta, pois você vai usá-la na tarefa seguinte.
 
 ### Demonstração parte 3
 
-Agora que criou um caso de Descoberta Eletrônica (Standard), você pode começar a trabalhar nele.  Nesta parte, você criará uma retenção de Descoberta Eletrônica para o caso criado.  Especificamente, você criará uma retenção para a caixa de correio do Exchange pertencente a Alice Pena.
+Com um caso criado, você pode começar a trabalhar com ele. Isso inclui a criação de uma consulta de pesquisa para localizar dados e conteúdo relevantes para seu caso, a aplicação de uma política de retenção, a criação de um conjunto de revisão e a exportação de dados. Nesta tarefa, você irá explorar algumas dessas opções. OBSERVAÇÃO: É recomendável que você crie um conjunto de pesquisa e revisão antes da apresentação, para que os resultados do conjunto de pesquisa e revisão estejam prontamente disponíveis durante a demonstração, já que essas ações podem levar vários minutos para serem concluídas.  
 
-1. Na página Descoberta Eletrônica (Standard), selecione o caso criado – **Caso de teste SC900**.
+1. Abra a guia Caso de Teste SC900 no navegador.
 
-1. Na página inicial do caso, selecione a guia **Manter** e selecione **+Criar**.
+1. Na página SC900 Test Case, selecione  **Criar uma pesquisa**.
 
-1. No campo do nome, insira **Retenção teste** e selecione **Avançar**.
+1. No campo nome, insira **SC900 Test Case** e selecione **Criar**.
 
-1. Na página Escolher localizações, selecione a opção de alternância ao lado de **Caixas de correio do Exchange** para definir o status como **Ativado**.  
+1. Escolha **Adicionar fontes**. Observe as opções de filtro e as configurações padrão. Na caixa de pesquisa, insira **`Pradeep`** e selecione **Pesquisar**. Nos resultados da pesquisa, selecione **Pradeep Gupta** e, em seguida, selecione **Salvar e fechar**. O Construtor de Condições permite criar uma consulta de pesquisa com base em palavras-chave ou condições específicas que sejam atendidas. No campo de palavras-chave, insira **Vendas**. A partir daqui, você pode selecionar para **Executar a consulta** na janela Escolher resultados da pesquisa. Para o locatário do laboratório, somente a exibição de estatísticas dos resultados da pesquisa está disponível. Observe as opções para organizar pelos principais indicadores. Selecione **Executar consulta**.  Isso pode levar vários minutos.
 
-1. Agora, selecione **Escolher usuários, grupos ou equipes**.  Na caixa de pesquisa, digite **Adele** e pressione Enter no teclado. Nos resultados da pesquisa, selecione **Alice Pena** e **Concluído**.
+1. Com os resultados da consulta retornados na forma de estatísticas, você pode exportar resultados.  No canto superior direito da tela (ao lado de onde diz Adicionar ao conjunto de revisão), selecione **Exportar** para exibir as opções disponíveis e, em seguida, selecione **Cancelar**.
 
-1. Na página Escolher locais, selecione **Avançar**.  Por uma questão de conveniência, para a demonstração, nenhuma outra localização será incluída nesta retenção.
+1. Você pode adicionar a um conjunto de revisão para processamento adicional.  Selecione **Adicionar a um conjunto de revisão**. Insira um nome para o novo conjunto de revisão, **`SC900-review-set`**, mantenha as configurações padrão e selecione **Adicionar ao conjunto de revisão**. Ela pode levar alguns minutos para ser concluída. Assim que os resultados do conjunto de revisão forem apresentados, você poderá explorar as diferentes opções, que incluem Análises, Consulta, Ações, Marcar arquivos e Gerenciar.
 
-1. A página Condições de consulta permite que você crie uma retenção, com base em palavras-chave ou condições específicas atendidas. Selecione **+ Adicionar condição** para ver as opções disponíveis.  Selecione **Avançar**. Sem nenhuma condição, a retenção preservará todo o conteúdo no local especificado.
+1. Você também pode criar políticas de retenção para preservar o conteúdo relevante para seu caso. Na janela Conjunto de revisão, selecione a guia **Retenção**.  Isso levará a você à janela Políticas de retenção. Selecione **Nova política**.  Insira um nome de política, **`SC900-hold`**, e selecione **Criar**.  Como na pesquisa, você precisa adicionar fontes de dados para a retenção e pode adicionar palavras-chave e condições para usar na política de retenção e, em seguida, você pode selecionar **Aplicar retenção**.  As ações que você pode executar em uma política de retenção incluem tentar novamente, desativar uma política e excluir uma política de retenção.
 
-1. Revise suas configurações e selecione **Enviar**, isso pode levar um minuto e, em seguida, selecione **Concluído**.  A retenção de teste deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
-
-1. Mantenha essa guia do navegador aberta.
-
-### Demonstração parte 4
-
-Com uma retenção estabelecida, você criará uma consulta de pesquisa.  Após a conclusão da pesquisa, a Descoberta Eletrônica dá suporte a ações, como a exportação e o download dos resultados para investigação futura.   Observação: as pesquisas associadas a um caso da Descoberta Eletrônica (Standard) não são listadas na página Pesquisa de conteúdo do portal de conformidade do Microsoft Purview. Essas pesquisas são listadas apenas na página Pesquisas do caso da Descoberta Eletrônica (Standard) associado.
-
-1. Na página Caso de Teste de SC900, selecione **Pesquisas**.
-
-1. Na página Pesquisar, selecione **+ Nova pesquisa**.
-
-1. No campo Nome, insira **Retenção de Teste – Pesquisa de Vendas** e selecione **Avançar** na parte inferior da página.
-
-1. Na página Escolher locais, selecione **locais em espera** e desmarque **Adicionar Conteúdo do Aplicativo para usuários locais**, pois seu ambiente de laboratório não tem usuários locais e, em seguida, selecione **Avançar**.
-
-1. A página Condições de consulta permite que você crie uma pesquisa, com base em palavras-chave ou condições específicas que são satisfeitas. No campo palavra-chave, digite **Vendas** e selecione **Avançar**.
-
-1. Revise suas configurações e selecione **Enviar**, isso pode levar um minuto e, em seguida, selecione **Concluído**.  A pesquisa deve aparecer na lista.  Se você não encontrá-la de imediato, selecione **Atualizar**.
-
-1. Na janela Pesquisas, selecione a pesquisa criada, **Retenção Teste – Pesquisa de Vendas**.  Uma janela que é aberta com a guia Resumo selecionada.  Quando a pesquisa for concluída, o status indicará isso.  Você verá uma guia Estatísticas da pesquisa (se não encontrá-la, a pesquisa ainda poderá estar em execução e poderá levar alguns minutos para ser concluída).  Selecione a guia **Estatísticas de pesquisa** e selecione o menu suspenso próximo de Pesquisar conteúdo.  Você também pode exibir mais informações sobre o relatório de condição e os principais locais.  
-
-1. Na parte inferior dessa página, clique em **Ações**.  Observe as opções disponíveis que incluem opções de exportação. Selecione **Fechar**.
-
-1. Feche todas as guias abertas do navegador.
+1. Saia do serviço e feche todas as janelas abertas do navegador.
 
 ### Revisão
 
-Nesta demonstração, você acompanhará as etapas necessárias para começar a usar a Descoberta Eletrônica (Standard), incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um caso da Descoberta Eletrônica.  Com o caso criado, você acompanhou os elementos do fluxo de trabalho da Descoberta Eletrônica (Standard) criando uma retenção de Descoberta Eletrônica e uma consulta de pesquisa.
+Nesta demonstração, acompanhamos as etapas necessárias de introdução à Descoberta Eletrônica, incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um processo de Descoberta Eletrônica.  Com o caso criado, você explorou as configurações para criar e exportar resultados de pesquisa, adicionar a um conjunto de revisão e criar uma política de retenção.
