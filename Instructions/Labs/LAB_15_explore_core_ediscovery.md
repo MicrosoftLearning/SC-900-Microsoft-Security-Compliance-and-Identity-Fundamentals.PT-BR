@@ -22,7 +22,7 @@ Neste laboratório, você acompanhará as etapas necessárias para configurar a 
 
 Para acessar a Descoberta Eletrônica ou ser adicionado como membro de um caso de Descoberta Eletrônica, um usuário deve receber as permissões apropriadas. Nesta etapa, você, como administrador global, adicionará usuários específicos como membros do grupo de funções do Gerente de Descoberta Eletrônica.
 
-1. Você deve estar na home page do portal do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://purivew.microsoft.com** .
+1. Você deve estar na home page do portal do Microsoft Purview.  Se você a fechou anteriormente, abra uma nova guia do navegador e insira **https://purview.microsoft.com** .
 
 1. No painel de navegação à esquerda, selecione **Configurações**, expanda **Funções e escopos** e selecione **Grupos de funções**.
 
@@ -46,19 +46,15 @@ Nesta tarefa, como Administrador da Descoberta Eletrônica (o administrador MOD 
 
 1. No painel de navegação à esquerda, em Soluções, expanda **Descoberta Eletrônica** e escolha **Casos**.
 
-1. Na página Casos, selecione **Criar caso**.
-
-1. Na janela Novo caso, insira o nome para o caso, **SC900 Test Case** e , em seguida, selecione **Criar**.
-
-1. O caso agora deve aparecer na lista.
-
-1. Como criador do caso e porque você tem privilégios de Administrador de Descoberta Eletrônica, você pode começar a trabalhar com ele.  
-
-1. Mantenha essa guia do navegador aberta, pois você vai usá-la na tarefa seguinte.
+1. Na página Casos, selecione o texto na parte à esquerda da caixa azul que diz, **Criar caso**.  Se você selecionar a seta para baixo, abrirá a janela para criar uma pesquisa e, no processo de criação de uma pesquisa, criará um caso.
+    1. Na janela Novo caso, insira o nome para o caso, **SC900 Test Case** e , em seguida, selecione **Criar**.
+    1. O caso agora deve aparecer na lista.
+    1. Como criador do caso e porque você tem privilégios de Administrador de Descoberta Eletrônica, você pode começar a trabalhar com ele.  
+    1. Mantenha essa guia do navegador aberta, pois você vai usá-la na tarefa seguinte.
 
 ### Tarefa 3
 
-Com um caso criado, você pode começar a trabalhar com ele.  Isso inclui a criação de uma consulta de pesquisa para localizar dados e conteúdo relevantes para seu caso, a aplicação de uma política de retenção, a criação de um conjunto de revisão e a exportação de dados. Nesta tarefa, você irá explorar algumas dessas opções.
+Com um caso criado, você pode começar a trabalhar com ele. Isso inclui a criação de uma consulta de pesquisa para localizar dados e conteúdo relevantes para seu caso, a aplicação de uma política de retenção, a criação de um conjunto de revisão e a exportação de dados. Nesta tarefa, você irá explorar algumas dessas opções.
 
 1. Abra a guia Caso de Teste SC900 no navegador.
 
@@ -66,16 +62,16 @@ Com um caso criado, você pode começar a trabalhar com ele.  Isso inclui a cria
 
 1. No campo nome, insira **SC900 Test Case** e selecione **Criar**.
 
-1. Escolha **Adicionar fontes**. Observe as opções de filtro e as configurações padrão. Na caixa de pesquisa, insira **Pradeep** e pressione o enter no teclado. Nos resultados da pesquisa, selecione **Pradeep Gupta** e, em seguida, selecione **Salvar e fechar**. O Construtor de Condições permite criar uma consulta de pesquisa com base em palavras-chave ou condições específicas que sejam atendidas. No campo de palavras-chave, insira **Vendas**. A partir daqui, você pode selecionar para **Executar a consulta**.  Isso pode levar vários minutos.
+1. Escolha **Adicionar fontes**. Observe as opções de filtro e as configurações padrão. Na caixa de pesquisa, insira **`Pradeep`** e selecione **Pesquisar**. Nos resultados da pesquisa, selecione **Pradeep Gupta** e, em seguida, selecione **Salvar e fechar**. O Construtor de Condições permite criar uma consulta de pesquisa com base em palavras-chave ou condições específicas que sejam atendidas. No campo de palavras-chave, insira **Vendas**. A partir daqui, você pode selecionar para **Executar a consulta** na janela Escolher resultados da pesquisa. Para o locatário do laboratório, somente a exibição de estatísticas dos resultados da pesquisa está disponível. Observe as opções para organizar pelos principais indicadores. Selecione **Executar consulta**.  Isso pode levar vários minutos.
 
-1. Com os resultados da consulta retornados na forma de estatísticas, você pode exportar resultados.  Selecione **Exportar** para exibir as opções disponíveis e selecione **Cancelar** (as opções de exportação não podem ser selecionadas na plataforma do laboratório fornecida pelo hoster autorizado, mas estão disponíveis em um ambiente de produção e são consideradas parte do fluxo de trabalho).
+1. Com os resultados da consulta retornados na forma de estatísticas, você pode exportar resultados.  Selecione **Exportar** para ver opções disponíveis e selecione **Cancelar**.
 
-1. Você pode adicionar a um conjunto de revisão para processamento adicional.  Selecione **Adicionar a um conjunto de revisão**. Insira um nome para o novo conjunto de revisão, **`SC900-review-set`**, mantenha as configurações padrão e selecione **Adicionar ao conjunto de revisão**.  Ela pode levar alguns minutos para ser concluída.  Agora você pode revisar e tomar ações a partir do conjunto de revisão, incluindo marcar itens, consultar o conjunto de revisão, executar análises e mais.  Explore as várias opções.
+1. Você pode adicionar a um conjunto de revisão para processamento adicional.  Selecione **Adicionar a um conjunto de revisão**. Insira um nome para o novo conjunto de revisão, **`SC900-review-set`**, mantenha as configurações padrão e selecione **Adicionar ao conjunto de revisão**. Ela pode levar alguns minutos para ser concluída. Assim que os resultados do conjunto de revisão forem apresentados, você poderá explorar as diferentes opções, que incluem Análises, Consulta, Ações, Marcar arquivos e Gerenciar.
 
-1. Você também pode criar políticas de retenção para preservar o conteúdo relevante para seu caso. Selecione **Manter políticas** e, em seguida, **Nova política**.  Insira um nome de política, **`SC900-hold`**, e selecione **Criar**.  Como na pesquisa, você precisa adicionar fontes de dados para a retenção e pode adicionar palavras-chave e condições para usar na política de retenção e, em seguida, você pode selecionar **Aplicar retenção**.  As ações que você pode executar em uma política de retenção incluem tentar novamente, desativar uma política e excluir uma política de retenção.
+1. Você também pode criar políticas de retenção para preservar o conteúdo relevante para seu caso. Na janela Conjunto de revisão, selecione a guia **Retenção**.  Isso levará a você à janela Políticas de retenção. Selecione **Nova política**.  Insira um nome de política, **`SC900-hold`**, e selecione **Criar**.  Como na pesquisa, você precisa adicionar fontes de dados para a retenção e pode adicionar palavras-chave e condições para usar na política de retenção e, em seguida, você pode selecionar **Aplicar retenção**.  As ações que você pode executar em uma política de retenção incluem tentar novamente, desativar uma política e excluir uma política de retenção.
 
 1. Saia do serviço e feche todas as janelas abertas do navegador.
 
 ### Revisão
 
-Neste laboratório, acompanhamos as etapas necessárias de introdução à Descoberta Eletrônica, incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um processo de Descoberta Eletrônica.  Com o caso criado, você explorou as opções disponíveis como parte do fluxo de trabalho da Descoberta Eletrônica, incluindo uma pesquisa de Descoberta Eletrônica, uma política de retenção, adicionar resultados da pesquisa a um conjunto de revisão e exportar resultados.
+Neste laboratório, acompanhamos as etapas necessárias de introdução à Descoberta Eletrônica, incluindo a configuração das permissões de funções para a Descoberta Eletrônica e a criação de um processo de Descoberta Eletrônica.  Com o caso criado, você explorou as configurações para criar e exportar resultados de pesquisa, adicionar a um conjunto de revisão e criar uma retenção.
