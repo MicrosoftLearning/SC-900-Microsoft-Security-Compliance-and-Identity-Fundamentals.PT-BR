@@ -61,11 +61,11 @@ Saiba mais sobre a postura de conformidade da sua organização por meio do Gere
 
 1. Selecione **Linha de Base de Proteção de Dados do Microsoft 365**.  Observe as informações disponíveis na guia de progresso. Você também pode ver informações nos Controles, as ações de aprimoramento e as ações da Microsoft.  
 
-1. Selecione **Regulamentos** no painel de navegação à esquerda.  Esta página lista os regulamentos disponíveis para a sua organização. Você verá informações específicas sobre essa regulamentação, incluindo controles, suas ações de melhoria e a ação da Microsoft. A partir desta página, no canto superior direito, você tem a opção de criar uma avaliação com base no modelo.
+1. Selecione **Regulamentos** no painel de navegação à esquerda.  Esta página lista os regulamentos disponíveis para a sua organização. Selecione qualquer regulamento listado. Você verá informações específicas sobre essa regulamentação, incluindo controles, suas ações de melhoria e a ação da Microsoft.
 
 1. 1. No painel de navegação à esquerda, selecione **Políticas**. Aqui é onde você verá a lista de políticas para ajudar a monitorar e receber notificações sobre eventos no Gerenciador de Conformidade que são importantes para você. Você pode criar ou modificar políticas, alterar os status de ativação e controlar a frequência e a gravidade do alerta. Selecione a **Política de Alerta Padrão do Gerenciador de Conformidade** para exibir detalhes sobre a política.  Selecione **Ações** para ver as opções disponíveis (explore à vontade).
 
-1. No painel de navegação esquerdo, selecione **Alertas**.   Aqui você pode exibir e gerenciar alertas para eventos que podem afetar a pontuação de conformidade da sua organização.
+1. No painel de navegação esquerdo, selecione **Alertas**.   Aqui você pode exibir e gerenciar alertas para eventos que podem afetar a pontuação de conformidade da sua organização. Como esse é um locatário de laboratório recém-criado, você não verá nenhum alerta.
 
 1. No painel de navegação à esquerda, selecione **Página Inicial** para voltar à página de aterrissagem do portal do Microsoft Purview.
 

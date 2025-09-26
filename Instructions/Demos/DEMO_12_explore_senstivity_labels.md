@@ -14,13 +14,32 @@ Essa demonstração é mapeada para o seguinte conteúdo do Learn:
 
 ## Cenário de demonstração
 
-Nesta demonstração, você mostrará as funcionalidades dos rótulos de confidencialidade.  Você percorrerá as configurações dos rótulos de confidencialidade que foram criados e a política correspondente para publicá-lo.   Depois, você verá como aplicar o rótulo e o impacto dele da perspectiva do usuário.  **OBSERVAÇÃO**: na primeira vez que você usa o Word online com seu locatário do Microsoft 365, pode levar 15 minutos para que a opção Confidencialidade apareça na faixa de opções.  Os apresentadores devem executar a parte 2 da demonstração antes da aula a fim de garantir que haja tempo suficiente para que a opção apareça.
+Nesta demonstração, você mostrará as funcionalidades dos rótulos de confidencialidade.  Você percorrerá as configurações dos rótulos de confidencialidade que foram criados e a política correspondente para publicá-lo.   Depois, você verá como aplicar o rótulo e o impacto dele da perspectiva do usuário.
 
-### Demonstração parte 1
+**OBSERVAÇÃO**: Na primeira vez que você usar o Word online com seu locatário do Microsoft 365, poderá levar 15 minutos até que a opção Confidencialidade apareça na faixa de opções. É recomendável que os apresentadores abram o Word online (conforme mostrado na parte 3 da demonstração) antes de iniciar a demonstração completa para garantir tempo suficiente para que a opção apareça.
+
+### Demonstração parte 1 (opcional)
+
+Se esta for a primeira instância em que você demonstra uma solução do Microsoft Purview, é recomendável que você passe alguns minutos apresentando o portal do Microsoft Purview antes de entrar em rótulos de confidencialidade.
+
+1. Abra um Microsoft Edge e, na barra de endereços, insira **https://purview.microsoft.com**, faça logon com as credenciais fornecidas pelo host de laboratório autorizado e selecione **Introdução**.  
+
+1. Antes de entrar em rótulos de confidencialidade, reserve alguns minutos para explorar o portal do Microsoft Purview.
+
+1. Selecione o bloco **Exibir todas as soluções** para ver o agrupamento das soluções do Microsoft Purview.
+
+1. No painel de navegação esquerdo, você verá as opções de Soluções, Saiba mais, Configurações e as soluções selecionadas recentemente.
+    1. **Soluções.** Isso abre um novo painel com todas as soluções e portais relacionados.
+    1. **Saiba mais** para exibir links para documentos, vídeos e blogs.
+    1. **Configurações**. Explore essas opções como quiser. A partir daqui, você pode configurar funções e escopos, conector de dados e todas as configurações da solução.
+
+1. Retorne à home page clicando em **Página Inicial** no painel de navegação à esquerda.
+
+### Demonstração parte 2
 
 Nesta demonstração, você apresentará as configurações de um rótulo de confidencialidade existente e a política correspondente para publicá-lo.
 
-1. Você ainda deve estar na home page do portal do Microsoft Purview. Se não estiver, abra uma nova guia do navegador Microsoft Edge. Na barra de endereços, insira **https://purview.microsoft.com** e selecione **Introdução**.  
+1. Você deve estar na página de aterrissagem do portal do Microsoft Purview.  Caso contrário, abra uma guia do navegador no Microsoft Edge, entre **`https://puriview.microsoft.com`** e faça logon com as credenciais fornecidas pelo host de laboratório autorizado.
 
 1. Na página de aterrissagem do novo portal do Microsoft Purview, selecione o bloco **Exibir todas as soluções** e, em seguida, selecione o bloco **Proteção de Informações**. Como alternativa, selecione **Soluções** no painel de navegação esquerdo e, em seguida, selecione **Proteção de informações**.
 
@@ -54,7 +73,7 @@ Nesta demonstração, você apresentará as configurações de um rótulo de con
 
 1. Mantenha essa guia do navegador aberta.
 
-### Demonstração parte 2
+### Demonstração parte 3
 
 Nesta etapa, você passará pelo processo de aplicação de um rótulo de confidencialidade a um documento do Microsoft Word e, em seguida, exibirá a marca do conteúdo (rodapé) gerada pelo rótulo. OBSERVAÇÃO: ao usar o Microsoft Word online, você pode sofrer um atraso antes que a opção para selecionar rótulos de confidencialidade apareça na faixa de opções superior.  É recomendável que você conclua todos os laboratórios restantes e retorne a esta tarefa.
 
