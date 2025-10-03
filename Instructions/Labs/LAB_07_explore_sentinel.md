@@ -20,32 +20,30 @@ Neste laboratório, você percorrerá o processo de criação de uma instância�
 
 ### Tarefa 1
 
-Criar uma instância do Microsoft Sentinel
+Para criar uma instância do Microsoft Sentinel, primeiro você precisa criar um workspace do Log Analytics, usado para armazenar dados do Microsoft Sentinel.  Depois de ter um workspace do Log Analytics, você poderá criar uma instância do Microsoft Sentinel e adicionar o workspace do Log Analytics a ele.  Nesta tarefa, você irá executar cada uma dessas etapas.
 
-1. Que será a página inicial dos serviços do Azure.  Se você tiver fechado o navegador previamente, abra o Microsoft Edge. Na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador.
+1. Que será a página inicial dos serviços do Azure.  Caso contrário, abra o Microsoft Edge e, na barra de endereços, insira **portal.azure.com** e entre com suas credenciais de administrador do portal do Azure.
 
-1. Na caixa de pesquisa azul na parte superior da página, insira **Microsoft Sentinel** e selecione **Microsoft Sentinel** nos resultados da pesquisa.
-
-1. Na página do Microsoft Sentinel, selecione **Criar Microsoft Sentinel**.
-
-1. Na página Adicionar o Microsoft Sentinel a um workspace, selecione **Criar um workspace**.
-
+1. Na caixa de pesquisa azul na parte superior da página, digite **Log Analytics** e selecione-o nos resultados da pesquisa.
+1. Selecione **+ Criar**.
 1. Na guia Básico do workspace Criar Log Analytics, insira o seguinte:
     1. Assinatura: mantenha o padrão. Esta é a assinatura do Azure fornecida pelo ALH (Hoster do Laboratório Autorizado).
     1. Grupo de recursos: selecione **SC900-Sentinel-RG**. Se esse grupo de recursos não estiver listado, crie-o selecionando **Criar**, insira **SC900-Sentinel-RG** e selecione **OK**.
-    1. Nome: **SC900-LogAnalytics-workspace**.
+    1. Nome: **SC900-Sentinel-workspace**.
     1. Região: **Leste dos EUA** (uma região padrão diferente pode ser selecionada de acordo com sua localização)
     1. Selecione **Revisar + Criar** (nenhuma marca será configurada).
     1. Verifique se você inseriu as informações corretas e, em seguida, selecione **Criar**.
-    1. Pode levar um ou dois minutos para que o workspace seja listado. Se você ainda não conseguir vê-lo, selecione **Atualizar** e, em seguida, selecione **Adicionar**.
-
-1. Depois que o novo workspace for adicionado, a página Microsoft Sentinel | Novidades e guias será exibida, indicando que a avaliação gratuita do Microsoft Sentinel está ativada.  Selecione **OK**.
-
+    1. Pode levar um minuto ou dois para que o novo workspace seja criado.
+    1. Depois de criado, selecione **Ir para o recurso** para exibir informações sobre o workspace.
+1. Neste ponto, a instância do Microsoft Sentinel ainda não foi criada. Para criar uma instância do Sentinel, você precisa ir para a página do Microsoft Sentinel. Use a barra de pesquisa azul na parte superior da página, para pesquisar **Microsoft Sentinel** e selecioná-la no resultado da pesquisa.
+1. Para adicionar o workspace ao Microsoft Sentinel, você precisa acessar a página do Microsoft Sentinel. Usar a barra de pesquisa azul na parte superior da página para pesquisar **Microsoft Sentinel**
+    1. Na página do Microsoft Sentinel, selecione **+ Criar**.
+    1. Agora você pode adicionar o workspace que acabou de criar. Selecione **SC900-Sentinel-workspace** e, em seguida, selecione **Adicionar**.  Isso pode levar alguns minutos, enquanto a avaliação gratuita do Microsoft Sentinel é ativada.  Depois de ativada, selecione **OK**.
 1. Mantenha essa página aberta, pois você vai usá-la na próxima tarefa.
 
 ### Tarefa 2
 
-Com a instância do Microsoft Sentinel criada, é importante que os usuários que terão a responsabilidade de dar suporte ao Microsoft Sentinel tenham as permissões necessárias.  Isso é feito pela atribuição das permissões de função necessárias ao usuário designado.  Nesta tarefa, você verá as funções internas disponíveis do Microsoft Sentinel.
+Com a instância do Microsoft Sentinel criada e o workspace do Log Analytics atribuído a ela, é importante que os usuários responsáveis pelo suporte ao Microsoft Sentinel tenham as permissões necessárias.  Isso é feito pela atribuição das permissões de função necessárias ao usuário designado.  Nesta tarefa, você verá as funções internas disponíveis do Microsoft Sentinel.
 
 1. Na caixa de pesquisa azul, insira **grupos de recursos** e selecione **Grupos de recursos** nos resultados da pesquisa. 
 
@@ -70,7 +68,7 @@ Com a instância do Microsoft Sentinel criada, é importante que os usuários qu
 
 O objetivo desta tarefa é orientar você pelas etapas envolvidas na conexão com uma fonte de dados. Muitos conectores de dados são implantados como parte de uma solução do Microsoft Sentinel, juntamente com conteúdos relacionados, como regras de análise, pastas de trabalho e guias estratégicos. O Hub de Conteúdo do Microsoft Sentinel é o local centralizado para descobrir e gerenciar o conteúdo pronto para uso (interno). Nesta etapa, você usará o Hub de Conteúdo para implantar a solução Microsoft Defender para Nuvem para o Microsoft Sentinel.  Essa solução permite a você ingerir os alertas de segurança relatados no Microsoft Defender para Nuvem.
 
-1. Na página inicial dos serviços do Azure, selecione Microsoft Sentinel e, em seguida, selecione a instância que você criou, **SC900-LogAnalytics-workspace**.
+1. Na home page dos serviços do Azure, selecione Microsoft Sentinel e, em seguida, selecione a instância que você criou, **SC900-Sentinel-workspace**.
 
 1. No painel de navegação esquerdo, expanda **Gerenciamento de Conteúdo** e selecione **Hub de conteúdo**.
 
@@ -117,4 +115,4 @@ Nesta tarefa, você percorrerá algumas das opções disponíveis no Sentinel.
 
 ### Revisão
 
-Neste lV, você percorreu as etapas para conectar o Microsoft Sentinel a fontes de dados, configurou uma pasta de trabalho e percorreu várias opções disponíveis no Microsoft Sentinel.
+Neste laboratório, você percorreu as etapas para conectar o Microsoft Sentinel a fontes de dados, configurou uma pasta de trabalho e percorreu várias opções disponíveis no Microsoft Sentinel.
