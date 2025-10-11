@@ -118,26 +118,25 @@ O objetivo aqui é apenas acessar o Microsoft Defender para Nuvem pela primeira 
 
 ### Microsoft Sentinel
 
-Verifique se uma instância do Microsoft Sentinel já foi criada. Caso contrário, configure-a agora, pois você vai precisar dela como parte da demonstração passo a passo no Microsoft Sentinel.
+Configure um workspace do Log Analytics e, depois de criado, crie uma instância do Microsoft Sentinel e adicione o workspace do Log Analytics a ela.
 
 1. Abra a guia Página Inicial – Microsoft Azure no navegador.
 
-1. Na caixa de pesquisa, na barra azul no topo da página, perto de onde está escrito Microsoft Azure, digite **Microsoft Sentinel** e selecione **Microsoft Sentinel** nos resultados da pesquisa.
-
-1. Na página do Microsoft Sentinel, selecione **Criar Microsoft Sentinel**.
-
-1. Na página Adicionar o Microsoft Sentinel a um workspace, selecione **Criar um workspace**.
-
+1. Na caixa de pesquisa azul na parte superior da página, digite **Log Analytics** e selecione-o nos resultados da pesquisa.
+1. Selecione **+ Criar**.
 1. Na guia Básico do workspace Criar Log Analytics, insira o seguinte:
-    1. Assinatura: mantenha o padrão.
-    1. Grupo de recursos: selecione **Criar novo**, insira o nome **SC900-Sentinel-RG** e selecione **OK**.
-    1. Nome: **SC900-LogAnalytics-workspace**.
+    1. Assinatura: mantenha o padrão. Esta é a assinatura do Azure fornecida pelo ALH (Hoster do Laboratório Autorizado).
+    1. Grupo de recursos: selecione **SC900-Sentinel-RG**. Se esse grupo de recursos não estiver listado, crie-o selecionando **Criar**, insira **SC900-Sentinel-RG** e selecione **OK**.
+    1. Nome: **SC900-Sentinel-workspace**.
     1. Região: **Leste dos EUA** (uma região padrão diferente pode ser selecionada de acordo com sua localização)
     1. Selecione **Revisar + Criar** (nenhuma marca será configurada).
     1. Verifique se você inseriu as informações corretas e, em seguida, selecione **Criar**.
-    1. Pode levar um ou dois minutos para que o workspace seja listado. Se você ainda não conseguir vê-lo, selecione **Atualizar** e, em seguida, selecione **Adicionar**.
-
-1. Depois que o novo workspace for adicionado, a página Microsoft Sentinel | Novidades e guias será exibida, indicando que a avaliação gratuita do Microsoft Sentinel está ativada.  Selecione **OK**.
+    1. Pode levar um minuto ou dois para que o novo workspace seja criado.
+    1. Depois de criado, selecione **Ir para o recurso** para exibir informações sobre o workspace.
+1. Neste ponto, a instância do Microsoft Sentinel ainda não foi criada. Para criar uma instância do Sentinel, você precisa ir para a página do Microsoft Sentinel. Use a barra de pesquisa azul na parte superior da página, para pesquisar **Microsoft Sentinel** e selecioná-la no resultado da pesquisa.
+1. Para adicionar o workspace ao Microsoft Sentinel, você precisa acessar a página do Microsoft Sentinel. Usar a barra de pesquisa azul na parte superior da página para pesquisar **Microsoft Sentinel**
+    1. Na página do Microsoft Sentinel, selecione **+ Criar**.
+    1. Agora você pode adicionar o workspace que acabou de criar. Selecione **SC900-Sentinel-workspace** e, em seguida, selecione **Adicionar**.  Isso pode levar alguns minutos, enquanto a avaliação gratuita do Microsoft Sentinel é ativada.  Depois de ativada, selecione **OK**.
 
 ### Revisão
 
